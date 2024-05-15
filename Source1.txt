@@ -1,0 +1,2101 @@
+[ Source1 ]
+! Title: Source1
+! Homepage: https://github.com/Apious/whoru
+! Version: 240515.1
+
+! - getintoway
+getintoway.com##.wpsafe-top
+getintoway.com##.getin-before-content
+getintoway.com###block-12
+getintoway.com###block-20
+getintoway.com##.getin-home-header
+getintoway.com##.getin-after-content
+
+! - pillyze.com
+pillyze.com###top-banner-swipe
+pillyze.com##.banner-wrap
+pillyze.com##.f-footer-banner-170
+pillyze.com##.f-footer-row1
+pillyze.com##.middle-banner
+
+! - jobplanet, 잡플래닛
+jobplanet.co.kr##.archive_section
+jobplanet.co.kr##.img_banner_box
+jobplanet.co.kr##.jp_adds_wrap
+jobplanet.co.kr##.jply_banner_ty1
+jobplanet.co.kr##.swiper-wrapper
+
+! - JobKorea
+@@||coimg.jobkorea.co.kr^
+@@||ds.jobkorea.kr^
+@@||fileco.jobkorea.co.kr^
+@@||img.jobkorea.kr^
+@@||m.map.naver.com^$popup,domain=m.jobkorea.co.kr
+||i.jobkorea.kr/content/images/*/banner*$image
+||file1.jobkorea.co.kr/Mailing/banner$image
+jobkorea.co.kr###Banner1
+jobkorea.co.kr###banner-area
+jobkorea.co.kr###carousel_1
+jobkorea.co.kr###carousel_2
+jobkorea.co.kr###devGiRightTicker
+jobkorea.co.kr###EventPopup
+jobkorea.co.kr##.addmict-swiper
+jobkorea.co.kr##.aside-ad-banner
+jobkorea.co.kr##.flow_banner_box
+jobkorea.co.kr##.footer__advertisement
+jobkorea.co.kr##.healthBanner
+jobkorea.co.kr##.notice
+jobkorea.co.kr##.notice-wrap
+jobkorea.co.kr##.preference-wrap
+jobkorea.co.kr##.qna-content
+jobkorea.co.kr##.resume-emphasis
+jobkorea.co.kr##.right-banner
+jobkorea.co.kr##.show.snackbar-connect-app
+jobkorea.co.kr##.td-message
+jobkorea.co.kr##.modal-banner
+jobkorea.co.kr##.active.ticker
+jobkorea.co.kr##.banner-health
+jobkorea.co.kr###ban
+
+! - okcashbag
+member.okcashbag.com##.ad
+member.okcashbag.com##.appdownBanner
+member.okcashbag.com##.uiBanner
+
+! - iherb
+iherb.com###truste-banner-wrapper
+iherb.com##.promotions-subscribe
+iherb.com##.email-subscription-new-container
+
+! - steptohealth.co.kr
+steptohealth.co.kr##.ad-slot-container
+steptohealth.co.kr##.ads__medium
+steptohealth.co.kr##.ads_box_container
+steptohealth.co.kr##.ads-box
+steptohealth.co.kr##.grv-dialog-host
+steptohealth.co.kr##.bc--grey-neutral-50
+
+! - kayak.co.kr 뱅기, 호텔
+kayak.co.kr###inline-1
+kayak.co.kr###inline-2
+kayak.co.kr###inline-3
+kayak.co.kr###inline-4
+kayak.co.kr###inline-5
+kayak.co.kr###inline-6
+kayak.co.kr###inline-7
+kayak.co.kr###inline-8
+kayak.co.kr###inline-9
+kayak.co.kr##.InlineAd
+kayak.co.kr##.ResultPageBottomAds
+kayak.co.kr##.bDbo:nth-of-type(5)
+
+! - diningcode
+m.diningcode.com##.ad-item
+m.diningcode.com##.google-ad
+m.diningcode.com##.naver.section
+m.diningcode.com##.PoiAdsSpacerList
+
+! - 여행사
+kr.trip.com##.list-app-download__wrapper
+kayak.co.kr###inline-1
+kayak.co.kr###OeDX-rightRail
+kayak.co.kr##.bIIR
+kayak.co.kr##.n_yf
+kayak.co.kr##.IIxj
+
+! - inven
+inven.co.kr#@#.banner
+||zicf.inven.co.kr/*/ads/^
+inven.co.kr###commonpart_gamepc
+inven.co.kr###commonpart_market
+inven.co.kr##ad-shield-ads
+inven.co.kr##ad-shield-inventory
+inven.co.kr##.ad-area
+inven.co.kr##.ad-header
+inven.co.kr##.ad-left
+inven.co.kr##.ad-right
+inven.co.kr##.ad-right-side
+inven.co.kr##.ad-right2
+inven.co.kr##.bbs-middle-ad
+inven.co.kr##.center-part
+inven.co.kr##.commu-right div:nth-of-type(3)
+inven.co.kr##.googleSubjectAd
+inven.co.kr##.imt_banner
+inven.co.kr##.inven-float-alarm
+inven.co.kr##.minAd
+inven.co.kr##.mobileDaNs1
+
+! - iq.com
+@@||fundingchoicesmessages.google.com^$script,domain=www.iq.com
+
+! - aagag
+aagag.com#@#ins.adsbygoogle
+aagag.com#$#.la { height: 0px !important; width: 0px !important; }
+aagag.com#@#.la:style(height: 0px !important; width: 0px !important;)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=aagag.com
+aagag.com##.bottom.center.sAlert
+aagag.com##.la
+aagag.com##.mid.la
+aagag.com##.mid2.la
+aagag.com##.l300x250
+aagag.com##.tleft
+
+! - 인베스팅, investing / 모바일, 웹 포함
+investing.com###ad3
+investing.com###hpAdVideo
+investing.com###Side_Block_Facebook
+investing.com###topHeaderPaddingTopMenuNone
+investing.com##.adsFreeSubscriptionMessage
+investing.com##.desktop\:flex-row.flex-col.flex
+investing.com##.installAppPopup
+investing.com##.installAppPopup-top
+investing.com##.mobile.float_lang_base_1
+investing.com##[href="/pro/pricing"]
+investing.com##div[class*="adNotification"]
+kr.investing.com##div[class*="promo-strip_proPromo"]
+kr.investing.com##div[class*="mid-page-promo-btn"]
+kr.investing.com##strong
+kr.investing.com##.proPromo-stripe
+kr.investing.com##.contentMediaBox
+m.kr.investing.com##.inlineBanner
+
+! - finup
+stock.finup.co.kr##[src^="https://img.finup.co.kr/stock/Banner"]
+stock.finup.co.kr##[class*="free"]
+stock.finup.co.kr##[class*="box_rolling"]
+stock.finup.co.kr##[class*="box_bn"]
+stock.finup.co.kr##.cm_main_popup
+stock.finup.co.kr##.cm_thumb_img
+stock.finup.co.kr##.ad
+stock.finup.co.kr##div[class="box_cont small"]
+stock.finup.co.kr##.cm_float_btn
+finance.finup.co.kr##.box_bn
+
+! - 팝코 / 디지털(사진, 미디어) 포털 사이트
+popco.net###onesignal-slidedown-container
+popco.net##.right_ban_01
+popco.net##.right_ban_02
+popco.net##.right_bottom_ban
+
+! - 교통관련 앱
+m.bustago.or.kr##.bannerFooter_slide
+m.bustago.or.kr##.bannerIframe1
+m.bustago.or.kr##.bannerIframe2
+m.bustago.or.kr##.bannerIframe3
+tube-box.co.kr##div
+||tube-box.co.kr/*banner$subdocument
+||tube-box.co.kr/mainbanner$subdocument
+||m.bustago.or.kr/*/*/*/*_banner.$image
+||m.bustago.or.kr:444/*/*/*/*_banner.$image
+
+! - Cookie Footer / 사이트 들어가자 마자 쿠키 동의 안내
+openweathermap.org###stick-footer-panel
+open.spotify.com###onetrust-consent-sdk
+superuser.com##.js-consent-banner
+bitly.com###banner-cookie
+
+! - News Paper Ads / 뉴스
+||cdn.emetro.co.kr/*banner
+asiae.co.kr##.sns_area
+asiae.co.kr##.youtube_wrap
+bbc.com##.css-n7zdg2
+busan.com##div.banner_img
+hypebeast.kr##.active
+instiz.net##.market_preview
+interfootball.co.kr##.ad-template
+interfootball.co.kr##.wing-banner
+news.oasisfeed.com##.hideBtn
+newspic.kr##.banner_view
+sundaynewsusa.com##.td-is-sticky.td-pb-span4.tdc-column.vc_column_container.wpb_column.tdi_121.vc_column
+! hankyung
+hankyung.com##.banner-area
+hankyung.com##.promotion-floating2
+static.hankyung.com##.pop-wrap
+hankyung.com##.ad-box
+hankyung.com##.ad-top
+hankyung.com##.ad-wrap
+hankyung.com##.ad_area
+hankyung.com##.aside-ad
+hankyung.com##.aside-ad-component
+! newspim
+newspim.com##.ad-box
+||img.newspim.com/m/banner/*$image
+! nocutnews
+nocutnews.co.kr##.slick-slide.nocut
+nocutnews.co.kr##.slick-slide.channel
+nocutnews.co.kr##.slick-slide.rainbow
+! bing, MSN
+||ntp.msn.com/edge/ntp/*.js^
+||ntp.msn.com/bundles/*/edgechromium^
+bing.com##[id^="nativead"]
+bing.com##[id^="native_ad"]
+bing.com##[class^="native-ad"]
+bing.com##.openfo.toolTip.id_button
+bing.com###id_rh
+bing.com##.header
+bing.com##.ttc_visible
+msn.com##[id^="native_ad"]
+msn.com##[id^="entry-point-hp-wc-banner"]
+msn.com##[class^="preview-card"]
+msn.com##display-ads
+msn.com##.articlePage_bannerAd_wrapper-DS-EntryPoint1-1
+msn.com##article-close-button
+msn.com##div > [class^="consumption-page-gridarea_eocb_leadgen"] > end-of-content-block
+msn.com##div > end-of-content-block[category="others"]
+msn.com##.article-cont-read-button-on-app
+msn.com##social-lead-gen-in-article
+msn.com##.consumption-page-rail-wrapper
+! xportsnews
+xportsnews.com##.in_200_200
+xportsnews.com###r_ad
+xportsnews.com###l_ad
+xportsnews.com##div.ad_wrap
+xportsnews.com##.ad_wrap_list
+xportsnews.com##.ad_1
+xportsnews.com##.ad_2
+xportsnews.com##div:nth-of-type(3)
+! gotit
+gotit.co.kr##center
+gotit.co.kr##.mb-latest-gallery-sponsor
+gotit.co.kr##.td-banner-wrap-full
+gotit.co.kr###menu-item-6167
+gotit.co.kr###menu-item-42453
+gotit.co.kr###menu-item-10126
+! kmib
+||kmib.co.kr/*/*_subscription*
+m.kmib.co.kr##.mbnr_kap
+m.kmib.co.kr##.sns_area
+m.kmib.co.kr##.m_ad
+! hellot
+||www.hellot.net/*banner
+hellot.net##.art_inner_slide
+hellot.net##.com_ban
+! kormedi
+kormedi.com##.widget_better-ads
+kormedi.com##.sidebar-col-ad-right
+kormedi.com##.sidebar-col-ad-left
+! chosun
+||*.health.chosun.com/*banner*
+||health.chosun.com/*banner*.jpg$image
+chosun.com##._popIn_recommend_article_ad
+chosun.com##.arcad
+chosun.com##.box--margin-bottom-sm.flex--align-items-center
+chosun.com##.box--pad-bottom-xl.width--100
+chosun.com##.dfpAd
+chosun.com##.flex--justify-center.arcad-wrapper
+chosun.com##.grid__col--sm-12.visual__image
+chosun.com##.separator-container
+chosun.com##div.box--hidden-md.box--hidden-lg.box--bg-grey-20
+health.chosun.com##.ad_mid_box
+health.chosun.com##.aside_doctor
+health.chosun.com##.aside_hospital
+health.chosun.com##.left_banner
+health.chosun.com##.li_ad
+health.chosun.com##.top_area
+it.chosun.com##.desktop
+it.chosun.com##.inner
+it.chosun.com##.news_letter
+sports.chosun.com##.hoseBn
+! ddaily
+||m.ddaily.co.kr/data/banner^
+||www.ddaily.co.kr/*/*/*/naver_channel.jpg$image
+ddaily.co.kr##.util2
+! donga
+donga.com###above_cmcl_box
+donga.com###adbox_zone01
+donga.com###adbox_zone02
+donga.com###adbox_zone03
+donga.com###adbox_zone04
+donga.com###aside_adbox01
+donga.com###aside_adbox02
+donga.com###aside_adbox03
+donga.com###aside_adbox04
+donga.com###banner_slider
+donga.com###right_wingad
+donga.com##.ad
+donga.com##.adwrap_box
+donga.com##.aside_adzone01
+donga.com##.aside_adzone01
+donga.com##.aside_adzone02
+donga.com##.aside_adzone02
+donga.com##.aside_adzone03
+donga.com##.aside_adzone03
+donga.com##.aside_adzone04
+donga.com##.aside_adzone04
+donga.com##.aside_adzone05
+donga.com##.aside_adzone06
+donga.com##.aside_adzone07
+donga.com##.aside_adzone08
+donga.com##.aside_adzone09
+donga.com##.aside_adzone10
+donga.com##.bann_wrap
+donga.com##.bestview_news
+donga.com##.bottom_ad
+donga.com##.facebook_api
+donga.com##.i-amphtml-unresolved
+donga.com##.promotion_wrap
+donga.com##.today_issue
+donga.com##.view_ads01
+donga.com##.view_ads02
+donga.com##.view_ads03
+donga.com##.view_ads04
+donga.com##.view_ads05
+donga.com##.view_ads06
+donga.com##.view_ads07
+donga.com##.view_ads08
+donga.com##.view_ads09
+donga.com##.view_ads10
+donga.com##.viewad_top
+donga.com##div.ad_01
+! dongascience
+dongascience.com##.advertise
+dongascience.com###advertise_fixed
+dongascience.com###letter_apply
+! new.sbs
+news.sbs.co.kr##.w_banner
+news.sbs.co.kr###dablewidget_job8QLlW
+news.sbs.co.kr##.page_promotion_banner
+! imbc
+imnews.imbc.com##div.ad_banner
+imnews.imbc.com##div[class="section_bottom_dable"]
+imnews.imbc.com##.banner_ad
+imnews.imbc.com##.program_banner
+imnews.imbc.com##.ad-count
+imnews.imbc.com##.ad-current
+imnews.imbc.com##.ad_enliple_m
+imnews.imbc.com##.ad-tit
+imnews.imbc.com##.clip-preview-msg
+imnews.imbc.com##.layer-ad
+imnews.imbc.com##.list_banner
+imnews.imbc.com##.s_ad.section
+imnews.imbc.com##.show_ad
+! isplus / 일간스포츠
+isplus.com###eventBusiness
+isplus.com##.t_banner
+isplus.com##div.item
+isplus.com##.relative.border_b_black
+isplus.com##.flex.section_inner
+! edaily / 이데일리
+||image.edaily.co.kr/images/content/naver*
+edaily.co.kr###edailywrap > div:nth-of-type(2)
+edaily.co.kr##.newscontainer > div > [src]
+edaily.co.kr###ad_banner_01
+edaily.co.kr###ad_banner_02
+edaily.co.kr###ad_banner_03
+edaily.co.kr###ad_img_box_01
+edaily.co.kr###ad_img_box_02
+edaily.co.kr###ad_img_box_03
+edaily.co.kr###boxshow_970x90
+edaily.co.kr###w_read_right
+edaily.co.kr##.ad_img_list_01
+edaily.co.kr##.ad_list_00
+edaily.co.kr##.ad_list_01
+edaily.co.kr##.ad_text_01
+edaily.co.kr##.ad_text_02
+edaily.co.kr##.adTarget01
+edaily.co.kr##.adTarget02
+edaily.co.kr##.adTarget03
+edaily.co.kr##.adTodayInfo
+edaily.co.kr##.boxshow_300x100_r
+edaily.co.kr##.boxshow_300x250
+edaily.co.kr##.gg_dable_box
+edaily.co.kr##.gg_taboola
+edaily.co.kr##.gg_texshow_300
+edaily.co.kr##.gg_text1
+edaily.co.kr##.gg_textshow
+edaily.co.kr##.gpmclhd-link
+edaily.co.kr##.iwm_ba
+edaily.co.kr##.list_gg
+edaily.co.kr##.m_banners
+edaily.co.kr##.m_shows
+edaily.co.kr##.manyview_info
+edaily.co.kr##.mb40
+edaily.co.kr##.mr10
+edaily.co.kr##.newsletter_area
+edaily.co.kr##.pnutSlot
+edaily.co.kr##.right.more-stories
+edaily.co.kr##.rightArea01
+edaily.co.kr##.view_ad02
+edaily.co.kr##.weekend_news
+edaily.co.kr##.youlike_news
+! fnnews
+||io1.innorame.com^$subdocument
+fnnews.com###ad_pitPc
+fnnews.com###ad_right_view_top
+fnnews.com###add_view_upHot
+fnnews.com###FbRoot
+fnnews.com###mb_ad
+fnnews.com##.banner_navch
+fnnews.com##.bnr_evt
+fnnews.com##.pc_add06
+fnnews.com##.pineapple
+fnnews.com##.__fnbottom_wrap
+! hani
+@@||m.hani.co.kr^
+||adimg.hani.co.kr^
+||img.hani.co.kr/*/*/*/*/event-blanket/*.png^
+hani.co.kr###asideSupport
+hani.co.kr##.ad_top
+hani.co.kr##.bn-promotion
+hani.co.kr##.bn-promotion-support-5st
+hani.co.kr##.bn-support-character
+hani.co.kr##.gudokArea
+hani.co.kr##.hani-friend
+hani.co.kr##.kisa
+hani.co.kr##.mutimedia
+hani.co.kr##.notice-bn
+hani.co.kr##.open
+hani.co.kr##.support-box
+hani.co.kr##.support-btn
+hani.co.kr##.support-header
+hani.co.kr###ad_tag
+hani.co.kr##.ad-slide
+! hankookilbo
+||www.hankookilbo.com/*/Default-Image*
+hankookilbo.com##.ad-news-todays
+hankookilbo.com##.naver-banner
+hankookilbo.com##.right-area
+hankookilbo.com##.serial-ad
+hankookilbo.com##.side-ad-box
+hankookilbo.com##.toast-popup
+! inews24
+inews24.com###articleBody > div:nth-of-type(1)
+inews24.com##container > div
+inews24.com##div:nth-of-type(3)
+inews24.com##hr.blank
+inews24.com##hr.h50.blank
+! jtbc
+jtbc.co.kr###right_top_ad
+jtbc.co.kr##.ad_banner_250x250
+jtbc.co.kr##.ad_item
+jtbc.co.kr##.ad_shoppingnlife_bottom
+jtbc.co.kr##.article_list_in_ad
+jtbc.co.kr##.article_list_wrap
+jtbc.co.kr##.banner_area
+jtbc.co.kr##.house_banner
+jtbc.co.kr##.main-ad-top
+jtbc.co.kr##.right_banner250_area
+jtbc.co.kr##.sns_wrap
+jtbc.co.kr##.sub_banner01
+jtbc.co.kr##.tv_right_ad
+jtbc.co.kr##.v_banner
+jtbc.co.kr##.vjs-ad-playing
+! joins
+@@||cast.imp.joins.com^
+||images.joins.com/*/talk_ad/*
+joins.com##.adBox.adv01.advertise
+joins.com##.adv01.advertise
+joins.com##.advertise
+joins.com##.advertising_990x100
+joins.com##.jtbcGolfAD
+joins.com##.m_mid_ban
+joins.com##.ra_img_ban
+joins.com##.sub_branded_contents.rts
+joins.com##.sub_innov_lab_temp.sub_innov_lab.rts
+! joongang
+joongang.co.kr##.ad_wrap
+joongang.co.kr##.ad_wrap_area
+joongang.co.kr##.banner_wrap
+joongang.co.kr##.layer_dark_popup
+joongang.co.kr##.plotting_banner
+joongang.co.kr##.sm_hidden.house_banner
+joongang.co.kr##li.ad_sm_hidden.col_lg6
+! khan
+khan.co.kr##.left-banner
+khan.co.kr##.wrap_bnr_shortcut
+khan.co.kr###bnNewsletter
+khan.co.kr###layerB
+khan.co.kr##.pl00
+khan.co.kr##.ad_hotclip
+khan.co.kr##.nl-bnr-wrap
+khan.co.kr##.wrap_ad_cont_btm
+khan.co.kr##.bnr-wrap
+khan.co.kr##.ad-area
+khan.co.kr##.ad_popularInfo_sub
+khan.co.kr##.nzine_banner_sub
+! mercola
+korean.mercola.com###mid-optin
+korean.mercola.com##.gdpr-wrap
+korean.mercola.com##.narrow-width.content-tag-container
+korean.mercola.com##.top-banner
+! koreatimes
+ad_share$domain=www.koreatimes.com,subdocument
+koreatimes.com##.bn_300x250_3
+koreatimes.com##.sld_kims
+! acrofan
+kr.acrofan.com###topLbanner2
+kr.acrofan.com##.mainSec05Banner
+! mdjournal
+||mdjournal.kr/banner/*
+mdjournal.kr##.html_banner
+mdjournal.kr##.wrap_new_13.auto-p06.auto-article
+! nate
+@@||adimg.nate.com^
+||m.shopping.nate.com^$domain=m.mail.nate.com
+nate.com##.nmBanner
+nate.com##.SnbNewsBar
+news.nate.com##.googleAd_wrap
+news.nate.com##.sidebar_banner
+news.nate.com###AdIbl
+news.nate.com###bottomAdRect
+news.nate.com###ad_sponsorBar
+news.nate.com###spaceBanner
+news.nate.com##.left-wing-banner
+news.nate.com###AdViewRightBottom
+news.nate.com###ad230306
+news.nate.com###AdCommerce
+news.nate.com##.ad290x330
+! zum
+@@||deepdive.zum.com^
+#@#iframe[src*="//deepdive.zum.com/widget/"]
+zum.com##.shopping_adbox
+zum.com##.setting_box
+zum.com##.right_ad_wrap
+zum.com##.right_ad_banner
+zum.com##.native_ad_wrap
+zum.com##.layer_inner
+zum.com##.front-bottom-banners
+zum.com##.brand_widget
+zum.com##.box_cont_banner
+zum.com##.big_banner
+zum.com##.alert_banner
+zum.com##.ad_banner_wrap
+news.zumst.com##.shopping_box_bottom_banner
+news.zumst.com##.section_hot_news
+news.zumst.com##.right_ad_banner
+news.zumst.com##.native_ad_wrap
+news.zumst.com##.mobile_download_banner
+news.zumst.com##.mid_banner_wrap
+news.zumst.com##.hot_news
+news.zumst.com##.deepdive_widget_wrap
+news.zumst.com##.banner_wrap
+news.zumst.com##.article_bottom
+news.zumst.com##.ad_banner_wrap
+news.zum.com##.banner-app-view
+news.zum.com###layer_wrap
+news.zum.com###bottom_shopping_box
+! ohmynews
+||ojsimg.ohmynews.com/*/*/*/local_club_btn
+ohmynews.com##[src*="ohmynews.com/BBS_ADM_FILE/"]
+ohmynews.com##.arc-bottom-wrap > div > [href]
+ohmynews.com###scrollTop
+ohmynews.com##.ad_wrap
+ohmynews.com##.faceb
+ohmynews.com##.footer_club
+ohmynews.com##.main_tis_ad
+ohmynews.com##.new_ad1
+ohmynews.com##.new_ad2
+ohmynews.com##.new_ad3
+ohmynews.com##.new_ad4
+ohmynews.com##.new_ad5
+ohmynews.com##.new_ad6
+ohmynews.com##.new_ad7
+ohmynews.com##.new_ad8
+ohmynews.com##.support-box
+ohmynews.com##.support-omn
+ohmynews.com##.wing_gallery_banner
+! rpm9
+rpm9.com##.ad_right120x600
+rpm9.com##div.ad_right300
+rpm9.com##div.ad_right300x250
+! sedaily
+sedaily.com##.banner_right
+sedaily.com##.read_newsletter
+sedaily.com##.seo_special
+sedaily.com##.today_cube
+sedaily.com##.art_rel
+! seoul
+seoul.co.kr###newsletterPop
+seoul.co.kr###slick_banner
+||wwwads.seoul.co.kr^$subdocument
+en.seoul.co.kr##.listAD
+en.seoul.co.kr##[class^="articleInnerAd"]
+en.seoul.co.kr##[class^="articleAD"]
+en.seoul.co.kr##[title*="AdIframe"]
+en.seoul.co.kr##[class*="hed_ad"]
+m.en.seoul.co.kr##[id^="seoulAD"]
+m.en.seoul.co.kr##div:nth-of-type(3)
+! wikitree
+wikitree.co.kr##.clearfix
+wikitree.co.kr##.wikitree_tv
+wikitree.co.kr##div.content_right_inner:nth-of-type(1)
+wikitree.co.kr##.section_col_ban
+wikitree.co.kr##section.container.section:nth-of-type(5)
+! yna
+@@||cdp.yna.co.kr^
+yna.co.kr###marketingPlayer
+yna.co.kr##.wrap-header01
+ytn.co.kr##.YTN_CSA_newsletter
+ytn.co.kr##.newsletter
+ytn.co.kr##.top_banner
+yna.co.kr##[id^="div-gpt-ad"]
+star.ytn.co.kr##[title^="하단 광고"]
+! zdnet
+zdnet.co.kr##.webinar
+! mk
+||img.mk.co.kr/*/banner*
+mk.co.kr###area_banner
+mk.co.kr##div.ad_section
+mk.co.kr##table:nth-of-type(2)
+mk.co.kr##div.reple_box:nth-of-type(3)
+mk.co.kr##div.reple_box:nth-of-type(4)
+mk.co.kr##.banner_bxtop
+mk.co.kr##.bn_newsletter
+mk.co.kr##.ad_bottom_wrap
+account.mk.co.kr##.bannertop
+! gamezo
+gamezo.co.uk##.adthrive
+gamezo.co.uk##.adthrive-ad
+! mt
+||menu.mt.co.kr/news/*Banner
+||menu.mt.co.kr/*/banner*$image
+mt.co.kr##.naver_channel_banner_wrap
+mt.co.kr##.adbox
+mt.co.kr##.cardinfo1
+news.imaeil.com##.arl_007
+! newsis
+newsis.com##.banner300
+mobile.newsis.com##.bxcn
+mobile.newsis.com##.listStyle04
+mobile.newsis.com##.fixBanner
+/adReq/*
+! dt / 디지털타임즈
+dt.co.kr##.main_wrap > center
+dt.co.kr##div.bk20
+dt.co.kr##div.bk40
+dt.co.kr##[class^="jizsl"]
+! alphabiz
+||alphabiz.co.kr/*/banner$image
+||widget.publish.link/$subdocument
+widget.publish.link##.pcBanner
+! stoo / 스포츠투데이
+www.stoo.com##img[src^="/banner/"]
+www.stoo.com##img[src^="/ad/"]
+www.stoo.com##.ad_shoopng
+! etnews, 전자신문
+etnews.com##div.ad_300x250
+etnews.com##div.clearfix:nth-of-type(9)
+etnews.com##div.clearfix:nth-of-type(10)
+! 아주경제, ajunews.com
+ajunews.com##[id^="div-gpt-ad"]
+ajunews.com##[id^="dcamp_ad"]
+ajunews.com##[class^="ad_"]
+ajunews.com##div[style="height:220px;"]
+ajunews.com##[href^="https://www.compassion.or.kr/sponsor"]
+ajunews.com##.view_banner
+ajunews.com##[class^="banner_"]
+
+! news-etc
+||www.businesspost.co.kr/*/banner/*/$image
+www.newsen.com##[src^="//photo.newsen.com/images/2024/ASEA"]
+kjtimes.com##.ht_right
+kjtimes.com##.top_banner
+@@/openads/*
+openads.co.kr##.adBanner
+mksports.co.kr##[id^="slot"]
+
+! - op.gg
+||talk.op.gg/images/banner$image
+talk.op.gg##[src="/images/300x300_web.png"]
+pubg.op.gg##[id*="ad-container"]
+op.gg#@#[id^="div-gpt-ad"]:not([class]):upward(div[class])
+op.gg#@##__next > div[class^="css-"]:has(> div[id^="div-gpt-ad"])
+op.gg##.premium-banner
+op.gg##[id*="div-gpt-ad"]
+
+! - 모두닥
+modoodoc.com###ad-post
+modoodoc.com###ad-post-1
+modoodoc.com###ad-post-2
+modoodoc.com###ad-post-3
+modoodoc.com###ad-post-4
+modoodoc.com###ad-post-5
+modoodoc.com###ad-post-6
+modoodoc.com###banner-A
+modoodoc.com###recruit-desktop-banner
+modoodoc.com##.app-banner-container
+modoodoc.com##.app-install-popup-banner-total
+modoodoc.com##.app-install-top-banner-total
+modoodoc.com##.d-block
+modoodoc.com##.hospital_list_desktop_ad_event_click
+modoodoc.com##.review_list_mobile_ad_event_click
+modoodoc.com##.show.modal-backdrop
+modoodoc.com##div.hospital_list_mobile_ad_event_click
+
+! - 쇼핑몰 / Tmon, Coupang, CooCha, Aliexpress, WemakePrice, Gmarket, Auction, SSG, interpark, LotteON, 11st, tdeal(T딜)
+! aliexpress
+mbest.aliexpress.com###header-float-banner
+aliexpress.com###container-for-smart-banner
+aliexpress.com##.pop-picture
+aliexpress.com##.ranking-main
+aliexpress.com##.top-banner-container
+aliexpress.com##.image-poplayer-modal
+! auction
+auction.co.kr###BAC_AD_ZONE20
+auction.co.kr##.module_slot.promo
+itempage3.auction.co.kr##.plcc_banner
+! coupang
+@@||/bannerunit/*
+@@||/banner/*$domain=coupang.com
+@@||mercury.coupang.com/e.gif$xhr
+||ads-partners.coupang.com^
+||static.coupangcdn.com/*/banner$image
+||myqcloud.com^$app=com.coupang.mobile
+||mercury.coupang.com^$app=com.coupang.mobile
+||crashlyticsreports-pa.googleapis.com^$app=com.coupang.mobile
+coupang.com##div.keen-slider__slide
+coupang.com##.trending_ads
+coupang.com##.srp-top-banner-container
+coupang.com##.search-product__ad-badge
+coupang.com##.sdp-ads
+coupang.com##.related_ads
+coupang.com##.promotion-banner
+coupang.com##.personalized_ads
+coupang.com##.cmg-dco-template
+coupang.com##.category-best-banner
+coupang.com##.ads-line-banner-container
+coupang.com##.ads-impression
+coupang.com###sdp-middle-banner
+coupang.com###sdp-mid-banner-btf
+coupang.com###sdp-mid-banner
+coupang.com###sdp-bottom-promotion-banner-sign-up
+coupang.com###sdp-bottom-banner
+coupang.com###prodStickyBanner
+coupang.com###fullBanner
+coupang.com###coupang-banner
+coupang.com###app-redirect-nudge
+! danawa
+||img.danawa.com/images/newsCommunity/eventSkin$image
+auto.danawa.com###homeFinder_adver
+auto.danawa.com##div[class^="ad-powerlink"]
+dpg.danawa.com##.wrap_link_left.comty_wrap_link
+www.danawa.com##[class="prod-list__link top100AdProductClick"]
+www.danawa.com##div[class="main-coupon swiper-coupon"]
+www.danawa.com###adSmartArea
+www.danawa.com###adSmartArea2
+www.danawa.com###ebayPowerClickBottomArea
+www.danawa.com###mainAdReader
+www.danawa.com###mainAdStar
+www.danawa.com###planBPlusAdSmartArea
+www.danawa.com###powerClickListArea
+www.danawa.com###powerLinkArea
+www.danawa.com##.aside_widget
+www.danawa.com##.dealer.diff_list
+www.danawa.com##.diff_bnr
+www.danawa.com##.event_link
+www.danawa.com##.main_ad_prodlist
+www.danawa.com##li.prod_ad_item
+! gmarket
+@@||script.gmarket.co.kr^$script
+||ad-img.gmarket.com/ADS$image
+||pics.gmarket.com/smilepay/banner$image
+www.gmarket.co.kr##.box__promotion
+www.gmarket.co.kr##.box__smilefresh-benefit
+www.gmarket.co.kr##.link__banner
+gmarket.co.kr##.ng-scope.banner
+gmarket.co.kr#@#+js(set-constant, pvprofiler.sendEvt, noopFunc)
+gmarket.co.kr##[src^="https://ad-img.gmarket.com"]
+gmarket.co.kr##[class^="box-smileclub-banner"]
+gmarket.co.kr##[class^="sc_mbr"]
+my.gmarket.co.kr##.box__additional-message
+m.gmarket.co.kr##.box__app-lead
+m.gmarket.co.kr##.box__bottom-banner
+promotion.gmarket.co.kr##.m9.benefit
+promotion.gmarket.co.kr##.couponzone.benefit
+promotion.gmarket.co.kr##.smileclub_bnr
+promotion.gmarket.co.kr##.sns.area
+signinssl.gmarket.co.kr###login-banner-box
+spweb.gmarket.co.kr##.bx_banner
+checkout.gmarket.co.kr##.box__club-banner
+! gsshop
+with.gsshop.com###global-top-banner
+m.gsshop.com##.bnr-item_appdown
+m.gsshop.com##.app-banner-layer
+m.gsshop.com###md-appdown
+! lotteon
+lotteon.com###modals-container
+lotteon.com##.eventBanner
+lotteon.com##.productAdvertisement
+lotteon.com##.advertisement
+! tmon
+tmon.co.kr###_orderBanner
+tmon.co.kr###_wrapPromotionBanner
+tmon.co.kr###topline_ad
+tmon.co.kr##.banner_div
+tmon.co.kr##.footer_banner
+tmon.co.kr##.link_banner
+tmon.co.kr##.slider_banners
+tmon.co.kr##.special_banner
+tmon.co.kr##.topline_ad
+! wemakeprice
+||wemakeplace.club/ad/*
+wemakeprice.com###_cardBanner
+wemakeprice.com###_rollingBanner
+wemakeprice.com##.mix_global_banner
+front.wemakeprice.com###_prodBanner
+! interpark
+interpark.com##.ad.couponContent
+m.shop.interpark.com###prd_appbanner
+m.shop.interpark.com##.combineBanner
+m.shop.interpark.com##.horizonBanner
+m.shop.interpark.com##.popupBottom
+m.shop.interpark.com##.popupClose
+m.shop.interpark.com##.bottom.popupWrap
+m.shop.interpark.com##.appBanner
+m.shop.interpark.com##.cmBanner
+interpark.com##[class^="event_eventWrap"]
+interpark.com##[class^="eventBanner_eventBannerWrap"]
+shop.interpark.com##[class^="adBanner"]
+shopping.interpark.com##.priceUpper
+mtravel.interpark.com##[class^="rollingBanner"]
+worldshop.interpark.com##[class*="ad_bnnr"]
+! qoo10
+qoo10.com##.bnnr_area
+qoo10.com##.m_ad_bnnr
+qoo10.com##.shr_rwrditm
+! ssg
+||sui.ssgcdn.com/ui/ssg/img/product/*/cdtl_universe_type_banner*$image
+www.ssg.com##.gnb_bnr_wrap
+www.ssg.com##.menu_ad
+www.ssg.com###ajaxMainMemberShipItem
+www.ssg.com##.cdtl_bn_marketing
+www.ssg.com##.cdtl_universe_type
+m.ssg.com###m_header_welcome
+m.ssg.com##.mndtl_sec_bx
+emart.ssg.com##.gnb_bnr_wrap
+emart.ssg.com##.cdtl_mmbr_wrap
+emart.ssg.com##.cdtl_bn_marketing
+emart.ssg.com###recom_product_div
+emart.ssg.com##.gate_unit.mnemitem_unit
+m-emart.ssg.com###item_advert_cpc_div
+m-emart.ssg.com##div[class^="wrap css-"] > div:nth-of-type(3)
+m-emart.ssg.com##div.templated-grid:nth-of-type(4)
+m-emart.ssg.com##div.templated-grid:nth-of-type(12)
+m-emart.ssg.com##.mndtl_sec_bx
+m-emart.ssg.com##.mndtl_universe_lst
+m-shinsegaemall.ssg.com##div[class^="wrap css-"] > div:nth-of-type(3)
+m-shinsegaemall.ssg.com##div:nth-of-type(7)
+m-shinsegaemall.ssg.com##.header_appdown
+m-shinsegaemall.ssg.com##.mndtl_universe_lst
+m-shinsegaemall.ssg.com##.mndtl_tyad
+m-shinsegaemall.ssg.com##.mndtl_banner_event
+shinsegaemall.ssg.com##.cdtl_mmbr_wrap
+shinsegaemall.ssg.com##li.cunit_ad.cmitem_grid_item.cdtl_recommend_product_item
+! 11st
+www.11st.co.kr##.advertisement
+www.11st.co.kr##.c_product_banner_benefit
+www.11st.co.kr##.c_product_banner_product
+www.11st.co.kr##.c_product_banner
+www.11st.co.kr##.r-coupon-down__line-banner
+m.11st.co.kr##.fadeIn.animated.dim
+m.11st.co.kr##.c-ad-benefit
+m.11st.co.kr##.c-banner
+m.11st.co.kr##.c-donation
+m.11st.co.kr##.c-floating__banner
+m.11st.co.kr##.c-headline__text
+m.11st.co.kr##.c-moneybag-guide
+m.11st.co.kr##.mw_bnr
+m.11st.co.kr##.viewport-ad
+m.11st.co.kr##.swiper-container-horizontal.w-swiper
+m.11st.co.kr#@#div[class$="-ad"]
+m.11st.co.kr###banner-gnb
+m.11st.co.kr###mwPortal
+m.11st.co.kr##.r-coupon-down__line-banner
+search.11st.co.kr###section_list
+plan.11st.co.kr##.c-webtoapp--fixed.c-webtoapp
+buy.11st.co.kr##.hope_shopping
+! tdeal / T딜
+||cdn.tdeal.kr/images/banners$image
+tdeal.kr##.topBanner__content
+! e-himart
+m.e-himart.co.kr##.hm-app__main_event_layer
+m.e-himart.co.kr##.hm-app__dimm--show.hm-app__dimm
+! cjonstyle
+item.cjonstyle.com##.goto_app_layer_popup
+item.cjonstyle.com##.noti_app_install
+display.cjonstyle.com##.noti_app_install
+display.cjonstyle.com##.pop_type_one
+display.cjonstyle.com###_bannerFlicking
+item.cjonstyle.com###bannerSwiper
+! hnsmall
+m.hnsmall.com##.v2.app_setup
+m.hnsmall.com###promotionPopupNew
+m.hnsmall.com##.layerDim
+! skstoa
+www.skstoa.com##.vodBanner
+www.skstoa.com##.js_l_wing_main
+www.skstoa.com##li.ga-event
+! etc
+lowchart.com##.btn-secondary.btn-fixed-download.btn
+hmall.com##.login-ad
+||ad-img.ebaykorea.com^
+coocha.co.kr##.group-power-link
+www.myrealtrip.com##div[class*="AppinstallPopup"]
+
+! - 번개장터
+m.bunjang.co.kr##div[class^="ProductExternalAdsstyle"]
+m.bunjang.co.kr##[src^="https://ssl.pstatic.net/adimg"]
+
+! - Danawa(PC)
+danawa.com###danawa-gnb-banner
+danawa.com##.font_dotum.bbs_power_link
+danawa.com##.power_link.ad_reader4
+danawa.com##.setpc_middle_banner
+danawa.com##.wing_banner_item
+danawa.com##.wing_banner_list
+danawa.com##li.ad.shop_link_item
+
+! - Kakao, Daum
+@@||*.tiara.daum.net^
+@@||*.tiara.kakao.com^
+@@||[2404:4600:4:44:203:217:229:218]:10009^
+@@||[2404:4600:6:165:211:231:98:46]:10009^
+@@||[2404:4600:9:8158:211:249:242:51]:10009^
+@@||[2404:4600:9:815a:211:249:242:111]:10009^
+@@||121.53.205.66:1009^
+@@||aem-collector.daumkakao.io^
+@@||kauth.kakao.com^
+@@||mud-kage.kakaocdn.net^
+@@||search1.daumcdn.net^
+@@||videoads.kakao.com^
+@@||t1.daumcdn.net/*/subway/*
+@@||mk.kakaocdn.net^$domain=map.kakao.com
+!#if env_mobile
+@@||kauth.kakao.com^$app=com.kakao.talk
+@@||mud-kage.kakaocdn.net^$app=com.kakao.talk
+@@||search1.daumcdn.net^$app=com.kakao.talk
+@@||videostats.kakao.com^$app=com.kakao.talk
+||mk.kakaocdn.net/$important,app=com.kakao.talk
+!#endif
+||*.ad.kakao.com^
+||*.ad.kakaocorp.com^
+||ad-content.*.kakao.com^
+||adserver.*.kakao.com^
+||ad.daum.net^$important
+||adclix.daum.net^$important
+||adclixad.daum.net^$important
+||amsimg.daum-img.net^
+||amsv2.daum.net^
+||ca.adtc.daum.net^$important
+||display.ad.daum.net^$important
+||ka.*.daum.net/*
+||kyson.ad.daum.net^$important
+||t1.daumcdn.net/adfit/*
+||tr.*.daum.net/*
+||webid.ad.daum.net^$important
+||page.kakao.com/_next/*_banner_*.png$image
+page.kakao.com##img[alt^="pc 앱"]
+map.kakao.com##.Howto
+map.kakao.com##.AdItem
+! Daum Search Ads
+daum.net##.ad_sch
+daum.net##.advert_bnr
+daum.net##.advert_shoppingbox
+daum.net##.content_sponsor
+daum.net##.content_ad
+daum.net##.log_wide.adLinkColl
+search.daum.net##.list_ad
+search.daum.net###n0nlColl
+! Kakao shoppinghow
+shoppinghow.kakao.com##.wrap_shoppingad
+store.kakao.com##.area_mybnr
+store.kakao.com##.inner_slide
+
+! - tistory
+@@||www.tistory.com^
+@@||www.tistory.com^$app=com.kakao.talk
+tistory.com##div.module_plugin.module:nth-of-type(1)
+tistory.com##.donation
+tistory.com##.adfit.revenue_unit_item
+tistory.com##.kakao_ad_area
+tistory.com##.revenue_unit_wrap
+tistory.com##.wrap_bnr_story
+tistory.com#@#+js(abort-current-script, $, div.adsbygoogle)
+
+! - dcinside
+gall.dcinside.com##.kakao_ad_area
+gall.dcinside.com##tr.ub-content:nth-of-type(1)
+dcinside.com##.adv-group
+dcinside.com##.rightbanner1
+dcinside.com###comment_li_0
+
+! - Google Ads
+@@||csi.gstatic.com^
+@@||shoppinglist.google.com^
+@@||www.gstatic.com^
+||*.googleadservices.com^$important
+||googleads.g.doubleclick.net/*/ads$subdocument
+||googleads.g.doubleclick.net^
+||static.doubleclick.net^
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js
+||pagead2.googlesyndication.com^
+||fundingchoicesmessages.google.com^
+google.com###topstuff
+||accounts.google.com/gsi/iframe/select$subdocument
+
+! - AfreecaTV 
+||admvod.afreecatv.com^
+||deapi.afreecatv.com^
+||cache.m.afreecatv.com/application/theme^
+||stimg.afreecatv.com/LOGO^
+! - AfreecaTV / Popup
+bj.afreecatv.com##.bs-notice_layer
+! - AfreecaTV / 배경 블라인드
+play.afreecatv.com##.bg_dark
+! - AfreecaTV / AD Bottom popup
+vod.afreecatv.com##.adballoon
+play.afreecatv.com##.adshop_layer
+! - AfreecaTV / VOD ADS
+||vod-player001.afreecatv.com^
+||vod-player002.afreecatv.com^
+||vod-player003.afreecatv.com^
+
+! - Samsung Default Apps
+@@||*.ospserver.net^
+@@||*.samsungdm.com^
+||img.samsungmembers.com/default/banner^
+
+!#if env_mobile
+! - Tmap app / ($app=com.skt.tmap.ku)
+@@||cdn.tmap.co.kr/tmapweb^$app=com.skt.tmap.ku
+||s.mfinder.co.kr^$app=com.skt.tmap.ku
+! tmap main dashboard, popup-ads, main contents, etc
+||cdn.tmobiweb.com/tmapad^$app=com.skt.tmap.ku
+/tmapad/*$app=com.skt.tmap.ku
+/banner*$app=com.skt.tmap.ku
+/*banner*$app=com.skt.tmap.ku
+||poi-cdn.tmap.co.kr/*/*banner*$app=com.skt.tmap.ku
+||smart.link^$app=com.skt.tmap.ku
+||search.tmap.co.kr/static/*banner*$app=com.skt.tmap.ku
+||frontman.tmobiapi.com^$app=com.skt.tmap.ku
+
+! - oilnow
+carmmunity.oilnow.co.kr##.swiper-wrapper
+carmmunity.oilnow.co.kr##[src*="/channel_banners_images/"]
+||wecandeo.com^
+
+! - GomPlayer
+@@||*.ibytedtos.com^$stylesheet
+@@||s0.ipstatp.com/transno/*
+||*.buzzvil.com^$app=com.gretech.gomplayerko
+||*.daumkakao.io^$app=com.gretech.gomplayerko
+||*.ibytedtos.com^$app=com.gretech.gomplayerko
+||*.pangle.io^$app=com.gretech.gomplayerko
+||*.reward.avatye.com^$app=com.gretech.gomplayerko
+||*.tnkad.net^$app=com.gretech.gomplayerko
+||api.*.avatye.com^$app=com.gretech.gomplayerko
+||reward-download.*.*.amazonaws.com^$app=com.gretech.gomplayerko
+||reward-sdk.*.*.amazonaws.com^$app=com.gretech.gomplayerko
+!#endif
+
+! - Naver, 네이버
+@@||ace.naver.com^
+@@||common.like.naver.com^
+@@||learn.dict.naver.com^
+@@||m.naver.com/aside^
+@@||nid.naver.com^
+@@||s.pstatic.net^
+@@||sp.naver.com^
+@@||wcs.naver.net^
+@@||nelo2-col.navercorp.com^
+@@||s.search.naver.com^$domain=m.search.naver.com
+||*.nbms.naver.com^
+||lcs.naver.com^
+||service.whale.naver.com^
+||ssl.pstatic.net/adimg*.search/*
+||event.impression-neo.naver.com^
+! Naver Search Ads
+||*.ad.naver.com^
+||ad.*.naver.com^
+||adcr.naver.com^
+||adcreative.naver.com^
+||searchad.naver.com^
+search.naver.com##._ad.box
+search.naver.com##.ad_section
+search.naver.com##.type_ad
+! m.naver
+naver.com###ad_timeboard
+naver.com###HOME_AD
+naver.com###MM_SEARCH_NOW
+naver.com###MM_SEARCH_SHOP_LIVE
+naver.com###timesquare
+naver.com##._MM_HOME_PROMOTION_PROMOTION
+naver.com##.comp_banner
+naver.com##.id_comp_anniversary_banner
+naver.com##.id_comp_commemoration_banner.ISSUE-BANNER-AD
+naver.com##.id_cui_airsguide
+naver.com##.id_cui_banner_nextmain
+naver.com##.ly_change_newmain
+naver.com##.MM_CHANNEL_BOTTOM_BANNER
+naver.com##.MM_NEWS_CHANNEL_PROMOTION_TOP_BANNER
+naver.com##.nplus_wrap
+naver.com##.st_show._tutorial_wrap.section_tutorial
+! m.naver - 2023-Dec
+m.naver.com###MM_na_topbanner
+m.naver.com##._MM_VIDEO_PREVIEW_WRAP.comp_shortform_new
+m.naver.com##div.id_comp_home_feed
+naver.com###MM_search_todaynaver
+naver.com##.csm_title_wrap
+naver.com##.gnb_banner
+naver.com##.gnb_pay
+naver.com##.id_comp_guarantee_banner
+naver.com##.id_comp_napp_banner
+naver.com##.MM_GIFT_FLICK_BANNER
+naver.com##.type_load
+! m.place.naver.com
+pcmap.place.naver.com##.l__qc.no_margin.place_section
+m.place.naver.com###visit_tab_top_ad
+m.place.naver.com###home_tab_top_ad
+m.place.naver.com###review_tab_top_ad
+m.place.naver.com###place_tab_top_ad
+m.place.naver.com###feed_tab_top_ad
+m.place.naver.com###timeline_detail_ad
+m.place.naver.com##[id^="FEED_TAB"]
+m.place.naver.com##[id^="REVIEW_PLACE_END"]
+m.place.naver.com##[id^="VISIT_TAB"]
+m.place.naver.com##div[class^="ptr"] > div > div > div > div > div > button > img[src]
+! news.naver, news
+news.naver.com##._da_banner
+news.naver.com##._MY_CHANNEL_OFFICE_WRAP
+news.naver.com##.ad_box
+news.naver.com##.col2_banner
+news.naver.com##.media_end_linked_more
+news.naver.com##.more_news2
+news.naver.com##.promotion
+! nid.naver
+nid.naver.com##.banner_wrap
+! notify.naver, 알림
+notify.naver.com##.comp_benefit
+notify.naver.com##.comp_channel
+notify.naver.com##.banner
+notify.naver.com##.native_scroll
+! blog.naver, 블로그
+@@||m.blog.naver.com^$popup
+blog.naver.com##.btm_banner
+! cafe.naver, 까페
+@@||ipada.cafe.naver.com^
+@@||cafeptthumb-phinf.pstatic.net^$image,domain=cafe.naver.com
+cafe.naver.com##.ad_area.AsideAdvert
+cafe.naver.com##.ArticleFormBanner
+cafe.naver.com##.aside_banner
+cafe.naver.com##.banner_inner
+cafe.naver.com##.botton.banner_add
+cafe.naver.com##.box_notice
+cafe.naver.com##.cafe_banner
+cafe.naver.com##.CafeAppBanner
+cafe.naver.com##.FormNoticeContent
+cafe.naver.com##.home_editors
+cafe.naver.com##.home_theme
+cafe.naver.com##.link_area.AsideLink
+cafe.naver.com##.location.home_section
+cafe.naver.com##.notice_area.AsideNotice
+cafe.naver.com##.section_home_town
+cafe.naver.com##.smart_bot_area.AsideSmartBot
+! comic.naver
+comic.naver.com###mflickAd
+comic.naver.com##.ads_sc
+comic.naver.com##.cont_app_banner
+comic.naver.com##.item_banner
+comic.naver.com$@$div[id="ppl_default_section"]
+! map.naver, 지도
+map.naver.com##.notice_wrap
+map.naver.com##.ng-trigger-fadeInWrap.notice_wrap
+map.naver.com##.ng-trigger-promotionToggleEffect
+map.naver.com##around-contents-card
+! pay.naver, 페이
+||new-m.pay.naver.com/api/timeline/v2/aitems
+pay.naver.com###pc_pay_paymenthistory
+pay.naver.com##._orderDonePopup_commonBanner
+pay.naver.com##.area_recommend_ad
+pay.naver.com##.commonBannerArea
+pay.naver.com##.membership_sc
+pay.naver.com##div.s_sc
+pay.naver.com##div.s_sc:nth-of-type(5)
+pay.naver.com##[class^="LoanBanner_article"]
+pay.naver.com##[class^="SmartChannel_article"]
+pay.naver.com##[class^="NaverPlusMembership"]
+pay.naver.com##[class^="shopping_section _shopping_aitems"]
+shopping.naver.com##[class^="OrderDeliverySection_recommend"]
+! chzzk
+||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
+||nng-phinf.pstatic.net/*/*_1500x240*.png$image
+||nng-phinf.pstatic.net/*.PNG/*_714x400.png$image
+chzzk.naver.com##[class^="live_chatting_input_discount"]
+! talks.naver.com
+talks.naver.com##div[class^="GuideArea_wrap"]
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(3)
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(4)
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(5)
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(6)
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(7)
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(8)
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(9)
+talk.naver.com##._marketingMessage
+talk.naver.com##li.menu_item:nth-of-type(2)
+talks.naver.com##[class^="AdBanner"]
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(10)
+! smartstore.naver
+smartstore.naver.com##[data-shp-area-id="externalbanner"]
+smartstore.naver.com##[alt^="멤버십_제너럴소재"]
+smartstore.naver.com##[data-shp-inventory="banner"]
+smartstore.naver.com##[class*="banner"]
+shopping.naver.com##[class*="advertising_banner"]
+!new-m.pay.naver.com##span > span[class^="Product_icon"]
+!new-m.pay.naver.com##li[class^="ADRewardListBenefit_item-card"]:nth-of-type(1)
+!new-m.pay.naver.com##li[class^="ADRewardListBenefit_item-card"]:nth-of-type(2)
+orders.pay.naver.com##[class^="PromotionBanner"]
+! mycar.naver
+mycar.naver.com##div[class^="FeedManagement_advertisement"]
+mycar.naver.com##a[class^="Banner_article"]
+mycar.naver.com##[class^="FeedCardNationalOilBanner_article"]
+! naver etc
+m.booking.naver.com##.banner_area
+media.naver.com##.channel_add_wrap
+premium.naver.com##.bottom_layer
+
+! - WebToon / 웹툰 // 2024-03
+##.modal-wrapper
+! webtoon logo
+||booktoki*.com/img/logo*
+||funbe*.com/*/*logo*
+||fxfx*.com/*/*/logo*
+||newtoki*.com/*/logo*
+||tkr*.com/img/*logo*
+||toonkor*.*/*/*logo*
+||wftoon*.com/*/*/logo*
+||wfwf*.com/*/*/logo*
+||wtwt*.com/*/*/logo*
+||imgcloud*.net/*.gif$image
+||imgcloud*.net/*.png$image
+||manatoki*.net/*/*.gif?_=*$image
+||img.timiai*.com/img/danbi*.png$image
+! newtoki
+||booktoki*.com/*/*.gif?_=*
+||newtoki*.com/tokinbtoki/*.gif?_=*
+||newtoki*.*/*/banner$image
+||newtoki*.com/guarantee.php
+! toonkor, tkr
+@@||toonkor*.com/*/btn_submit_comment.gif$image
+@@||tkr*.com/*/btn_submit_comment.gif$image
+||toonkor*.*/*/*.gif$image
+||toonkor*.*/bann/*.jpg$image
+||toonkor*.*/images/*.jpg$image
+! WFWF, Wtoon
+wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com##[href="/w6"]
+wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com##.top.row
+wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com##.left > ul > li:nth-of-type(4)
+wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com##.toon-bottom
+! agit
+||agit*.xyz/*/banner/$image
+||agit*.xyz/upload/$image
+||agit*.com/*/banner/$image
+||agit*.com/upload/$image
+! 호두코믹스
+||imgsuperpower.com/*.gif$image
+||static.springbuilder.site/*/*/alphabet*-*-*/*/*.gif$image
+||blogger.googleusercontent.com/img/*/AVvXsE*$image
+hdhd362.net,hdhd361.net,hdhd360.net,hdhd359.net,hdhd358.net,hdhd357.net,hdhd356.net,hdhd355.net,hdhd354.net,hdhd353.net,hdhd352.net,hdhd351.net,hdhd350.net,hdhd349.net,hdhd348.net,hdhd347.net,hdhd346.net,hdhd345.net,hdhd344.net,hdhd343.net,hdhd342.net,hdhd341.net,hdhd340.net,hdhd339.net,hdhd338.net,hdhd337.net,hdhd336.net,hdhd335.net,hdhd334.net,hdhd333.net##.alert_windows
+! 밤토끼
+co.com##.gnb > li:nth-of-type(3)
+co.com##.gnb > li:nth-of-type(4)
+! 펀비, funbe
+||funbe*.com/images/*.gif
+||funbe*.com/bann
+com##.mobile-banner.col-md-12
+! manhwa.co.kr - 인터넷만화
+sub.manhwa.co.kr##.main_banner_left01_box
+sub.manhwa.co.kr###main_banner_first_top_box
+||sub.manhwa.co.kr/img/detail_google_appdown_banner.jpg$image
+! 11toon, 103.204.13.68:8901
+@@||11toonimg*.spotv*.com/data/file/*/*.jpg$image
+||pl*.com/toonfile/toonres/*/*logo*.png$image
+||wwwimageup.angle777899.com$image
+/other/atoona$image
+103.204.13.68###adsbig3
+103.204.13.68##.mobile-m
+103.204.13.68##.ad720_90
+103.204.13.68###free-genre-list > li:nth-of-type(1)
+103.204.13.68###free-genre-list > li:nth-of-type(2)
+103.204.13.68###free-genre-list > li:nth-of-type(3)
+103.204.13.68###free-genre-list > li:nth-of-type(4)
+103.204.13.68###free-genre-list > li:nth-of-type(5)
+103.204.13.68##.nav-main__link--more.nav-main__link
+103.204.13.68##.popups
+103.204.13.68##.topBanner
+*##.topBanner
+! cookmana
+||wwwimageup.*angle.net/other/wx_app_admin/*.png$image
+bell365.com##.btn_setup_n
+! emmaru
+emmaru.com###scrool_rightbanner
+emmaru.com##body > table > tbody > tr > td > table > tbody > tr:nth-of-type(4) > td:nth-of-type(3)
+! about-etc
+||yatoon*.com/*/ad.jpg$image
+||yatoon*.com/*/drama*.jpg$image
+||a*.tooncome.com/*/*.gif$image
+||www.smilemanga.com/img/*.gif$image
+tooncome.com##li.swiper-slide.gnb_1dli:nth-of-type(1)
+tooncome.com##li.swiper-slide.gnb_1dli:nth-of-type(9)
+tooncome.com##section#container_middle.idx_section2.idx_section:nth-of-type(1)
+cartoonnetworkkorea.com###onetrust-consent-sdk
+||blogger.googleusercontent.com/img/*/AVvXsE*$image
+hotword.site##div.col-md-6
+!*##img[src^="https://iabn"]
+||iabn*.net$image
+
+! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브
+! 누누티비 / 누누티비.tv / 티비위키(tvwiki)
+@@||assets.request-support.com/images/$image
+@@||images.request-support.com/images/$image
+||static.wixstatic.com/media$image
+||images.request-support.com/br/*?v=*%2000:*:$image
+gg##.partner-banner-content
+*##[href*="bannerhit"]
+top##.partner-br-wrap
+top##.partner-banner-content
+top##.partner-banner-content
+top##.partner-banner-flex:nth-of-type(1)
+top##.partner-banner-flex:nth-of-type(2)
+! 콕콕티비 / cokcoktv.sbs, live, org, me
+org##[class="custom_banner_wrap"]
+sbs##[class="custom_banner_wrap"]
+live##[class="custom_banner_wrap"]
+me##[class="custom_banner_wrap"]
+! dasibogo, 다시보고
+*##.wp-block-gallery-1.wp-block-gallery
+! koreanz
+koreanz.xyz##div:nth-of-type(4)
+! sonagitv.live / info / org
+||s*.sonagitv.live/images/banner/*.jpg$image
+||s*.sonagitv.live/images/banner/*.png$image
+||sonagitv.live/images/banner/*.jpg$image
+||sonagitv.live/images/banner/*.png$image
+||s*.sonagitv-juso.com/images/banner$image
+||s*.sonagitv.*/*360.gif
+||s*.sonagitv.*/*360.png
+||s*.sonagitv.*/*360.jpg
+||s*.sonagitv.*/*365.gif
+sonagitv.live##.blocks-gallery-grid
+sonagitv.live##div.vc_row-fluid.wpb_row.vc_row:nth-of-type(1)
+sonagitv.live##.blocks-gallery-grid
+sonagitv.info##.popup_warp
+sonagitv.info##.safead_wrap
+sonagitv.live##.popup_warp
+sonagitv.live##.safead_wrap
+sonagitv-juso.com##.safead_wrap
+sonagi.org##[href="https://www.lionslions.com/"]
+sonagi.org##.lk
+sonagi.org##li:nth-of-type(4)
+! waaboom
+waaboom.com##center:nth-of-type(1)
+waaboom.com##center:nth-of-type(2)
+! tvchak
+@@||imgbox.com^
+||images*.imgbox.com/aa/cd/*.jpg$image
+/^https:\/\/tvchak[0-9]+\.com\/img\/ba*/$image
+/^https:\/\/tvchak[0-9]+\.com\/img\/bb*/$image
+!! 토렌트
+! torrentqq
+com##.row-banner
+com##.at-banner
+||i.imgur.com/*.jpg$image
+||i.imgur.com/*.gif$image
+! TorrentSome
+||static.filesbest.xyz/s/up$image
+||torrentsome*.com/*/up$image
+! etoland
+etoland.co.kr##.youtube-container
+etoland.co.kr##.main-top-banner
+etoland.co.kr###bottom-big-banner
+etoland.co.kr###main_popup
+etoland.co.kr##.power_link_top_wrap
+! torrentsee
+com##div[class="adver-list"]
+||torrentsee*.com/*/*.gif$image
+||torrentsee*.com/*/*.png$image
+!! 스포츠라이브
+*###addon-popup1-layer
+*###addon-popup2-layer
+*###addon-popup3-layer
+*###addon-popup4-layer
+*###addon-popup5-layer
+! tentv
+||tentv*.com/*$image
+! coktv
+||coktv*.com/mod/data/editor/*.gif$image
+||coktv*.com/mod/data/img/*.gif$image
+! gltv
+||gltv*.com/files/attach/*.png$image
+||gltv*.com/files/attach/*.jpg$image
+||gltv*.com/files/attach/*.gif$image
+||gltv*.com/files/attach/*.gif$image
+||gltv*.com/layouts/fado/files/*.gif$image
+!! 애니
+! linkkf.app / linkkf.tv
+@@||ani1c1.top^$image
+linkkf.tv###banner
+linkkf.app###banner
+! ohli365
+ohli365.vip##.at-title
+ohli365.vip##.basic-banner-4
+||ohli365.vip/*.gif$image
+||ohli365.vip/*.png$image
+! ohlitv
+||ohlitv.com/img/*.gif$image
+ohlitv.com##.insty
+ohlitv.com###exon
+! 라프텔, laftel.net
+||service.iamport.kr^
+||iamport.kr^
+! juso.wiki
+juso.wiki##div[class^="alert alert"]
+com##div.main_link.f9_box01:nth-of-type(1)
+com##div.main_link.f9_box01:nth-of-type(3)
+com##div.main_link.f9_box01:nth-of-type(4)
+com##div.main_link.f9_box01:nth-of-type(9)
+! jusopang
+@@||jusopang*.com/*.png
+||jusopang*.com/*/*330x230*.webp$image
+||jusopang*.com/*.webp$image
+||jusopang*.com/*.gif$image
+jusopang20.com##p:nth-of-type(14)
+jusopang20.com##p > [href*="https://jusopang20.com"]
+jusopang20.com##div[id^="foogallery-gallery-"]
+jusopang20.com##.pc
+com##[id="jt_popup_container"]
+com##[href*="com/aduit/"]
+com##[href*="com/op/"]
+com##[href*="com/%ec%8a%a4%ed%8f%ac%ec%b8%a0-%ec%98%81%ec%83%81/"]
+! tvroom
+tvroom.org##[href^="/index/banner_click"]
+tvroom.org##[style^="background-color"]
+tvroom.org##[class^="pop-up"]
+! mvking
+mvking.org##[class="popup_warp"]
+! bozatv
+bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com,bozatv89.com,bozatv88.com,bozatv87.com,bozatv86.com,bozatv85.com,bozatv84.com,bozatv83.com,bozatv82.com,bozatv81.com,bozatv80.com,bozatv79.com,bozatv78.com,bozatv77.com,bozatv76.com,bozatv75.com,bozatv74.com,bozatv73.com,bozatv72.com,bozatv71.com,bozatv70.com,bozatv69.com##.clearfix
+bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com,bozatv89.com,bozatv88.com,bozatv87.com,bozatv86.com,bozatv85.com,bozatv84.com,bozatv83.com,bozatv82.com,bozatv81.com,bozatv80.com,bozatv79.com,bozatv78.com,bozatv77.com,bozatv76.com,bozatv75.com,bozatv74.com,bozatv73.com,bozatv72.com,bozatv71.com,bozatv70.com,bozatv69.com##.popup_left
+! tvusan.vip
+tvusan.vip##.videowrapper_pc
+!! tv-etc
+||tvzota*.com/ad$subdocument
+||qooqootv*.com/*/event*.png$image
+||tvzone.sbs/data/banner*$image
+store##[href^="https://daepiso.xyz"]
+fun##.bannerwrap1
+kotbc.com##.at-title
+lol/wp-content/uploads/*/*.gif
+lol##figure.size-full.wp-block-image
+store##[href^="https://daepiso.xyz"]
+||tvzone.sbs/data/banner*$image
+
+! - dropgalaxy
+dropgalaxy.com##div[id*="div-gpt-ad"]
+dropgalaxy.com##div[id*="apkad"]
+dropgalaxy.com##iframe[title="DropGalaxy File Download Tutorial"]
+dropgalaxy.com##div[style^="border:1px"]
+/images/dgpromo.jpg$image
+@@||securepubads.g.doubleclick.net^$domain=dropgalaxy.com
+#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+
+! - mediafire.com
+mediafire.com##.CookieAcceptance
+||www.mediafire.com/widgets/sidebar_promo.php$subdocument
+
+! - terabox / 1024tera / app:com.dubox.drive
+||s2.teraboxcdn.com/fe-opera-static/node-static-v4/fe-webv4-main/img/*.png^$image
+www.terabox.com##img[class="pc-download"]
+www.terabox.com##.notification-wrap
+www.terabox.com##.u-carousel--horizontal.u-carousel.notification-wrap
+www.terabox.com##.dialog-extra-del
+www.terabox.com##.operate-popup-box
+www.terabox.com##.bottom-box
+www.terabox.com##.bottom-tip-wrap
+www.terabox.com##.header
+www.terabox.com##.operate-box
+www.terabox.com##.overlay
+www.terabox.com##.seo-banner-box
+www.terabox.com##.coupon-Popup-box
+www.terabox.com##.membership-entry
+www.terabox.com##.social-media
+www.1024tera.com##.report
+www.1024tera.com##.ad-eggplant
+www.1024tera.com##.notification-wrap
+www.1024tera.com##.u-carousel--horizontal.u-carousel.notification-wrap
+www.1024tera.com##.dialog-extra-del
+www.1024tera.com##.operate-popup-box
+www.1024tera.com##.bottom-box
+www.1024tera.com##.bottom-tip-wrap
+www.1024tera.com##.header
+www.1024tera.com##.operate-box
+www.1024tera.com##.overlay
+www.1024tera.com##.seo-banner-box
+www.1024tera.com##.coupon-Popup-box
+www.1024tera.com##.membership-entry
+www.1024tera.com##.text-banner
+
+! - watcha
+@@||www.googletagmanager.com^$script,domain=pedia.watcha.com
+!watcha.com##section[class^="css-"] section[class^="css-"] > [class^="css-"]:has(a[target="_blank"])
+watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"])
+watcha.com##[href*="https://pedia.watcha.com/ko-KR/promotions"]
+watcha.com##[href*="https://watcha.com/contents"]
+watcha.com##[href^="https://watcha.com/promotions"]
+watcha.com##[href^="https://watcha.com/notices"]
+pedia.watcha.com##div[class^="desktop css-"]
+pedia.watcha.com##div[class*="media-area css-"]
+pedia.watcha.com##img[src*=".png"]
+pedia.watcha.com##[rel^="noreferrer"]
+pedia.watcha.com##[alt*="광고"]
+pedia.watcha.com##[alt*="배너"]
+
+! - kinolights.com
+||file.kinolights.com/original/banner$image
+m.kinolights.com##[href="https://linktr.ee/showbox.movie"]
+
+! - apk store
+! apkcombo
+apkcombo.com##.ad-pss
+apkcombo.com##div.widget
+! apkpure
+apkpure.com###policy-info
+apkpure.com##.aegon-down-item
+apkpure.com##.apkpure-download-card
+apkpure.com##.debut-game
+apkpure.com##.share-box
+apkpure.com##.share-fixed
+apkpure.net###policy-info
+apkpure.com###credential_picker_iframe
+! apkmirror
+www.apkmirror.com###bottom-slider
+www.apkmirror.com###ez-content-blocker-container
+www.apkmirror.com###sidebar > div.listWidget:nth-of-type(1)
+www.apkmirror.com##aside[id^="appmanager_s"]
+www.apkmirror.com##div[class^="OUTBRAIN"]
+www.apkmirror.com##[class*="outbrain_ad"]
+www.apkmirror.com##[class^="ezmob-footer"]
+www.apkmirror.com##[id="ezmobfooter"]
+www.apkmirror.com##[class^="adsbygoogle"]
+www.apkmirror.com##[id^="google_ads"]
+www.apkmirror.com##[class="grippy-host"]
+www.apkmirror.com##[id^="adtester"]
+! playmods
+playmods.net##.ad-height-2
+playmods.net##[href="http://playmods.net/online"]
+playmods.net##.recommend
+playmods.net##.cookie-fl
+! gamedva
+gamedva.com##.atelegram
+gamedva.com##.aatelegram1
+gamedva.com##.wp-block-button.hide-on-mobile
+! happymod
+happymod.com##.righthm.rbox
+happymod.com##.downloading.cbox
+happymod.com##a.download-btn:nth-of-type(1)
+happymod.com##.download-desc
+happymod.com##.container-left > div:nth-of-type(3)
+www.happymod.to##div[class^="modCon"]
+www.happymod.to##a[class="appdetail-btn"]
+! etc
+modfyp.com##.adsBox
+
+! - a2zapk
+@@||a2z.a2zapk.io^
+@@||dl.a2zupload.io^
+a2zapk.io#@#.RightAside
+||a2zapk.io/cdn-cgi/rum
+||a2zapk.io/tglink.php^
+||a2zapk.io/tglink.php^
+||xxxiijmp.com/i$subdocument
+a2zapk.io##div.ArticleLand > [src]
+a2zapk.io##center:nth-of-type(2)
+a2zapk.io##div.ArticleLand > [src]
+a2zapk.io##.modalpop
+rtxkeeda.com###a-ads5
+rtxkeeda.com##.modalpop
+rtxkeeda.com##.NewBlock1 > [src]
+
+! - ppomppu
+||cdn.ppomppu.co.kr/*/banner$image
+ppomppu.co.kr##.ad-banner
+ppomppu.co.kr##.power-link1
+ppomppu.co.kr##.power-link2
+ppomppu.co.kr##.topSub-nav
+ppomppu.co.kr##[href^="https://s.ppomppu.co.kr/"]
+
+! - fmkorea
+fmkorea.com##.fmad_naver_power_link
+fmkorea.com##.fmad_wrapper
+/fmad/*
+
+! - ruliweb
+ruliweb.com##.ad_back_wrapper
+ruliweb.com##[href^="//api.ruliweb.com/adClick"]
+ruliweb.com##.ad
+ruliweb.com##.adrr
+ruliweb.com##.nbp_container
+ruliweb.com###nbp_container_v4
+
+! - lpoint / 엘포인트
+lpoint.com##.modal-bottom-ad
+lpoint.com##.benefit-banner
+lpoint.com##.partner-benefit
+lpoint.com##.sec-banner
+lpoint.com###useableBanner
+lpoint.com###TopSwiperBanner
+
+! - Youtube
+@@||www.youtube.com^$subdocument
+@@||www.youtube.com^$domain=play.google.com
+@@||www.youtube.com/ptracking
+||youtube.com/api/stats/qoe?
+||www.youtube.com/sw.js_data$important
+||www.youtube.com/sw.js$important
+||www.youtube.com/embed/$subdocument
+||www.gstatic.com/cv/js/*
+youtube.com##ytd-rich-section-renderer
+youtube.com##.ytp-scroll-min.ytp-pause-overlay
+youtube.com##.ytp-related-on-error-overlay
+youtube.com##.ytp-pause-overlay
+youtube.com##.ytp-endscreen-content
+youtube.com##.ytp-ce-expanding-image
+youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+youtube.com##.ytp-ce-element-shadow
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-ce-covering-image
+youtube.com##.ytp-cards-teaser
+youtube.com##.ytp-cards-button
+youtube.com##.opened
+youtube.com##.mealbar-promo-renderer
+youtube.com##.iv-merch-shelf
+youtube.com##.float-mealbar
+youtube.com###watch7-sidebar-offer
+youtube.com###ticker-content
+tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
+www.youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , player?key=)
+www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, youtubei/v1/player)
+www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
+||doubleclick.net^$xhr,redirect-rule=noop.txt
+
+! - Xiaomi Tracker
+! com.miui.gallery
+||161.117.98.244:443^
+||47.241.24.207:80^
+! com.mi.android.globalFileexplorer
+||142.250.206.202:443^
+||142.250.206.234:443^
+||172.217.25.170:443^
+||172.217.161.234:443^
+||172.217.161.202:443^
+||142.250.207.106:443^
+||142.250.76.138:443^
+||31.13.76.35:443^
+! com.blackshark.analytics
+||106.53.80.33:443^
+||pjbs.blackshark.com^
+! Android 시스템 - BlackShark Android OS
+||49.51.130.25
+||oversea-appcfg.blackshark.com^
+
+! - meeco / 미코
+meeco.kr##.w_slide
+meeco.kr##.sidebar.sidebar2
+
+! - clien / 클리안
+clien.net##.view_center_idlfksyenf
+clien.net##.ad_banner
+clien.net##.side_posjduenfj
+
+! - ygosu / 와이고수
+ygosu.com,ppss.kr,tgd.kr##+js(no-setTimeout-if, [native code], 0)
+ygosu.com##+js(abort-on-stack-trace, XMLHttpRequest.prototype.send, /th:\d+\s+[a-zA-Z]\d\/<@[^\t]+\t\s[a-zA-Z]\d@|th:\d+\s+in[a-zA-Z\d:;]+\t\s[a-zA-Z]\d\si/)
+
+! - taiwebs
+taiwebs.com###vi-smartbanner
+taiwebs.com##.adsbyvli
+
+! - en-ter, 에너지 캐시백
+en-ter.co.kr###js-popup-bg
+en-ter.co.kr##.js-popup.layer_pop
+en-ter.co.kr##.main_pop
+
+! - filetender
+filetender.com###sidebar
+filetender.com###sidebarl
+
+! - music-flo
+music-flo.com##.modal-wrap
+music-flo.com##.popup_w_img
+tvchak.com##.big-tit-area
+comcbt.com##center:nth-of-type(2)
+googlewph.com##.widget_media_image.widget_block.inner-padding.widget
+
+! - eyes mobile
+eyes.co.kr##.on.popup
+eyes.co.kr##.popup_main.popup_wra
+eyes.co.kr##.quick_menu
+eyes.co.kr##.top-goto
+
+! - gyeyang
+gyeyang.go.kr##.covid
+gyeyang.go.kr##div.boxCon:nth-of-type(1)
+gyeyang.go.kr###pzone
+
+! - iparking
+||ad.iparking.co.kr^
+||iparking.co.kr/banner^
+||yellow.contentsfeed.com^
+
+! - kraken
+krakenfiles.com###cm
+krakenfiles.com###cm-ov
+krakenfiles.com##.cc_div
+
+! - speedtest
+speedtest.net##.mobile-pretest
+speedtest.net##.result-area-ad
+speedtest.net##.prompt-modal
+speedtest.net###onetrust-consent-sdk
+speedtest.net###modal-overlay
+
+! - cosmorning.com
+cosmorning.com##.banner_wrap
+cosmorning.com##.com_ban
+cosmorning.com##.banner_slide
+cosmorning.com###subscPop
+
+! - wetv.vip
+wetv.vip##.minipay-ifame
+wetv.vip##.minipay-bg
+wetv.vip##.modal__content
+
+! - skyve.io
+skyve.io#@#button[class^="buttonPress"]
+skyve.io##.program_slidshow
+skyve.io##[class="clear"]
+skyve.io##.footer-middle
+skyve.io##[class="buulseubo"]
+skyve.io##[class^="okbdx"]
+skyve.io##script[src="//ausoafab.net/tag.min.js"]
+
+! - a-ha.io
+@@||media.a-ha.io/aha-qna/assets/common/$image
+a-ha.io##.homeCarousel.headerCarousel
+a-ha.io##.expert-section-wrapper
+a-ha.io##[href="/extras/about-membership"]
+
+! - hanjin.co.kr
+smile.hanjin.co.kr##[src="images/promotion.png"]
+smile.hanjin.co.kr##[src="images/swoop.png"]
+smile.hanjin.co.kr##div:nth-of-type(2)
+smile.hanjin.co.kr##div:nth-of-type(3)
+
+! - spaces.im
+spaces.im##[class^="root"] > div[class]
+spaces.im##div[class^=" tiles_wrapper"] > [style="min-height:150px"]
+spaces.im##+js(set, "ads", "mobiads")
+spaces.im##[data-src*="?&valid2=125V180V84V250I0V0V0V0&sign="]
+spaces.im##[id="siteContent"] > div[class^="f"]
+
+! - cnet.com
+download.cnet.com##.rv-di-step__container
+download.cnet.com##[rel="dns-prefetch"]
+download.cnet.com##.is-tablet-hidden.is-mobile-hidden
+
+! - softonic
+softonic.kr##.sam-slot
+softonic.kr##.rv-di-modal
+softonic.kr##.sam-slot__content
+
+! - softwareok
+softwareok.com##td:nth-of-type(2) > center
+softwareok.com##center:nth-of-type(2)
+
+! - uptodown, dailyuploads, uploadrar, uplod, dailyenter, douploads, intoupload, workupload
+@@||dailyuploads.net^
+uptodown.com##.login-uptodown
+uptodown.com###credential_picker_container
+uploadrar.com###commonId > [href]
+uploadrar.com##.hide2
+uplod.ws###aswift_0
+uplod.ws###aswift_0_anchor
+uplod.ws###aswift_0_expand
+dailyenter.*##.col-md-4
+douploads.net##[src="/images/StartDownload.gif"]
+intoupload.net##.banneradshome
+workupload.com##[id^="div-gpt-ad"]
+
+! - Ads Tags, 광고 태그, a-ads
+a-ads.com##.aa_container
+a-ads.com##.size320x50
+*##.google-ad
+*##.ad-form
+*##[src*="innorame.com"]
+*##[src*="adv.imadrep.co.kr"]
+*##[src*="adjw.co.kr"]
+*##[src*="ad.reople.co.kr"]
+*##[href*="/channel/promotion"]
+*##[href*="/cupang.php"]
+*##.video-banner-ad
+*##.video-banner-ad
+*##.top-banner
+*##.tnt-ads-container
+*##.row-box-ads-seri
+*##.kakao_ad_area
+*##.google-ads
+*##.google-ad
+*##.footerBanner
+*##.dotcom-ad
+*##.coupang_ad
+*##.bannerWrap
+*##.banner_menu
+*##.adtester-container
+*##.adslot_collapse
+*##.adsbox970x90
+*##.ads__container
+*##.ads__common
+*##.adplaceholder-top
+*##.adfit
+*##.ADbtn
+*##.ad-template
+*##.ad-slot-header__placeholder
+*##.ad-slot-header
+*##.ad-revamp
+*###vipada
+*###top-right-ad-slot
+*###powerLink
+*###naver_banner
+*###hd_pop
+*###categoryBanner
+*###banner
+*###ads
+*###ad_733
+*###ad_732
+*###ad_731
+*###ad_730
+*###ad-box
+||ad.*.skt-jive.com^
+||images2.imgbox.com/*_o.gif$image
+||imageaws.popin.cc^
+||www.play-store.co.kr/ads$subdocument
+/allimg/*/banner*.gif$image
+/banner/*.gif$image
+com###desktopBannerWrapped
+com##.ad-container
+com##.app-banner-wrap
+com##.banner-area
+com##.detail-banner
+com##.premium-promo-row
+net##.idtunemklgfsrpchjoq
+net##.mkt_banner
+! 도박, 토토, 성인게임(불량) // 2024-03
+*##[href="http://dh-202.com"]
+*##[href="http://fs-ddff.com"]
+*##[href*="1bet1"]
+*##[href*="aarq"]
+*##[href*="agitbridge"]
+*##[href*="agitoon.net"]
+*##[href*="bannerhit"]
+*##[href*="bhm123"]
+*##[href*="bneye"]
+*##[href*="cuba"]
+*##[href*="dh651"]
+*##[href*="gfa69"]
+*##[href*="guarante"]
+*##[href*="herbnewming"]
+*##[href*="luxurynara"]
+*##[href*="mmb"]
+*##[href*="oplove"]
+*##[href*="play365a"]
+*##[href*="svsv"]
+*##[href*="t.me/abcdcenter"]
+*##[href*="tgtg"]
+*##[href*="tinyurl.com/yzpxazdx"]
+*##[href*="tksxk"]
+*##[href*="v210x10b"]
+*##[href*="wbet"]
+*##[href*="yadong"]
+*##[href*="토토"]
+*##[href^="http://sun-4488.com/"]
+*##[href^="https://카림안내.com"]
+*##[href^="mr-00.com"]
+*##[href="https://mr-113.com/"]
+*##[href^="rk-ccc.com"]
+*##[href^="tu-88.com"]
+*##[href^="wn-st.com"]
+*##[href="http://wn-st.com/"]
+*##[href^="ww-ot.com"]
+*##[href="http://ww-ot.com/"]
+*##[href^="ww-wg.com"]
+*##[href^="yes.bet"]
+*##[href="http://cs-ca.com/"]
+*##[href="https://xn--vv0b56ah5v.net/"]
+*##[src*="/side_banner/"]
+*##[href*="bbellabet.com"]
+*##[href*="vipkkhh.com"]
+*##[href*="hlbam13.com"]
+
+! - 기타
+music.bugs.co.kr##.layerPromotionBanner
+compunik.net##.adsbygoogle
+||*.admakerhelp.com^
+||*.adpopcorn.com^$important
+||*.exelbid.com^
+||*.keywordsconnect.com^
+||*.nbryb.com^
+||*.newscj.com^
+||*.newsmobile.co.kr^
+||*.piclick.kr^
+||*.snow.me/v1/notice^$app=com.campmobile.snow,important
+||albarich.com/$image
+||amggsp.com/*.gif$image
+||ap.tnkfactory.com^
+||b.cdnst.net/images/speedtestMobileAds^
+||catad5959.com/$subdocument
+||cdn-f.adsmoloco.com^
+||graph.facebook.com^$domain=graph.facebook.com
+||i.keezip.com/ad/*
+||ifh.cc/*/$image
+||kingjjal.com/$subdocument
+||log.snow.me^$app=com.snowcorp.soda.android
+||mdm.alps.llogis.com:*/openui/mdm/*/ads-banner*$image
+||mplad.ahnlab.com:8880^$important
+||petzoa.co.kr/$subdocument
+||resource.steelmedia.co.uk/skins$image
+||rsload.net/images5/$image
+||scontent.fvca1-*.fna.fbcdn.net/$image
+||smrmembers-smr.smartmediarep.com^
+||studiouniversal.net/banner$image
+||trace.rememberapp.co.kr^
+any.do##.NotificationBarProvider
+apk4all.com##iframe.eww
+arca.live##.ad
+asuratoon.com##.ai-sticky-widget
+azapi.apti.co.kr###noticePopup
+br0wsers.com##[id^="div-gpt-ad"]
+cineaste.co.kr##[class^="basic-banner"]
+codecguide.com##p:nth-of-type(8)
+cutx.me###cookie-pop
+daepiso.xyz##.carousel-item
+darkscans.com##.wp-manga.c-top-sidebar.c-sidebar
+dictionary.cambridge.org###onetrust-banner-sdk
+download.cnet.com##.c-adSkyBox
+en.wikipedia.org###siteNotice
+evoload.fun##.header-main
+eyagi.co.kr###event_topbn_wrap
+filetender.com###button
+filetender.com##.avmov
+fugitives.com##.code-block
+gamemeca.com###sliderBox
+gamemeca.com##.event-right
+gamingdial.com###col-right-yt
+genie.co.kr##.wrap_layerpopup
+github.com$@$link[rel="manifest"]
+giznext.com##.desktopaddBox
+gsmarena.com##.pt-10.d-flex
+healthymaster.xyz##div.row:nth-of-type(3)
+humoruniv.com###choo_web_read_top_wrap
+humoruniv.com##.adsbyadop
+instoworld.*###text-2
+itnmobile.net##center
+karanpc.com##.litespeed-loaded.entered.aligncenter
+karanpc.com##[class^="ads-"]
+kfdn.co.kr###ad_link_read
+kfdn.co.kr##[href^="/ad_link.php"]
+kolompc.com##.alert.cookies-alert
+linktr.ee##div.content-panel.section
+lrepacks.net##.dle_b_yandex
+lrepacks.net##iframe
+momq.co.kr##.spotBanner
+msnews/edgenext
+msnews/libs^
+msnews/node_modules^
+mvnohub.kr##.head_banner
+nextpit.com##aside.swiper-slide
+notion.so##.notification-internal
+ok-name.co.kr##.footerBanner
+paraphrasing.io##.min-h-5
+phoneppu.com###div_laypopup
+pirate4all.com##[href^="https://pirate4all.com/out/"]
+riskweather.io##[alt="ads"]
+riskweather.io##[class^="w-full bg-white h-[70px]"]
+savein.io##.sm\:block
+streamtape.com###main-header
+streamtape.com##.plyr-overlay
+techyneed.com##iframe
+trendyflix.xyz##.fb_reset
+uplus.co.kr##.crad--banner
+wareable.com##[id*="div-gpt-ad"]
+weather.go.kr##.on.ba-wrap
+withtalk.*##div.row
+www.ikea.com###onetrust-consent-sdk
+www.lifewire.com##div[id^="article__broad-video"]
+www.puresys.net###aiviy-union-ad-2
+youngja.org##div.row:nth-of-type(4)
+
+! - 기타 예외
+@@||api-zero.livere.com/*/comments
+@@||*.123movies.ag^
+@@||*.amazonaws.com^
+@@||*.christiandate.kr^
+@@||*.ml.youngjoygame.com^
+@@||*.president.go.kr^
+@@||*.project-free-tv.ag^
+@@||*.vlitag.com^
+@@||*.yomovies.it^
+@@||/stat.js
+@@||125.145.31.108:10082^
+@@||1boon.daum.net^
+@@||220.73.135.178:8214^
+@@||api.onetouch.police.go.kr/mbl/rpt/*
+@@||apious.tistory.com/manage
+@@||auth.skt-id.co.kr^
+@@||beacon.shazam.com^
+@@||cmp.osano.com^
+@@||code.jquery.com^
+@@||connect.facebook.net^
+@@||decide.mixpanel.com^
+@@||files.modyolo.com^
+@@||github.com^
+@@||hypebeast.kr^
+@@||images.dmca.com^
+@@||iyfsearch.com^
+@@||jinair.sc.jinair.com^
+@@||kdca.go.kr/cdc/img/*
+@@||log.ngsm.nexon.com^
+@@||m.albamon.com^
+@@||m.giro.or.kr^
+@@||m4ufree.tv^
+@@||mc.albamon.kr^
+@@||mmthcoffee.kokonutstamp.com^
+@@||mon-va.byteoversea.com^$domain=tiktok.com
+@@||outcome-ssp.supersonicads.com^
+@@||ppss.kr/wp-content/$image
+@@||ppss.kr/wp-content/uploads/*
+@@||rawdata.kr^
+@@||s1.daumcdn.net^
+@@||s2s.singular.net^
+@@||static.cloudflareinsights.com^
+@@||syndication.realsrv.com^
+@@||t1.daumcdn.net^
+@@||tkor.*/data/wtoon^
+@@||watch-online.xyz^
+@@||www.phoenixdarts.com/kr/shop^
+@@||www.seehd.pl^
+@@||www.sk7mobile.com^
+@@||yellow.contentsfeed.com^
+! hyundaicard
+@@||ansimclick.hyundaicard.com^
+@@||appcardapp3.hyundaicard.com^
+! apps
+@@||app.adjust.net.in^
+@@||app-measurement.com^
+@@||appsflyer.com^
+@@||cdn.appsflyer.com^
+@@||cdn.jsdelivr.net^
+@@||data.flurry.com^
+@@||gcdsdk.appsflyer.com^
+@@||inapps.appsflyer.com^
