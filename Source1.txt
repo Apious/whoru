@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240516.1
+! Version: 240514.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1102,7 +1102,7 @@ carmmunity.oilnow.co.kr##[src*="/channel_banners_images/"]
 ||*.nbms.naver.com^
 ||lcs.naver.com^
 ||service.whale.naver.com^
-||ssl.pstatic.net/adimg*.search/*
+!||ssl.pstatic.net/adimg*.search/*
 ||event.impression-neo.naver.com^
 ! Naver Search Ads
 ||*.ad.naver.com^
