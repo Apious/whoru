@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240518.1
+! Version: 240518.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -659,6 +659,16 @@ mt.co.kr##.naver_channel_banner_wrap
 mt.co.kr##.adbox
 mt.co.kr##.cardinfo1
 news.imaeil.com##.arl_007
+imaeil.com##[id*="div-gpt-ad"]
+imaeil.com###container > .inner > div:nth-of-type(1)
+imaeil.com###container > .inner > div:nth-of-type(2)
+imaeil.com###container > .inner > div:nth-of-type(3)
+imaeil.com###container > .inner > div:nth-of-type(4)
+imaeil.com##.h30
+imaeil.com##.h25
+imaeil.com##.h20
+imaeil.com##.h55
+imaeil.com##.h70
 ! newsis
 newsis.com##.banner300
 mobile.newsis.com##.bxcn
