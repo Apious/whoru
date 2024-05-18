@@ -453,6 +453,7 @@ hani.co.kr##.support-btn
 hani.co.kr##.support-header
 hani.co.kr###ad_tag
 hani.co.kr##.ad-slide
+h21.hani.co.kr##.ad-all
 ! hankookilbo
 ||www.hankookilbo.com/*/Default-Image*
 hankookilbo.com##.ad-news-todays
