@@ -263,6 +263,9 @@ gotit.co.kr###menu-item-42453
 gotit.co.kr###menu-item-10126
 ! kmib
 ||kmib.co.kr/*/*_subscription*
+kmib.co.kr##[id*="top_ad"]
+kmib.co.kr##[title="livereAd"]
+kmib.co.kr###lv-container > div:nth-of-type(1)
 m.kmib.co.kr##.mbnr_kap
 m.kmib.co.kr##.sns_area
 m.kmib.co.kr##.m_ad
@@ -534,6 +537,8 @@ mdjournal.kr##.wrap_new_13.auto-p06.auto-article
 ||m.shopping.nate.com^$domain=m.mail.nate.com
 nate.com##.nmBanner
 nate.com##.SnbNewsBar
+nate.com##[class^="area_ad"]
+nate.com##.commercial
 news.nate.com##.googleAd_wrap
 news.nate.com##.sidebar_banner
 news.nate.com###AdIbl
@@ -545,6 +550,7 @@ news.nate.com###AdViewRightBottom
 news.nate.com###ad230306
 news.nate.com###AdCommerce
 news.nate.com##.ad290x330
+view.nate.com##.ad-slot-wrap
 ! zum
 @@||deepdive.zum.com^
 #@#iframe[src*="//deepdive.zum.com/widget/"]
@@ -684,7 +690,6 @@ ajunews.com##div[style="height:220px;"]
 ajunews.com##[href^="https://www.compassion.or.kr/sponsor"]
 ajunews.com##.view_banner
 ajunews.com##[class^="banner_"]
-
 ! news-etc
 ||www.businesspost.co.kr/*/banner/*/$image
 www.newsen.com##[src^="//photo.newsen.com/images/2024/ASEA"]
@@ -693,6 +698,7 @@ kjtimes.com##.top_banner
 @@/openads/*
 openads.co.kr##.adBanner
 mksports.co.kr##[id^="slot"]
+news.koreadaily.com##[id*="div-gpt-ad"]
 
 ! - op.gg
 ||talk.op.gg/images/banner$image
@@ -827,12 +833,16 @@ tmon.co.kr##.link_banner
 tmon.co.kr##.slider_banners
 tmon.co.kr##.special_banner
 tmon.co.kr##.topline_ad
+tmon.co.kr##.layer-tvon__wrapper
+tmon.co.kr##.event_banner
+tmon.co.kr##.vwa_link
 ! wemakeprice
 ||wemakeplace.club/ad/*
 wemakeprice.com###_cardBanner
 wemakeprice.com###_rollingBanner
 wemakeprice.com##.mix_global_banner
 front.wemakeprice.com###_prodBanner
+front.wemakeprice.com##[src^="https://view01.wemep.co.kr/wmp-main/00"]
 ! interpark
 interpark.com##.ad.couponContent
 m.shop.interpark.com###prd_appbanner
@@ -881,6 +891,16 @@ m-shinsegaemall.ssg.com##.mndtl_tyad
 m-shinsegaemall.ssg.com##.mndtl_banner_event
 shinsegaemall.ssg.com##.cdtl_mmbr_wrap
 shinsegaemall.ssg.com##li.cunit_ad.cmitem_grid_item.cdtl_recommend_product_item
+m.shinsegaepoint.com##[class^="main_banner"]
+m.shinsegaepoint.com##.main_visual_banner
+m.shinsegaepoint.com##.banner_lists
+m.shinsegaepoint.com##.sub_banner
+shinsegaemall.ssg.com##.smmain_section_mmbrsevnt
+shinsegaemall.ssg.com##.ty_universe.gnb_mmbrs
+member.ssg.com##.cmem_cont
+member.ssg.com##.advertising.cmem_sec
+emart.ssg.com##.emall_banner_item_group
+event.ssg.com##.ty_universe.gnb_mmbrs
 ! 11st
 www.11st.co.kr##.advertisement
 www.11st.co.kr##.c_product_banner_benefit
@@ -1130,6 +1150,8 @@ naver.com##.MM_CHANNEL_BOTTOM_BANNER
 naver.com##.MM_NEWS_CHANNEL_PROMOTION_TOP_BANNER
 naver.com##.nplus_wrap
 naver.com##.st_show._tutorial_wrap.section_tutorial
+naver.com###feed
+naver.com##.link_search_banner
 ! m.naver - 2023-Dec
 m.naver.com###MM_na_topbanner
 m.naver.com##._MM_VIDEO_PREVIEW_WRAP.comp_shortform_new
@@ -1216,11 +1238,15 @@ pay.naver.com##[class^="SmartChannel_article"]
 pay.naver.com##[class^="NaverPlusMembership"]
 pay.naver.com##[class^="shopping_section _shopping_aitems"]
 shopping.naver.com##[class^="OrderDeliverySection_recommend"]
+search.shopping.naver.com##[class^="aside_aside"]
+orders.pay.naver.com##[class^="PanelWrapper_article"]
+smartstore.naver.com##[id="MODAL_ROOT_ID"] > div > div > div > div
 ! chzzk
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.png$image
 ||nng-phinf.pstatic.net/*.PNG/*_714x400.png$image
 chzzk.naver.com##[class^="live_chatting_input_discount"]
+chzzk.naver.com##[class^="loungehome_event_popup_main"]
 ! talks.naver.com
 talks.naver.com##div[class^="GuideArea_wrap"]
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(3)
@@ -1939,6 +1965,7 @@ net##.mkt_banner
 *##[href*="hlbam13.com"]
 
 ! - 기타
+majorgeeks.com###fanback
 music.bugs.co.kr##.layerPromotionBanner
 compunik.net##.adsbygoogle
 ||*.admakerhelp.com^
