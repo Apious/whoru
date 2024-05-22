@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240518.2
+! Version: 240522.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -469,6 +469,8 @@ inews24.com##div:nth-of-type(3)
 inews24.com##hr.blank
 inews24.com##hr.h50.blank
 ! jtbc
+||ad-imp.jtbc.co.kr^
+||wecandeo.com^
 jtbc.co.kr###right_top_ad
 jtbc.co.kr##.ad_banner_250x250
 jtbc.co.kr##.ad_item
@@ -614,6 +616,11 @@ sedaily.com##.art_rel
 ! seoul
 seoul.co.kr###newsletterPop
 seoul.co.kr###slick_banner
+seoul.co.kr##[id*="div-gpt-ad"]
+seoul.co.kr##[class*="articleBottomAD"]
+seoul.co.kr##[class="listAD"]
+seoul.co.kr##[id="iwmads"]
+seoul.co.kr##iframe[src^="/ad/"]
 ||wwwads.seoul.co.kr^$subdocument
 en.seoul.co.kr##.listAD
 en.seoul.co.kr##[class^="articleInnerAd"]
@@ -630,12 +637,12 @@ wikitree.co.kr##.section_col_ban
 wikitree.co.kr##section.container.section:nth-of-type(5)
 ! yna
 @@||cdp.yna.co.kr^
-yna.co.kr###marketingPlayer
-yna.co.kr##.wrap-header01
-ytn.co.kr##.YTN_CSA_newsletter
-ytn.co.kr##.newsletter
-ytn.co.kr##.top_banner
-yna.co.kr##[id^="div-gpt-ad"]
+www.yna.co.kr###marketingPlayer
+www.yna.co.kr##.wrap-header01
+www.ytn.co.kr##.YTN_CSA_newsletter
+www.ytn.co.kr##.newsletter
+www.ytn.co.kr##.top_banner
+www.yna.co.kr##[id*="div-gpt-ad"]
 star.ytn.co.kr##[title^="하단 광고"]
 ! zdnet
 zdnet.co.kr##.webinar
@@ -747,6 +754,7 @@ aliexpress.com##.pop-picture
 aliexpress.com##.ranking-main
 aliexpress.com##.top-banner-container
 aliexpress.com##.image-poplayer-modal
+m.aliexpress.com###header-float-banner
 ! auction
 auction.co.kr###BAC_AD_ZONE20
 auction.co.kr##.module_slot.promo
@@ -809,6 +817,7 @@ www.danawa.com##li.prod_ad_item
 www.gmarket.co.kr##.box__promotion
 www.gmarket.co.kr##.box__smilefresh-benefit
 www.gmarket.co.kr##.link__banner
+www.gmarket.co.kr##.box__component-sponsor-link
 gmarket.co.kr##.ng-scope.banner
 gmarket.co.kr#@#+js(set-constant, pvprofiler.sendEvt, noopFunc)
 gmarket.co.kr##[src^="https://ad-img.gmarket.com"]
@@ -956,11 +965,13 @@ m.hnsmall.com##.layerDim
 www.skstoa.com##.vodBanner
 www.skstoa.com##.js_l_wing_main
 www.skstoa.com##li.ga-event
+! coocha
+www.coocha.co.kr##.group-power-link
+www.coocha.co.kr##.group-recommended
 ! etc
 lowchart.com##.btn-secondary.btn-fixed-download.btn
 hmall.com##.login-ad
 ||ad-img.ebaykorea.com^
-coocha.co.kr##.group-power-link
 www.myrealtrip.com##div[class*="AppinstallPopup"]
 
 ! - 번개장터
@@ -1249,9 +1260,11 @@ pay.naver.com##[class^="SmartChannel_article"]
 pay.naver.com##[class^="NaverPlusMembership"]
 pay.naver.com##[class^="shopping_section _shopping_aitems"]
 shopping.naver.com##[class^="OrderDeliverySection_recommend"]
+shopping.naver.com##[class^="_targetBanner_link"]
 search.shopping.naver.com##[class^="aside_aside"]
 orders.pay.naver.com##[class^="PanelWrapper_article"]
 smartstore.naver.com##[id="MODAL_ROOT_ID"] > div > div > div > div
+
 ! chzzk
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.png$image
@@ -1918,6 +1931,9 @@ a-ads.com##.size320x50
 ||images2.imgbox.com/*_o.gif$image
 ||imageaws.popin.cc^
 ||www.play-store.co.kr/ads$subdocument
+||adinc.kr^
+||imadrep.co.kr^
+||interworksmedia.co.kr^
 /allimg/*/banner*.gif$image
 /banner/*.gif$image
 com###desktopBannerWrapped
