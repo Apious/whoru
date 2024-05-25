@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240525.1
+! Version: 240525.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1706,9 +1706,9 @@ lpoint.com###useableBanner
 lpoint.com###TopSwiperBanner
 
 ! - Youtube
+=adunit&
 @@||www.youtube.com^$subdocument
 @@||www.youtube.com^$domain=play.google.com
-@@||www.youtube.com/ptracking
 ||youtube.com/api/stats/qoe?
 ||www.youtube.com/sw.js_data$important
 ||www.youtube.com/sw.js$important
