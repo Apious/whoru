@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240524.1
+! Version: 240525.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1314,8 +1314,7 @@ m.booking.naver.com##.banner_area
 media.naver.com##.channel_add_wrap
 premium.naver.com##.bottom_layer
 
-! - WebToon / 웹툰 // 2024-03
-##.modal-wrapper
+! - WebToon / 웹툰 // 2024-05
 ! webtoon logo
 ||booktoki*.com/img/logo*
 ||funbe*.com/*/*logo*
