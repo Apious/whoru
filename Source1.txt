@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240527.1
+! Version: 240527.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -23,7 +23,6 @@ jobplanet.co.kr##.archive_section
 jobplanet.co.kr##.img_banner_box
 jobplanet.co.kr##.jp_adds_wrap
 jobplanet.co.kr##.jply_banner_ty1
-jobplanet.co.kr##.swiper-wrapper
 
 ! - JobKorea
 @@||coimg.jobkorea.co.kr^
