@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240527.2
+! Version: 240531.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -23,6 +23,11 @@ jobplanet.co.kr##.archive_section
 jobplanet.co.kr##.img_banner_box
 jobplanet.co.kr##.jp_adds_wrap
 jobplanet.co.kr##.jply_banner_ty1
+jobplanet.co.kr##.job_top_banner
+jobplanet.co.kr##.goodjob_banner_box
+jobplanet.co.kr###PopularJobs
+jobplanet.co.kr##.welfare-content__ads
+jobplanet.co.kr##.induce-write-image
 
 ! - JobKorea
 @@||coimg.jobkorea.co.kr^
@@ -795,6 +800,7 @@ coupang.com###prodStickyBanner
 coupang.com###fullBanner
 coupang.com###coupang-banner
 coupang.com###app-redirect-nudge
+coupang.com##.loyalty-banner
 ! danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 auto.danawa.com###homeFinder_adver
@@ -1080,6 +1086,7 @@ dcinside.com###comment_li_0
 ||fundingchoicesmessages.google.com^
 google.com###topstuff
 ||accounts.google.com/gsi/iframe/select$subdocument
+google.com##[class*="middle-slot-promo"]
 
 ! - AfreecaTV 
 ||admvod.afreecatv.com^
@@ -1270,6 +1277,8 @@ shopping.naver.com##[class^="OrderDeliverySection_recommend"]
 shopping.naver.com##[class^="_targetBanner_link"]
 shopping.naver.com##[class^="homeBannerPc_home_banner"]
 shopping.naver.com##[class*="myInformationResponsive_membership_area"]
+shopping.naver.com##[class^="NPaySection_my_membership"]
+shopping.naver.com##[class^="RecommendSection_recommend_section"]
 search.shopping.naver.com##[class^="aside_aside"]
 orders.pay.naver.com##[class^="PanelWrapper_article"]
 orders.pay.naver.com##[class^="SkeletonBannerWrapper"]
@@ -2001,6 +2010,7 @@ net##.mkt_banner
 *##[href*="hlbam13.com"]
 
 ! - 기타
+nosearch.com##.flex-col.overflow-hidden.border-solid
 doctornow.co.kr##[role="button"] > div
 majorgeeks.com###fanback
 music.bugs.co.kr##.layerPromotionBanner
