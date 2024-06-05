@@ -759,6 +759,7 @@ modoodoc.com##[class^="styles_bannerWrapper"]
 
 ! - 쇼핑몰 / Tmon, Coupang, CooCha, Aliexpress, WemakePrice, Gmarket, Auction, SSG, interpark, LotteON, 11st, tdeal(T딜)
 ! aliexpress
+@@||aeis.alicdn.com^$domain=feedback.aliexpress.com
 mbest.aliexpress.com###header-float-banner
 aliexpress.com###container-for-smart-banner
 aliexpress.com##.pop-picture
@@ -1411,7 +1412,7 @@ hotword.site##div.col-md-6
 !*##img[src^="https://iabn"]
 ||iabn*.net$image
 
-! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브
+! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브, 주소링크 등
 ! 누누티비 / 누누티비.tv / 티비위키(tvwiki)
 @@||assets.request-support.com/images/$image
 @@||images.request-support.com/images/$image
@@ -1481,6 +1482,26 @@ etoland.co.kr##.power_link_top_wrap
 com##div[class="adver-list"]
 ||torrentsee*.com/*/*.gif$image
 ||torrentsee*.com/*/*.png$image
+! torrentwhy, 토렌트와이
+xyz##[href="/op-bamwolf"]
+xyz##[href="/op-gandago"]
+xyz##[href="/op-opgo"]
+xyz##[href="/ad-1"]
+xyz##[href="/ad-2"]
+xyz##[href="/ad-3"]
+xyz##[href="/ad-4"]
+xyz##[href="/ad-5"]
+xyz##[href="/ad-6"]
+xyz##[href="/ad-7"]
+xyz##[href="/ad-8"]
+! bobaelink, 보배링크
+bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(3)
+bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(5)
+bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(6)
+bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(9)
+bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(10)
+bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(14)
+bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(15)
 !! 스포츠라이브
 *###addon-popup1-layer
 *###addon-popup2-layer
@@ -1534,6 +1555,9 @@ com##[id="jt_popup_container"]
 com##[href*="com/aduit/"]
 com##[href*="com/op/"]
 com##[href*="com/%ec%8a%a4%ed%8f%ac%ec%b8%a0-%ec%98%81%ec%83%81/"]
+! linktaxi.net
+||linktaxi.net/*.jpg$image
+||linktaxi.net/*.gif$image
 ! tvroom
 tvroom.org##[href^="/index/banner_click"]
 tvroom.org##[style^="background-color"]
@@ -1881,6 +1905,10 @@ softonic.kr##.sam-slot__content
 ! - softwareok
 softwareok.com##td:nth-of-type(2) > center
 softwareok.com##center:nth-of-type(2)
+
+! - logii.com
+logii.com##[href^="/UI/LinkClick.pm"]
+||logii.com/img/banner$image
 
 ! - uptodown, dailyuploads, uploadrar, uplod, dailyenter, douploads, intoupload, workupload
 @@||dailyuploads.net^
