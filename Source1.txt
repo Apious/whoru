@@ -1,7 +1,8 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240605.1
+! Version: 240611.1
+
 ! - getintoway
 getintoway.com##.wpsafe-top
 getintoway.com##.getin-before-content
@@ -97,14 +98,6 @@ m.diningcode.com##.ad-item
 m.diningcode.com##.google-ad
 m.diningcode.com##.naver.section
 m.diningcode.com##.PoiAdsSpacerList
-
-! - 여행사
-kr.trip.com##.list-app-download__wrapper
-kayak.co.kr###inline-1
-kayak.co.kr###OeDX-rightRail
-kayak.co.kr##.bIIR
-kayak.co.kr##.n_yf
-kayak.co.kr##.IIxj
 
 ! - inven
 inven.co.kr#@#.banner
@@ -357,10 +350,12 @@ donga.com##div.ad_01
 dongascience.com##.advertise
 dongascience.com###advertise_fixed
 dongascience.com###letter_apply
-! new.sbs
+! news.sbs
 news.sbs.co.kr##.w_banner
 news.sbs.co.kr###dablewidget_job8QLlW
 news.sbs.co.kr##.page_promotion_banner
+premium.sbs.co.kr##.endBnr_w
+premium.sbs.co.kr##.topBanner_w
 ! imbc
 imnews.imbc.com##div.ad_banner
 imnews.imbc.com##div[class="section_bottom_dable"]
@@ -756,7 +751,7 @@ modoodoc.com##[class^="styles_header"]
 modoodoc.com##[class^="styles_index"]
 modoodoc.com##[class^="styles_bannerWrapper"]
 
-! - 쇼핑몰 / Tmon, Coupang, CooCha, Aliexpress, WemakePrice, Gmarket, Auction, SSG, interpark, LotteON, 11st, tdeal(T딜)
+! - 쇼핑몰 / Tmon, Coupang, CooCha, Aliexpress, WemakePrice, Gmarket, Auction, SSG, interpark, LotteON, 11st, tdeal(T딜), shein
 ! aliexpress
 @@||aeis.alicdn.com^$domain=feedback.aliexpress.com
 mbest.aliexpress.com###header-float-banner
@@ -822,6 +817,8 @@ www.danawa.com##.diff_bnr
 www.danawa.com##.event_link
 www.danawa.com##.main_ad_prodlist
 www.danawa.com##li.prod_ad_item
+www.danawa.com##[id*="Banner"]
+www.danawa.com##[class*="bnr"]
 ! gmarket
 @@||script.gmarket.co.kr^$script
 ||ad-img.gmarket.com/ADS$image
@@ -984,7 +981,19 @@ www.coocha.co.kr##.group-recommended
 lowchart.com##.btn-secondary.btn-fixed-download.btn
 hmall.com##.login-ad
 ||ad-img.ebaykorea.com^
-www.myrealtrip.com##div[class*="AppinstallPopup"]
+m.shein.com##.ccc-ad-flow-img
+
+! - 여행사, trip
+kr.trip.com##.list-app-download__wrapper
+kayak.co.kr###inline-1
+kayak.co.kr###OeDX-rightRail
+kayak.co.kr##.bIIR
+kayak.co.kr##.n_yf
+kayak.co.kr##.IIxj
+! tripadvisor
+www.tripadvisor.co.kr##section.mowmC:nth-of-type(5)
+www.tripadvisor.co.kr##section.mowmC:nth-of-type(13)
+www.tripadvisor.co.kr##section.mowmC:nth-of-type(17)
 
 ! - 번개장터
 m.bunjang.co.kr##div[class^="ProductExternalAdsstyle"]
