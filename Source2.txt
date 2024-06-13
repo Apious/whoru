@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240516.1
+! Version: 240614.1
 
 ! - 쿠팡
 @@||coupangeats.app.link^
@@ -88,6 +88,10 @@
 ||event.tmap.co.kr^
 ||t.naverads.com^
 ||sponsor.ajay.app^
+||itgo-event.co.kr^
+||db*.speedgabia.com^
+||ads-mmt.tmobiapi.com^
+||cdn-ads.tmap.co.kr
 
 ! - GOM Player
 ||*.buzzvil.com^
