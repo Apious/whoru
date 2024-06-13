@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240613.1
+! Version: 240614.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
