@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240614.1
+! Version: 240614.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1132,10 +1132,8 @@ play.afreecatv.com##.adshop_layer
 ||smart.link^$app=com.skt.tmap.ku
 ||search.tmap.co.kr/static/*banner*$app=com.skt.tmap.ku
 ||frontman.tmobiapi.com^$app=com.skt.tmap.ku
-||itgo-event.co.kr^
-||db*.speedgabia.com^
 &utm_medium=inapp_momentpopup_impression_cpm&
-/^https?:\/\/[a-z0-9]\.onstove\.com\/ko\/promotion\*
+onstove.com/ko/promotion/*
 /^https?:\/\/static-pub\.onstove.com\/[a-z0-9]\/assets\/promotion\*
 /^https?:\/\/[a-z0-9]\.onstove\.com\/ko\/promotion\*
 /^https?:\/\/[a-z0-9]{6,}\.speedgabia\.com\/*
