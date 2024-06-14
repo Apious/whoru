@@ -1136,11 +1136,13 @@ play.afreecatv.com##.adshop_layer
 ||smart.link^$app=com.skt.tmap.ku
 ||search.tmap.co.kr/static/*banner*$app=com.skt.tmap.ku
 ||frontman.tmobiapi.com^$app=com.skt.tmap.ku
+||l*.onstove.com/ko/promotion/*
+||db*.speedgabia.com/
 &utm_medium=inapp_momentpopup_impression_cpm&
 onstove.com/ko/promotion/*
-/^https?:\/\/static-pub\.onstove.com\/[a-z0-9]\/assets\/promotion\*
-/^https?:\/\/[a-z0-9]\.onstove\.com\/ko\/promotion\*
-/^https?:\/\/[a-z0-9]{6,}\.speedgabia\.com\/*
+/^https?:\/\/static-pub\.onstove.com\/*\/assets\/promotion\*
+/^https?:\/\/[a-z][0-9]\.onstove\.com\/ko\/promotion\*
+/^https?:\/\/[a-z]{5,}[0-9]{1,}\.speedgabia\.com\/*
 
 ! - oilnow
 carmmunity.oilnow.co.kr##.swiper-wrapper
