@@ -1,7 +1,11 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240614.3
+! Version: 240614.4
+
+! - 토스, Toss
+@@||toss.im/pages/ekdil/$domain=auth.cert.toss.im
+@@||api-public.toss.im/
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -2153,7 +2157,6 @@ www.puresys.net###aiviy-union-ad-2
 youngja.org##div.row:nth-of-type(4)
 
 ! - 기타 예외
-@@||toss.im/pages/ekdil/$domain=auth.cert.toss.im
 @@||api-zero.livere.com/*/comments
 @@||*.123movies.ag^
 @@||*.amazonaws.com^
