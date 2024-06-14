@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240614.4
+! Version: 240615.1
 
 ! - 토스, Toss
 @@||toss.im/pages/ekdil/$domain=auth.cert.toss.im
@@ -1587,8 +1587,21 @@ mvking.org##[class="popup_warp"]
 ! bozatv
 bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com,bozatv89.com,bozatv88.com,bozatv87.com,bozatv86.com,bozatv85.com,bozatv84.com,bozatv83.com,bozatv82.com,bozatv81.com,bozatv80.com,bozatv79.com,bozatv78.com,bozatv77.com,bozatv76.com,bozatv75.com,bozatv74.com,bozatv73.com,bozatv72.com,bozatv71.com,bozatv70.com,bozatv69.com##.clearfix
 bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com,bozatv89.com,bozatv88.com,bozatv87.com,bozatv86.com,bozatv85.com,bozatv84.com,bozatv83.com,bozatv82.com,bozatv81.com,bozatv80.com,bozatv79.com,bozatv78.com,bozatv77.com,bozatv76.com,bozatv75.com,bozatv74.com,bozatv73.com,bozatv72.com,bozatv71.com,bozatv70.com,bozatv69.com##.popup_left
-! tvusan.vip
-tvusan.vip##.videowrapper_pc
+! 차차티비, chachatv
+pro##.popup_right
+||chachatv*.pro/ad/index.html$subdocument
+! 한국사이트넷, koreasite
+com##.bg-black.carousel-inner
+com##li.off.menu-li:nth-of-type(3)
+com##li.off.menu-li:nth-of-type(8)
+com##li.off.menu-li:nth-of-type(10)
+com##li.off.menu-li:nth-of-type(4)
+com##div.main_link.f9_box01:nth-of-type(6)
+com##div.main_link.f9_box01:nth-of-type(7)
+com##div.main_link.f9_box01:nth-of-type(11)
+com##div.main_link.f9_box01:nth-of-type(13)
+com##li.off.sub-1dli:nth-of-type(2)
+com##div.main_link2:nth-of-type(18)
 !! tv-etc
 ||tvzota*.com/ad$subdocument
 ||qooqootv*.com/*/event*.png$image
@@ -1600,6 +1613,7 @@ lol/wp-content/uploads/*/*.gif
 lol##figure.size-full.wp-block-image
 store##[href^="https://daepiso.xyz"]
 ||tvzone.sbs/data/banner*$image
+tvusan.vip##.videowrapper_pc
 
 ! - dropgalaxy
 dropgalaxy.com##div[id*="div-gpt-ad"]
