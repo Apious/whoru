@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240615.1
+! Version: 240615.2
 
 ! - 토스, Toss
 @@||toss.im/pages/ekdil/$domain=auth.cert.toss.im
@@ -1304,7 +1304,6 @@ search.shopping.naver.com##[class^="aside_aside"]
 orders.pay.naver.com##[class^="PanelWrapper_article"]
 orders.pay.naver.com##[class^="SkeletonBannerWrapper"]
 orders.pay.naver.com##[class^="TitleMessage_desciption"]
-smartstore.naver.com##[id="MODAL_ROOT_ID"] > div > div > div > div
 ! chzzk
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.png$image
