@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240617.1
+! Version: 240620.1
 
 ! - 토스, Toss
 @@||toss.im/pages/ekdil/$domain=auth.cert.toss.im
@@ -764,6 +764,7 @@ aliexpress.com##.pop-picture
 aliexpress.com##.ranking-main
 aliexpress.com##.top-banner-container
 aliexpress.com##.image-poplayer-modal
+aliexpress.com##.header-toolbar
 m.aliexpress.com###header-float-banner
 ! auction
 auction.co.kr###BAC_AD_ZONE20
@@ -1344,6 +1345,7 @@ premium.naver.com##.bottom_layer
 
 ! - WebToon / 웹툰 // 2024-06
 ! webtoon logo
+||happytoon*.com/assets/images/logo.png$image
 ||booktoki*.com/img/logo*
 ||funbe*.com/*/*logo*
 ||fxfx*.com/*/*/logo*
