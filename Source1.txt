@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240621.1
+! Version: 240622.1
 
 ! - 토스, Toss
 @@||toss.im/pages/ekdil/$domain=auth.cert.toss.im
@@ -1190,7 +1190,7 @@ search.naver.com##._ad.box
 search.naver.com##.ad_section
 search.naver.com##.type_ad
 search.naver.com##.banner_inner
-! m.naver
+! m.naver - 2024-06
 naver.com###ad_timeboard
 naver.com###HOME_AD
 naver.com###MM_SEARCH_NOW
@@ -1207,9 +1207,7 @@ naver.com##.MM_CHANNEL_BOTTOM_BANNER
 naver.com##.MM_NEWS_CHANNEL_PROMOTION_TOP_BANNER
 naver.com##.nplus_wrap
 naver.com##.st_show._tutorial_wrap.section_tutorial
-naver.com###feed
 naver.com##.link_search_banner
-! m.naver - 2023-Dec
 m.naver.com###MM_na_topbanner
 m.naver.com##._MM_VIDEO_PREVIEW_WRAP.comp_shortform_new
 m.naver.com##div.id_comp_home_feed
@@ -1377,6 +1375,7 @@ wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.
 wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com##.toon-bottom
 ! oktoon
 ||cdn-w.fastifyimg.com/banner$image
+||api.oktoon.com/trpc/banner
 oktoon.com##[href^="/banner"]
 oktoon.com##.banner
 ! agit
