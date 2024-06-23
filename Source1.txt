@@ -1374,9 +1374,10 @@ wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.
 wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com##.left > ul > li:nth-of-type(4)
 wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com##.toon-bottom
 ! oktoon
-||cdn-w.fastifyimg.com/banner$image
-oktoon.com##[href^="/banner"]
 oktoon.com##.banner
+oktoon.com##[href^="/banner"]
+oktoon.com##[src^="https://cdn-w.fastifyimg.com/banner"]
+||cdn-w.fastifyimg.com/banner^
 ! agit
 ||agit*.xyz/*/banner/$image
 ||agit*.xyz/upload/$image
