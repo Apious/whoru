@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240622.1
+! Version: 240623.1
 
 ! - 토스, Toss
 @@||toss.im/pages/ekdil/$domain=auth.cert.toss.im
@@ -1559,7 +1559,6 @@ ohlitv.com##.insty
 ohlitv.com###exon
 ! 라프텔, laftel.net
 ||service.iamport.kr^
-||iamport.kr^
 ! juso.wiki
 juso.wiki##div[class^="alert alert"]
 com##div.main_link.f9_box01:nth-of-type(1)
