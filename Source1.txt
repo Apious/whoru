@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240623.2
+! Version: 240625.1
 
 ! - 토스, Toss
 @@||toss.im/pages/ekdil/$domain=auth.cert.toss.im
@@ -1666,12 +1666,12 @@ www.1024tera.com##.text-banner
 
 ! - watcha
 @@||www.googletagmanager.com^$script,domain=pedia.watcha.com
-!watcha.com##section[class^="css-"] section[class^="css-"] > [class^="css-"]:has(a[target="_blank"])
 watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"])
 watcha.com##[href*="https://pedia.watcha.com/ko-KR/promotions"]
 watcha.com##[href*="https://watcha.com/contents"]
 watcha.com##[href^="https://watcha.com/promotions"]
 watcha.com##[href^="https://watcha.com/notices"]
+pedia.watcha.com##div[class="w_exposed_cell"] > div > section > div > section > section
 pedia.watcha.com##div[class^="desktop css-"]
 pedia.watcha.com##div[class*="media-area css-"]
 pedia.watcha.com##img[src*=".png"]
