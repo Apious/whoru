@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240625.1
+! Version: 240628.1
 
 ! - 토스, Toss
 @@||toss.im/pages/ekdil/$domain=auth.cert.toss.im
@@ -295,6 +295,7 @@ health.chosun.com##.aside_hospital
 health.chosun.com##.left_banner
 health.chosun.com##.li_ad
 health.chosun.com##.top_area
+health.chosun.com##.ad-main-top
 it.chosun.com##.desktop
 it.chosun.com##.inner
 it.chosun.com##.news_letter
@@ -1518,6 +1519,8 @@ xyz##[href="/ad-5"]
 xyz##[href="/ad-6"]
 xyz##[href="/ad-7"]
 xyz##[href="/ad-8"]
+! torrentreel
+site##[href^="https://filecast.co.kr/"]
 ! bobaelink, 보배링크
 bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(3)
 bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(5)
@@ -2077,6 +2080,9 @@ net##.mkt_banner
 *##[href*="hlbam13.com"]
 
 ! - 기타
+xiaomitoday.it##[id^="xiaom-"]
+xiaomitoday.it##.egg-container
+br0wsers.com###vi-smartbanner
 nosearch.com##.flex-col.overflow-hidden.border-solid
 doctornow.co.kr##[role="button"] > div
 majorgeeks.com###fanback
