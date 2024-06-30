@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240630.2
+! Version: 240630.3
 
 ! - 토스, Toss
 @@||toss.im/pages/ekdil/$domain=auth.cert.toss.im
@@ -1513,6 +1513,7 @@ com##div[class="adver-list"]
 ||torrentsee*.com/*/*.gif$image
 ||torrentsee*.com/*/*.png$image
 ! torrentwhy, 토렌트와이
+||www.torrentwhy*.xyz/ad/$image
 xyz##[href="/op-bamwolf"]
 xyz##[href="/op-gandago"]
 xyz##[href="/op-opgo"]
