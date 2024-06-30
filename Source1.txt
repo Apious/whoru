@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240628.1
+! Version: 240630.1
 
 ! - 토스, Toss
 @@||toss.im/pages/ekdil/$domain=auth.cert.toss.im
@@ -557,6 +557,11 @@ news.nate.com###ad230306
 news.nate.com###AdCommerce
 news.nate.com##.ad290x330
 view.nate.com##.ad-slot-wrap
+view.nate.com##[class^="add-ad-box"]
+view.nate.com##figure.wp-caption:nth-of-type(6)
+view.nate.com##figure.wp-caption:nth-of-type(7)
+view.nate.com##figure.wp-caption:nth-of-type(8)
+view.nate.com##figure.wp-caption:nth-of-type(9)
 ! zum
 @@||deepdive.zum.com^
 #@#iframe[src*="//deepdive.zum.com/widget/"]
@@ -834,7 +839,7 @@ www.gmarket.co.kr##.box__smilefresh-benefit
 www.gmarket.co.kr##.link__banner
 www.gmarket.co.kr##.box__component-sponsor-link
 gmarket.co.kr##.ng-scope.banner
-gmarket.co.kr#@#+js(set-constant, pvprofiler.sendEvt, noopFunc)
+!gmarket.co.kr#@#+js(set-constant, pvprofiler.sendEvt, noopFunc)
 gmarket.co.kr##[src^="https://ad-img.gmarket.com"]
 gmarket.co.kr##[class^="box-smileclub-banner"]
 gmarket.co.kr##[class^="sc_mbr"]
@@ -1521,14 +1526,9 @@ xyz##[href="/ad-7"]
 xyz##[href="/ad-8"]
 ! torrentreel
 site##[href^="https://filecast.co.kr/"]
-! bobaelink, 보배링크
-bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(3)
-bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(5)
-bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(6)
-bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(9)
-bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(10)
-bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(14)
-bobaelink65.xyz##div.dh.col-xs-6:nth-of-type(15)
+! tfreeca
+top##[class^="partner1"]
+top##li:nth-of-type(10)
 !! 스포츠라이브
 *###addon-popup1-layer
 *###addon-popup2-layer
@@ -1562,28 +1562,6 @@ ohlitv.com##.insty
 ohlitv.com###exon
 ! 라프텔, laftel.net
 ||service.iamport.kr^
-! juso.wiki
-juso.wiki##div[class^="alert alert"]
-com##div.main_link.f9_box01:nth-of-type(1)
-com##div.main_link.f9_box01:nth-of-type(3)
-com##div.main_link.f9_box01:nth-of-type(4)
-com##div.main_link.f9_box01:nth-of-type(9)
-! jusopang
-@@||jusopang*.com/*.png
-||jusopang*.com/*/*330x230*.webp$image
-||jusopang*.com/*.webp$image
-||jusopang*.com/*.gif$image
-jusopang20.com##p:nth-of-type(14)
-jusopang20.com##p > [href*="https://jusopang20.com"]
-jusopang20.com##div[id^="foogallery-gallery-"]
-jusopang20.com##.pc
-com##[id="jt_popup_container"]
-com##[href*="com/aduit/"]
-com##[href*="com/op/"]
-com##[href*="com/%ec%8a%a4%ed%8f%ac%ec%b8%a0-%ec%98%81%ec%83%81/"]
-! linktaxi.net
-||linktaxi.net/*.jpg$image
-||linktaxi.net/*.gif$image
 ! tvroom
 tvroom.org##[href^="/index/banner_click"]
 tvroom.org##[style^="background-color"]
@@ -1602,12 +1580,39 @@ com##li.off.menu-li:nth-of-type(3)
 com##li.off.menu-li:nth-of-type(8)
 com##li.off.menu-li:nth-of-type(10)
 com##li.off.menu-li:nth-of-type(4)
-com##div.main_link.f9_box01:nth-of-type(6)
-com##div.main_link.f9_box01:nth-of-type(7)
-com##div.main_link.f9_box01:nth-of-type(11)
-com##div.main_link.f9_box01:nth-of-type(13)
 com##li.off.sub-1dli:nth-of-type(2)
 com##div.main_link2:nth-of-type(18)
+!! 주소, 링크
+! bobaelink, 보배링크
+xyz##div.dh.col-xs-6:nth-of-type(3)
+xyz##div.dh.col-xs-6:nth-of-type(5)
+xyz##div.dh.col-xs-6:nth-of-type(6)
+xyz##div.dh.col-xs-6:nth-of-type(9)
+xyz##div.dh.col-xs-6:nth-of-type(10)
+xyz##div.dh.col-xs-6:nth-of-type(14)
+xyz##div.dh.col-xs-6:nth-of-type(15)
+! juso.wiki
+juso.wiki##div[class^="alert alert"]
+! jusopang
+@@||jusopang*.com/*.png
+||jusopang*.com/*/*330x230*.webp$image
+||jusopang*.com/*.webp$image
+||jusopang*.com/*.gif$image
+jusopang20.com##p:nth-of-type(14)
+jusopang20.com##p > [href*="https://jusopang20.com"]
+jusopang20.com##div[id^="foogallery-gallery-"]
+jusopang20.com##.pc
+com##[id="jt_popup_container"]
+com##[href*="com/aduit/"]
+com##[href*="com/op/"]
+com##[href*="com/%ec%8a%a4%ed%8f%ac%ec%b8%a0-%ec%98%81%ec%83%81/"]
+! linktaxi.net
+||linktaxi.net/*.jpg$image
+||linktaxi.net/*.gif$image
+! ygy01.com
+||www.ygy*.com/upload_files/popup$image
+ygy01.com##.close
+
 !! tv-etc
 ||tvzota*.com/ad$subdocument
 ||qooqootv*.com/*/event*.png$image
@@ -2080,6 +2085,7 @@ net##.mkt_banner
 *##[href*="hlbam13.com"]
 
 ! - 기타
+coolenjoy.net##[class="carousel-inner"]
 xiaomitoday.it##[id^="xiaom-"]
 xiaomitoday.it##.egg-container
 br0wsers.com###vi-smartbanner
