@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240630.4
+! Version: 240702.1
 
 ! - 토스, Toss
 @@||toss.im/pages/ekdil/$domain=auth.cert.toss.im
@@ -773,9 +773,19 @@ aliexpress.com##.image-poplayer-modal
 aliexpress.com##.header-toolbar
 m.aliexpress.com###header-float-banner
 ! auction
+itempage3.auction.co.kr##.plcc_banner
+itempage3.auction.co.kr##.vip-detailinfo_banner
 auction.co.kr###BAC_AD_ZONE20
 auction.co.kr##.module_slot.promo
-itempage3.auction.co.kr##.plcc_banner
+auction.co.kr#@##body > .hp_allkill:style(margin-top: 375px !important;)
+auction.co.kr##.hp_banner
+auction.co.kr##.top_mini_banner
+m.auction.co.kr##.smileclub_area
+m.auction.co.kr##.box__banner-dynamic
+m.auction.co.kr##.box__allkill-ad
+m.auction.co.kr##.smiledelivery-coupon
+m.auction.co.kr##.box--banner_promotion
+mobile.auction.co.kr##.content-slider
 ! coupang
 @@||/bannerunit/*
 @@||/banner/*$domain=coupang.com
@@ -2088,6 +2098,7 @@ net##.mkt_banner
 *##[href*="hlbam13.com"]
 
 ! - 기타
+dxomark.com###orejime
 coolenjoy.net##[class="carousel-inner"]
 xiaomitoday.it##[id^="xiaom-"]
 xiaomitoday.it##.egg-container
