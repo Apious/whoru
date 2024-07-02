@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240614.1
+! Version: 240702.1
 
 ! - 쿠팡
 @@||coupangeats.app.link^
@@ -209,7 +209,6 @@
 ||a1.asiae.co.kr^
 ||acsta.net^
 ||adbrix.io^
-||ad-img.*.com^
 ||api-es.*.net^
 ||bank-times.com^
 ||cashbackmall.net^
