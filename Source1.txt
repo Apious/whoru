@@ -1878,8 +1878,9 @@ en-ter.co.kr##.js-popup.layer_pop
 en-ter.co.kr##.main_pop
 
 ! - filetender
-filetender.com###sidebar
-filetender.com###sidebarl
+filetender.com##[id*="sidebar"]
+filetender.com###button
+filetender.com##.avmov
 
 ! - music-flo
 music-flo.com##.modal-wrap
@@ -2157,8 +2158,6 @@ download.cnet.com##.c-adSkyBox
 en.wikipedia.org###siteNotice
 evoload.fun##.header-main
 eyagi.co.kr###event_topbn_wrap
-filetender.com###button
-filetender.com##.avmov
 fugitives.com##.code-block
 gamemeca.com###sliderBox
 gamemeca.com##.event-right
