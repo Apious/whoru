@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240702.1
+! Version: 240704.1
 
 ! - 토스, Toss
 @@||toss.im/pages/ekdil/$domain=auth.cert.toss.im
@@ -849,7 +849,6 @@ www.gmarket.co.kr##.box__smilefresh-benefit
 www.gmarket.co.kr##.link__banner
 www.gmarket.co.kr##.box__component-sponsor-link
 gmarket.co.kr##.ng-scope.banner
-!gmarket.co.kr#@#+js(set-constant, pvprofiler.sendEvt, noopFunc)
 gmarket.co.kr##[src^="https://ad-img.gmarket.com"]
 gmarket.co.kr##[class^="box-smileclub-banner"]
 gmarket.co.kr##[class^="sc_mbr"]
@@ -863,6 +862,9 @@ promotion.gmarket.co.kr##.sns.area
 signinssl.gmarket.co.kr###login-banner-box
 spweb.gmarket.co.kr##.bx_banner
 checkout.gmarket.co.kr##.box__club-banner
+www.gmarket.co.kr##.list-item--brand
+my.gmarket.co.kr##.list__nudge-series
+my.gmarket.co.kr##.button__benefit
 ! gsshop
 with.gsshop.com###global-top-banner
 m.gsshop.com##.bnr-item_appdown
@@ -1343,11 +1345,12 @@ smartstore.naver.com##[data-shp-area-id="externalbanner"]
 smartstore.naver.com##[alt^="멤버십_제너럴소재"]
 smartstore.naver.com##[data-shp-inventory="banner"]
 smartstore.naver.com##[class*="banner"]
+smartstore.naver.com##[id="MODAL_ROOT_ID"] > div > div > div > div
 shopping.naver.com##[class*="advertising_banner"]
-!new-m.pay.naver.com##span > span[class^="Product_icon"]
-!new-m.pay.naver.com##li[class^="ADRewardListBenefit_item-card"]:nth-of-type(1)
-!new-m.pay.naver.com##li[class^="ADRewardListBenefit_item-card"]:nth-of-type(2)
+shopping.naver.com##[data-shp-contents-grp="banner"]
 orders.pay.naver.com##[class^="PromotionBanner"]
+orders.pay.naver.com##[class^="ResultAccumulatePoint_area-banner__"]
+orders.pay.naver.com##[class^="OrderDetailPointBanner_article__"]
 ! mycar.naver
 mycar.naver.com##div[class^="FeedManagement_advertisement"]
 mycar.naver.com##a[class^="Banner_article"]
@@ -1940,6 +1943,7 @@ a-ha.io##.expert-section-wrapper
 a-ha.io##[href="/extras/about-membership"]
 
 ! - hanjin.co.kr
+||app.hanjin.com/app/image/adBanner$image
 smile.hanjin.co.kr##[src="images/promotion.png"]
 smile.hanjin.co.kr##[src="images/swoop.png"]
 smile.hanjin.co.kr##div:nth-of-type(2)
