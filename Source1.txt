@@ -1,7 +1,12 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240704.1
+! Version: 240704.2
+
+! - apti.co.kr
+apti.co.kr##[id^="banner"]
+apti.co.kr##.footer-banner
+azapi.apti.co.kr###noticePopup
 
 ! - 토스, Toss
 @@||toss.im/pages/ekdil/$domain=auth.cert.toss.im
@@ -1340,6 +1345,7 @@ talk.naver.com##._marketingMessage
 talk.naver.com##li.menu_item:nth-of-type(2)
 talks.naver.com##[class^="AdBanner"]
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(10)
+talks.naver.com##[class^="banner-ad_wrap"]
 ! smartstore.naver
 smartstore.naver.com##[data-shp-area-id="externalbanner"]
 smartstore.naver.com##[alt^="멤버십_제너럴소재"]
@@ -2146,7 +2152,6 @@ any.do##.NotificationBarProvider
 apk4all.com##iframe.eww
 arca.live##.ad
 asuratoon.com##.ai-sticky-widget
-azapi.apti.co.kr###noticePopup
 br0wsers.com##[id^="div-gpt-ad"]
 cineaste.co.kr##[class^="basic-banner"]
 codecguide.com##p:nth-of-type(8)
