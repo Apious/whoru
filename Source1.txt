@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240704.2
+! Version: 240705.1
 
 ! - apti.co.kr
 apti.co.kr##[id^="banner"]
@@ -1440,7 +1440,6 @@ sub.manhwa.co.kr###main_banner_first_top_box
 103.204.13.68##.nav-main__link--more.nav-main__link
 103.204.13.68##.popups
 103.204.13.68##.topBanner
-*##.topBanner
 ! cookmana
 ||wwwimageup.*angle.net/other/wx_app_admin/*.png$image
 bell365.com##.btn_setup_n
@@ -1458,7 +1457,6 @@ tooncome.com##section#container_middle.idx_section2.idx_section:nth-of-type(1)
 cartoonnetworkkorea.com###onetrust-consent-sdk
 ||blogger.googleusercontent.com/img/*/AVvXsE*$image
 hotword.site##div.col-md-6
-!*##img[src^="https://iabn"]
 ||iabn*.net$image
 
 ! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브, 주소링크 등
@@ -1468,7 +1466,6 @@ hotword.site##div.col-md-6
 ||static.wixstatic.com/media$image
 ||images.request-support.com/br/*?v=*%2000:*:$image
 gg##.partner-banner-content
-*##[href*="bannerhit"]
 top##.partner-br-wrap
 top##.partner-banner-content
 top##.partner-banner-content
@@ -1479,8 +1476,6 @@ org##[class="custom_banner_wrap"]
 sbs##[class="custom_banner_wrap"]
 live##[class="custom_banner_wrap"]
 me##[class="custom_banner_wrap"]
-! dasibogo, 다시보고
-*##.wp-block-gallery-1.wp-block-gallery
 ! koreanz
 koreanz.xyz##div:nth-of-type(4)
 ! sonagitv.live / info / org
@@ -1512,49 +1507,9 @@ waaboom.com##center:nth-of-type(2)
 ||images*.imgbox.com/aa/cd/*.jpg$image
 /^https:\/\/tvchak[0-9]+\.com\/img\/ba*/$image
 /^https:\/\/tvchak[0-9]+\.com\/img\/bb*/$image
-!! 토렌트
-! torrentqq
-com##.row-banner
-com##.at-banner
-||i.imgur.com/*.jpg$image
-||i.imgur.com/*.gif$image
-! TorrentSome
-||static.filesbest.xyz/s/up$image
-||torrentsome*.com/*/up$image
-! etoland
-etoland.co.kr##.youtube-container
-etoland.co.kr##.main-top-banner
-etoland.co.kr###bottom-big-banner
-etoland.co.kr###main_popup
-etoland.co.kr##.power_link_top_wrap
-! torrentsee
-com##div[class="adver-list"]
-||torrentsee*.com/*/*.gif$image
-||torrentsee*.com/*/*.png$image
-! torrentwhy, 토렌트와이
-||www.torrentwhy*.xyz/ad/$image
-xyz##[href="/op-bamwolf"]
-xyz##[href="/op-gandago"]
-xyz##[href="/op-opgo"]
-xyz##[href="/ad-1"]
-xyz##[href="/ad-2"]
-xyz##[href="/ad-3"]
-xyz##[href="/ad-4"]
-xyz##[href="/ad-5"]
-xyz##[href="/ad-6"]
-xyz##[href="/ad-7"]
-xyz##[href="/ad-8"]
-! torrentreel
-site##[href^="https://filecast.co.kr/"]
 ! tfreeca
 top##[class^="partner1"]
 top##li:nth-of-type(10)
-!! 스포츠라이브
-*###addon-popup1-layer
-*###addon-popup2-layer
-*###addon-popup3-layer
-*###addon-popup4-layer
-*###addon-popup5-layer
 ! tentv
 ||tentv*.com/*$image
 ! coktv
@@ -1566,6 +1521,7 @@ top##li:nth-of-type(10)
 ||gltv*.com/files/attach/*.gif$image
 ||gltv*.com/files/attach/*.gif$image
 ||gltv*.com/layouts/fado/files/*.gif$image
+
 !! 애니
 ! linkkf.app / linkkf.tv
 @@||ani1c1.top^$image
@@ -1602,6 +1558,7 @@ com##li.off.menu-li:nth-of-type(10)
 com##li.off.menu-li:nth-of-type(4)
 com##li.off.sub-1dli:nth-of-type(2)
 com##div.main_link2:nth-of-type(18)
+
 !! 주소, 링크
 ! bobaelink, 보배링크
 xyz##div.dh.col-xs-6:nth-of-type(3)
@@ -1632,10 +1589,8 @@ com##[href*="com/%ec%8a%a4%ed%8f%ac%ec%b8%a0-%ec%98%81%ec%83%81/"]
 ! ygy01.com
 ||www.ygy*.com/upload_files/popup$image
 ygy01.com##.close
-!기타
+!! TV-etc
 ||linklove*.com/data/file/ls_*/$image
-
-!! tv-etc
 ||tvzota*.com/ad$subdocument
 ||qooqootv*.com/*/event*.png$image
 ||tvzone.sbs/data/banner*$image
@@ -1647,6 +1602,46 @@ lol##figure.size-full.wp-block-image
 store##[href^="https://daepiso.xyz"]
 ||tvzone.sbs/data/banner*$image
 tvusan.vip##.videowrapper_pc
+
+!! 토렌트
+! torrentqq
+com##.row-banner
+com##.at-banner
+||i.imgur.com/*.jpg$image
+||i.imgur.com/*.gif$image
+! TorrentSome
+||static.filesbest.xyz/s/up$image
+||torrentsome*.com/*/up$image
+! etoland
+etoland.co.kr##.youtube-container
+etoland.co.kr##.main-top-banner
+etoland.co.kr###bottom-big-banner
+etoland.co.kr###main_popup
+etoland.co.kr##.power_link_top_wrap
+! torrentsee
+com##div[class="adver-list"]
+||torrentsee*.com/*/*.gif$image
+||torrentsee*.com/*/*.png$image
+! torrentwhy, 토렌트와이
+||www.torrentwhy*.xyz/ad/$image
+xyz##[href="/op-bamwolf"]
+xyz##[href="/op-gandago"]
+xyz##[href="/op-opgo"]
+xyz##[href="/ad-1"]
+xyz##[href="/ad-2"]
+xyz##[href="/ad-3"]
+xyz##[href="/ad-4"]
+xyz##[href="/ad-5"]
+xyz##[href="/ad-6"]
+xyz##[href="/ad-7"]
+xyz##[href="/ad-8"]
+! torrentreel
+site##[href^="https://filecast.co.kr/"]
+! 기타
+||torrentgram*.com/data/*/*.gif$image
+||torrentlee*.com/data/*/*.gif$image
+||viewtorrent*.com/data/*/*.gif$image
+||static.tzstatic.top/z/up*$image
 
 ! - dropgalaxy
 dropgalaxy.com##div[id*="div-gpt-ad"]
@@ -1990,29 +1985,47 @@ uploadrar.com##.hide2
 uplod.ws###aswift_0
 uplod.ws###aswift_0_anchor
 uplod.ws###aswift_0_expand
-dailyenter.*##.col-md-4
 douploads.net##[src="/images/StartDownload.gif"]
 intoupload.net##.banneradshome
 workupload.com##[id^="div-gpt-ad"]
 
-! - Ads Tags, 광고 태그, a-ads
-a-ads.com##.aa_container
+! - Ads Tags, 광고 태그, a-ads // 2024-07
+net##.mkt_banner
+net##.idtunemklgfsrpchjoq
+com##.premium-promo-row
+com##.detail-banner
+com##.banner-area
+com##.basic-banner
+com##.app-banner-wrap
+com##.ad-container
+com###desktopBannerWrapped
 a-ads.com##.size320x50
-*##.google-ad
-*##.ad-form
+a-ads.com##.aa_container
+||www.play-store.co.kr/ads$subdocument
+||interworksmedia.co.kr^
+||images2.imgbox.com/*_o.gif$image
+||imageaws.popin.cc^
+||imadrep.co.kr^
+||adinc.kr^
+||ad.*.skt-jive.com^
+/banner/*.gif$image
+/allimg/*/banner*.gif$image
 *##[src*="innorame.com"]
 *##[src*="adv.imadrep.co.kr"]
 *##[src*="adjw.co.kr"]
 *##[src*="ad.reople.co.kr"]
-*##[href*="/channel/promotion"]
 *##[href*="/cupang.php"]
+*##[href*="/channel/promotion"]
+*##.wp-block-gallery-1.wp-block-gallery
 *##.video-banner-ad
 *##.video-banner-ad
 *##.top-banner
+*##.topBanner
 *##.tnt-ads-container
 *##.row-box-ads-seri
 *##.kakao_ad_area
 *##.google-ads
+*##.google-ad
 *##.google-ad
 *##.footerBanner
 *##.dotcom-ad
@@ -2020,17 +2033,18 @@ a-ads.com##.size320x50
 *##.bannerWrap
 *##.banner_menu
 *##.adtester-container
+*##.ad-template
+*##.ad-slot-header__placeholder
+*##.ad-slot-header
 *##.adslot_collapse
 *##.adsbox970x90
 *##.ads__container
 *##.ads__common
+*##.ad-revamp
 *##.adplaceholder-top
+*##.ad-form
 *##.adfit
 *##.ADbtn
-*##.ad-template
-*##.ad-slot-header__placeholder
-*##.ad-slot-header
-*##.ad-revamp
 *###vipada
 *###top-right-ad-slot
 *###powerLink
@@ -2039,74 +2053,65 @@ a-ads.com##.size320x50
 *###categoryBanner
 *###banner
 *###ads
+*###addon-popup5-layer
+*###addon-popup4-layer
+*###addon-popup3-layer
+*###addon-popup2-layer
+*###addon-popup1-layer
+*###ad-box
 *###ad_733
 *###ad_732
 *###ad_731
 *###ad_730
-*###ad-box
-||ad.*.skt-jive.com^
-||images2.imgbox.com/*_o.gif$image
-||imageaws.popin.cc^
-||www.play-store.co.kr/ads$subdocument
-||adinc.kr^
-||imadrep.co.kr^
-||interworksmedia.co.kr^
-/allimg/*/banner*.gif$image
-/banner/*.gif$image
-com###desktopBannerWrapped
-com##.ad-container
-com##.app-banner-wrap
-com##.banner-area
-com##.detail-banner
-com##.premium-promo-row
-net##.idtunemklgfsrpchjoq
-net##.mkt_banner
-! 도박, 토토, 성인게임(불량) // 2024-03
-*##[href="http://dh-202.com"]
-*##[href="http://fs-ddff.com"]
-*##[href*="1bet1"]
-*##[href*="aarq"]
-*##[href*="agitbridge"]
-*##[href*="agitoon.net"]
-*##[href*="bannerhit"]
-*##[href*="bhm123"]
-*##[href*="bneye"]
-*##[href*="cuba"]
-*##[href*="dh651"]
-*##[href*="gfa69"]
-*##[href*="guarante"]
-*##[href*="herbnewming"]
-*##[href*="luxurynara"]
-*##[href*="mmb"]
-*##[href*="oplove"]
-*##[href*="play365a"]
-*##[href*="svsv"]
-*##[href*="t.me/abcdcenter"]
-*##[href*="tgtg"]
-*##[href*="tinyurl.com/yzpxazdx"]
-*##[href*="tksxk"]
-*##[href*="v210x10b"]
-*##[href*="wbet"]
-*##[href*="yadong"]
-*##[href*="토토"]
-*##[href^="http://sun-4488.com/"]
-*##[href^="https://카림안내.com"]
-*##[href^="mr-00.com"]
-*##[href="https://mr-113.com/"]
-*##[href^="rk-ccc.com"]
-*##[href^="tu-88.com"]
-*##[href^="wn-st.com"]
-*##[href="http://wn-st.com/"]
-*##[href^="ww-ot.com"]
-*##[href="http://ww-ot.com/"]
-*##[href^="ww-wg.com"]
-*##[href^="yes.bet"]
-*##[href="http://cs-ca.com/"]
-*##[href="https://xn--vv0b56ah5v.net/"]
+
+! - 도박, 토토, 성인게임(불량) // 2024-07
 *##[src*="/side_banner/"]
-*##[href*="bbellabet.com"]
+*##[href="https://xn--vv0b56ah5v.net/"]
+*##[href="https://mr-113.com/"]
+*##[href="http://ww-ot.com/"]
+*##[href="http://wn-st.com/"]
+*##[href="http://fs-ddff.com"]
+*##[href="http://dh-202.com"]
+*##[href="http://cs-ca.com/"]
+*##[href^="yes.bet"]
+*##[href^="ww-wg.com"]
+*##[href^="ww-ot.com"]
+*##[href^="wn-st.com"]
+*##[href^="tu-88.com"]
+*##[href^="rk-ccc.com"]
+*##[href^="mr-00.com"]
+*##[href^="https://카림안내.com"]
+*##[href^="https://saveurls.org"]
+*##[href^="https://saveurl.me"]
+*##[href^="http://sun-4488.com/"]
+*##[href*="토토"]
+*##[href*="yadong"]
+*##[href*="wbet"]
 *##[href*="vipkkhh.com"]
+*##[href*="v210x10b"]
+*##[href*="tksxk"]
+*##[href*="tinyurl.com/yzpxazdx"]
+*##[href*="tgtg"]
+*##[href*="t.me/abcdcenter"]
+*##[href*="svsv"]
+*##[href*="play365a"]
+*##[href*="oplove"]
+*##[href*="mmb"]
+*##[href*="luxurynara"]
 *##[href*="hlbam13.com"]
+*##[href*="herbnewming"]
+*##[href*="guarante"]
+*##[href*="gfa69"]
+*##[href*="dh651"]
+*##[href*="cuba"]
+*##[href*="bneye"]
+*##[href*="bhm123"]
+*##[href*="bbellabet.com"]
+*##[href*="bannerhit"]
+*##[href*="agitoon.net"]
+*##[href*="agitbridge"]
+*##[href*="aarq"]
+*##[href*="1bet1"]
 
 ! - 기타
 dxomark.com###orejime
