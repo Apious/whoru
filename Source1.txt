@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240705.1
+! Version: 240710.1
 
 ! - apti.co.kr
 apti.co.kr##[id^="banner"]
@@ -1365,6 +1365,7 @@ mycar.naver.com##[class^="FeedCardNationalOilBanner_article"]
 m.booking.naver.com##.banner_area
 media.naver.com##.channel_add_wrap
 premium.naver.com##.bottom_layer
+tv.naver.com##[class^="index_banner_list"]
 
 ! - WebToon / 웹툰 // 2024-06
 ! webtoon logo
@@ -1709,6 +1710,11 @@ pedia.watcha.com##[alt*="배너"]
 m.kinolights.com##[href="https://linktr.ee/showbox.movie"]
 
 ! - apk store
+! aptoide.com
+aptoide.com##[class^="promote-game-banner__BannerContainer"]
+aptoide.com##[class^="promotional__PromotionalRow"]
+aptoide.com##[class^="aptoide-installer__InstallerContainer"]
+aptoide.com##[class^="aptoide-installer__InstallerContainer"]
 ! apkcombo
 apkcombo.com##.ad-pss
 apkcombo.com##div.widget
