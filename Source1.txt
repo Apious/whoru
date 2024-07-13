@@ -1,7 +1,12 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240712.1
+! Version: 240713.1
+
+! - moneypin.biz
+||moneypin.biz/*/image/?url=%2Fads$image
+moneypin.biz##[id^="ad-web"]
+moneypin.biz##.max-lg\:hidden
 
 ! - apti.co.kr
 apti.co.kr##[id^="banner"]
@@ -2117,6 +2122,9 @@ a-ads.com##.aa_container
 *##[href*="agitbridge"]
 *##[href*="aarq"]
 *##[href*="1bet1"]
+*##[href^="optalk.vip"]
+*##[href^="replchak.com"]
+*##[href^="onetop.link"]
 
 ! - 기타
 dxomark.com###orejime
