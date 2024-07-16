@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240717.3
+! Version: 240717.4
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -2084,6 +2084,7 @@ a-ads.com##.aa_container
 *##[href="http://fs-ddff.com"]
 *##[href="http://dh-202.com"]
 *##[href="http://cs-ca.com/"]
+*##[href^="me/AISOL"]
 *##[href^="yes.bet"]
 *##[href^="ww-wg.com"]
 *##[href^="ww-ot.com"]
@@ -2095,6 +2096,7 @@ a-ads.com##.aa_container
 *##[href^="https://saveurls.org"]
 *##[href^="https://saveurl.me"]
 *##[href^="http://sun-4488.com/"]
+*##[href^="https://t.me/AISOL88"]
 *##[href*="토토"]
 *##[href*="yadong"]
 *##[href*="wbet"]
