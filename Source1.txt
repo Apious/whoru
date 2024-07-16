@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240713.1
+! Version: 240717.1
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -1280,6 +1280,7 @@ blog.naver.com##.btm_banner
 ! cafe.naver, 까페
 @@||ipada.cafe.naver.com^
 @@||cafeptthumb-phinf.pstatic.net^$image,domain=cafe.naver.com
+cafe.naver.com#@#.ad_v3
 cafe.naver.com##.ad_area.AsideAdvert
 cafe.naver.com##.ArticleFormBanner
 cafe.naver.com##.aside_banner
@@ -2127,6 +2128,7 @@ a-ads.com##.aa_container
 *##[href^="onetop.link"]
 
 ! - 기타
+www.cvsnet.co.kr##[src^="/common_m/images/banner"]
 dxomark.com###orejime
 coolenjoy.net##[class="carousel-inner"]
 xiaomitoday.it##[id^="xiaom-"]
