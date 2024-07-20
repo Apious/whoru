@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240717.4
+! Version: 240720.1
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -729,6 +729,7 @@ ajunews.com##[class^="banner_"]
 ! news-etc
 ||www.businesspost.co.kr/*/banner/*/$image
 www.newsen.com##[src^="//photo.newsen.com/images/2024/ASEA"]
+www.news1.kr##.ads-article-warp
 kjtimes.com##.ht_right
 kjtimes.com##.top_banner
 @@/openads/*
@@ -1277,6 +1278,7 @@ notify.naver.com##.native_scroll
 ! blog.naver, 블로그
 @@||m.blog.naver.com^$popup
 blog.naver.com##.btm_banner
+m.blog.naver.com###BANNER_ONE
 ! cafe.naver, 까페
 @@||ipada.cafe.naver.com^
 @@||cafeptthumb-phinf.pstatic.net^$image,domain=cafe.naver.com
@@ -1309,6 +1311,7 @@ map.naver.com##.notice_wrap
 map.naver.com##.ng-trigger-fadeInWrap.notice_wrap
 map.naver.com##.ng-trigger-promotionToggleEffect
 map.naver.com##around-contents-card
+map.naver.com##.promotion_wrap
 ! pay.naver, 페이
 ||new-m.pay.naver.com/api/timeline/v2/aitems
 msearch.shopping.naver.com##[class^="membershipBanner_membership_banner"]
@@ -2076,7 +2079,7 @@ a-ads.com##.aa_container
 *###ad_730
 
 ! - 도박, 토토, 성인게임(불량) // 2024-07
-*##[src*="/side_banner/"]
+*##[href="https://ho-2023.com/"]
 *##[href="https://xn--vv0b56ah5v.net/"]
 *##[href="https://mr-113.com/"]
 *##[href="http://ww-ot.com/"]
@@ -2128,8 +2131,11 @@ a-ads.com##.aa_container
 *##[href^="optalk.vip"]
 *##[href^="replchak.com"]
 *##[href^="onetop.link"]
+*##[src*="/side_banner/"]
 
 ! - 기타
+mypetlife.co.kr##[id^="bemypetDisplayAd"]
+||bff-images.bemypet.kr/media/medias/all/*_ad.jpg$image
 www.cvsnet.co.kr##[src^="/common_m/images/banner"]
 dxomark.com###orejime
 coolenjoy.net##[class="carousel-inner"]
