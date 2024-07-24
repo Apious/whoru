@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240720.1
+! Version: 240725.1
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -960,7 +960,6 @@ m.shinsegaepoint.com##.banner_lists
 m.shinsegaepoint.com##.sub_banner
 shinsegaemall.ssg.com##.smmain_section_mmbrsevnt
 shinsegaemall.ssg.com##.ty_universe.gnb_mmbrs
-member.ssg.com##.cmem_cont
 member.ssg.com##.advertising.cmem_sec
 emart.ssg.com##.emall_banner_item_group
 event.ssg.com##.ty_universe.gnb_mmbrs
