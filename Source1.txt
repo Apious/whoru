@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240725.1
+! Version: 240726.1
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -1331,7 +1331,9 @@ shopping.naver.com##[class^="homeBannerPc_home_banner"]
 shopping.naver.com##[class*="myInformationResponsive_membership_area"]
 shopping.naver.com##[class^="NPaySection_my_membership"]
 shopping.naver.com##[class^="RecommendSection_recommend_section"]
+shopping.naver.com##[class^="card_promotion"]
 search.shopping.naver.com##[class^="aside_aside"]
+search.shopping.naver.com##div[class^="adProduct_item"]
 orders.pay.naver.com##[class^="PanelWrapper_article"]
 orders.pay.naver.com##[class^="SkeletonBannerWrapper"]
 orders.pay.naver.com##[class^="TitleMessage_desciption"]
@@ -2133,6 +2135,7 @@ a-ads.com##.aa_container
 *##[src*="/side_banner/"]
 
 ! - 기타
+www.lawtalk.co.kr##[class^="lawtalk-next-main-top__carousel-section"]
 mypetlife.co.kr##[id^="bemypetDisplayAd"]
 ||bff-images.bemypet.kr/media/medias/all/*_ad.jpg$image
 www.cvsnet.co.kr##[src^="/common_m/images/banner"]
