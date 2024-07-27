@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240726.1
+! Version: 240727.1
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -393,25 +393,8 @@ isplus.com##.relative.border_b_black
 isplus.com##.flex.section_inner
 ! edaily / 이데일리
 ||image.edaily.co.kr/images/content/naver*
-edaily.co.kr###edailywrap > div:nth-of-type(2)
-edaily.co.kr##.newscontainer > div > [src]
-edaily.co.kr###ad_banner_01
-edaily.co.kr###ad_banner_02
-edaily.co.kr###ad_banner_03
-edaily.co.kr###ad_img_box_01
-edaily.co.kr###ad_img_box_02
-edaily.co.kr###ad_img_box_03
 edaily.co.kr###boxshow_970x90
 edaily.co.kr###w_read_right
-edaily.co.kr##.ad_img_list_01
-edaily.co.kr##.ad_list_00
-edaily.co.kr##.ad_list_01
-edaily.co.kr##.ad_text_01
-edaily.co.kr##.ad_text_02
-edaily.co.kr##.adTarget01
-edaily.co.kr##.adTarget02
-edaily.co.kr##.adTarget03
-edaily.co.kr##.adTodayInfo
 edaily.co.kr##.boxshow_300x100_r
 edaily.co.kr##.boxshow_300x250
 edaily.co.kr##.gg_dable_box
@@ -422,11 +405,11 @@ edaily.co.kr##.gg_textshow
 edaily.co.kr##.gpmclhd-link
 edaily.co.kr##.iwm_ba
 edaily.co.kr##.list_gg
-edaily.co.kr##.m_banners
 edaily.co.kr##.m_shows
 edaily.co.kr##.manyview_info
 edaily.co.kr##.mb40
 edaily.co.kr##.mr10
+edaily.co.kr##.newscontainer > div > [src]
 edaily.co.kr##.newsletter_area
 edaily.co.kr##.pnutSlot
 edaily.co.kr##.right.more-stories
@@ -434,6 +417,18 @@ edaily.co.kr##.rightArea01
 edaily.co.kr##.view_ad02
 edaily.co.kr##.weekend_news
 edaily.co.kr##.youlike_news
+m.edaily.co.kr##iframe[class^="slot"]
+m.edaily.co.kr##[src^="https://cdn.taboola.com/"]
+m.edaily.co.kr##[src^="//ads.priel.co.kr/"]
+m.edaily.co.kr##[src^="//ad.ad"]
+m.edaily.co.kr##[id^="taboola-"]
+m.edaily.co.kr##[id^="ed_banner"]
+m.edaily.co.kr##[id^="ad_"]
+m.edaily.co.kr##[class="m_banners"]
+m.edaily.co.kr##[class="adTodayInfo"]
+m.edaily.co.kr##[class^="adTarget"]
+m.edaily.co.kr##[class^="ad_"]
+m.edaily.co.kr##.realtalk_zone
 ! fnnews
 ||io1.innorame.com^$subdocument
 fnnews.com###ad_pitPc
@@ -783,6 +778,7 @@ aliexpress.com##.top-banner-container
 aliexpress.com##.image-poplayer-modal
 aliexpress.com##.header-toolbar
 m.aliexpress.com###header-float-banner
+ko.aliexpress.com###header-float-banner
 ! auction
 itempage3.auction.co.kr##.plcc_banner
 itempage3.auction.co.kr##.vip-detailinfo_banner
@@ -1281,8 +1277,6 @@ m.blog.naver.com###BANNER_ONE
 ! cafe.naver, 까페
 @@||ipada.cafe.naver.com^
 @@||cafeptthumb-phinf.pstatic.net^$image,domain=cafe.naver.com
-cafe.naver.com#@#.ad_v3
-cafe.naver.com#@#.ad_v2
 cafe.naver.com##.ad_area.AsideAdvert
 cafe.naver.com##.ArticleFormBanner
 cafe.naver.com##.aside_banner
@@ -1299,6 +1293,8 @@ cafe.naver.com##.location.home_section
 cafe.naver.com##.notice_area.AsideNotice
 cafe.naver.com##.section_home_town
 cafe.naver.com##.smart_bot_area.AsideSmartBot
+cafe.naver.com#@#.ad_v2
+cafe.naver.com#@#.ad_v3
 ! comic.naver
 comic.naver.com###mflickAd
 comic.naver.com##.ads_sc
@@ -1313,30 +1309,38 @@ map.naver.com##around-contents-card
 map.naver.com##.promotion_wrap
 ! pay.naver, 페이
 ||new-m.pay.naver.com/api/timeline/v2/aitems
+new-m.pay.naver.com###BOTTOM_MODAL_NOTICE
+new-m.pay.naver.com##.flicking-viewport
+new-m.pay.naver.com##[class^="ADRewardList_article"]
+new-m.pay.naver.com##[class^="AssetList_article"]
+new-m.pay.naver.com##[class^="BenefitCards_article"]
+new-m.pay.naver.com##[class^="CreditScoreAndLoanComparison_article"]
+new-m.pay.naver.com##[class^="NpayDownloadButton-module_article"]
+new-m.pay.naver.com##[data-au="total.click_total"]
 msearch.shopping.naver.com##[class^="membershipBanner_membership_banner"]
+orders.pay.naver.com##[class^="PanelWrapper_article"]
+orders.pay.naver.com##[class^="SkeletonBannerWrapper"]
+orders.pay.naver.com##[class^="TitleMessage_desciption"]
 pay.naver.com###pc_pay_paymenthistory
 pay.naver.com##._orderDonePopup_commonBanner
 pay.naver.com##.area_recommend_ad
 pay.naver.com##.commonBannerArea
 pay.naver.com##.membership_sc
-pay.naver.com##div.s_sc
-pay.naver.com##div.s_sc:nth-of-type(5)
 pay.naver.com##[class^="LoanBanner_article"]
-pay.naver.com##[class^="SmartChannel_article"]
 pay.naver.com##[class^="NaverPlusMembership"]
 pay.naver.com##[class^="shopping_section _shopping_aitems"]
-shopping.naver.com##[class^="OrderDeliverySection_recommend"]
-shopping.naver.com##[class^="_targetBanner_link"]
-shopping.naver.com##[class^="homeBannerPc_home_banner"]
-shopping.naver.com##[class*="myInformationResponsive_membership_area"]
-shopping.naver.com##[class^="NPaySection_my_membership"]
-shopping.naver.com##[class^="RecommendSection_recommend_section"]
-shopping.naver.com##[class^="card_promotion"]
+pay.naver.com##[class^="SmartChannel_article"]
+pay.naver.com##div.s_sc
+pay.naver.com##div.s_sc:nth-of-type(5)
 search.shopping.naver.com##[class^="aside_aside"]
 search.shopping.naver.com##div[class^="adProduct_item"]
-orders.pay.naver.com##[class^="PanelWrapper_article"]
-orders.pay.naver.com##[class^="SkeletonBannerWrapper"]
-orders.pay.naver.com##[class^="TitleMessage_desciption"]
+shopping.naver.com##[class*="myInformationResponsive_membership_area"]
+shopping.naver.com##[class^="_targetBanner_link"]
+shopping.naver.com##[class^="card_promotion"]
+shopping.naver.com##[class^="homeBannerPc_home_banner"]
+shopping.naver.com##[class^="NPaySection_my_membership"]
+shopping.naver.com##[class^="OrderDeliverySection_recommend"]
+shopping.naver.com##[class^="RecommendSection_recommend_section"]
 ! chzzk
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.png$image
@@ -1344,7 +1348,12 @@ orders.pay.naver.com##[class^="TitleMessage_desciption"]
 chzzk.naver.com##[class^="live_chatting_input_discount"]
 chzzk.naver.com##[class^="loungehome_event_popup_main"]
 ! talks.naver.com
+talk.naver.com##._marketingMessage
+talk.naver.com##li.menu_item:nth-of-type(2)
+talks.naver.com##[class^="AdBanner"]
+talks.naver.com##[class^="banner-ad_wrap"]
 talks.naver.com##div[class^="GuideArea_wrap"]
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(10)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(3)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(4)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(5)
@@ -1352,26 +1361,24 @@ talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(6)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(7)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(8)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(9)
-talk.naver.com##._marketingMessage
-talk.naver.com##li.menu_item:nth-of-type(2)
-talks.naver.com##[class^="AdBanner"]
-talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(10)
-talks.naver.com##[class^="banner-ad_wrap"]
 ! smartstore.naver
-smartstore.naver.com##[data-shp-area-id="externalbanner"]
-smartstore.naver.com##[alt^="멤버십_제너럴소재"]
-smartstore.naver.com##[data-shp-inventory="banner"]
-smartstore.naver.com##[class*="banner"]
+orders.pay.naver.com##[class^="OrderDetailPointBanner_article"]
+orders.pay.naver.com##[class^="PromotionBanner"]
+orders.pay.naver.com##[class^="ResultAccumulatePoint_area-banner"]
 shopping.naver.com##[class*="advertising_banner"]
 shopping.naver.com##[data-shp-contents-grp="banner"]
-orders.pay.naver.com##[class^="PromotionBanner"]
-orders.pay.naver.com##[class^="ResultAccumulatePoint_area-banner__"]
-orders.pay.naver.com##[class^="OrderDetailPointBanner_article__"]
+smartstore.naver.com##[alt^="멤버십_제너럴소재"]
+smartstore.naver.com##[class*="banner"]
+smartstore.naver.com##[data-shp-area-id="externalbanner"]
+smartstore.naver.com##[data-shp-inventory="banner"]
 ! mycar.naver
 mycar.naver.com##div[class^="FeedManagement_advertisement"]
 mycar.naver.com##a[class^="Banner_article"]
 mycar.naver.com##[class^="FeedCardNationalOilBanner_article"]
+mycar.naver.com##[class^="AgreementLayer_content"]
 ! naver etc
+||campaign-cdn.pstatic.net/filemanager/static/404error^
+m-campaign.naver.com##.banner_area.swiper
 m.booking.naver.com##.banner_area
 media.naver.com##.channel_add_wrap
 premium.naver.com##.bottom_layer
@@ -1379,20 +1386,20 @@ tv.naver.com##[class^="index_banner_list"]
 
 ! - WebToon / 웹툰 // 2024-06
 ! webtoon logo
-||happytoon*.com/assets/images/logo.png$image
 ||booktoki*.com/img/logo*
 ||funbe*.com/*/*logo*
 ||fxfx*.com/*/*/logo*
+||happytoon*.com/assets/images/logo.png$image
+||img.timiai*.com/img/danbi*.png$image
+||imgcloud*.net/*.gif$image
+||imgcloud*.net/*.png$image
+||manatoki*.net/*/*.gif?_=*$image
 ||newtoki*.com/*/logo*
 ||tkr*.com/img/*logo*
 ||toonkor*.*/*/*logo*
 ||wftoon*.com/*/*/logo*
 ||wfwf*.com/*/*/logo*
 ||wtwt*.com/*/*/logo*
-||imgcloud*.net/*.gif$image
-||imgcloud*.net/*.png$image
-||manatoki*.net/*/*.gif?_=*$image
-||img.timiai*.com/img/danbi*.png$image
 ! newtoki
 ||booktoki*.com/*/*.gif?_=*
 ||newtoki*.com/tokinbtoki/*.gif?_=*
@@ -1405,10 +1412,10 @@ tv.naver.com##[class^="index_banner_list"]
 ||toonkor*.*/bann/*.jpg$image
 ||toonkor*.*/images/*.jpg$image
 ! WFWF, Wtoon
-wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com##[href="/w6"]
-wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com##.top.row
-wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com##.left > ul > li:nth-of-type(4)
-wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com##.toon-bottom
+wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.com,wtwt318.com,wtwt317.com,wtwt316.com,wtwt315.com,wtwt314.com,wtwt313.com,wtwt312.com,wtwt311.com,wtwt310.com,wtwt309.com,wtwt308.com,wtwt307.com,wtwt306.com,wtwt305.com,wtwt304.com,wtwt303.com,wtwt302.com,wtwt301.com,wtwt300.com,wtwt299.com,wtwt298.com,wtwt297.com,wtwt296.com,wtwt295.com,wtwt294.com,wtwt293.com,wtwt292.com,wtwt291.com,wtwt290.com,wtwt289.com,wtwt288.com,wtwt287.com,wtwt286.com,wtwt285.com,wtwt284.com,wtwt283.com,wtwt282.com,wtwt281.com,wtwt280.com,wtwt279.com,wtwt278.com,wtwt277.com,wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com##[href="/w6"]
+wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.com,wtwt318.com,wtwt317.com,wtwt316.com,wtwt315.com,wtwt314.com,wtwt313.com,wtwt312.com,wtwt311.com,wtwt310.com,wtwt309.com,wtwt308.com,wtwt307.com,wtwt306.com,wtwt305.com,wtwt304.com,wtwt303.com,wtwt302.com,wtwt301.com,wtwt300.com,wtwt299.com,wtwt298.com,wtwt297.com,wtwt296.com,wtwt295.com,wtwt294.com,wtwt293.com,wtwt292.com,wtwt291.com,wtwt290.com,wtwt289.com,wtwt288.com,wtwt287.com,wtwt286.com,wtwt285.com,wtwt284.com,wtwt283.com,wtwt282.com,wtwt281.com,wtwt280.com,wtwt279.com,wtwt278.com,wtwt277.com,wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com##.top.row
+wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.com,wtwt318.com,wtwt317.com,wtwt316.com,wtwt315.com,wtwt314.com,wtwt313.com,wtwt312.com,wtwt311.com,wtwt310.com,wtwt309.com,wtwt308.com,wtwt307.com,wtwt306.com,wtwt305.com,wtwt304.com,wtwt303.com,wtwt302.com,wtwt301.com,wtwt300.com,wtwt299.com,wtwt298.com,wtwt297.com,wtwt296.com,wtwt295.com,wtwt294.com,wtwt293.com,wtwt292.com,wtwt291.com,wtwt290.com,wtwt289.com,wtwt288.com,wtwt287.com,wtwt286.com,wtwt285.com,wtwt284.com,wtwt283.com,wtwt282.com,wtwt281.com,wtwt280.com,wtwt279.com,wtwt278.com,wtwt277.com,wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com##.left > ul > li:nth-of-type(4)
+wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.com,wtwt318.com,wtwt317.com,wtwt316.com,wtwt315.com,wtwt314.com,wtwt313.com,wtwt312.com,wtwt311.com,wtwt310.com,wtwt309.com,wtwt308.com,wtwt307.com,wtwt306.com,wtwt305.com,wtwt304.com,wtwt303.com,wtwt302.com,wtwt301.com,wtwt300.com,wtwt299.com,wtwt298.com,wtwt297.com,wtwt296.com,wtwt295.com,wtwt294.com,wtwt293.com,wtwt292.com,wtwt291.com,wtwt290.com,wtwt289.com,wtwt288.com,wtwt287.com,wtwt286.com,wtwt285.com,wtwt284.com,wtwt283.com,wtwt282.com,wtwt281.com,wtwt280.com,wtwt279.com,wtwt278.com,wtwt277.com,wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com##.toon-bottom
 ! oktoon
 oktoon.com##.banner
 oktoon.com##[href^="/banner"]
@@ -1419,11 +1426,6 @@ oktoon.com##[src^="https://cdn-w.fastifyimg.com/banner"]
 ||agit*.xyz/upload/$image
 ||agit*.com/*/banner/$image
 ||agit*.com/upload/$image
-! 호두코믹스
-||imgsuperpower.com/*.gif$image
-||static.springbuilder.site/*/*/alphabet*-*-*/*/*.gif$image
-||blogger.googleusercontent.com/img/*/AVvXsE*$image
-hdhd362.net,hdhd361.net,hdhd360.net,hdhd359.net,hdhd358.net,hdhd357.net,hdhd356.net,hdhd355.net,hdhd354.net,hdhd353.net,hdhd352.net,hdhd351.net,hdhd350.net,hdhd349.net,hdhd348.net,hdhd347.net,hdhd346.net,hdhd345.net,hdhd344.net,hdhd343.net,hdhd342.net,hdhd341.net,hdhd340.net,hdhd339.net,hdhd338.net,hdhd337.net,hdhd336.net,hdhd335.net,hdhd334.net,hdhd333.net##.alert_windows
 ! 밤토끼
 co.com##.gnb > li:nth-of-type(3)
 co.com##.gnb > li:nth-of-type(4)
@@ -1555,8 +1557,8 @@ tvroom.org##[class^="pop-up"]
 ! mvking
 mvking.org##[class="popup_warp"]
 ! bozatv
-bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com,bozatv89.com,bozatv88.com,bozatv87.com,bozatv86.com,bozatv85.com,bozatv84.com,bozatv83.com,bozatv82.com,bozatv81.com,bozatv80.com,bozatv79.com,bozatv78.com,bozatv77.com,bozatv76.com,bozatv75.com,bozatv74.com,bozatv73.com,bozatv72.com,bozatv71.com,bozatv70.com,bozatv69.com##.clearfix
-bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com,bozatv89.com,bozatv88.com,bozatv87.com,bozatv86.com,bozatv85.com,bozatv84.com,bozatv83.com,bozatv82.com,bozatv81.com,bozatv80.com,bozatv79.com,bozatv78.com,bozatv77.com,bozatv76.com,bozatv75.com,bozatv74.com,bozatv73.com,bozatv72.com,bozatv71.com,bozatv70.com,bozatv69.com##.popup_left
+bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com,bozatv89.com,bozatv88.com,bozatv87.com,bozatv86.com,bozatv85.com,bozatv84.com,bozatv83.com,bozatv82.com,bozatv81.com,bozatv80.com,bozatv79.com##.clearfix
+bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com,bozatv89.com,bozatv88.com,bozatv87.com,bozatv86.com,bozatv85.com,bozatv84.com,bozatv83.com,bozatv82.com,bozatv81.com,bozatv80.com,bozatv79.com##.popup_left
 ! 차차티비, chachatv
 pro##.popup_right
 ||chachatv*.pro/ad/index.html$subdocument
@@ -1669,35 +1671,35 @@ mediafire.com##.CookieAcceptance
 
 ! - terabox / 1024tera / app:com.dubox.drive
 ||s2.teraboxcdn.com/fe-opera-static/node-static-v4/fe-webv4-main/img/*.png^$image
-www.terabox.com##img[class="pc-download"]
-www.terabox.com##.notification-wrap
-www.terabox.com##.u-carousel--horizontal.u-carousel.notification-wrap
-www.terabox.com##.dialog-extra-del
-www.terabox.com##.operate-popup-box
-www.terabox.com##.bottom-box
-www.terabox.com##.bottom-tip-wrap
-www.terabox.com##.header
-www.terabox.com##.operate-box
-www.terabox.com##.overlay
-www.terabox.com##.seo-banner-box
-www.terabox.com##.coupon-Popup-box
-www.terabox.com##.membership-entry
-www.terabox.com##.social-media
-www.1024tera.com##.report
 www.1024tera.com##.ad-eggplant
-www.1024tera.com##.notification-wrap
-www.1024tera.com##.u-carousel--horizontal.u-carousel.notification-wrap
-www.1024tera.com##.dialog-extra-del
-www.1024tera.com##.operate-popup-box
 www.1024tera.com##.bottom-box
 www.1024tera.com##.bottom-tip-wrap
-www.1024tera.com##.header
-www.1024tera.com##.operate-box
-www.1024tera.com##.overlay
-www.1024tera.com##.seo-banner-box
 www.1024tera.com##.coupon-Popup-box
+www.1024tera.com##.dialog-extra-del
+www.1024tera.com##.header
 www.1024tera.com##.membership-entry
+www.1024tera.com##.notification-wrap
+www.1024tera.com##.operate-box
+www.1024tera.com##.operate-popup-box
+www.1024tera.com##.overlay
+www.1024tera.com##.report
+www.1024tera.com##.seo-banner-box
 www.1024tera.com##.text-banner
+www.1024tera.com##.u-carousel--horizontal.u-carousel.notification-wrap
+www.terabox.com##.bottom-box
+www.terabox.com##.bottom-tip-wrap
+www.terabox.com##.coupon-Popup-box
+www.terabox.com##.dialog-extra-del
+www.terabox.com##.header
+www.terabox.com##.membership-entry
+www.terabox.com##.notification-wrap
+www.terabox.com##.operate-box
+www.terabox.com##.operate-popup-box
+www.terabox.com##.overlay
+www.terabox.com##.seo-banner-box
+www.terabox.com##.social-media
+www.terabox.com##.u-carousel--horizontal.u-carousel.notification-wrap
+www.terabox.com##img[class="pc-download"]
 
 ! - watcha
 @@||www.googletagmanager.com^$script,domain=pedia.watcha.com
@@ -1825,51 +1827,46 @@ lpoint.com###TopSwiperBanner
 ||www.youtube.com/sw.js$important
 ||www.youtube.com/embed/$subdocument
 ||www.gstatic.com/cv/js/*
-youtube.com##ytd-rich-section-renderer
-youtube.com##.ytp-scroll-min.ytp-pause-overlay
-youtube.com##.ytp-related-on-error-overlay
-youtube.com##.ytp-pause-overlay
-youtube.com##.ytp-endscreen-content
-youtube.com##.ytp-ce-expanding-image
-youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
-youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
-youtube.com##.ytp-ce-element-shadow
-youtube.com##.ytp-ce-element
-youtube.com##.ytp-ce-covering-overlay
-youtube.com##.ytp-ce-covering-image
-youtube.com##.ytp-cards-teaser
-youtube.com##.ytp-cards-button
-youtube.com##.opened
-youtube.com##.mealbar-promo-renderer
-youtube.com##.iv-merch-shelf
-youtube.com##.float-mealbar
-youtube.com###watch7-sidebar-offer
 youtube.com###ticker-content
-tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
-www.youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , player?key=)
-www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, youtubei/v1/player)
-www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
-
+youtube.com###watch7-sidebar-offer
+youtube.com##.float-mealbar
+youtube.com##.iv-merch-shelf
+youtube.com##.mealbar-promo-renderer
+youtube.com##.opened
+youtube.com##.ytp-cards-button
+youtube.com##.ytp-cards-teaser
+youtube.com##.ytp-ce-covering-image
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+youtube.com##.ytp-ce-element-shadow
+youtube.com##.ytp-ce-expanding-image
+youtube.com##.ytp-endscreen-content
+youtube.com##.ytp-pause-overlay
+youtube.com##.ytp-related-on-error-overlay
+youtube.com##.ytp-scroll-min.ytp-pause-overlay
+youtube.com##ytd-rich-section-renderer
 
 ! - Xiaomi Tracker
 ! com.miui.gallery
-||161.117.98.244:443^
-||47.241.24.207:80^
+!||161.117.98.244:443^
+!||47.241.24.207:80^
 ! com.mi.android.globalFileexplorer
-||142.250.206.202:443^
-||142.250.206.234:443^
-||172.217.25.170:443^
-||172.217.161.234:443^
-||172.217.161.202:443^
-||142.250.207.106:443^
-||142.250.76.138:443^
-||31.13.76.35:443^
-! com.blackshark.analytics
-||106.53.80.33:443^
-||pjbs.blackshark.com^
-! Android 시스템 - BlackShark Android OS
-||49.51.130.25
-||oversea-appcfg.blackshark.com^
+!||142.250.206.202:443^
+!||142.250.206.234:443^
+!||172.217.25.170:443^
+!||172.217.161.234:443^
+!||172.217.161.202:443^
+!||142.250.207.106:443^
+!||142.250.76.138:443^
+!||31.13.76.35:443^
+! analytics
+!||106.53.80.33:443^
+!||pjbs.blackshark.com^
+! BlackShark Android OS
+!||49.51.130.25
+!||oversea-appcfg.blackshark.com^
 
 ! - meeco / 미코
 meeco.kr##.w_slide
@@ -2004,7 +2001,7 @@ douploads.net##[src="/images/StartDownload.gif"]
 intoupload.net##.banneradshome
 workupload.com##[id^="div-gpt-ad"]
 
-! - Ads Tags, 광고 태그, a-ads // 2024-07
+! - Ads Tags, 광고 태그, a-ads // 2024-08
 net##.mkt_banner
 net##.idtunemklgfsrpchjoq
 com##.premium-promo-row
@@ -2022,6 +2019,8 @@ a-ads.com##.aa_container
 ||imageaws.popin.cc^
 ||imadrep.co.kr^
 ||adinc.kr^
+||ad4989.co.kr^
+||priel.co.kr^
 ||ad.*.skt-jive.com^
 /banner/*.gif$image
 /allimg/*/banner*.gif$image
@@ -2135,6 +2134,7 @@ a-ads.com##.aa_container
 *##[src*="/side_banner/"]
 
 ! - 기타
+www.webtoonguide.com##.realtime-rank-section
 www.lawtalk.co.kr##[class^="lawtalk-next-main-top__carousel-section"]
 mypetlife.co.kr##[id^="bemypetDisplayAd"]
 ||bff-images.bemypet.kr/media/medias/all/*_ad.jpg$image
