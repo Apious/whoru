@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240727.1
+! Version: 240729.1
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -1384,7 +1384,7 @@ media.naver.com##.channel_add_wrap
 premium.naver.com##.bottom_layer
 tv.naver.com##[class^="index_banner_list"]
 
-! - WebToon / 웹툰 // 2024-06
+! - WebToon / 웹툰 // 2024-07
 ! webtoon logo
 ||booktoki*.com/img/logo*
 ||funbe*.com/*/*logo*
@@ -1471,6 +1471,7 @@ cartoonnetworkkorea.com###onetrust-consent-sdk
 ||blogger.googleusercontent.com/img/*/AVvXsE*$image
 hotword.site##div.col-md-6
 ||iabn*.net$image
+||hoduhodu.com/*X*.gif^$image
 
 ! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브, 주소링크 등
 ! 누누티비 / 누누티비.tv / 티비위키(tvwiki)
