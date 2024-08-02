@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240729.1
+! Version: 240802.1
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -1096,13 +1096,14 @@ store.kakao.com##.inner_slide
 ! - tistory
 @@||www.tistory.com^
 @@||www.tistory.com^$app=com.kakao.talk
+tistory.com#@#+js(abort-current-script, $, div.adsbygoogle)
+tistory.com#@#.ad-wp
 tistory.com##div.module_plugin.module:nth-of-type(1)
 tistory.com##.donation
 tistory.com##.adfit.revenue_unit_item
 tistory.com##.kakao_ad_area
 tistory.com##.revenue_unit_wrap
 tistory.com##.wrap_bnr_story
-tistory.com#@#+js(abort-current-script, $, div.adsbygoogle)
 
 ! - dcinside
 gall.dcinside.com##.kakao_ad_area
@@ -2135,6 +2136,7 @@ a-ads.com##.aa_container
 *##[src*="/side_banner/"]
 
 ! - 기타
+duckduckgo.com##div[data-testid="serp-popover-promo"]
 www.webtoonguide.com##.realtime-rank-section
 www.lawtalk.co.kr##[class^="lawtalk-next-main-top__carousel-section"]
 mypetlife.co.kr##[id^="bemypetDisplayAd"]
