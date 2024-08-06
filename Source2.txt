@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240702.1
+! Version: 240806.1
 
 ! - 쿠팡
 @@||coupangeats.app.link^
@@ -127,10 +127,12 @@
 ||image.toast.com^
 
 ! - xiaomi tracker
+@@||flash.sec.intl.miui.com^
 ||g.galleryapi.micloud.xiaomi.net^
 ||us.find.api.micloud.xiaomi.net^
 ||i.mi.com^
 ||pjbs.blackshark.com^
+||gamespace.sec.intl.miui.com^
 
 ! - V3 / AhnLab Ads
 ||www.ahnlabad.com^
