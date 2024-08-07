@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240806.1
+! Version: 240807.1
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -1090,6 +1090,7 @@ danawa.com##li.ad.shop_link_item
 page.kakao.com##img[alt^="pc 앱"]
 map.kakao.com##.Howto
 map.kakao.com##.AdItem
+v.daum.net##.box_floating
 ! Daum Search Ads
 daum.net##.ad_sch
 daum.net##.advert_bnr
@@ -1103,6 +1104,8 @@ search.daum.net###n0nlColl
 shoppinghow.kakao.com##.wrap_shoppingad
 store.kakao.com##.area_mybnr
 store.kakao.com##.inner_slide
+daum.net##div.box_g:nth-of-type(4)
+daum.net##.box_shorts.box_g
 
 ! - tistory
 @@||www.tistory.com^
@@ -2143,7 +2146,6 @@ a-ads.com##.aa_container
 *##[href*="guarante"]
 *##[href*="gfa69"]
 *##[href*="dh651"]
-*##[href*="cuba"]
 *##[href*="bneye"]
 *##[href*="bhm123"]
 *##[href*="bbellabet.com"]
