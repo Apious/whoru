@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240807.1
+! Version: 240810.1
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -74,6 +74,8 @@ jobkorea.co.kr##.modal-banner
 jobkorea.co.kr##.active.ticker
 jobkorea.co.kr##.banner-health
 jobkorea.co.kr###ban
+m.jobkorea.co.kr##.responsive-wrapper
+m.jobkorea.co.kr##.view2wayVvip > ul > li.agencyTypList
 
 ! - okcashbag
 member.okcashbag.com##.ad
@@ -835,6 +837,8 @@ coupang.com###fullBanner
 coupang.com###coupang-banner
 coupang.com###app-redirect-nudge
 coupang.com##.loyalty-banner
+coupang.com##[class^="sc-av2wx"]
+coupang.com##[class^="sc-ztbp"]
 ! danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 auto.danawa.com###homeFinder_adver
@@ -1157,6 +1161,11 @@ play.afreecatv.com##.adshop_layer
 ||vod-player001.afreecatv.com^
 ||vod-player002.afreecatv.com^
 ||vod-player003.afreecatv.com^
+
+! - rainberrytv
+utweb.rainberrytv.com##.card
+utweb.rainberrytv.com###games-sidebar
+utweb.rainberrytv.com###upgrade-sidebar
 
 ! - Samsung Default Apps
 @@||*.ospserver.net^
@@ -1665,6 +1674,9 @@ xyz##[href="/ad-7"]
 xyz##[href="/ad-8"]
 ! torrentreel
 site##[href^="https://filecast.co.kr/"]
+! torrentbot
+*##[class^="grid grid-cols-1 md:grid-cols-3"]
+*##[href^="/go/"]
 ! 기타
 ||torrentgram*.com/data/*/*.gif$image
 ||torrentlee*.com/data/*/*.gif$image
