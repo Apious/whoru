@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240813.1
+! Version: 240813.2
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -1393,8 +1393,9 @@ shopping.naver.com##[class*="advertising_banner"]
 shopping.naver.com##[data-shp-contents-grp="banner"]
 smartstore.naver.com##[alt^="멤버십_제너럴소재"]
 smartstore.naver.com##[class*="banner"]
-smartstore.naver.com##[data-shp-area-id="externalbanner"]
 smartstore.naver.com##[data-shp-inventory="banner"]
+smartstore.naver.com##[data-shp-area-id="externalbanner"]
+smartstore.naver.com##[data-shp-area-id="memboxbnfjoin"]
 ! mycar.naver
 mycar.naver.com##div[class^="FeedManagement_advertisement"]
 mycar.naver.com##a[class^="Banner_article"]
@@ -1805,6 +1806,7 @@ modfyp.com##.adsBox
 @@||dl.a2zupload.io^
 @@||a2zapk.io/cdn-cgi/
 @@||infidrive.net/dmca
+infidrive.net##p
 a2zapk.io#@#.RightAside
 ||a2zapk.io/cdn-cgi/rum
 ||a2zapk.io/tglink.php^
@@ -2174,7 +2176,8 @@ a-ads.com##.aa_container
 *##[src*="/side_banner/"]
 
 ! - 기타
-infidrive.net##p
+4pda.to##[valign="top"] [href][target="_blank"]
+www.luckymodapk.com###appx
 unlockapk.com##.adsbyvli
 www.webhosting.uk.com##.adv-link
 duckduckgo.com##div[data-testid="serp-popover-promo"]
