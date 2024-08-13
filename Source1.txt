@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240810.1
+! Version: 240813.1
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -1803,6 +1803,8 @@ modfyp.com##.adsBox
 ! - a2zapk
 @@||a2z.a2zapk.io^
 @@||dl.a2zupload.io^
+@@||a2zapk.io/cdn-cgi/
+@@||infidrive.net/dmca
 a2zapk.io#@#.RightAside
 ||a2zapk.io/cdn-cgi/rum
 ||a2zapk.io/tglink.php^
