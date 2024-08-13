@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240806.1
+! Version: 240813.1
 
 ! - 쿠팡
 @@||coupangeats.app.link^
@@ -80,11 +80,11 @@
 
 ! - Tmap app
 @@||inapps.appsflyer.com^
-||kialant.com^
-||poi-cdn.tmap.co.kr^
+@@||api.mixpanel.com^
 ||cdn.tmap.co.kr^
+||poi-cdn.tmap.co.kr^
+||kialant.com^
 ||s.mfinder.co.kr^
-||api.mixpanel.com^
 ||event.tmap.co.kr^
 ||t.naverads.com^
 ||sponsor.ajay.app^
