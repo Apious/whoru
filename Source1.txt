@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240814.1
+! Version: 240814.2
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -1816,6 +1816,7 @@ sub.manhwa.co.kr###main_banner_first_top_box
 103.204.13.68##.nav-main__link--more.nav-main__link
 103.204.13.68##.popups
 103.204.13.68##.topBanner
+103.204.13.68##.new_quit
 ! cookmana
 ||wwwimageup.*angle.net/other/wx_app_admin/*.png$image
 bell365.com##.btn_setup_n
