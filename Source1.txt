@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240814.2
+! Version: 240814.4
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -893,10 +893,16 @@ m.gsshop.com##.bnr-item_appdown
 m.gsshop.com##.app-banner-layer
 m.gsshop.com###md-appdown
 ! lotteon
+charlotte.lotteon.com##.invalidate-receiver.control-carousel
+charlotte.lotteon.com##.invalidate-receiver.control-frame > .message__wrap
 lotteon.com###modals-container
 lotteon.com##.eventBanner
 lotteon.com##.productAdvertisement
 lotteon.com##.advertisement
+lotteon.com#@##modals-container
+lotteon.com##.popCenter.popRound.v--modal-box
+lotteon.com##.bottomAdBanner
+lotteon.com##div.infoWrap:nth-of-type(2)
 ! tmon
 tmon.co.kr###_orderBanner
 tmon.co.kr###_wrapPromotionBanner
@@ -1238,6 +1244,7 @@ search.naver.com##._ad.box
 search.naver.com##.ad_section
 search.naver.com##.type_ad
 search.naver.com##.banner_inner
+search.naver.com##[id="power_link_together_broad_section"]
 ! m.naver - 2024-06
 naver.com###ad_timeboard
 naver.com###HOME_AD
