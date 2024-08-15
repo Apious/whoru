@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240815.2
+! Version: 240815.3
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -16,6 +16,22 @@ azapi.apti.co.kr###noticePopup
 ! - 토스, Toss
 @@||toss.im/pages/ekdil/$domain=auth.cert.toss.im
 @@||api-public.toss.im/
+||resources-fe.toss.im^$document
+! toss ads
+||cdn.appsflyer.com/web-sdk/banner/$document
+||overtax-popup.*.ap-northeast-*.amazonaws.com^
+/*/js/*.chunk.js$document
+/overture_index.jsp$document
+/react/event$document
+/ria_client.jsp$document
+/toss_mong$document
+/VD.ADDA0001.do$document
+||unpkg.com/@lottiefiles/lottie-player@2.0.4/$document
+af_ad_type=banner$document
+api/popup/$document,1p
+referrer=toss_game_referrer_mission$document
+utm_source=toss$document
+utm_source=toss_all$document
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1181,6 +1197,7 @@ utweb.rainberrytv.com###upgrade-sidebar
 !#if env_mobile
 ! - Tmap app / ($app=com.skt.tmap.ku)
 @@||cdn.tmap.co.kr/tmapweb^$app=com.skt.tmap.ku
+@@||decide.mixpanel.com^
 ||s.mfinder.co.kr^$app=com.skt.tmap.ku
 ! tmap main dashboard, popup-ads, main contents, etc
 ||cdn.tmobiweb.com/tmapad^$app=com.skt.tmap.ku
@@ -2247,7 +2264,6 @@ youngja.org##div.row:nth-of-type(4)
 @@||cmp.osano.com^
 @@||code.jquery.com^
 @@||connect.facebook.net^
-@@||decide.mixpanel.com^
 @@||files.modyolo.com^
 @@||github.com^
 @@||hypebeast.kr^
