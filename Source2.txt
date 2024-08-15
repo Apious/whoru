@@ -1,7 +1,15 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240815.3
+! Version: 240815.4
+
+! - xiaomi tracker
+@@||flash.sec.intl.miui.com^
+||g.galleryapi.micloud.xiaomi.net^
+||us.find.api.micloud.xiaomi.net^
+||i.mi.com^
+||pjbs.blackshark.com^
+||gamespace.sec.intl.miui.com^
 
 ! - 쿠팡
 @@||coupangeats.app.link^
@@ -124,30 +132,31 @@
 ||cdn-exchange.toastoven.net.cdnga.net^
 ||cdn-exchange.toastoven.net^
 
-! - xiaomi tracker
-@@||flash.sec.intl.miui.com^
-||g.galleryapi.micloud.xiaomi.net^
-||us.find.api.micloud.xiaomi.net^
-||i.mi.com^
-||pjbs.blackshark.com^
-||gamespace.sec.intl.miui.com^
-
 ! - V3 / AhnLab Ads
 ||www.ahnlabad.com^
 ||img.ahnlabad.com^
 ||betterday.co.kr^
 
 ! - Ads
+||abr.ge^
+||ad-global-rule.kajicam.com^
 ||ad.*.*.co.kr^
 ||ad.*.*.com^
 ||ad.*.*.net^
 ||ad.*.co.kr^
 ||ad.*.com^
 ||ad.*.net^
+||ad.3dpop.kr^
+||ad.a-ads.com^
+||ad.buzzvil.com^
+||ad.daum.net^
 ||ad89.*.kr^
 ||adam.*.*.net^
 ||adcheck.*.co.kr^
-||ad-global-rule.kajicam.com^
+||adcrony.co.kr^
+||adison.co^
+||adjw.co.kr^
+||adpnut.com^
 ||ads.*.*.co.kr^
 ||ads.*.*.com^
 ||ads.*.co.kr^
@@ -157,19 +166,11 @@
 ||adv.*.*.com^
 ||adv.*.co.kr^
 ||adv.*.com^
-||adx.*.co.kr^
+||adweb.co.kr^
 ||adx-exchange.*.com^
+||adx.*.co.kr^
 ||analytics.ad.*.net^
 ||analytics.admob.com^
-||ad.3dpop.kr^
-||ad.a-ads.com^
-||ad.buzzvil.com^
-||ad.daum.net^
-||adcrony.co.kr^
-||adison.co^
-||adjw.co.kr^
-||adpnut.com^
-||adweb.co.kr^
 ||analytics.admob.com^
 ||bank-times.com^
 ||code4us.com^
@@ -188,6 +189,7 @@
 ||telegra.ph^$image
 ||www.kodcad.kr^
 ||www.mediacategory.com^
+||www.sprinklr.com^
 ||xgo.kr^
 
 ! - 기타
