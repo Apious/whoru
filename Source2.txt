@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240815.1
+! Version: 240815.2
 
 ! - 쿠팡
 @@||coupangeats.app.link^
