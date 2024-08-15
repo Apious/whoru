@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240815.2
+! Version: 240815.3
 
 ! - 쿠팡
 @@||coupangeats.app.link^
@@ -66,7 +66,6 @@
 @@||*.samsungdm.com^
 ||gos-gsp.io^
 ||adconsent.samsungrs.com^
-||adlc-exchange.toast.com^
 ||analytics.samsungknox.com^
 ||api.glb.samsung-gamelauncher.com^
 ||banner.samsungmembers.com^
@@ -124,7 +123,6 @@
 ||adlc-exchange.toast.com^
 ||cdn-exchange.toastoven.net.cdnga.net^
 ||cdn-exchange.toastoven.net^
-||image.toast.com^
 
 ! - xiaomi tracker
 @@||flash.sec.intl.miui.com^
