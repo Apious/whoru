@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240813.1
+! Version: 240815.1
 
 ! - 쿠팡
 @@||coupangeats.app.link^
@@ -256,7 +256,6 @@
 ||www.mypetcare.co.kr^
 
 ! - 기타
-@@||*.amazonaws.com^
 @@||*.flurry.com^
 @@||*.president.go.kr^
 @@||*.qoo10.com^
