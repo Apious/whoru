@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240814.4
+! Version: 240815.1
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -2230,7 +2230,6 @@ youngja.org##div.row:nth-of-type(4)
 @@||i.keezip.com/data/
 @@||api-zero.livere.com/*/comments
 @@||*.123movies.ag^
-@@||*.amazonaws.com^
 @@||*.christiandate.kr^
 @@||*.ml.youngjoygame.com^
 @@||*.president.go.kr^
