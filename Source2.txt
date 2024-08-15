@@ -79,7 +79,7 @@
 ||ureca.samsungapps.com^
 
 ! - Tmap app
-@@||inapps.appsflyer.com^
+!@@||inapps.appsflyer.com^
 @@||api.mixpanel.com^
 ||cdn.tmap.co.kr^
 ||poi-cdn.tmap.co.kr^
@@ -270,7 +270,6 @@
 @@||app.adjust.net.in^
 @@||appcardapp3.hyundaicard.com^
 @@||app-measurement.com^
-@@||appsflyer.com^
 @@||beacons.gcp.gvt2.com^
 @@||beacons.gv2.com^
 @@||beacons1.gv2.com^
