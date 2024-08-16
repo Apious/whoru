@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240816.1
+! Version: 240816.2
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -1314,10 +1314,10 @@ news.naver.com##.promotion
 ! nid.naver
 nid.naver.com##.banner_wrap
 ! notify.naver, 알림
-notify.naver.com##.comp_benefit
 notify.naver.com##.comp_channel
 notify.naver.com##.banner
 notify.naver.com##.native_scroll
+m.notify.naver.com##div.grid > .comp_benefit.comp_card
 ! blog.naver, 블로그
 @@||m.blog.naver.com^$popup
 blog.naver.com##.btm_banner
