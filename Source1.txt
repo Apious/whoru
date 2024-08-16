@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240816.3
+! Version: 240816.4
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -1513,7 +1513,6 @@ www.terabox.com##.bottom-box
 www.terabox.com##.bottom-tip-wrap
 www.terabox.com##.coupon-Popup-box
 www.terabox.com##.dialog-extra-del
-www.terabox.com##.header
 www.terabox.com##.membership-entry
 www.terabox.com##.notification-wrap
 www.terabox.com##.operate-box
