@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240815.3
+! Version: 240816.1
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -1596,20 +1596,19 @@ www.happymod.to##a[class="appdetail-btn"]
 modfyp.com##.adsBox
 
 ! - a2zapk
+@@||googletagmanager.com/gtag/$domain=a2zapk.io
 @@||a2z.a2zapk.io^
-@@||dl.a2zupload.io^
 @@||a2zapk.io/cdn-cgi/
+@@||dl.a2zupload.io^
+a2zapk.io#@#.RightAside
 @@||infidrive.net/dmca
 infidrive.net##p
-a2zapk.io#@#.RightAside
 ||a2zapk.io/cdn-cgi/rum
 ||a2zapk.io/tglink.php^
-||a2zapk.io/tglink.php^
 ||xxxiijmp.com/i$subdocument
-a2zapk.io##div.ArticleLand > [src]
+a2zapk.io##.modalpop
 a2zapk.io##center:nth-of-type(2)
 a2zapk.io##div.ArticleLand > [src]
-a2zapk.io##.modalpop
 rtxkeeda.com###a-ads5
 rtxkeeda.com##.modalpop
 rtxkeeda.com##.NewBlock1 > [src]
