@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240817.2
+! Version: 240817.3
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -1037,11 +1037,12 @@ m.hnsmall.com##.v2.app_setup
 m.hnsmall.com###promotionPopupNew
 m.hnsmall.com##.layerDim
 ! skstoa
+www.skstoa.com##[src^="//imagecdn.skstoa.com/banner"]
+www.skstoa.com##[class="mt30 ga-event"]
 www.skstoa.com##.vodBanner
 www.skstoa.com##.js_l_wing_main
 www.skstoa.com##li.ga-event
 www.skstoa.com##.stoaLogin__etc-link
-www.skstoa.com##[src^="//imagecdn.skstoa.com/banner/"]
 ! coocha
 www.coocha.co.kr##.group-power-link
 www.coocha.co.kr##.group-recommended
