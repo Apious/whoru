@@ -1037,8 +1037,7 @@ m.hnsmall.com##.v2.app_setup
 m.hnsmall.com###promotionPopupNew
 m.hnsmall.com##.layerDim
 ! skstoa
-www.skstoa.com##[src^="//imagecdn.skstoa.com/banner"]
-www.skstoa.com##[class="mt30 ga-event"]
+www.skstoa.com##[class="my_shopping_cont"] > a[href]
 www.skstoa.com##.vodBanner
 www.skstoa.com##.js_l_wing_main
 www.skstoa.com##li.ga-event
