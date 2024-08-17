@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240817.4
+! Version: 240817.5
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -2014,6 +2014,7 @@ com##.ad-container
 com###desktopBannerWrapped
 a-ads.com##.size320x50
 a-ads.com##.aa_container
+||bank1s.co.kr^$document
 ||www.play-store.co.kr/ads$subdocument
 ||interworksmedia.co.kr^
 ||images2.imgbox.com/*_o.gif$image
