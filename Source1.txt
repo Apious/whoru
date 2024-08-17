@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240816.4
+! Version: 240817.1
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -1037,9 +1037,11 @@ m.hnsmall.com##.v2.app_setup
 m.hnsmall.com###promotionPopupNew
 m.hnsmall.com##.layerDim
 ! skstoa
-www.skstoa.com##.vodBanner
-www.skstoa.com##.js_l_wing_main
-www.skstoa.com##li.ga-event
+skstoa.com##.vodBanner
+skstoa.com##.js_l_wing_main
+skstoa.com##li.ga-event
+skstoa.com##.stoaLogin__etc-link
+skstoa.com##[src^="//imagecdn.skstoa.com/banner/"]
 ! coocha
 www.coocha.co.kr##.group-power-link
 www.coocha.co.kr##.group-recommended
@@ -1066,6 +1068,8 @@ m.bunjang.co.kr##div[class^="ProductExternalAdsstyle"]
 m.bunjang.co.kr##[src^="https://ssl.pstatic.net/adimg"]
 
 ! - Danawa(PC)
+@@||danawa.com/RealMedia/ads$domain=event.danawa.com
+search.danawa.com##[class^="aside_widget_wrap"]
 danawa.com###danawa-gnb-banner
 danawa.com##.font_dotum.bbs_power_link
 danawa.com##.power_link.ad_reader4
@@ -1592,6 +1596,7 @@ happymod.com##.downloading.cbox
 happymod.com##.righthm.rbox
 happymod.to##a[class="appdetail-btn"]
 happymod.to##div[class^="modCon"]
+happymod.com##.download-bottom
 ! etc
 modfyp.com##.adsBox
 
@@ -1772,6 +1777,14 @@ softwareok.com##center:nth-of-type(2)
 ! - logii.com
 logii.com##[href^="/UI/LinkClick.pm"]
 ||logii.com/img/banner$image
+
+! hyundaicard
+@@||ansimclick.hyundaicard.com^
+@@||appcardapp3.hyundaicard.com^
+! - oilbankcard
+oilbankcard.com##.cf.main_content_row
+oilbankcard.com##.cf.main_visual_row
+oilbankcard.com###event
 
 ! - WebToon / 웹툰 // 2024-07
 ! webtoon logo
@@ -2295,9 +2308,6 @@ youngja.org##div.row:nth-of-type(4)
 @@||www.seehd.pl^
 @@||www.sk7mobile.com^
 @@||yellow.contentsfeed.com^
-! hyundaicard
-@@||ansimclick.hyundaicard.com^
-@@||appcardapp3.hyundaicard.com^
 ! apps
 @@||app.adjust.net.in^
 @@||app-measurement.com^
