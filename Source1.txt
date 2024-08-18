@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240819.1
+! Version: 240819.2
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - moneypin.biz
@@ -1886,8 +1886,6 @@ hotword.site##div.col-md-6
 ! tvwiki
 ! cokcoktv
 ||media.cokcok.vip/assets/images/*.$image
-! bangbangba
-||bangbangba*.com/data/apms/background/*.$image
 ! cokcoktv
 ||media.cokcok.vip/assets/images/*.$image
 ! daisotv
@@ -2030,7 +2028,9 @@ a-ads.com##.aa_container
 ||ad4989.co.kr^
 ||priel.co.kr^
 ||ad.*.skt-jive.com^
+||ads.mtgroup.kr/$subdocument
 /banner/*.gif$image
+/data/apms/background/*.$image
 /allimg/*/banner*.gif$image
 *##[src*="innorame.com"]
 *##[src*="adv.imadrep.co.kr"]
