@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240817.6
+! Version: 240818.1
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - moneypin.biz
@@ -1807,6 +1807,10 @@ oilbankcard.com###event
 ||newtoki*.com/tokinbtoki/*.gif?_=*
 ||newtoki*.*/*/banner$image
 ||newtoki*.com/guarantee.php
+! mzgtoon
+mzgtoon.com##.fixed > div:nth-of-type(1) > .relative > div:nth-of-type(1)
+mzgtoon.com##.mt-4.flex-wrap
+mzgtoon.com##[href="https://b1.gob7.com"]
 ! toonkor, tkr
 @@||toonkor*.com/*/btn_submit_comment.gif$image
 @@||tkr*.com/*/btn_submit_comment.gif$image
