@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240819.2
+! Version: 240824.1
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - moneypin.biz
@@ -826,12 +826,14 @@ mobile.auction.co.kr##.content-slider
 ! coupang
 @@||/bannerunit/*
 @@||/banner/*$domain=coupang.com
-@@||mercury.coupang.com/e.gif$xhr
+@@||mercury.coupang.com^$app=com.coupang.mobile
+@@||image*.coupangcdn.com^$app=com.coupang.mobile
 ||ads-partners.coupang.com^
 ||static.coupangcdn.com/*/banner$image
 ||myqcloud.com^$app=com.coupang.mobile
 ||mercury.coupang.com^$app=com.coupang.mobile
 ||crashlyticsreports-pa.googleapis.com^$app=com.coupang.mobile
+||loyalty.coupang.com^$app=com.coupang.mobile
 coupang.com##div.keen-slider__slide
 coupang.com##.trending_ads
 coupang.com##.srp-top-banner-container
@@ -856,6 +858,7 @@ coupang.com###app-redirect-nudge
 coupang.com##.loyalty-banner
 coupang.com##[class^="sc-av2wx"]
 coupang.com##[class^="sc-ztbp"]
+
 ! danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 auto.danawa.com###homeFinder_adver
@@ -1202,13 +1205,14 @@ utweb.rainberrytv.com###upgrade-sidebar
 ! - Tmap app / ($app=com.skt.tmap.ku)
 @@||cdn.tmap.co.kr/tmapweb^$app=com.skt.tmap.ku
 @@||decide.mixpanel.com^
+@@||poi-cdn.tmap.co.kr^
 ||s.mfinder.co.kr^$app=com.skt.tmap.ku
+||api-js.mixpanel.com^$app=com.skt.tmap.ku
 ! tmap main dashboard, popup-ads, main contents, etc
 ||cdn.tmobiweb.com/tmapad^$app=com.skt.tmap.ku
 /tmapad/*$app=com.skt.tmap.ku
 /banner*$app=com.skt.tmap.ku
 /*banner*$app=com.skt.tmap.ku
-||poi-cdn.tmap.co.kr/*/*banner*$app=com.skt.tmap.ku
 ||smart.link^$app=com.skt.tmap.ku
 ||search.tmap.co.kr/static/*banner*$app=com.skt.tmap.ku
 ||frontman.tmobiapi.com^$app=com.skt.tmap.ku
@@ -2285,7 +2289,6 @@ youngja.org##div.row:nth-of-type(4)
 @@||beacon.shazam.com^
 @@||cmp.osano.com^
 @@||code.jquery.com^
-@@||connect.facebook.net^
 @@||files.modyolo.com^
 @@||github.com^
 @@||hypebeast.kr^
