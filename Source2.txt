@@ -1,7 +1,8 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240815.4
+! Version: 240824.1
+! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - xiaomi tracker
 @@||flash.sec.intl.miui.com^
@@ -87,7 +88,7 @@
 
 ! - Tmap app
 !@@||inapps.appsflyer.com^
-@@||api.mixpanel.com^
+!@@||api.mixpanel.com^
 ||cdn.tmap.co.kr^
 ||poi-cdn.tmap.co.kr^
 ||kialant.com^
@@ -99,6 +100,7 @@
 ||db*.speedgabia.com^
 ||ads-mmt.tmobiapi.com^
 ||cdn-ads.tmap.co.kr
+||cf.channel.io^
 
 ! - GOM Player
 ||*.buzzvil.com^
