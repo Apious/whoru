@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240828.1
+! Version: 240829.1
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - moneypin.biz
@@ -747,6 +747,11 @@ ajunews.com##[class^="banner_"]
 ilyosisa.co.kr##.thumb.banner_slide
 ilyosisa.co.kr##hr.skin_margin
 ilyosisa.co.kr##hr.spc
+! MoneyS
+moneys.co.kr##[class^="adbox"]
+moneys.co.kr##[id^="taboola"]
+moneys.co.kr##[data-ad]
+moneys.co.kr##[class^="ad-area"]
 ! news-etc
 ||www.businesspost.co.kr/*/banner/*/$image
 ||*.newscj.com^
@@ -1611,7 +1616,6 @@ modfyp.com##.adsBox
 @@||a2zapk.io/cdn-cgi/
 @@||dl.a2zupload.io^
 @@||googletagmanager.com/gtag/$domain=a2zapk.io
-@@||infidrive.net/dmca
 ||a2zapk.io/cdn-cgi/rum
 ||a2zapk.io/tglink.php^
 ||xxxiijmp.com/i$subdocument
@@ -1622,7 +1626,6 @@ a2zapk.io##.modalpop
 a2zapk.io##center:nth-of-type(2)
 a2zapk.io##div.ArticleLand > [src]
 a2zapk.io#@#.RightAside
-infidrive.net##p
 rtxkeeda.com###a-ads5
 rtxkeeda.com##.modalpop
 rtxkeeda.com##.NewBlock1 > [src]
@@ -1928,10 +1931,11 @@ tvusan.vip##.videowrapper_pc
 ! - 애니
 ! linkkf.app / linkkf.tv
 @@||ani1c1.top^$image
-linkkf.tv###banner
-linkkf.app###banner
-linkkf.net##[data-adsbygoogle-status="done"]
-linkkf.net##[id^="aswift"]
+kr.linkkf.net###banner
+kr.linkkf.net###banner
+kr.linkkf.net##[data-adsbygoogle-status="done"]
+kr.linkkf.net##[id^="aswift"]
+
 ! ohli365
 ||ohli365.vip/*.gif$image
 ||ohli365.vip/*.png$image
