@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240824.1
+! Version: 240828.1
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - moneypin.biz
@@ -67,18 +67,23 @@ jobplanet.co.kr##.induce-write-image
 @@||img.jobkorea.kr^
 @@||m.map.naver.com^$popup,domain=m.jobkorea.co.kr
 ||i.jobkorea.kr/content/images/*/banner*$image
-||file1.jobkorea.co.kr/Mailing/banner$image
-jobkorea.co.kr###Banner1
+||file1.jobkforea.co.kr/Mailing/banner$image
+jobkorea.co.kr###ban
 jobkorea.co.kr###banner-area
+jobkorea.co.kr###Banner1
 jobkorea.co.kr###carousel_1
 jobkorea.co.kr###carousel_2
 jobkorea.co.kr###devGiRightTicker
 jobkorea.co.kr###EventPopup
+jobkorea.co.kr##.active.ticker
 jobkorea.co.kr##.addmict-swiper
 jobkorea.co.kr##.aside-ad-banner
+jobkorea.co.kr##.attached.modal-frame
+jobkorea.co.kr##.banner-health
 jobkorea.co.kr##.flow_banner_box
 jobkorea.co.kr##.footer__advertisement
 jobkorea.co.kr##.healthBanner
+jobkorea.co.kr##.modal-banner
 jobkorea.co.kr##.notice
 jobkorea.co.kr##.notice-wrap
 jobkorea.co.kr##.preference-wrap
@@ -87,10 +92,6 @@ jobkorea.co.kr##.resume-emphasis
 jobkorea.co.kr##.right-banner
 jobkorea.co.kr##.show.snackbar-connect-app
 jobkorea.co.kr##.td-message
-jobkorea.co.kr##.modal-banner
-jobkorea.co.kr##.active.ticker
-jobkorea.co.kr##.banner-health
-jobkorea.co.kr###ban
 m.jobkorea.co.kr##.responsive-wrapper
 m.jobkorea.co.kr##.view2wayVvip > ul > li.agencyTypList
 
@@ -923,6 +924,7 @@ lotteon.com#@##modals-container
 lotteon.com##.popCenter.popRound.v--modal-box
 lotteon.com##.bottomAdBanner
 lotteon.com##div.infoWrap:nth-of-type(2)
+lotteon.com##div.infoWrap:nth-of-type(3)
 ! tmon
 tmon.co.kr###_orderBanner
 tmon.co.kr###_wrapPromotionBanner
@@ -1001,11 +1003,12 @@ member.ssg.com##.advertising.cmem_sec
 emart.ssg.com##.emall_banner_item_group
 event.ssg.com##.ty_universe.gnb_mmbrs
 ! 11st
-www.11st.co.kr##.advertisement
-www.11st.co.kr##.c_product_banner_benefit
-www.11st.co.kr##.c_product_banner_product
-www.11st.co.kr##.c_product_banner
-www.11st.co.kr##.r-coupon-down__line-banner
+11st.co.kr##.advertisement
+11st.co.kr##.c_product_banner_benefit
+11st.co.kr##.c_product_banner_product
+11st.co.kr##.c_product_banner
+11st.co.kr##.r-coupon-down__line-banner
+11st.co.kr##.c-ad-banner
 m.11st.co.kr##.fadeIn.animated.dim
 m.11st.co.kr##.c-ad-benefit
 m.11st.co.kr##.c-banner
@@ -1322,7 +1325,6 @@ news.naver.com##.promotion
 ! nid.naver
 nid.naver.com##.banner_wrap
 ! notify.naver, 알림
-notify.naver.com##.comp_channel
 notify.naver.com##.banner
 notify.naver.com##.native_scroll
 m.notify.naver.com##div.grid > .comp_benefit.comp_card
@@ -1768,6 +1770,10 @@ download.cnet.com##.rv-di-step__container
 download.cnet.com##[rel="dns-prefetch"]
 download.cnet.com##.is-tablet-hidden.is-mobile-hidden
 
+! - scloud.ws
+scloud.ws##[data-link^="http://kcmhdb.click"]
+scloud.ws##[id^="no-open-"]
+
 ! - softonic
 softonic.kr##.sam-slot
 softonic.kr##.rv-di-modal
@@ -1924,6 +1930,8 @@ tvusan.vip##.videowrapper_pc
 @@||ani1c1.top^$image
 linkkf.tv###banner
 linkkf.app###banner
+linkkf.net##[data-adsbygoogle-status="done"]
+linkkf.net##[id^="aswift"]
 ! ohli365
 ||ohli365.vip/*.gif$image
 ||ohli365.vip/*.png$image
