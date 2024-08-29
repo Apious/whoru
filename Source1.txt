@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240829.1
+! Version: 240829.2
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - moneypin.biz
@@ -1404,6 +1404,7 @@ shopping.naver.com##[class^="homeBannerPc_home_banner"]
 shopping.naver.com##[class^="NPaySection_my_membership"]
 shopping.naver.com##[class^="OrderDeliverySection_recommend"]
 shopping.naver.com##[class^="RecommendSection_recommend_section"]
+shopping.naver.com##[class^="relationProducts_relation_products"]
 ! chzzk
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.png$image
@@ -1743,6 +1744,7 @@ skyve.io##script[src="//ausoafab.net/tag.min.js"]
 a-ha.io##.homeCarousel.headerCarousel
 a-ha.io##.expert-section-wrapper
 a-ha.io##[href="/extras/about-membership"]
+a-ha.io###notification-modal > div:has([id])
 
 ! - hanjin.co.kr
 ||app.hanjin.com/app/image/adBanner$image
@@ -1946,7 +1948,7 @@ ohli365.vip##.basic-banner-4
 ohlitv.com##.insty
 ohlitv.com###exon
 ! 라프텔, laftel.net
-||service.iamport.kr^
+||service.iamport.kr^$domain=laftel.net
 
 !! 주소, 링크
 ! bobaelink, 보배링크
