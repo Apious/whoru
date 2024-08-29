@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240829.2
+! Version: 240830.1
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - moneypin.biz
@@ -1800,6 +1800,11 @@ oilbankcard.com##.cf.main_content_row
 oilbankcard.com##.cf.main_visual_row
 oilbankcard.com###event
 
+! - devicemart
+devicemart.co.kr##.view_md_pop
+devicemart.co.kr###t_r_ban_warp
+devicemart.co.kr###left_banner
+
 ! - WebToon / 웹툰 // 2024-08
 ! webtoon logo
 ||booktoki*.com/img/logo*
@@ -1904,7 +1909,8 @@ hotword.site##div.col-md-6
 ! cokcoktv
 ||media.cokcok.vip/assets/images/*.$image
 ! daisotv
-daiso1.org##.banner_content
+org##[href^="/banner/click"]
+org##div.banner_ads_item
 ! chachatv
 ||chachatv*.pro/ad/index.html$subdocument
 ! tvzota
