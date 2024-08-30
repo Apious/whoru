@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240830.1
+! Version: 240830.2
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - moneypin.biz
@@ -21,13 +21,14 @@ azapi.apti.co.kr###noticePopup
 ! toss ads
 ||cdn.appsflyer.com/web-sdk/banner/$document
 ||overtax-popup.*.ap-northeast-*.amazonaws.com^
+||unpkg.com/@lottiefiles/lottie-player@2.0.4/$document
+service.toss.im##[class] > div > figure
 /*/js/*.chunk.js$document
 /overture_index.jsp$document
 /react/event$document
 /ria_client.jsp$document
 /toss_mong$document
-/VD.ADDA0001.do$document
-||unpkg.com/@lottiefiles/lottie-player@2.0.4/$document
+/VD.ADDA*.do$document
 af_ad_type=banner$document
 api/popup/$document,1p
 referrer=toss_game_referrer_mission$document
