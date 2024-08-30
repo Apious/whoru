@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240830.2
+! Version: 240831.1
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - moneypin.biz
@@ -338,51 +338,16 @@ biz.chosun.com##.science-banner-area
 ddaily.co.kr##.util2
 ! donga
 donga.com###above_cmcl_box
-donga.com###adbox_zone01
-donga.com###adbox_zone02
-donga.com###adbox_zone03
-donga.com###adbox_zone04
-donga.com###aside_adbox01
-donga.com###aside_adbox02
-donga.com###aside_adbox03
-donga.com###aside_adbox04
 donga.com###banner_slider
 donga.com###right_wingad
 donga.com##.ad
 donga.com##.adwrap_box
-donga.com##.aside_adzone01
-donga.com##.aside_adzone01
-donga.com##.aside_adzone02
-donga.com##.aside_adzone02
-donga.com##.aside_adzone03
-donga.com##.aside_adzone03
-donga.com##.aside_adzone04
-donga.com##.aside_adzone04
-donga.com##.aside_adzone05
-donga.com##.aside_adzone06
-donga.com##.aside_adzone07
-donga.com##.aside_adzone08
-donga.com##.aside_adzone09
-donga.com##.aside_adzone10
 donga.com##.bann_wrap
 donga.com##.bestview_news
-donga.com##.bottom_ad
 donga.com##.facebook_api
 donga.com##.i-amphtml-unresolved
 donga.com##.promotion_wrap
 donga.com##.today_issue
-donga.com##.view_ads01
-donga.com##.view_ads02
-donga.com##.view_ads03
-donga.com##.view_ads04
-donga.com##.view_ads05
-donga.com##.view_ads06
-donga.com##.view_ads07
-donga.com##.view_ads08
-donga.com##.view_ads09
-donga.com##.view_ads10
-donga.com##.viewad_top
-donga.com##div.ad_01
 ! dongascience
 dongascience.com##.advertise
 dongascience.com###advertise_fixed
@@ -394,19 +359,13 @@ news.sbs.co.kr##.page_promotion_banner
 premium.sbs.co.kr##.endBnr_w
 premium.sbs.co.kr##.topBanner_w
 ! imbc
-imnews.imbc.com##div.ad_banner
-imnews.imbc.com##div[class="section_bottom_dable"]
-imnews.imbc.com##.banner_ad
-imnews.imbc.com##.program_banner
-imnews.imbc.com##.ad-count
-imnews.imbc.com##.ad-current
-imnews.imbc.com##.ad_enliple_m
-imnews.imbc.com##.ad-tit
+imnews.imbc.com##[class^="ad-"]
+imnews.imbc.com##[class^="ad_"]
+imnews.imbc.com##[class*="_ad"]
+imnews.imbc.com##[class*="-ad"]
+imnews.imbc.com##[class*="_banner"]
+imnews.imbc.com##[class*="_dable"]
 imnews.imbc.com##.clip-preview-msg
-imnews.imbc.com##.layer-ad
-imnews.imbc.com##.list_banner
-imnews.imbc.com##.s_ad.section
-imnews.imbc.com##.show_ad
 ! isplus / 일간스포츠
 isplus.com###eventBusiness
 isplus.com##.t_banner
@@ -415,18 +374,13 @@ isplus.com##.relative.border_b_black
 isplus.com##.flex.section_inner
 ! edaily / 이데일리
 ||image.edaily.co.kr/images/content/naver*
-edaily.co.kr###boxshow_970x90
+edaily.co.kr##[class*="_ad"]
+edaily.co.kr##[class^="boxshow_"]
 edaily.co.kr###w_read_right
-edaily.co.kr##.boxshow_300x100_r
-edaily.co.kr##.boxshow_300x250
-edaily.co.kr##.gg_dable_box
-edaily.co.kr##.gg_taboola
-edaily.co.kr##.gg_texshow_300
-edaily.co.kr##.gg_text1
-edaily.co.kr##.gg_textshow
+edaily.co.kr##[class^="gg_"]
+edaily.co.kr##[class*="_gg"]
 edaily.co.kr##.gpmclhd-link
 edaily.co.kr##.iwm_ba
-edaily.co.kr##.list_gg
 edaily.co.kr##.m_shows
 edaily.co.kr##.manyview_info
 edaily.co.kr##.mb40
@@ -436,7 +390,6 @@ edaily.co.kr##.newsletter_area
 edaily.co.kr##.pnutSlot
 edaily.co.kr##.right.more-stories
 edaily.co.kr##.rightArea01
-edaily.co.kr##.view_ad02
 edaily.co.kr##.weekend_news
 edaily.co.kr##.youlike_news
 m.edaily.co.kr##iframe[class^="slot"]
@@ -446,10 +399,8 @@ m.edaily.co.kr##[src^="//ad.ad"]
 m.edaily.co.kr##[id^="taboola-"]
 m.edaily.co.kr##[id^="ed_banner"]
 m.edaily.co.kr##[id^="ad_"]
-m.edaily.co.kr##[class="m_banners"]
-m.edaily.co.kr##[class="adTodayInfo"]
-m.edaily.co.kr##[class^="adTarget"]
 m.edaily.co.kr##[class^="ad_"]
+m.edaily.co.kr##[class*="_banners"]
 m.edaily.co.kr##.realtalk_zone
 ! fnnews
 ||io1.innorame.com^$subdocument
@@ -592,30 +543,17 @@ view.nate.com##figure.wp-caption:nth-of-type(9)
 ! zum
 @@||deepdive.zum.com^
 #@#iframe[src*="//deepdive.zum.com/widget/"]
-zum.com##.shopping_adbox
-zum.com##.setting_box
-zum.com##.right_ad_wrap
-zum.com##.right_ad_banner
-zum.com##.native_ad_wrap
-zum.com##.layer_inner
+zum.com##[class*="_ad_"]
+zum.com##[class*="_banner"]
 zum.com##.front-bottom-banners
+zum.com##.setting_box
+zum.com##.layer_inner
 zum.com##.brand_widget
-zum.com##.box_cont_banner
-zum.com##.big_banner
-zum.com##.alert_banner
-zum.com##.ad_banner_wrap
-news.zumst.com##.shopping_box_bottom_banner
+news.zumst.com##[class*="_banner"]
 news.zumst.com##.section_hot_news
-news.zumst.com##.right_ad_banner
-news.zumst.com##.native_ad_wrap
-news.zumst.com##.mobile_download_banner
-news.zumst.com##.mid_banner_wrap
 news.zumst.com##.hot_news
 news.zumst.com##.deepdive_widget_wrap
-news.zumst.com##.banner_wrap
 news.zumst.com##.article_bottom
-news.zumst.com##.ad_banner_wrap
-news.zum.com##.banner-app-view
 news.zum.com###layer_wrap
 news.zum.com###bottom_shopping_box
 ! ohmynews
@@ -623,21 +561,15 @@ news.zum.com###bottom_shopping_box
 ohmynews.com##[src*="ohmynews.com/BBS_ADM_FILE/"]
 ohmynews.com##.arc-bottom-wrap > div > [href]
 ohmynews.com###scrollTop
-ohmynews.com##.ad_wrap
+ohmynews.com##[class^="ad_"]
+ohmynews.com##[class*="_ad"]
+ohmynews.com##[class^="m_ad"]
+ohmynews.com##[id*="_banner"]
+ohmynews.com##[class*="_banner"]
 ohmynews.com##.faceb
 ohmynews.com##.footer_club
-ohmynews.com##.main_tis_ad
-ohmynews.com##.new_ad1
-ohmynews.com##.new_ad2
-ohmynews.com##.new_ad3
-ohmynews.com##.new_ad4
-ohmynews.com##.new_ad5
-ohmynews.com##.new_ad6
-ohmynews.com##.new_ad7
-ohmynews.com##.new_ad8
 ohmynews.com##.support-box
 ohmynews.com##.support-omn
-ohmynews.com##.wing_gallery_banner
 ! rpm9
 rpm9.com##.ad_right120x600
 rpm9.com##div.ad_right300
@@ -1396,7 +1328,6 @@ pay.naver.com##[class^="shopping_section _shopping_aitems"]
 pay.naver.com##[class^="SmartChannel_article"]
 pay.naver.com##div.s_sc
 pay.naver.com##div.s_sc:nth-of-type(5)
-search.shopping.naver.com##[class^="aside_aside"]
 search.shopping.naver.com##div[class^="adProduct_item"]
 shopping.naver.com##[class*="myInformationResponsive_membership_area"]
 shopping.naver.com##[class^="_targetBanner_link"]
