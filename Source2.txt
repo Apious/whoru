@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240824.1
+! Version: 240831.1
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - xiaomi tracker
@@ -264,36 +264,20 @@
 @@||*.shazam.com^
 @@||*.vlitag.com^
 @@||*.yomovies.it^
-@@||31.13.82.52:443^
 @@||a2z.a2zapk.com^
-@@||accounts.*.com^
 @@||ansimclick.hyundaicard.com^
 @@||api-maps.yandex.ru^
 @@||app.adjust.net.in^
 @@||appcardapp3.hyundaicard.com^
 @@||app-measurement.com^
-@@||beacons.gcp.gvt2.com^
-@@||beacons.gv2.com^
-@@||beacons1.gv2.com^
-@@||beacons2.gv2.com^
-@@||beacons3.gv2.com^
 @@||cache.nicepay.co.kr^
 @@||cc-api-data.adobe.io^
-@@||cs.whox2.com^
-@@||dmca.com^
-@@||dmm.co.jp^
-@@||dood.video^
-@@||dropgalaxy.com^
 @@||frog.editorx.com^
 @@||innorame.com^
 @@||minepi.com^
-@@||mixdrop.co^
 @@||mmthcoffee.kokonutstamp.com^
-@@||phonearena.com^
 @@||pizza.hyundaicard.com^
 @@||rawdata.kr^
-@@||report.appmetrica.yandex.net^
-@@||scv.band.us^
 @@||static.wixstatic.com^
 @@||syndication.realsrv.com^
 @@||videotongs.com^
