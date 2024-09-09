@@ -1,8 +1,14 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240908.1
+! Version: 240909.1
 ! Note: 국내 일부 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
+
+! - dpreview
+dpreview.com##body:style(overflow: auto !important;)
+dpreview.com##div[class*="ad-"]
+dpreview.com##div[id*="adSlot_"]
+dpreview.com##div[class^=" "]
 
 ! - moneypin.biz
 ||moneypin.biz/*/image/?url=%2Fads$image
@@ -1963,7 +1969,7 @@ site##[href^="https://filecast.co.kr/"]
 ||viewtorrent*.com/data/*/*.gif$image
 ||static.tzstatic.top/z/up*$image
 
-! - Ads Tags, 광고 태그, a-ads // 2024-08
+! - Ads Tags, 광고 태그, a-ads // 2024-09
 net##.mkt_banner
 net##.idtunemklgfsrpchjoq
 com##.premium-promo-row
@@ -1975,6 +1981,7 @@ com##.ad-container
 com###desktopBannerWrapped
 a-ads.com##.size320x50
 a-ads.com##.aa_container
+||adthrive.com^
 ||bank1s.co.kr^$document
 ||www.play-store.co.kr/ads$subdocument
 ||interworksmedia.co.kr^
