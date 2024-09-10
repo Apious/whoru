@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240909.1
+! Version: 240911.1
 ! Note: 국내 일부 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - dpreview
@@ -1499,11 +1499,11 @@ pedia.watcha.com##[alt*="배너"]
 m.kinolights.com##[href="https://linktr.ee/showbox.movie"]
 
 ! - apk store
-! aptoide.com
-aptoide.com##[class^="promote-game-banner__BannerContainer"]
-aptoide.com##[class^="promotional__PromotionalRow"]
-aptoide.com##[class^="aptoide-installer__InstallerContainer"]
-aptoide.com##[class^="aptoide-installer__InstallerContainer"]
+! aptoide
+aptoide.com##[class^="promote-game-banner"]
+aptoide.com##[class^="promotional_"]
+aptoide.com##[class^="aptoide-"]
+aptoide.com##[class^="appcoins-"]
 ! apkcombo
 apkcombo.com##.ad-pss
 apkcombo.com##div.widget
@@ -1777,6 +1777,7 @@ mzgtoon.com##[href="https://b1.gob7.com"]
 ||toonkor*.*/bann/*.jpg$image
 ||toonkor*.*/images/*.jpg$image
 ! wtwt, Wtoon
+com##[class="popnotice"][style="display: block;"]
 ||iabn*.net/*.$image
 *##[src^="https://iabn"]
 wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.com,wtwt318.com,wtwt317.com,wtwt316.com,wtwt315.com,wtwt314.com,wtwt313.com,wtwt312.com,wtwt311.com,wtwt310.com,wtwt309.com,wtwt308.com,wtwt307.com,wtwt306.com,wtwt305.com,wtwt304.com,wtwt303.com,wtwt302.com,wtwt301.com,wtwt300.com,wtwt299.com,wtwt298.com,wtwt297.com,wtwt296.com,wtwt295.com,wtwt294.com,wtwt293.com,wtwt292.com,wtwt291.com,wtwt290.com,wtwt289.com,wtwt288.com,wtwt287.com,wtwt286.com,wtwt285.com,wtwt284.com,wtwt283.com,wtwt282.com,wtwt281.com,wtwt280.com,wtwt279.com,wtwt278.com,wtwt277.com,wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com##[href="/w6"]
@@ -2123,7 +2124,8 @@ a-ads.com##.aa_container
 
 
 ! - 기타
-@@||inklinkor.com^$xhr,domain=oii.la
+instamod.net##iframe[id][style^="width: 100% !important;"]
+instamod.app##iframe[id][style^="width: 100% !important;"]
 zigzag.kr##.rolling__banner__item
 zigzag.kr##[id="__next"] > div > div > div[class^="css-"]:has(> div[class*="f"])
 4pda.to##[valign="top"] [href][target="_blank"]
@@ -2233,6 +2235,7 @@ www.puresys.net###aiviy-union-ad-2
 youngja.org##div.row:nth-of-type(4)
 
 ! - 기타 예외
+@@||inklinkor.com^$xhr,domain=oii.la
 @@||i.keezip.com/data/
 @@||api-zero.livere.com/*/comments
 @@||*.123movies.ag^
