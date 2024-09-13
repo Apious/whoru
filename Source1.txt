@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240913.1
+! Version: 240913.2
 ! Note: 국내 일부 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - dpreview
@@ -1555,7 +1555,6 @@ modfyp.com##.adsBox
 @@||a2zapk.io/cdn-cgi/
 @@||dl.a2zupload.io^
 @@||googletagmanager.com/gtag^$domain=a2zapk.io
-@@||pagead2.googlesyndication.com^$domain=infidrive.net
 ||a2zapk.io/cdn-cgi/rum
 ||a2zapk.io/tglink.php^
 ||xxxiijmp.com/i$subdocument
@@ -1569,6 +1568,11 @@ a2zapk.io#@#.RightAside
 rtxkeeda.com###a-ads5
 rtxkeeda.com##.modalpop
 rtxkeeda.com##.NewBlock1 > [src]
+
+! - infidrive
+@@||pagead2.googlesyndication.com^$domain=infidrive.net
+infidrive.net##.grid > div:nth-of-type(1)
+infidrive.net##.grid > div:nth-of-type(2)
 
 ! - lpoint / 엘포인트
 lpoint.com##.modal-bottom-ad
