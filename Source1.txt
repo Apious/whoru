@@ -1,8 +1,8 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240913.3
-! Note: 국내 일부 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
+! Version: 240915.1
+! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - dpreview
 dpreview.com##body:style(overflow: auto !important;)
@@ -1477,7 +1477,7 @@ www.terabox.com##.u-carousel--horizontal.u-carousel.notification-wrap
 www.terabox.com##img[class="pc-download"]
 
 ! - watcha
-@@||www.googletagmanager.com^$script,domain=pedia.watcha.com
+@@||googletagmanager.com^$domain=pedia.watcha.com,third-party
 watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"])
 watcha.com##[href*="https://pedia.watcha.com/ko-KR/promotions"]
 watcha.com##[href*="https://watcha.com/contents"]
@@ -1554,7 +1554,7 @@ modfyp.com##.adsBox
 @@||a2z.a2zapk.io^
 @@||a2zapk.io/cdn-cgi/
 @@||dl.a2zupload.io^
-@@||googletagmanager.com/gtag^$domain=a2zapk.io
+@@||googletagmanager.com^$domain=a2zapk.io,third-party
 ||a2zapk.io/cdn-cgi/rum
 ||a2zapk.io/tglink.php^
 ||xxxiijmp.com/i$subdocument
@@ -1570,7 +1570,8 @@ rtxkeeda.com##.modalpop
 rtxkeeda.com##.NewBlock1 > [src]
 
 ! - infidrive
-@@||pagead2.googlesyndication.com^$domain=infidrive.net
+@@||pagead2.googlesyndication.com^$domain=infidrive.net,third-party
+@@||googletagmanager.com^$domain=infidrive.net,third-party
 infidrive.net##.grid > div:nth-of-type(1)
 infidrive.net##.grid > div:nth-of-type(2)
 
@@ -2287,6 +2288,5 @@ youngja.org##div.row:nth-of-type(4)
 @@||www.sk7mobile.com^
 @@||yellow.contentsfeed.com^
 ! apps
-@@||app-measurement.com^
 @@||cdn.jsdelivr.net^
 @@||data.flurry.com^
