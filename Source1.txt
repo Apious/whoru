@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240915.2
+! Version: 240915.3
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - dpreview
@@ -1307,38 +1307,40 @@ map.naver.com##around-contents-card
 map.naver.com##.promotion_wrap
 ! pay.naver, 페이
 ||new-m.pay.naver.com/api/timeline/v2/aitems
-new-m.pay.naver.com###BOTTOM_MODAL_NOTICE
-new-m.pay.naver.com##.flicking-viewport
-new-m.pay.naver.com##[class^="ADRewardList_article"]
-new-m.pay.naver.com##[class^="AssetList_article"]
-new-m.pay.naver.com##[class^="BenefitCards_article"]
-new-m.pay.naver.com##[class^="CreditScoreAndLoanComparison_article"]
-new-m.pay.naver.com##[class^="NpayDownloadButton-module_article"]
-new-m.pay.naver.com##[data-au="total.click_total"]
-msearch.shopping.naver.com##[class^="membershipBanner_membership_banner"]
-orders.pay.naver.com##[class^="PanelWrapper_article"]
-orders.pay.naver.com##[class^="SkeletonBannerWrapper"]
-orders.pay.naver.com##[class^="TitleMessage_desciption"]
+pay.naver.com###BOTTOM_MODAL_NOTICE
 pay.naver.com###pc_pay_paymenthistory
 pay.naver.com##._orderDonePopup_commonBanner
 pay.naver.com##.area_recommend_ad
 pay.naver.com##.commonBannerArea
+pay.naver.com##.flicking-viewport
 pay.naver.com##.membership_sc
+pay.naver.com##[class*="BigBanner"]
+pay.naver.com##[class^="ADRewardList"]
+pay.naver.com##[class^="AssetList"]
+pay.naver.com##[class^="BenefitCards"]
+pay.naver.com##[class^="CreditScoreAndLoanComparison"]
 pay.naver.com##[class^="LoanBanner_article"]
 pay.naver.com##[class^="NaverPlusMembership"]
+pay.naver.com##[class^="NpayDownloadButton-module"]
+pay.naver.com##[class^="PanelWrapper"]
+pay.naver.com##[class^="PayService_banner"]
 pay.naver.com##[class^="shopping_section _shopping_aitems"]
+pay.naver.com##[class^="SkeletonBannerWrapper"]
 pay.naver.com##[class^="SmartChannel_article"]
+pay.naver.com##[class^="TitleMessage_desciption"]
+pay.naver.com##[data-au="total.click_total"]
 pay.naver.com##div.s_sc
 pay.naver.com##div.s_sc:nth-of-type(5)
-search.shopping.naver.com##div[class^="adProduct_item"]
-shopping.naver.com##[class*="myInformationResponsive_membership_area"]
-shopping.naver.com##[class^="_targetBanner_link"]
+shopping.naver.com##[class*="myInformationResponsive_membership"]
+shopping.naver.com##[class^="adProduct_item"]
 shopping.naver.com##[class^="card_promotion"]
 shopping.naver.com##[class^="homeBannerPc_home_banner"]
+shopping.naver.com##[class^="membershipBanner_membership_banner"]
 shopping.naver.com##[class^="NPaySection_my_membership"]
 shopping.naver.com##[class^="OrderDeliverySection_recommend"]
 shopping.naver.com##[class^="RecommendSection_recommend_section"]
 shopping.naver.com##[class^="relationProducts_relation_products"]
+shopping.naver.com##[class^="targetBanner_link"]
 ! chzzk
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.png$image
@@ -1535,6 +1537,7 @@ gamedva.com##.atelegram
 gamedva.com##.aatelegram1
 gamedva.com##.wp-block-button.hide-on-mobile
 ! happymod
+happymodpro.com##.appx.cbox
 happymod.com###appx
 happymod.com##.container-left > div:nth-of-type(3)
 happymod.com##.down-fixd-box
