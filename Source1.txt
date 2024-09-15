@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240915.3
+! Version: 240915.4
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - dpreview
@@ -75,11 +75,15 @@ jobplanet.co.kr##.induce-write-image
 @@||m.map.naver.com^$popup,domain=m.jobkorea.co.kr
 ||i.jobkorea.kr/content/images/*/banner*$image
 ||file1.jobkforea.co.kr/Mailing/banner$image
+jobkorea.co.kr##[class^="middle_banner"]
+jobkorea.co.kr##[class="entrance_bnr"]
+jobkorea.co.kr##article[id="event"]
 jobkorea.co.kr###ban
 jobkorea.co.kr###banner-area
 jobkorea.co.kr###Banner1
 jobkorea.co.kr###carousel_1
 jobkorea.co.kr###carousel_2
+jobkorea.co.kr###dev-card-list
 jobkorea.co.kr###devGiRightTicker
 jobkorea.co.kr###EventPopup
 jobkorea.co.kr##.active.ticker
@@ -87,20 +91,23 @@ jobkorea.co.kr##.addmict-swiper
 jobkorea.co.kr##.aside-ad-banner
 jobkorea.co.kr##.attached.modal-frame
 jobkorea.co.kr##.banner-health
+jobkorea.co.kr##.div-tooltip-msg
 jobkorea.co.kr##.flow_banner_box
 jobkorea.co.kr##.footer__advertisement
 jobkorea.co.kr##.healthBanner
+jobkorea.co.kr##.jk-login-total-wrap
 jobkorea.co.kr##.modal-banner
 jobkorea.co.kr##.notice
 jobkorea.co.kr##.notice-wrap
 jobkorea.co.kr##.preference-wrap
 jobkorea.co.kr##.qna-content
+jobkorea.co.kr##.responsive-wrapper
 jobkorea.co.kr##.resume-emphasis
 jobkorea.co.kr##.right-banner
 jobkorea.co.kr##.show.snackbar-connect-app
 jobkorea.co.kr##.td-message
-m.jobkorea.co.kr##.responsive-wrapper
-m.jobkorea.co.kr##.view2wayVvip > ul > li.agencyTypList
+jobkorea.co.kr##.topHead_onepick_txt
+jobkorea.co.kr##.view2wayVvip > ul > li.agencyTypList
 
 ! - okcashbag
 member.okcashbag.com##.ad
