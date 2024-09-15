@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240915.1
+! Version: 240915.2
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - xiaomi tracker
@@ -48,22 +48,12 @@
 ||vads-api.daumkakao.com^
 
 ! - Google ads
-!@@||lh3.googleusercontent.com^
-!@@||tpc.googlesyndication.com^
 ||*.*.doubleclick.net^
 ||*.doubleclick.net^
 ||*.googleadservices.com^
 ||ads.google.com^
-||adservice.google.co.kr^
-||adservice.google.com.tw^
-||adservice.google.com^
-||adservice.google.tw^
-||adservices.google.com^
 ||doubleclick.net^
 ||fundingchoicesmessages.google.com^
-||googleads.g.doubleclick.net^
-||googleadservices.com^
-||pagead.*.google.com^
 ||partnerad.*.google.com^
 
 ! - AfreecaTV
