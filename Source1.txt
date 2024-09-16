@@ -234,7 +234,6 @@ tube-box.co.kr##div
 
 ! - Cookie Footer / 사이트 들어가자 마자 쿠키 동의 안내
 openweathermap.org###stick-footer-panel
-open.spotify.com###onetrust-consent-sdk
 superuser.com##.js-consent-banner
 bitly.com###banner-cookie
 
@@ -1634,6 +1633,11 @@ en-ter.co.kr##.main_pop
 filetender.com##[id*="sidebar"]
 filetender.com###button
 filetender.com##.avmov
+
+! - Spotify
+spotify.com##[data-testid="banner"]
+spotify.com##[aria-label="Cookie banner"]
+open.spotify.com###onetrust-consent-sdk
 
 ! - music-flo
 music-flo.com##.modal-wrap
