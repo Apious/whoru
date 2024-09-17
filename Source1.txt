@@ -1117,7 +1117,6 @@ dcinside.com###comment_li_0
 @@||shoppinglist.google.com^
 ||googleads.g.doubleclick.net^
 ||static.doubleclick.net^
-||fundingchoicesmessages.google.com^
 ||accounts.google.com/gsi/iframe/select$subdocument
 google.com###topstuff
 google.com##[class*="middle-slot-promo"]
@@ -1560,7 +1559,9 @@ modfyp.com##.adsBox
 @@||a2z.a2zapk.io^
 @@||a2zapk.io/cdn-cgi/
 @@||dl.a2zupload.io^
-@@||googletagmanager.com^$domain=a2zapk.io
+@@||google-analytics.com^$domain=a2zapk.io
+@@||googlesyndication.com^$domain=a2zapk.io
+@@||doubleclick.net^$domain=a2zapk.io
 ||a2zapk.io/cdn-cgi/rum
 ||a2zapk.io/tglink.php^
 ||xxxiijmp.com/i$subdocument
