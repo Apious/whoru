@@ -47,14 +47,6 @@
 ||tr.*.daum.net^
 ||vads-api.daumkakao.com^
 
-! - Google ads
-||*.*.doubleclick.net^
-||*.doubleclick.net^
-||*.googleadservices.com^
-||ads.google.com^
-||fundingchoicesmessages.google.com^
-||partnerad.*.google.com^
-
 ! - AfreecaTV
 ||item.m.afreecatv.com^
 ||delog.afreecatv.com^
