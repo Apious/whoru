@@ -1556,22 +1556,21 @@ happymod.com##.download-bottom
 modfyp.com##.adsBox
 
 ! - a2zapk
+a2zapk.io#@#[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+a2zapk.io#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
+a2zapk.io#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 @@||a2z.a2zapk.io^
 @@||a2zapk.io/cdn-cgi/
 @@||dl.a2zupload.io^
-@@||google-analytics.com^$domain=a2zapk.io
-@@||googlesyndication.com^$domain=a2zapk.io
-@@||doubleclick.net^$domain=a2zapk.io
-||a2zapk.io/cdn-cgi/rum
 ||a2zapk.io/tglink.php^
 ||xxxiijmp.com/i$subdocument
+a2zapk.io#@#.RightAside
 a2zapk.io###primary > center
 a2zapk.io###primary > div:nth-of-type(2)
 a2zapk.io##.Container > center:nth-of-type(1)
 a2zapk.io##.modalpop
 a2zapk.io##center:nth-of-type(2)
 a2zapk.io##div.ArticleLand > [src]
-a2zapk.io#@#.RightAside
 rtxkeeda.com###a-ads5
 rtxkeeda.com##.modalpop
 rtxkeeda.com##.NewBlock1 > [src]
