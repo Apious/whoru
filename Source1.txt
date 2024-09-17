@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240917.1
+! Version: 240917.2
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - dpreview
@@ -1556,6 +1556,9 @@ happymod.com##.download-bottom
 modfyp.com##.adsBox
 
 ! - a2zapk
+@@||google-analytics.com^$domain=a2zapk.io
+@@||doubleclick.net^$domain=a2zapk.io
+@@||googletagmanager.com^$domain=a2zapk.io
 a2zapk.io#@#[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 a2zapk.io#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 a2zapk.io#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
