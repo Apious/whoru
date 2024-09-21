@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240917.2
+! Version: 240922.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - dpreview
@@ -1336,6 +1336,7 @@ pay.naver.com##[class^="TitleMessage_desciption"]
 pay.naver.com##[data-au="total.click_total"]
 pay.naver.com##div.s_sc
 pay.naver.com##div.s_sc:nth-of-type(5)
+! shopping.naver, 쇼핑
 shopping.naver.com##[class*="myInformationResponsive_membership"]
 shopping.naver.com##[class^="adProduct_item"]
 shopping.naver.com##[class^="card_promotion"]
@@ -1346,6 +1347,11 @@ shopping.naver.com##[class^="OrderDeliverySection_recommend"]
 shopping.naver.com##[class^="RecommendSection_recommend_section"]
 shopping.naver.com##[class^="relationProducts_relation_products"]
 shopping.naver.com##[class^="targetBanner_link"]
+shopping.naver.com##[class^="shoppingHomeResponsive_banner"]
+shopping.naver.com##[class*="_advertising_"]
+shopping.naver.com##[class*="forYouResponsive"]:has(> div [class="blind"])
+shopping.naver.com##[class*="shoppingHomeResponsive_today"]:has(> div [class^="titleResponsive_name"])
+
 ! chzzk
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.png$image
@@ -1424,7 +1430,13 @@ clien.net##.side_posjduenfj
 ygosu.com,ppss.kr,tgd.kr##+js(no-setTimeout-if, [native code], 0)
 ygosu.com##+js(abort-on-stack-trace, XMLHttpRequest.prototype.send, /th:\d+\s+[a-zA-Z]\d\/<@[^\t]+\t\s[a-zA-Z]\d@|th:\d+\s+in[a-zA-Z\d:;]+\t\s[a-zA-Z]\d\si/)
 
-! - uptodown, dailyuploads, uploadrar, uplod, dailyenter, douploads, intoupload, workupload, mediafire
+! - XDA
+xda-developers.com##[class*="ad-zone"]
+xda-developers.com##[id*="ad-zone"]
+xda-developers.com##[class="valnet-gallery"]
+xda-developers.com##[data-original-ad-element-id]
+
+! - uptodown, dailyuploads, uploadrar, uplod, dailyenter, douploads, intoupload, workupload, mediafire, upfiles-urls
 @@||dailyuploads.net^
 uptodown.com##.login-uptodown
 uptodown.com###credential_picker_container
@@ -1438,6 +1450,7 @@ intoupload.net##.banneradshome
 workupload.com##[id^="div-gpt-ad"]
 mediafire.com##.CookieAcceptance
 ||www.mediafire.com/widgets/sidebar_promo.php$subdocument
+upfiles-urls.com##[class="ad-element"]
 
 ! - dropgalaxy
 dropgalaxy.com##div[id*="div-gpt-ad"]
@@ -1763,7 +1776,7 @@ devicemart.co.kr##.view_md_pop
 devicemart.co.kr###t_r_ban_warp
 devicemart.co.kr###left_banner
 
-! - WebToon / 웹툰 // 2024-08
+! - WebToon / 웹툰 // 2024-09
 ! webtoon logo
 ||booktoki*.com/img/logo*
 ||funbe*.com/*/*logo*
@@ -1816,6 +1829,12 @@ oktoon.com##[src^="https://cdn-w.fastifyimg.com/banner"]
 ! 밤토끼
 co.com##.gnb > li:nth-of-type(3)
 co.com##.gnb > li:nth-of-type(4)
+! blacktoon
+blacktoon1.info##[class^="comp-"] > div:nth-of-type(2)
+@@/^https:\/\/blacktoon[0-9]+\.com\/poster_js\/[0-9]+\.js/
+||blacktoon*.com/upload/*/*.gif$image
+||blacktoon*.com/upload/*/*.jpg$image
+||blacktoon*.com/upload/*/*.png$image
 ! 펀비, funbe
 ||funbe*.com/images/*.gif
 ||funbe*.com/bann
@@ -2014,6 +2033,8 @@ a-ads.com##.aa_container
 /banner/*.gif$image
 /data/apms/background/*.$image
 /allimg/*/banner*.gif$image
+*##[href*="http://hg-rr.com"]
+*##[href*="https://spwebdata.com"]
 *##[src*="innorame.com"]
 *##[src*="adv.imadrep.co.kr"]
 *##[src*="adjw.co.kr"]
@@ -2139,8 +2160,8 @@ a-ads.com##.aa_container
 ! analytics
 !||106.53.80.33:443^
 
-
 ! - 기타
+hogangnono.com##div[class^="css-"]:has(> [id^="google-ad"])
 instamod.net##iframe[id][style^="width: 100% !important;"]
 instamod.app##iframe[id][style^="width: 100% !important;"]
 zigzag.kr##.rolling__banner__item
