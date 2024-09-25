@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240924.2
+! Version: 240925.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - discountspot
@@ -77,6 +77,7 @@ jobplanet.co.kr##.induce-write-image
 @@||fileco.jobkorea.co.kr^
 @@||img.jobkorea.kr^
 @@||m.map.naver.com^$popup,domain=m.jobkorea.co.kr
+||i.jobkorea.kr/content/images/cdn/pc/bg-login-model*.png$image
 ||i.jobkorea.kr/content/images/*/banner*$image
 ||file1.jobkforea.co.kr/Mailing/banner$image
 jobkorea.co.kr##[class^="middle_banner"]
@@ -112,6 +113,9 @@ jobkorea.co.kr##.show.snackbar-connect-app
 jobkorea.co.kr##.td-message
 jobkorea.co.kr##.topHead_onepick_txt
 jobkorea.co.kr##.view2wayVvip > ul > li.agencyTypList
+jobkorea.co.kr##[class="adBan"]
+jobkorea.co.kr##[id="lottie-model"]
+jobkorea.co.kr##[class*="advertisement"]
 
 ! - okcashbag
 member.okcashbag.com##.ad
@@ -2052,6 +2056,7 @@ a-ads.com##.aa_container
 *##[src*="adv.imadrep.co.kr"]
 *##[src*="adjw.co.kr"]
 *##[src*="ad.reople.co.kr"]
+*##[src^="//t1.daumcdn.net/adfit"]
 *##[href*="/cupang.php"]
 *##[href*="/channel/promotion"]
 *##[href^="/index/banner_click"]
