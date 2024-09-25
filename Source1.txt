@@ -78,6 +78,7 @@ jobplanet.co.kr##.induce-write-image
 @@||img.jobkorea.kr^
 @@||m.map.naver.com^$popup,domain=m.jobkorea.co.kr
 ||i.jobkorea.kr/content/images/cdn/pc/bg-login-model*.png$image
+||i.jobkorea.kr/content/images/cdn/pc/bg-header-before.png$image
 ||i.jobkorea.kr/content/images/*/banner*$image
 ||file1.jobkforea.co.kr/Mailing/banner$image
 jobkorea.co.kr##[class^="middle_banner"]
