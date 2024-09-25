@@ -117,6 +117,7 @@ jobkorea.co.kr##.view2wayVvip > ul > li.agencyTypList
 jobkorea.co.kr##[class="adBan"]
 jobkorea.co.kr##[id="lottie-model"]
 jobkorea.co.kr##[class*="advertisement"]
+m.jobkorea.co.kr##+js(nowoif)
 
 ! - okcashbag
 member.okcashbag.com##.ad
