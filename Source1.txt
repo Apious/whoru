@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240925.1
+! Version: 240927.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - discountspot
@@ -1514,19 +1514,10 @@ www.terabox.com##img[class="pc-download"]
 
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
-watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"])
-watcha.com##[href*="https://pedia.watcha.com/ko-KR/promotions"]
-watcha.com##[href*="https://watcha.com/contents"]
-watcha.com##[href^="https://watcha.com/promotions"]
-watcha.com##[href^="https://watcha.com/notices"]
-pedia.watcha.com##[class="w_exposed_cell"] > div > section > div > section > section
-pedia.watcha.com##[class="w_exposed_cell"] > div > section > section
-pedia.watcha.com##div[class^="desktop css-"]
-pedia.watcha.com##div[class*="media-area css-"]
-pedia.watcha.com##img[src*=".png"]
+pedia.watcha.com##[href*="https://pedia.watcha.com/ko-KR/promotions"]
+pedia.watcha.com##[href^="https://watcha.com/notices"]
 pedia.watcha.com##[rel^="noreferrer"]
-pedia.watcha.com##[alt*="광고"]
-pedia.watcha.com##[alt*="배너"]
+pedia.watcha.com##[id="root"] section:has(> div[class^="media-area"])
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image
@@ -1591,21 +1582,22 @@ modfyp.com##.adsBox
 @@||google-analytics.com^$domain=a2zapk.io
 @@||doubleclick.net^$domain=a2zapk.io
 @@||googletagmanager.com^$domain=a2zapk.io
-a2zapk.io#@#[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
-a2zapk.io#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
-a2zapk.io#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 @@||a2z.a2zapk.io^
 @@||a2zapk.io/cdn-cgi/
 @@||dl.a2zupload.io^
 ||a2zapk.io/tglink.php^
 ||xxxiijmp.com/i$subdocument
-a2zapk.io#@#.RightAside
 a2zapk.io###primary > center
 a2zapk.io###primary > div:nth-of-type(2)
 a2zapk.io##.Container > center:nth-of-type(1)
+a2zapk.io##.MenuDeveloper
 a2zapk.io##.modalpop
 a2zapk.io##center:nth-of-type(2)
 a2zapk.io##div.ArticleLand > [src]
+a2zapk.io#@#.RightAside
+a2zapk.io#@#[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+a2zapk.io#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
+a2zapk.io#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 rtxkeeda.com###a-ads5
 rtxkeeda.com##.modalpop
 rtxkeeda.com##.NewBlock1 > [src]
