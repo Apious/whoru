@@ -1494,7 +1494,7 @@ dropgalaxy.com##div[style^="border:1px"]
 ! - terabox / 1024tera / app:com.dubox.drive
 ||s2.teraboxcdn.com/fe-opera-static/node-static-v4/fe-webv4-main/img/*.png^$image
 tera.com##.product-img
-tera.com##[class^="product-card"]
+tera.com##[class*="product-card"]
 tera.com##[class="exclusive"]
 tera.com##[class="user-name"]
 tera.com##.ad-eggplant
