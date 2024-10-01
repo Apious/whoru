@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 240930.4
+! Version: 241001.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - imyfone
@@ -973,10 +973,9 @@ member.ssg.com##.advertising.cmem_sec
 emart.ssg.com##.emall_banner_item_group
 event.ssg.com##.ty_universe.gnb_mmbrs
 ! 11st
+login.11st.co.kr##[data-log-actionid-label="banner"]
 11st.co.kr##.advertisement
-11st.co.kr##.c_product_banner_benefit
-11st.co.kr##.c_product_banner_product
-11st.co.kr##.c_product_banner
+11st.co.kr##[class^="c_product_banner"]
 11st.co.kr##.r-coupon-down__line-banner
 11st.co.kr##.c-ad-banner
 m.11st.co.kr##.fadeIn.animated.dim
@@ -994,8 +993,13 @@ m.11st.co.kr###banner-gnb
 m.11st.co.kr###mwPortal
 m.11st.co.kr##.r-coupon-down__line-banner
 search.11st.co.kr###section_list
+search.11st.co.kr##[class*="_ad"]
+search.11st.co.kr##.section-review
 plan.11st.co.kr##.c-webtoapp--fixed.c-webtoapp
 buy.11st.co.kr##.hope_shopping
+buy.11st.co.kr##[id="ar-hotclick"]
+buy.11st.co.kr##[data-log-actionid-area*="_ad"]
+buy.11st.co.kr##[class*="ad_"]
 ! tdeal / T딜
 ||cdn.tdeal.kr/images/banners$image
 tdeal.kr##.topBanner__content
@@ -1493,10 +1497,6 @@ dropgalaxy.com##div[style^="border:1px"]
 
 ! - terabox / 1024tera / app:com.dubox.drive
 ||s2.teraboxcdn.com/fe-opera-static/node-static-v4/fe-webv4-main/img/*.png^$image
-www.1024tera.com##.product-img
-www.1024tera.com##[class*="product-card"]
-www.1024tera.com##[class="exclusive"]
-www.1024tera.com##[class="user-name"]
 www.1024tera.com##.ad-eggplant
 www.1024tera.com##.bottom-box
 www.1024tera.com##.bottom-tip-wrap
@@ -1512,19 +1512,27 @@ www.1024tera.com##.report
 www.1024tera.com##.seo-banner-box
 www.1024tera.com##.text-banner
 www.1024tera.com##.u-carousel--horizontal.u-carousel.notification-wrap
-www.terabox.com##.bottom-box
-www.terabox.com##.bottom-tip-wrap
-www.terabox.com##.coupon-Popup-box
-www.terabox.com##.dialog-extra-del
-www.terabox.com##.membership-entry
-www.terabox.com##.notification-wrap
-www.terabox.com##.operate-box
-www.terabox.com##.operate-popup-box
-www.terabox.com##.overlay
-www.terabox.com##.seo-banner-box
-www.terabox.com##.social-media
-www.terabox.com##.u-carousel--horizontal.u-carousel.notification-wrap
-www.terabox.com##img[class="pc-download"]
+www.1024tera.com##[class*="product-card"]
+www.1024tera.com##.product-img
+www.1024tera.com##.exclusive
+www.1024tera.com##.user-name
+terabox.com##.bottom-box
+terabox.com##.bottom-tip-wrap
+terabox.com##.coupon-Popup-box
+terabox.com##.dialog-extra-del
+terabox.com##.membership-entry
+terabox.com##.notification-wrap
+terabox.com##.operate-box
+terabox.com##.operate-popup-box
+terabox.com##.overlay
+terabox.com##.product-img
+terabox.com##.seo-banner-box
+terabox.com##.social-media
+terabox.com##.u-carousel--horizontal.u-carousel.notification-wrap
+terabox.com##img[class="pc-download"]
+terabox.com##.product-img
+terabox.com##.exclusive
+terabox.com##.user-name
 
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
