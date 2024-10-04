@@ -1546,12 +1546,12 @@ terabox.com##.user-name
 
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
-watcha.com##[alt*="배너"]
-watcha.com##[href*="/notices"]
-watcha.com##[href*="/promotions"]
-watcha.com##[id^="modal-container"] a[class]
-watcha.com##[id="root"] section:has(> div[class^="media-area"])
-watcha.com##[rel^="noreferrer"]
+pedia.watcha.com##[alt*="배너"]
+pedia.watcha.com##[href*="/notices"]
+pedia.watcha.com##[href*="/promotions"]
+pedia.watcha.com##[id^="modal-container"] a[class]
+pedia.watcha.com##[id="root"] section:has(> div[class^="media-area"])
+pedia.watcha.com##[rel^="noreferrer"]
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image
