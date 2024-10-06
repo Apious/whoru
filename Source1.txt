@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241004.1
+! Version: 241007.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - dlfox
@@ -1552,6 +1552,7 @@ pedia.watcha.com##[href*="/promotions"]
 pedia.watcha.com##[id^="modal-container"] a[class]
 pedia.watcha.com##[id="root"] section:has(> div[class^="media-area"])
 pedia.watcha.com##[rel^="noreferrer"]
+pedia.watcha.com##[class*="w_exposed_cell"][class="w_exposed_cell"]
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image
@@ -1956,6 +1957,7 @@ lol/wp-content/uploads/*/*.gif
 store##[href^="https://daepiso.xyz"]
 store##[href^="https://daepiso.xyz"]
 tvusan.vip##.videowrapper_pc
+||witchtv*.xyz/banner-gallery$image
 
 ! - 애니
 ! linkkf.app / linkkf.tv
@@ -2207,6 +2209,8 @@ a-ads.com##.aa_container
 !||106.53.80.33:443^
 
 ! - 기타
+bstage.in##[class^="CookieBottomSheet"]
+bstage.in##[class^="CookieCustomBottomSheet_dim"]
 linkvertise.com##.adstep--container__content-wrapper
 d4armory.io###d4video
 pesktop.com##.v2
