@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241007.2
+! Version: 241008.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - dlfox
@@ -1131,6 +1131,9 @@ daum.net##.box_shorts.box_g
 ! - tistory
 @@||www.tistory.com^
 @@||www.tistory.com^$app=com.kakao.talk
+@@||tistory.com/manage
+||tistory1.daumcdn.net/tistory/*/skin/images/*.jpg$image
+tistory.com##[data-og-host="www.coupang.com"]
 tistory.com#@#+js(abort-current-script, $, div.adsbygoogle)
 tistory.com#@#.ad-wp
 tistory.com##div.module_plugin.module:nth-of-type(1)
@@ -1202,13 +1205,8 @@ utweb.rainberrytv.com###upgrade-sidebar
 ||smart.link^$app=com.skt.tmap.ku
 ||search.tmap.co.kr/static/*banner*$app=com.skt.tmap.ku
 ||frontman.tmobiapi.com^$app=com.skt.tmap.ku
-||l*.onstove.com/ko/promotion/*
 ||db*.speedgabia.com/
 &utm_medium=inapp_momentpopup_impression_cpm&
-onstove.com/ko/promotion/*
-/^https?:\/\/static-pub\.onstove.com\/*\/assets\/promotion\*
-/^https?:\/\/[a-z][0-9]\.onstove\.com\/ko\/promotion\*
-/^https?:\/\/[a-z]{5,}[0-9]{1,}\.speedgabia\.com\/*
 
 ! - oilnow
 carmmunity.oilnow.co.kr##.swiper-wrapper
@@ -1374,6 +1372,7 @@ pay.naver.com##[class^="TitleMessage_desciption"]
 pay.naver.com##[data-au="total.click_total"]
 pay.naver.com##div.s_sc
 pay.naver.com##div.s_sc:nth-of-type(5)
+pay.naver.com##[class^="FinanceMenu_item"]:nth-of-type(1)
 ! shopping.naver, 쇼핑
 shopping.naver.com##[class*="myInformationResponsive_membership"]
 shopping.naver.com##[class^="adProduct_item"]
@@ -1390,6 +1389,8 @@ shopping.naver.com##[class*="_advertising_"]
 shopping.naver.com##[class*="forYouResponsive"]:has(> div [class="blind"])
 shopping.naver.com##[class*="shoppingHomeResponsive_today"]:has(> div [class^="titleResponsive_name"])
 shopping.naver.com##[class^="_targetBanner_content"]
+shopping.naver.com##[class^="_targetBanner_link"]
+shopping.naver.com##[data-cy="card-section-card_section"] [href*="/festa/onsale/"]
 
 ! chzzk
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
@@ -1561,6 +1562,11 @@ pedia.watcha.com##[class*="w_exposed_cell"][class="w_exposed_cell"]
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image
 m.kinolights.com##[href="https://linktr.ee/showbox.movie"]
+
+! - onstove
+onstove.com###main-floating
+onstove.com##.main-banner > .column-group
+onstove.com/ko/promotion/*
 
 ! - apk store
 ! aptoide
@@ -2337,7 +2343,6 @@ youngja.org##div.row:nth-of-type(4)
 @@||1boon.daum.net^
 @@||220.73.135.178:8214^
 @@||api.onetouch.police.go.kr/mbl/rpt/*
-@@||apious.tistory.com/manage
 @@||auth.skt-id.co.kr^
 @@||beacon.shazam.com^
 @@||cmp.osano.com^
