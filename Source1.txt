@@ -1954,6 +1954,9 @@ hotword.site##div.col-md-6
 ! cokcoktv
 ||media.cokcok.vip/assets/images/*.$image
 com##[class="cpb-popup-banners"]
+! witchtv
+||witchtv*.xyz/banner-gallery/*$image
+||witchtv*.xyz/wp-content/uploads/*/*$image
 ! daisotv
 org##[href^="/banner/click"]
 org##div.banner_ads_item
@@ -1981,7 +1984,6 @@ lol/wp-content/uploads/*/*.gif
 store##[href^="https://daepiso.xyz"]
 store##[href^="https://daepiso.xyz"]
 tvusan.vip##.videowrapper_pc
-||witchtv*.xyz/wp-content/uploads/*/*$image
 
 ! - 애니
 ! linkkf.app / linkkf.tv
