@@ -653,6 +653,7 @@ www.ytn.co.kr##.newsletter
 www.ytn.co.kr##.top_banner
 www.yna.co.kr##[id*="div-gpt-ad"]
 star.ytn.co.kr##[title^="하단 광고"]
+yna.co.kr##[class^="aside-"]
 ! zdnet
 zdnet.co.kr##.webinar
 ! mk
@@ -840,7 +841,7 @@ coupang.com##.loyalty-banner
 coupang.com##[class^="sc-av2wx"]
 coupang.com##[class^="sc-ztbp"]
 
-! danawa
+! - danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 auto.danawa.com###homeFinder_adver
 auto.danawa.com##div[class^="ad-powerlink"]
@@ -863,7 +864,17 @@ www.danawa.com##.main_ad_prodlist
 www.danawa.com##li.prod_ad_item
 www.danawa.com##[id*="Banner"]
 www.danawa.com##[class*="bnr"]
-! gmarket
+shop.danawa.com##.banner-container
+shop.danawa.com##[onmousedown*="배너"]
+shop.danawa.com##[class*="_banner_"]
+shop.danawa.com##.product-recommend
+! malltail
+post.malltail.com##.floating-banner
+post.malltail.com##.banner-slider
+! enuri
+enuri.com##[class^="bnrbox"]
+
+! - gmarket
 @@||script.gmarket.co.kr^$script
 ||ad-img.gmarket.com/ADS$image
 ||pics.gmarket.com/smilepay/banner$image
@@ -1348,6 +1359,8 @@ map.naver.com##around-contents-card
 map.naver.com##.promotion_wrap
 ! pay.naver, 페이
 ||new-m.pay.naver.com/api/timeline/v2/aitems
+new-m.pay.naver.com##[class^="FlickingBanner_article"]
+new-m.pay.naver.com##[class^="Tools_item"]:nth-of-type(1)
 pay.naver.com###BOTTOM_MODAL_NOTICE
 pay.naver.com###pc_pay_paymenthistory
 pay.naver.com##._orderDonePopup_commonBanner
@@ -1360,6 +1373,7 @@ pay.naver.com##[class^="ADRewardList"]
 pay.naver.com##[class^="AssetList"]
 pay.naver.com##[class^="BenefitCards"]
 pay.naver.com##[class^="CreditScoreAndLoanComparison"]
+pay.naver.com##[class^="FinanceMenu_item"]:nth-of-type(1)
 pay.naver.com##[class^="LoanBanner_article"]
 pay.naver.com##[class^="NaverPlusMembership"]
 pay.naver.com##[class^="NpayDownloadButton-module"]
@@ -1372,9 +1386,14 @@ pay.naver.com##[class^="TitleMessage_desciption"]
 pay.naver.com##[data-au="total.click_total"]
 pay.naver.com##div.s_sc
 pay.naver.com##div.s_sc:nth-of-type(5)
-pay.naver.com##[class^="FinanceMenu_item"]:nth-of-type(1)
 ! shopping.naver, 쇼핑
+search.shopping.naver.com##[class^="mallShortCut_brand_shortcut"]
+shopping.naver.com##[class*="_advertising_"]
+shopping.naver.com##[class*="forYouResponsive"]:has(> div [class="blind"])
 shopping.naver.com##[class*="myInformationResponsive_membership"]
+shopping.naver.com##[class*="shoppingHomeResponsive_today"]:has(> div [class^="titleResponsive_name"])
+shopping.naver.com##[class^="_targetBanner_content"]
+shopping.naver.com##[class^="_targetBanner_link"]
 shopping.naver.com##[class^="adProduct_item"]
 shopping.naver.com##[class^="card_promotion"]
 shopping.naver.com##[class^="homeBannerPc_home_banner"]
@@ -1383,13 +1402,8 @@ shopping.naver.com##[class^="NPaySection_my_membership"]
 shopping.naver.com##[class^="OrderDeliverySection_recommend"]
 shopping.naver.com##[class^="RecommendSection_recommend_section"]
 shopping.naver.com##[class^="relationProducts_relation_products"]
-shopping.naver.com##[class^="targetBanner_link"]
 shopping.naver.com##[class^="shoppingHomeResponsive_banner"]
-shopping.naver.com##[class*="_advertising_"]
-shopping.naver.com##[class*="forYouResponsive"]:has(> div [class="blind"])
-shopping.naver.com##[class*="shoppingHomeResponsive_today"]:has(> div [class^="titleResponsive_name"])
-shopping.naver.com##[class^="_targetBanner_content"]
-shopping.naver.com##[class^="_targetBanner_link"]
+shopping.naver.com##[class^="targetBanner_link"]
 shopping.naver.com##[data-cy="card-section-card_section"] [href*="/festa/onsale/"]
 
 ! chzzk
