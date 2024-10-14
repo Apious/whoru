@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241012.3
+! Version: 241014.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - dlfox
@@ -1955,10 +1955,8 @@ hotword.site##div.col-md-6
 ! cokcoktv
 ||media.cokcok.vip/assets/images/*.$image
 com##[class="cpb-popup-banners"]
-! witchtv
-||witchtv*.xyz/banner-gallery/*$image
-||witchtv*.xyz/template/*/image/*$image
-||witchtv*.xyz/wp-content/uploads/*/*$image
+! cytv
+com##.yk-container > .clearfix.yk-pannela
 ! daisotv
 org##[href^="/banner/click"]
 org##div.banner_ads_item
@@ -1969,6 +1967,8 @@ org##div.banner_ads_item
 com##[class="wid"]
 ! tvroom
 ||tinypic.host/images/*.$image
+org##[style^="background-color"]
+/^https:\/\/blacktoon[0-9]+\.com\/poster_js\/[0-9]+\.js/
 ! bozatv
 bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com,bozatv89.com,bozatv88.com,bozatv87.com,bozatv86.com,bozatv85.com,bozatv84.com,bozatv83.com,bozatv82.com,bozatv81.com,bozatv80.com##.clearfix
 bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com,bozatv89.com,bozatv88.com,bozatv87.com,bozatv86.com,bozatv85.com,bozatv84.com,bozatv83.com,bozatv82.com,bozatv81.com,bozatv80.com##.popup_left
@@ -1976,14 +1976,12 @@ bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bo
 ||gltv*.com/files/attach/*.png$image
 ||gltv*.com/files/attach/*.jpg$image
 ||gltv*.com/files/attach/*.gif$image
-||gltv*.com/files/attach/*.gif$image
 ||gltv*.com/layouts/fado/files/*.gif$image
 !! TV-etc
 fun##.bannerwrap1
 kotbc.com##.at-title
 lol##figure.size-full.wp-block-image
 lol/wp-content/uploads/*/*.gif
-store##[href^="https://daepiso.xyz"]
 store##[href^="https://daepiso.xyz"]
 tvusan.vip##.videowrapper_pc
 
