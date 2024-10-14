@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241014.2
+! Version: 241014.3
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - dlfox
@@ -845,9 +845,13 @@ coupang.com##[class^="sc-ztbp"]
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 auto.danawa.com###homeFinder_adver
 auto.danawa.com##div[class^="ad-powerlink"]
+danawa.com##.auto_product_list
+danawa.com##.event_link
 dpg.danawa.com##.wrap_link_left.comty_wrap_link
-www.danawa.com##[class="prod-list__link top100AdProductClick"]
-www.danawa.com##div[class="main-coupon swiper-coupon"]
+shop.danawa.com##.banner-container
+shop.danawa.com##.product-recommend
+shop.danawa.com##[class*="_banner_"]
+shop.danawa.com##[onmousedown*="배너"]
 www.danawa.com###adSmartArea
 www.danawa.com###adSmartArea2
 www.danawa.com###ebayPowerClickBottomArea
@@ -861,13 +865,11 @@ www.danawa.com##.dealer.diff_list
 www.danawa.com##.diff_bnr
 www.danawa.com##.event_link
 www.danawa.com##.main_ad_prodlist
-www.danawa.com##li.prod_ad_item
-www.danawa.com##[id*="Banner"]
 www.danawa.com##[class*="bnr"]
-shop.danawa.com##.banner-container
-shop.danawa.com##[onmousedown*="배너"]
-shop.danawa.com##[class*="_banner_"]
-shop.danawa.com##.product-recommend
+www.danawa.com##[class="prod-list__link top100AdProductClick"]
+www.danawa.com##[id*="Banner"]
+www.danawa.com##div[class="main-coupon swiper-coupon"]
+www.danawa.com##li.prod_ad_item
 ! malltail
 post.malltail.com##.floating-banner
 post.malltail.com##.banner-slider
