@@ -1957,6 +1957,7 @@ hotword.site##div.col-md-6
 com##[class="cpb-popup-banners"]
 ! cytv
 com##.yk-container > .clearfix.yk-pannela
+com##a[href][target="_blank"]
 ! daisotv
 org##[href^="/banner/click"]
 org##div.banner_ads_item
