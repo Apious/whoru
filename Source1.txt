@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241014.3
+! Version: 241015.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - dlfox
@@ -1175,22 +1175,17 @@ google.com##[class*="middle-slot-promo"]
 ||firebaselogging.googleapis.com^
 ||firebase.googleapis.com^
 
-! - AfreecaTV 
-||admvod.afreecatv.com^
-||deapi.afreecatv.com^
-||cache.m.afreecatv.com/application/theme^
-||stimg.afreecatv.com/LOGO^
-! - AfreecaTV / Popup
-bj.afreecatv.com##.bs-notice_layer
-! - AfreecaTV / 배경 블라인드
-play.afreecatv.com##.bg_dark
-! - AfreecaTV / AD Bottom popup
-vod.afreecatv.com##.adballoon
-play.afreecatv.com##.adshop_layer
-! - AfreecaTV / VOD ADS
-||vod-player001.afreecatv.com^
-||vod-player002.afreecatv.com^
-||vod-player003.afreecatv.com^
+! - sooplive (구.아프리카)
+!||adballoon.sooplive.co.kr^
+||deapi.sooplive.co.kr/*/*&*&placement=LIVE_LOADING_BANNER_PC_WEB^
+||st.sooplive.co.kr/api/da_block_api.php^
+sooplive.co.kr##[class*="_banner"]
+sooplive.co.kr##[class^="mainBanner"]
+sooplive.co.kr##[class^="subBanner_"]
+sooplive.co.kr##[href^="https://log.saybuzz.io/log/click/brand/"]
+sooplive.co.kr##[href="https://hellosoopevent.sooplive.co.kr/"]
+! ads media
+||vod-player*.sooplive.co.kr/*/hls/creatives/media
 
 ! - rainberrytv
 utweb.rainberrytv.com##.card
