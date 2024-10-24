@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241020.2
+! Version: 241024.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -1563,7 +1563,6 @@ terabox.com##.coupon-Popup-box
 terabox.com##.dialog-extra-del
 terabox.com##.membership-entry
 terabox.com##.notification-wrap
-terabox.com##.operate-box
 terabox.com##.operate-popup-box
 terabox.com##.overlay
 terabox.com##.product-img
@@ -1573,7 +1572,12 @@ terabox.com##.u-carousel--horizontal.u-carousel.notification-wrap
 terabox.com##img[class="pc-download"]
 terabox.com##.product-img
 terabox.com##.exclusive
+terabox.com##[class^="product-card"]
 terabox.com##.user-name
+terabox.com##.operate-box
+gibibox.com##[class^="product-card"]
+gibibox.com##.user-name
+gibibox.com##.operate-box
 
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
