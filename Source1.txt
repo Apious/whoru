@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241030.1
+! Version: 241031.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -689,10 +689,6 @@ mt.co.kr##.adbox
 mt.co.kr##.cardinfo1
 news.imaeil.com##.arl_007
 imaeil.com##[id*="div-gpt-ad"]
-imaeil.com###container > .inner > div:nth-of-type(1)
-imaeil.com###container > .inner > div:nth-of-type(2)
-imaeil.com###container > .inner > div:nth-of-type(3)
-imaeil.com###container > .inner > div:nth-of-type(4)
 imaeil.com##.h30
 imaeil.com##.h25
 imaeil.com##.h20
@@ -1168,6 +1164,7 @@ tistory.com##.adfit.revenue_unit_item
 tistory.com##.kakao_ad_area
 tistory.com##.revenue_unit_wrap
 tistory.com##.wrap_bnr_story
+tistory.com##.container_layer_type2
 
 ! - dcinside
 gall.dcinside.com##.kakao_ad_area
@@ -2155,7 +2152,6 @@ a-ads.com##.aa_container
 *##[src*="ad.reople.co.kr"]
 *##[src*="adjw.co.kr"]
 *##[src*="adv.imadrep.co.kr"]
-*##[src*="innorame.com"]
 *##[src^="//t1.daumcdn.net/adfit"]
 *##.wp-block-gallery-1.wp-block-gallery
 *##.video-banner-ad
