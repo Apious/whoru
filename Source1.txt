@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241031.1
+! Version: 241104.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -385,10 +385,6 @@ it.chosun.com##.inner
 it.chosun.com##.news_letter
 sports.chosun.com##.hoseBn
 biz.chosun.com##.science-banner-area
-! ddaily
-||m.ddaily.co.kr/data/banner^
-||www.ddaily.co.kr/*/*/*/naver_channel.jpg$image
-ddaily.co.kr##.util2
 ! donga
 donga.com###above_cmcl_box
 donga.com###banner_slider
@@ -425,6 +421,24 @@ isplus.com##.t_banner
 isplus.com##div.item
 isplus.com##.relative.border_b_black
 isplus.com##.flex.section_inner
+! ddaily
+||m.ddaily.co.kr/data/banner^
+||www.ddaily.co.kr/*/*/*/naver_channel.jpg$image
+ddaily.co.kr##.util2
+mydaily.co.kr##div.h50
+! dailypharm
+dailypharm.com##.headLineAD
+dailypharm.com##.overMouse.overlayVideo
+dailypharm.com##.S1-dday
+dailypharm.com##.footerAD
+dailypharm.com##.RightSideADBt
+dailypharm.com##[href^="https://www.dailypharm.com/Users/Event"]
+recruit.dailypharm.com##.rightBanner
+recruit.dailypharm.com##.footerBannerWrap
+map.dailypharm.com##.ad
+map.dailypharm.com##.mb0
+map.dailypharm.com##.mainTopBannerImg
+map.dailypharm.com##[class*="border-1"]
 ! edaily / 이데일리
 ||image.edaily.co.kr/images/content/naver*
 edaily.co.kr##[class*="_ad"]
@@ -725,6 +739,10 @@ ajunews.com##div[style="height:220px;"]
 ajunews.com##[href^="https://www.compassion.or.kr/sponsor"]
 ajunews.com##.view_banner
 ajunews.com##[class^="banner_"]
+! techpress
+techpress.co.kr#$#.news-view p { padding-top: 15px !important; }
+techpress.co.kr#$#.news-view p { padding-bottom: 15px !important; }
+techpress.co.kr##[class^="pc-post-ad"]
 ! 일요시사
 ||www.ilyosisa.co.kr/data/banner$image
 ilyosisa.co.kr##.thumb.banner_slide
@@ -2021,6 +2039,7 @@ lol##figure.size-full.wp-block-image
 lol/wp-content/uploads/*/*.gif
 store##[href^="https://daepiso.xyz"]
 tvusan.vip##.videowrapper_pc
+||hoohootv*.xyz/static/bnner$image
 
 ! - 애니
 ! linkkf.app / linkkf.tv
@@ -2263,6 +2282,7 @@ a-ads.com##.aa_container
 ||ugepodownload.mediatek.com^
 
 ! - 기타
+mdilbo.com##.mr-0.my-0.tv_wrap
 url.kr##.banner-container
 url.kr##.notice-box
 anbox-cloud.io###modal
