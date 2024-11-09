@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241104.1
+! Version: 241109.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -1901,12 +1901,11 @@ devicemart.co.kr##.view_md_pop
 devicemart.co.kr###t_r_ban_warp
 devicemart.co.kr###left_banner
 
-! - WebToon / 웹툰 // 2024-09
+! - WebToon / 웹툰 // 2024-11
 ! webtoon logo
 ||booktoki*.com/img/logo*
 ||funbe*.com/*/*logo*
 ||fxfx*.com/*/*/logo*
-||happytoon*.com/assets/images/logo.png$image
 ||img.timiai*.com/img/danbi*.png$image
 ||imgcloud*.net/*.gif$image
 ||imgcloud*.net/*.png$image
@@ -1941,11 +1940,6 @@ wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.
 wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.com,wtwt318.com,wtwt317.com,wtwt316.com,wtwt315.com,wtwt314.com,wtwt313.com,wtwt312.com,wtwt311.com,wtwt310.com,wtwt309.com,wtwt308.com,wtwt307.com,wtwt306.com,wtwt305.com,wtwt304.com,wtwt303.com,wtwt302.com,wtwt301.com,wtwt300.com,wtwt299.com,wtwt298.com,wtwt297.com,wtwt296.com,wtwt295.com,wtwt294.com,wtwt293.com,wtwt292.com,wtwt291.com,wtwt290.com,wtwt289.com,wtwt288.com,wtwt287.com,wtwt286.com,wtwt285.com,wtwt284.com,wtwt283.com,wtwt282.com,wtwt281.com,wtwt280.com,wtwt279.com,wtwt278.com,wtwt277.com,wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com##.left > ul > li:nth-of-type(4)
 wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.com,wtwt318.com,wtwt317.com,wtwt316.com,wtwt315.com,wtwt314.com,wtwt313.com,wtwt312.com,wtwt311.com,wtwt310.com,wtwt309.com,wtwt308.com,wtwt307.com,wtwt306.com,wtwt305.com,wtwt304.com,wtwt303.com,wtwt302.com,wtwt301.com,wtwt300.com,wtwt299.com,wtwt298.com,wtwt297.com,wtwt296.com,wtwt295.com,wtwt294.com,wtwt293.com,wtwt292.com,wtwt291.com,wtwt290.com,wtwt289.com,wtwt288.com,wtwt287.com,wtwt286.com,wtwt285.com,wtwt284.com,wtwt283.com,wtwt282.com,wtwt281.com,wtwt280.com,wtwt279.com,wtwt278.com,wtwt277.com,wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com##.toon-bottom
 wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.com,wtwt318.com,wtwt317.com,wtwt316.com,wtwt315.com,wtwt314.com,wtwt313.com,wtwt312.com,wtwt311.com,wtwt310.com,wtwt309.com,wtwt308.com,wtwt307.com,wtwt306.com,wtwt305.com,wtwt304.com,wtwt303.com,wtwt302.com,wtwt301.com,wtwt300.com,wtwt299.com,wtwt298.com,wtwt297.com,wtwt296.com,wtwt295.com,wtwt294.com,wtwt293.com,wtwt292.com,wtwt291.com,wtwt290.com,wtwt289.com,wtwt288.com,wtwt287.com,wtwt286.com,wtwt285.com,wtwt284.com,wtwt283.com,wtwt282.com,wtwt281.com,wtwt280.com,wtwt279.com,wtwt278.com,wtwt277.com,wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com##.banner
-! oktoon
-oktoon.com##.banner
-oktoon.com##[href^="/banner"]
-oktoon.com##[src^="https://cdn-w.fastifyimg.com/banner"]
-||cdn-w.fastifyimg.com/banner^
 ! agit
 ||agit*.xyz/*/banner/$image
 ||agit*.xyz/upload/$image
@@ -1992,21 +1986,19 @@ bell365.com##.btn_setup_n
 ! emmaru
 emmaru.com###scrool_rightbanner
 emmaru.com##body > table > tbody > tr > td > table > tbody > tr:nth-of-type(4) > td:nth-of-type(3)
+! happytoon
+||happytoon*.com/assets/images/logo.png$image
+||happytoon*.com/upload/banner$image
 ! about-etc
 ||yatoon*.com/*/ad.jpg$image
 ||yatoon*.com/*/drama*.jpg$image
 ||a*.tooncome.com/*/*.gif$image
 ||www.smilemanga.com/img/*.gif$image
-tooncome.com##li.swiper-slide.gnb_1dli:nth-of-type(1)
-tooncome.com##li.swiper-slide.gnb_1dli:nth-of-type(9)
-tooncome.com##section#container_middle.idx_section2.idx_section:nth-of-type(1)
-cartoonnetworkkorea.com###onetrust-consent-sdk
-hotword.site##div.col-md-6
 ||iabn*.net$image
 ||hoduhodu.com/*X*.gif^$image
+||greentoon.net/bn$image
 
 ! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브, 주소링크 등
-! tvwiki
 ! cokcoktv
 ||media.cokcok.vip/assets/images/*.$image
 com##[class="cpb-popup-banners"]
@@ -2025,8 +2017,7 @@ com##[class="wid"]
 org##[style^="background-color"]
 /^https:\/\/blacktoon[0-9]+\.com\/poster_js\/[0-9]+\.js/
 ! bozatv
-bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com,bozatv89.com,bozatv88.com,bozatv87.com,bozatv86.com,bozatv85.com,bozatv84.com,bozatv83.com,bozatv82.com,bozatv81.com,bozatv80.com##.clearfix
-bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com,bozatv89.com,bozatv88.com,bozatv87.com,bozatv86.com,bozatv85.com,bozatv84.com,bozatv83.com,bozatv82.com,bozatv81.com,bozatv80.com##.popup_left
+bozatv140.combozatv139.com,bozatv138.com,bozatv137.com,bozatv136.com,bozatv135.com,bozatv134.com,bozatv133.com,bozatv132.com,bozatv131.com,bozatv130.com,bozatv129.com,bozatv128.com,bozatv127.com,bozatv126.com,bozatv125.com,bozatv124.com,bozatv123.com,bozatv122.com,bozatv121.com,bozatv120.com,bozatv119.com,bozatv118.com,bozatv117.com,bozatv116.com,bozatv115.com,bozatv114.com,bozatv113.com,bozatv112.com,bozatv111.com,bozatv110.com,bozatv109.com,bozatv108.com,bozatv107.com,bozatv106.com,bozatv105.com,bozatv104.com,bozatv103.com,bozatv102.com,bozatv101.com,bozatv100.com,bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com##.popup_left
 ! gltv
 ||gltv*.com/files/attach/*.png$image
 ||gltv*.com/files/attach/*.jpg$image
@@ -2039,7 +2030,7 @@ lol##figure.size-full.wp-block-image
 lol/wp-content/uploads/*/*.gif
 store##[href^="https://daepiso.xyz"]
 tvusan.vip##.videowrapper_pc
-||hoohootv*.xyz/static/bnner$image
+bjsale.com##.player-news
 
 ! - 애니
 ! linkkf.app / linkkf.tv
@@ -2135,7 +2126,7 @@ site##[href^="https://filecast.co.kr/"]
 ||viewtorrent*.com/data/*/*.gif$image
 ||static.tzstatic.top/z/up*$image
 
-! - Ads Tags, 광고 태그, a-ads // 2024-09
+! - Ads Tags, 광고 태그, a-ads // 2024-11
 net##.mkt_banner
 net##.idtunemklgfsrpchjoq
 com##.premium-promo-row
@@ -2162,6 +2153,7 @@ a-ads.com##.aa_container
 /banner/*.gif$image
 /data/apms/background/*.$image
 /allimg/*/banner*.gif$image
+*##[href="http://dk-bb.com"]
 *##[href*="/channel/promotion"]
 *##[href*="/cupang.php"]
 *##[href*="http://hg-rr.com"]
