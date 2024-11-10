@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241109.1
+! Version: 241110.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -1351,9 +1351,11 @@ m.notify.naver.com##div.grid > .comp_benefit.comp_card
 blog.naver.com##.btm_banner
 blog.naver.com##[id="floating_inf"]
 m.blog.naver.com###BANNER_ONE
-! cafe.naver, 까페
+! cafe.naver, 까페, m.cafe.naver
 @@||ipada.cafe.naver.com^
 @@||cafeptthumb-phinf.pstatic.net^$image,domain=cafe.naver.com
+cafe.naver.com#@#.ad_v2
+cafe.naver.com#@#.ad_v3
 cafe.naver.com##.ad_area.AsideAdvert
 cafe.naver.com##.ArticleFormBanner
 cafe.naver.com##.aside_banner
@@ -1370,8 +1372,7 @@ cafe.naver.com##.location.home_section
 cafe.naver.com##.notice_area.AsideNotice
 cafe.naver.com##.section_home_town
 cafe.naver.com##.smart_bot_area.AsideSmartBot
-cafe.naver.com#@#.ad_v2
-cafe.naver.com#@#.ad_v3
+m.cafe.naver.com###articleFeedList
 ! comic.naver
 comic.naver.com###mflickAd
 comic.naver.com##.ads_sc
@@ -1989,6 +1990,9 @@ emmaru.com##body > table > tbody > tr > td > table > tbody > tr:nth-of-type(4) >
 ! happytoon
 ||happytoon*.com/assets/images/logo.png$image
 ||happytoon*.com/upload/banner$image
+! greentoon
+||greentoon.net/bn$image
+greentoon.net##.btn_go
 ! about-etc
 ||yatoon*.com/*/ad.jpg$image
 ||yatoon*.com/*/drama*.jpg$image
@@ -1996,7 +2000,6 @@ emmaru.com##body > table > tbody > tr > td > table > tbody > tr:nth-of-type(4) >
 ||www.smilemanga.com/img/*.gif$image
 ||iabn*.net$image
 ||hoduhodu.com/*X*.gif^$image
-||greentoon.net/bn$image
 
 ! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브, 주소링크 등
 ! cokcoktv
