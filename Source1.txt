@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241110.1
+! Version: 241111.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -1414,26 +1414,41 @@ pay.naver.com##[class^="TitleMessage_desciption"]
 pay.naver.com##[data-au="total.click_total"]
 pay.naver.com##div.s_sc
 pay.naver.com##div.s_sc:nth-of-type(5)
-! shopping.naver, 쇼핑
-search.shopping.naver.com##[class^="mallShortCut_brand_shortcut"]
-shopping.naver.com##[class*="_advertising_"]
-shopping.naver.com##[class*="forYouResponsive"]:has(> div [class="blind"])
-shopping.naver.com##[class*="myInformationResponsive_membership"]
-shopping.naver.com##[class*="shoppingHomeResponsive_today"]:has(> div [class^="titleResponsive_name"])
-shopping.naver.com##[class^="_popupBanner_"]
-shopping.naver.com##[class^="_targetBanner_content"]
-shopping.naver.com##[class^="_targetBanner_link"]
-shopping.naver.com##[class^="adProduct_item"]
-shopping.naver.com##[class^="card_promotion"]
-shopping.naver.com##[class^="homeBannerPc_home_banner"]
-shopping.naver.com##[class^="membershipBanner_membership_banner"]
-shopping.naver.com##[class^="NPaySection_my_membership"]
-shopping.naver.com##[class^="OrderDeliverySection_recommend"]
-shopping.naver.com##[class^="RecommendSection_recommend_section"]
-shopping.naver.com##[class^="relationProducts_relation_products"]
-shopping.naver.com##[class^="shoppingHomeResponsive_banner"]
-shopping.naver.com##[class^="targetBanner_link"]
+! shopping.naver, 네이버쇼핑
 shopping.naver.com##[data-cy="card-section-card_section"] [href*="/festa/onsale/"]
+shopping.naver.com##[class^="targetBanner_link"]
+shopping.naver.com##[class^="storePick-module_inner"]:has([class^="storePick-module_ad"])
+shopping.naver.com##[class^="shoppingHomeResponsive_banner"]
+shopping.naver.com##[class^="relationProducts_relation_products"]
+shopping.naver.com##[class^="RecommendSection_recommend_section"]
+shopping.naver.com##[class^="promotionResponsive_wrap_banner"]
+shopping.naver.com##[class^="productCardResponsive_inner"]:has(> [data-shp-contents-grp="ad"])
+shopping.naver.com##[class^="productCardResponsive_inner"]:has(> [data-shp-area="sapd.pd"])
+shopping.naver.com##[class^="OrderDeliverySection_recommend"]
+shopping.naver.com##[class^="NPaySection_my_membership"]
+shopping.naver.com##[class^="membershipBanner_membership_banner"]
+shopping.naver.com##[class^="homeBannerResponsive_home_banner_responsive"]
+shopping.naver.com##[class^="homeBannerPc_home_banner"]
+shopping.naver.com##[class^="discoveryFeedItemResponsive_wide_module"]
+shopping.naver.com##[class^="crmPromotionCardResponsive_crm_promotion_card_responsive"]
+shopping.naver.com##[class^="couponResponsive_coupon"]
+shopping.naver.com##[class^="card_promotion"]
+shopping.naver.com##[class^="adProduct_item"]
+shopping.naver.com##[class^="_todayBenefit_mobile_today_benefit"]
+shopping.naver.com##[class^="_todayBenefit_mobile_today_benefit"]
+shopping.naver.com##[class^="_targetBanner_link"]
+shopping.naver.com##[class^="_targetBanner_content"]
+shopping.naver.com##[class^="_popupBanner_"]
+shopping.naver.com##[class^="_marketingBanner_marketing_banner"]
+shopping.naver.com##[class*="shoppingHomeResponsive_today"]:has(> div [class^="titleResponsive_name"])
+shopping.naver.com##[class*="myInformationResponsive_membership"]
+shopping.naver.com##[class*="forYouResponsive"]:has(> div [class="blind"])
+shopping.naver.com##[class*="_advertising_"]
+shopping.naver.com##.advertise
+search.shopping.naver.com##div[class^="card_section_card"]:has(> [class^="todayBenefit"])
+search.shopping.naver.com##div[class^="card_section_card"]:has(> ._nlog_click)
+search.shopping.naver.com##[class^="mallShortCut_brand_shortcut"]
+m.shopping.naver.com##[data-shp-area-id="membanner"]
 
 ! chzzk
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
@@ -1460,7 +1475,6 @@ orders.pay.naver.com##[class^="OrderDetailPointBanner_article"]
 orders.pay.naver.com##[class^="PromotionBanner"]
 orders.pay.naver.com##[class^="ResultAccumulatePoint_area-banner"]
 shopping.naver.com##[class*="advertising_banner"]
-shopping.naver.com##[data-shp-contents-grp="banner"]
 smartstore.naver.com##[alt^="멤버십_제너럴소재"]
 smartstore.naver.com##[class*="banner"]
 smartstore.naver.com##[data-shp-inventory="banner"]
