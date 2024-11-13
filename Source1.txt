@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241112.1
+! Version: 241113.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -1129,6 +1129,7 @@ danawa.com##li.ad.shop_link_item
 @@||search1.daumcdn.net^$app=com.kakao.talk
 @@||videostats.kakao.com^$app=com.kakao.talk
 ||mk.kakaocdn.net/$important,app=com.kakao.talk
+||cpaad.co.kr^$app=com.kakao.talk
 !#endif
 ||*.ad.kakao.com^
 ||*.ad.kakaocorp.com^
