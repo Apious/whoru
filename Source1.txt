@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241113.2
+! Version: 241113.3
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -1313,6 +1313,7 @@ naver.com##.link_search_banner
 m.naver.com###MM_na_topbanner
 m.naver.com##._MM_VIDEO_PREVIEW_WRAP.comp_shortform_new
 m.naver.com##div.id_comp_home_feed
+m.naver.com##[data-home-feed-id="special-issue"]
 naver.com###MM_search_todaynaver
 naver.com##.csm_title_wrap
 naver.com##.gnb_banner
@@ -1374,6 +1375,8 @@ cafe.naver.com##.notice_area.AsideNotice
 cafe.naver.com##.section_home_town
 cafe.naver.com##.smart_bot_area.AsideSmartBot
 m.cafe.naver.com###articleFeedList
+m.cafe.naver.com##.HomeFeedItem
+m.cafe.naver.com##.home_recommend
 ! comic.naver
 comic.naver.com###mflickAd
 comic.naver.com##.ads_sc
@@ -1917,6 +1920,11 @@ devicemart.co.kr##.view_md_pop
 devicemart.co.kr###t_r_ban_warp
 devicemart.co.kr###left_banner
 
+! - url.kr
+url.kr##.banner-container
+url.kr##.notice-box
+url.kr##.warning-box
+
 ! - WebToon / 웹툰 // 2024-11
 ! webtoon logo
 ||booktoki*.com/img/logo*
@@ -2019,7 +2027,8 @@ greentoon.net##.btn_go
 ! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브, 주소링크 등
 ! cokcoktv
 ||media.cokcok.vip/assets/images/*.$image
-com##[class="cpb-popup-banners"]
+cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com,cokcoktv4.com,cokcoktv3.com##[class="cpb-popup-banners"]
+cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com,cokcoktv4.com,cokcoktv3.com##[class^="custom_banner"]
 ! cytv
 com##.yk-container > .clearfix.yk-pannela
 ! daisotv
@@ -2060,7 +2069,6 @@ kr.linkkf.net###banner
 kr.linkkf.net###banner
 kr.linkkf.net##[data-adsbygoogle-status="done"]
 kr.linkkf.net##[id^="aswift"]
-
 ! ohli365
 ||ohli365.vip/*.gif$image
 ||ohli365.vip/*.png$image
@@ -2296,8 +2304,6 @@ a-ads.com##.aa_container
 
 ! - 기타
 mdilbo.com##.mr-0.my-0.tv_wrap
-url.kr##.banner-container
-url.kr##.notice-box
 anbox-cloud.io###modal
 ||api.mixpanel.com^
 bstage.in##[class^="CookieBottomSheet"]
