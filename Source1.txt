@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241113.3
+! Version: 241118.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -1192,18 +1192,6 @@ dcinside.com##.adv-group
 dcinside.com##.rightbanner1
 dcinside.com###comment_li_0
 
-! - Google Ads
-@@||shoppinglist.google.com^
-||googleads.g.doubleclick.net^
-||static.doubleclick.net^
-||accounts.google.com/gsi/iframe/select$subdocument
-google.com###topstuff
-google.com##[class*="middle-slot-promo"]
-||crashlytics.com^
-||firebaseinstallations.googleapis.com^
-||firebaselogging.googleapis.com^
-||firebase.googleapis.com^
-
 ! - sooplive (구.아프리카)
 !||adballoon.sooplive.co.kr^
 ||deapi.sooplive.co.kr/*/*&*&placement=LIVE_LOADING_BANNER_PC_WEB^
@@ -1733,37 +1721,6 @@ lpoint.com##.partner-benefit
 lpoint.com##.sec-banner
 lpoint.com###useableBanner
 lpoint.com###TopSwiperBanner
-
-! - Youtube
-@@||www.youtube.com^$subdocument
-@@||www.youtube.com^$domain=play.google.com
-||jnn-pa.googleapis.com/$rpc/$xhr
-=adunit&
-||doubleclick.net^$xhr,redirect-rule=noop.txt
-||youtube.com/api/stats/qoe?
-||www.youtube.com/sw.js_data$important
-||www.youtube.com/sw.js$important
-||www.youtube.com/embed/$subdocument
-youtube.com###ticker-content
-youtube.com###watch7-sidebar-offer
-youtube.com##.float-mealbar
-youtube.com##.iv-merch-shelf
-youtube.com##.mealbar-promo-renderer
-youtube.com##.opened
-youtube.com##.ytp-cards-button
-youtube.com##.ytp-cards-teaser
-youtube.com##.ytp-ce-covering-image
-youtube.com##.ytp-ce-covering-overlay
-youtube.com##.ytp-ce-element
-youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
-youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
-youtube.com##.ytp-ce-element-shadow
-youtube.com##.ytp-ce-expanding-image
-youtube.com##.ytp-endscreen-content
-youtube.com##.ytp-pause-overlay
-youtube.com##.ytp-related-on-error-overlay
-youtube.com##.ytp-scroll-min.ytp-pause-overlay
-youtube.com##ytd-rich-section-renderer
 
 ! - taiwebs
 taiwebs.com###vi-smartbanner
