@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241121.1
+! Version: 241205.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -2016,7 +2016,10 @@ bozatv140.combozatv139.com,bozatv138.com,bozatv137.com,bozatv136.com,bozatv135.c
 ||gltv*.com/files/attach/*.jpg$image
 ||gltv*.com/files/attach/*.gif$image
 ||gltv*.com/layouts/fado/files/*.gif$image
+! hoohootv
+||hoohootv*.xyz/static/bnner/*.webp$image
 !! TV-etc
+twtw.tv##wow-image
 fun##.bannerwrap1
 kotbc.com##.at-title
 lol##figure.size-full.wp-block-image
