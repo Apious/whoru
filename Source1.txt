@@ -2019,9 +2019,10 @@ bozatv140.combozatv139.com,bozatv138.com,bozatv137.com,bozatv136.com,bozatv135.c
 ! hoohootv
 ||hoohootv*.xyz/static/bnner/*.webp$image
 ! 3377tv
-3377tv.kr##a.fdesc
-3377tv.kr###mhbottom_ad_box
 3377tv.kr##.player-news
+3377tv.kr##a.fdesc
+3377tv.kr##.wr-list
+3377tv.kr###mhbottom_ad_box
 !! TV-etc
 twtw.tv##wow-image
 fun##.bannerwrap1
