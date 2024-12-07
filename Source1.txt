@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241207.1
+! Version: 241208.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -1528,7 +1528,7 @@ xda-developers.com##[id*="ad-zone"]
 xda-developers.com##[class="valnet-gallery"]
 xda-developers.com##[data-original-ad-element-id]
 
-! - uptodown, dailyuploads, uploadrar, uplod, dailyenter, douploads, intoupload, workupload, mediafire, upfiles-urls
+! - uptodown, devuploads, dailyuploads, uploadrar, uplod, dailyenter, douploads, intoupload, workupload, mediafire, upfiles-urls
 @@||dailyuploads.net^
 ! Uploadrar, cloud.rahim-soft
 uploadrar.com###commonId > [href]
@@ -1536,6 +1536,15 @@ uploadrar.com##.hide2
 cloud.rahim-soft.com##div.fileoption > ul
 cloud.rahim-soft.com##.txt
 cloud.rahim-soft.com##[class^="banner"]
+! devuploads
+jytechs.in##[id="featuredimage"]
+jytechs.in##.premium
+jytechs.in##[class^="about"]
+jytechs.in##[id^="about"]
+thecubexguide.com##[id="featuredimage"]
+thecubexguide.com##.premium
+thecubexguide.com##[class^="about"]
+thecubexguide.com##[id^="about"]
 ! uptodown
 uptodown.com##.login-uptodown
 uptodown.com###credential_picker_container
