@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241208.1
+! Version: 241214.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -588,6 +588,8 @@ mdjournal.kr##.wrap_new_13.auto-p06.auto-article
 ! nate
 @@||adimg.nate.com^
 ||m.shopping.nate.com^$domain=m.mail.nate.com
+||m.mail.nate.com/banner$image
+m.mail.nate.com##.banner
 nate.com##.nmBanner
 nate.com##.SnbNewsBar
 nate.com##[class^="area_ad"]
@@ -1990,6 +1992,8 @@ emmaru.com##body > table > tbody > tr > td > table > tbody > tr:nth-of-type(4) >
 ||greentoon.net/bn$image
 greentoon.net##.btn_go
 ! about-etc
+asuracomic.net##.ai-sticky-widget
+asuracomic.net##.justify-center.w-full
 ||yatoon*.com/*/ad.jpg$image
 ||yatoon*.com/*/drama*.jpg$image
 ||a*.tooncome.com/*/*.gif$image
@@ -2017,6 +2021,7 @@ tvmon50.org,tvmon49.org,tvmon48.org,tvmon47.org,tvmon46.org,tvmon45.org,tvmon44.
 tvmon50.org,tvmon49.org,tvmon48.org,tvmon47.org,tvmon46.org,tvmon45.org,tvmon44.org,tvmon43.org,tvmon42.org,tvmon41.org,tvmon40.org,tvmon39.org,tvmon38.org,tvmon37.org,tvmon36.org,tvmon35.org,tvmon34.org,tvmon33.org,tvmon32.org,tvmon31.org,tvmon30.org,tvmon29.org,tvmon28.org,tvmon27.org,tvmon26.org,tvmon25.org,tvmon24.org,tvmon23.org,tvmon22.org,tvmon21.org,tvmon20.org,tvmon19.org,tvmon18.org,tvmon17.org,tvmon16.org,tvmon15.org,tvmon14.org,tvmon13.org##[class^="banner"]
 tvmon50.org,tvmon49.org,tvmon48.org,tvmon47.org,tvmon46.org,tvmon45.org,tvmon44.org,tvmon43.org,tvmon42.org,tvmon41.org,tvmon40.org,tvmon39.org,tvmon38.org,tvmon37.org,tvmon36.org,tvmon35.org,tvmon34.org,tvmon33.org,tvmon32.org,tvmon31.org,tvmon30.org,tvmon29.org,tvmon28.org,tvmon27.org,tvmon26.org,tvmon25.org,tvmon24.org,tvmon23.org,tvmon22.org,tvmon21.org,tvmon20.org,tvmon19.org,tvmon18.org,tvmon17.org,tvmon16.org,tvmon15.org,tvmon14.org##.money-site-button
 ! tvroom
+tvroom10.org,tvroom9.org,tvroom8.org,tvroom7.org,tvroom6.org,tvroom5.org#@#div.banner_l
 ||tinypic.host/images/*.$image
 org##[style^="background-color"]
 /^https:\/\/blacktoon[0-9]+\.com\/poster_js\/[0-9]+\.js/
@@ -2036,6 +2041,7 @@ bozatv140.combozatv139.com,bozatv138.com,bozatv137.com,bozatv136.com,bozatv135.c
 3377tv.kr###fundtxt
 3377tv.kr##.wr-list
 3377tv.kr###mhbottom_ad_box
+3377tv.kr##body > .rel.box-width
 !! TV-etc
 twtw.tv##wow-image
 fun##.bannerwrap1
@@ -2350,7 +2356,6 @@ compunik.net##.adsbygoogle
 any.do##.NotificationBarProvider
 apk4all.com##iframe.eww
 arca.live##.ad
-asuratoon.com##.ai-sticky-widget
 br0wsers.com##[id^="div-gpt-ad"]
 cineaste.co.kr##[class^="basic-banner"]
 codecguide.com##p:nth-of-type(8)
