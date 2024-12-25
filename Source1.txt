@@ -302,7 +302,6 @@ hankyung.com##.ad_area
 hankyung.com##.aside-ad
 hankyung.com##.aside-ad-component
 tenasia.hankyung.com##.aedi-link
-
 ! newspim
 newspim.com##.ad-box
 ||img.newspim.com/m/banner/*$image
@@ -758,6 +757,7 @@ moneys.co.kr##[id^="taboola"]
 moneys.co.kr##[data-ad]
 moneys.co.kr##[class^="ad-area"]
 ! news-etc
+@@||07c225f3.online^$domain=etoday.co.kr
 ||www.businesspost.co.kr/*/banner/*/$image
 ||*.newscj.com^
 ||*.newsmobile.co.kr^
@@ -1432,7 +1432,6 @@ shopping.naver.com##[class^="couponResponsive_coupon"]
 shopping.naver.com##[class^="card_promotion"]
 shopping.naver.com##[class^="adProduct_item"]
 shopping.naver.com##[class^="_todayBenefit_mobile_today_benefit"]
-shopping.naver.com##[class^="_todayBenefit_mobile_today_benefit"]
 shopping.naver.com##[class^="_targetBanner_link"]
 shopping.naver.com##[class^="_targetBanner_content"]
 shopping.naver.com##[class^="_popupBanner_"]
@@ -1618,6 +1617,7 @@ terabox.com##.text-banner
 terabox.com##+js(nowoif)
 terabox.com##.txt
 terabox.com##.wrapper
+terabox.com##[class^="membership-"]
 gibibox.com##[class^="product-card"]
 gibibox.com##.user-name
 gibibox.com##.operate-box
@@ -1659,15 +1659,17 @@ aptoide.com##[class^="appcoins-"]
 apkcombo.com##.ad-pss
 apkcombo.com##div.widget
 ! apkpure
+apkpure.net###policy-info
 apkpure.com###policy-info
 apkpure.com##.aegon-down-item
 apkpure.com##.apkpure-download-card
 apkpure.com##.debut-game
 apkpure.com##.share-box
 apkpure.com##.share-fixed
-apkpure.net###policy-info
 apkpure.com###credential_picker_iframe
 apkpure.com##.chrome-install-pop
+apkpure.com##.download-vip-subscribe-wrap
+apkpure.com##.vip-subscribe-pop
 ! apkmirror
 @@||html-load.com^$script,domain=apkmirror.com
 www.apkmirror.com###bottom-slider
@@ -2297,6 +2299,8 @@ a-ads.com##.aa_container
 ||ugepodownload.mediatek.com^
 
 ! - 기타
+biz.heraldcorp.com##.hbanner_section
+4pda.to##[src^="https://i.4pda.ws/s/"]
 sohu.com##[data-spm-content^="3||"]
 mdilbo.com##.mr-0.my-0.tv_wrap
 anbox-cloud.io###modal
