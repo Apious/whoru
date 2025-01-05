@@ -1,14 +1,14 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 241225.1
+! Version: 250105.1
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - xiaomi tracker
 @@||flash.sec.intl.miui.com^
+@@||i.mi.com^
 ||g.galleryapi.micloud.xiaomi.net^
 ||us.find.api.micloud.xiaomi.net^
-||i.mi.com^
 ||pjbs.blackshark.com^
 ||gamespace.sec.intl.miui.com^
 ||gamebox.sec.miui.com^
