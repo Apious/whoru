@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250105.1
+! Version: 250106.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -1674,7 +1674,7 @@ apkpure.com##.download-vip-subscribe-wrap
 apkpure.com##.vip-subscribe-pop
 apkpure.com##.secondary-body
 ! apkmirror
-@@||html-load.com^$script,domain=apkmirror.com
+@@||html-load.com^$domain=apkmirror.com
 www.apkmirror.com###bottom-slider
 www.apkmirror.com###ez-content-blocker-container
 www.apkmirror.com###sidebar > div.listWidget:nth-of-type(1)
