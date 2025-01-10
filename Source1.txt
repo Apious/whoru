@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250109.1
+! Version: 250110.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -2042,7 +2042,6 @@ tvmon50.org,tvmon49.org,tvmon48.org,tvmon47.org,tvmon46.org,tvmon45.org,tvmon44.
 ! tvroom
 tvroom10.org,tvroom9.org,tvroom8.org,tvroom7.org,tvroom6.org,tvroom5.org#@#div.banner_l
 ||tinypic.host/images/*.$image
-org##[style^="background-color"]
 /^https:\/\/blacktoon[0-9]+\.com\/poster_js\/[0-9]+\.js/
 ! bozatv
 bozatv140.combozatv139.com,bozatv138.com,bozatv137.com,bozatv136.com,bozatv135.com,bozatv134.com,bozatv133.com,bozatv132.com,bozatv131.com,bozatv130.com,bozatv129.com,bozatv128.com,bozatv127.com,bozatv126.com,bozatv125.com,bozatv124.com,bozatv123.com,bozatv122.com,bozatv121.com,bozatv120.com,bozatv119.com,bozatv118.com,bozatv117.com,bozatv116.com,bozatv115.com,bozatv114.com,bozatv113.com,bozatv112.com,bozatv111.com,bozatv110.com,bozatv109.com,bozatv108.com,bozatv107.com,bozatv106.com,bozatv105.com,bozatv104.com,bozatv103.com,bozatv102.com,bozatv101.com,bozatv100.com,bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com##.popup_left
