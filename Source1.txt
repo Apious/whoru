@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250111.1
+! Version: 250114.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -842,6 +842,7 @@ auction.co.kr##.component--sponsor_link
 @@||/banner/*$domain=coupang.com
 @@||mercury.coupang.com^$app=com.coupang.mobile
 @@||image*.coupangcdn.com^$app=com.coupang.mobile
+@@||thumbnail*.coupangcdn.com^$image
 ||ads-partners.coupang.com^
 ||static.coupangcdn.com/*/banner$image
 ||myqcloud.com^$app=com.coupang.mobile
@@ -1564,6 +1565,7 @@ douploads.net##[src="/images/StartDownload.gif"]
 intoupload.net##.banneradshome
 workupload.com##[id^="div-gpt-ad"]
 upfiles-urls.com##[class="ad-element"]
+bestfile.io##.vr-adv-unit
 
 ! - dropgalaxy
 dropgalaxy.com##div[id*="div-gpt-ad"]
@@ -1598,6 +1600,13 @@ www.1024tera.com##.exclusive
 www.1024tera.com##.user-name
 www.1024tera.com##+js(nowoif)
 www.1024tera.com##.txt
+gibibox.com##[class^="product-card"]
+gibibox.com##.user-name
+gibibox.com##.operate-box
+gibibox.com##.text-banner
+gibibox.com##+js(nowoif)
+gibibox.com##.txt
+gibibox.com##[class*="-ad-"]
 terabox.com##.bottom-box
 terabox.com##.bottom-tip-wrap
 terabox.com##.coupon-Popup-box
@@ -1621,14 +1630,8 @@ terabox.com##+js(nowoif)
 terabox.com##.txt
 terabox.com##.wrapper
 terabox.com##[class^="membership-"]
-gibibox.com##[class^="product-card"]
-gibibox.com##.user-name
-gibibox.com##.operate-box
-gibibox.com##.text-banner
-gibibox.com##+js(nowoif)
-gibibox.com##.txt
-gibibox.com##[class*="-ad-"]
-
+terabox.com##[class^="download-list-top-toast"]
+terabox.com##.seo-banner-box
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
 watcha.com##main > section
@@ -2022,7 +2025,8 @@ asuracomic.net##.justify-center.w-full
 ! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브, 주소링크 등
 @@/^https?:\/\/[0-9a-z]{5,}\.(digital|website|life|guru|uno|cfd)\/[a-z0-9]{6,}\//$script,third-party,xmlhttprequest
 ! cokcoktv
-||media.cokcok.vip/assets/images/*.$image
+||cokcok.stream^$xhr
+||media.cokcok.vip/assets/*/*.^
 cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com,cokcoktv4.com,cokcoktv3.com##[class="cpb-popup-banners"]
 cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com,cokcoktv4.com,cokcoktv3.com##[class^="custom_banner"]
 ! cytv
