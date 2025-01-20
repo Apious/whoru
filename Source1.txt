@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250114.2
+! Version: 250120.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -1544,14 +1544,28 @@ cloud.rahim-soft.com##div.fileoption > ul
 cloud.rahim-soft.com##.txt
 cloud.rahim-soft.com##[class^="banner"]
 ! devuploads
-jytechs.in##[id="featuredimage"]
+jytechs.in##.click-form
+jytechs.in##.home-heading
 jytechs.in##.premium
 jytechs.in##[class^="about"]
 jytechs.in##[id^="about"]
-thecubexguide.com##[id="featuredimage"]
+jytechs.in##[id="featuredimage"]
+jytechs.in##+js(nano-stb)
+jytechs.in##main > div:nth-of-type(3)
+jytechs.in##main > div:nth-of-type(4)
+jytechs.in##main > div:nth-of-type(5)
+jytechs.in##main > div:nth-of-type(6)
+thecubexguide.com##.click-form
+thecubexguide.com##.home-heading
 thecubexguide.com##.premium
 thecubexguide.com##[class^="about"]
 thecubexguide.com##[id^="about"]
+thecubexguide.com##[id="featuredimage"]
+thecubexguide.com##+js(nano-stb)
+thecubexguide.com##main > div:nth-of-type(3)
+thecubexguide.com##main > div:nth-of-type(4)
+thecubexguide.com##main > div:nth-of-type(5)
+thecubexguide.com##main > div:nth-of-type(6)
 ! uptodown
 uptodown.com##.login-uptodown
 uptodown.com###credential_picker_container
@@ -1562,22 +1576,27 @@ uplod.ws###aswift_0_expand
 ! mediafire
 ||www.mediafire.com/widgets/sidebar_promo.php$subdocument
 mediafire.com##.CookieAcceptance
+! dropgalaxy
+dropgalaxy.com##div[id*="div-gpt-ad"]
+dropgalaxy.com##div[id*="apkad"]
+dropgalaxy.com##iframe[title="DropGalaxy File Download Tutorial"]
+dropgalaxy.com##div[style^="border:1px"]
+dropgalaxy.com##+js(nano-stb)
+/images/dgpromo.jpg$image
+@@||securepubads.g.doubleclick.net^$domain=dropgalaxy.com
+#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 ! etc
 douploads.net##[src="/images/StartDownload.gif"]
 intoupload.net##.banneradshome
 workupload.com##[id^="div-gpt-ad"]
 upfiles-urls.com##[class="ad-element"]
 bestfile.io##.vr-adv-unit
-
-! - dropgalaxy
-dropgalaxy.com##div[id*="div-gpt-ad"]
-dropgalaxy.com##div[id*="apkad"]
-dropgalaxy.com##iframe[title="DropGalaxy File Download Tutorial"]
-dropgalaxy.com##div[style^="border:1px"]
-/images/dgpromo.jpg$image
-@@||securepubads.g.doubleclick.net^$domain=dropgalaxy.com
-#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
-#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+file-upload.org##.blocktxt
+modsfire.com##.inf-down
+financemonk.net##+js(nano-stb)
+flash.getpczone.com##+js(nano-stb)
+frdl.to##+js(nano-stb)
 
 ! - terabox / 1024tera / app:com.dubox.drive
 ||s2.teraboxcdn.com/fe-opera-static/node-static-v4/fe-webv4-main/img/*.png^$image
@@ -1703,26 +1722,35 @@ gamedva.com##.atelegram
 gamedva.com##.aatelegram1
 gamedva.com##.wp-block-button.hide-on-mobile
 ! happymod
-happymodpro.com##.appx.cbox
+||happymod.*/*/appx.php$subdocument
+||www.happymod*.*/*/appx_proxy.php$subdocument
+happymod.*##.download-btn:nth-of-type(1)
+happymod.cloud##.appx.cbox
+happymod.cloud##.fast-btn
 happymod.com###appx
 happymod.com##.container-left > div:nth-of-type(3)
 happymod.com##.down-fixd-box
+happymod.com##.download-bottom
 happymod.com##.download-desc
 happymod.com##.downloading.cbox
 happymod.com##.righthm.rbox
+happymod.info##.appx.cbox
+happymod.to##.appx.cbox
 happymod.to##a[class="appdetail-btn"]
 happymod.to##div[class^="modCon"]
-happymod.com##.download-bottom
+happymodpro.com###appx
+happymodpro.com##.appx.cbox
+happymodpro.com##section.clearfix:nth-of-type(1)modplayapk.com##.describe
 ! etc
 modfyp.com##.adsBox
 
 ! - a2zapk
-@@||google-analytics.com^$domain=a2zapk.io
-@@||doubleclick.net^$domain=a2zapk.io
-@@||googletagmanager.com^$domain=a2zapk.io
 @@||a2z.a2zapk.io^
 @@||a2zapk.io/cdn-cgi/
 @@||dl.a2zupload.io^
+@@||doubleclick.net^$domain=a2zapk.io
+@@||google-analytics.com^$domain=a2zapk.io
+@@||googletagmanager.com^$domain=a2zapk.io
 ||a2zapk.io/tglink.php^
 ||xxxiijmp.com/i$subdocument
 a2zapk.io###primary > center
@@ -1732,6 +1760,10 @@ a2zapk.io##.MenuDeveloper
 a2zapk.io##.modalpop
 a2zapk.io##center:nth-of-type(2)
 a2zapk.io##div.ArticleLand > [src]
+a2zapk.io##div.ArticleLand:nth-of-type(6)
+a2zapk.io##div.ArticleLand:nth-of-type(7)
+a2zapk.io##div.ArticleLand:nth-of-type(8)
+a2zapk.io##div.ArticleLand:nth-of-type(9)
 a2zapk.io#@#.RightAside
 a2zapk.io#@#[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 a2zapk.io#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
@@ -1757,6 +1789,7 @@ lpoint.com###TopSwiperBanner
 ! - taiwebs
 br0wsers.com###vi-smartbanner
 br0wsers.com##[id^="div-gpt-ad-"]
+br0wsers.com##.adsbyvli
 taiwebs.com###vi-smartbanner
 taiwebs.com##.adsbyvli
 taiwebs.com##[id="pixcel"]
@@ -1849,8 +1882,7 @@ a-ha.io##main > div > div > div:has(> [height="263"])
 ||app.hanjin.com/app/image/adBanner$image
 smile.hanjin.co.kr##[src="images/promotion.png"]
 smile.hanjin.co.kr##[src="images/swoop.png"]
-!smile.hanjin.co.kr##div:nth-of-type(2)
-!smile.hanjin.co.kr##div:nth-of-type(3)
+smile.hanjin.co.kr##[src^="images/easyorder"]
 
 ! - spaces.im
 spaces.im##[class^="root"] > div[class]
@@ -1971,6 +2003,7 @@ wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.
 co.com##.gnb > li:nth-of-type(3)
 co.com##.gnb > li:nth-of-type(4)
 ! blacktoon
+blacktoon.com##div[class="col-6 col-sm-4 col-md-3 "]
 blacktoon1.info##[class^="comp-"] > div:nth-of-type(2)
 @@/^https:\/\/blacktoon[0-9]+\.com\/poster_js\/[0-9]+\.js/
 ||blacktoon*.com/upload/*/*.gif$image
