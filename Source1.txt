@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250120.1
+! Version: 250123.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -1586,17 +1586,21 @@ dropgalaxy.com##+js(nano-stb)
 @@||securepubads.g.doubleclick.net^$domain=dropgalaxy.com
 #@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 #@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+! upfiles
+upfiles-urls.com##[class="ad-element"]
+upfiles.app##.faqs
+upfiles.app##fieldset
 ! etc
 douploads.net##[src="/images/StartDownload.gif"]
 intoupload.net##.banneradshome
 workupload.com##[id^="div-gpt-ad"]
-upfiles-urls.com##[class="ad-element"]
 bestfile.io##.vr-adv-unit
 file-upload.org##.blocktxt
 modsfire.com##.inf-down
 financemonk.net##+js(nano-stb)
 flash.getpczone.com##+js(nano-stb)
 frdl.to##+js(nano-stb)
+
 
 ! - terabox / 1024tera / app:com.dubox.drive
 ||s2.teraboxcdn.com/fe-opera-static/node-static-v4/fe-webv4-main/img/*.png^$image
@@ -2353,6 +2357,7 @@ a-ads.com##.aa_container
 ||ugepodownload.mediatek.com^
 
 ! - 기타
+bikeforums.net##[class^=ad-placeholder]
 biz.heraldcorp.com##.hbanner_section
 4pda.to##[src^="https://i.4pda.ws/s/"]
 sohu.com##[data-spm-content^="3||"]
