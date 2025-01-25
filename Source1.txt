@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250123.1
+! Version: 250125.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -2068,8 +2068,6 @@ asuracomic.net##.justify-center.w-full
 ||media.cokcok.vip/assets/*/*.^
 cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com,cokcoktv4.com,cokcoktv3.com##[class="cpb-popup-banners"]
 cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com,cokcoktv4.com,cokcoktv3.com##[class^="custom_banner"]
-! cytv
-com##.yk-container > .clearfix.yk-pannela
 ! daisotv
 org##[href^="/banner/click"]
 org##div.banner_ads_item
@@ -2088,6 +2086,7 @@ tvroom10.org,tvroom9.org,tvroom8.org,tvroom7.org,tvroom6.org,tvroom5.org#@#div.b
 ||tinypic.host/images/*.$image
 /^https:\/\/blacktoon[0-9]+\.com\/poster_js\/[0-9]+\.js/
 ! bozatv
+com##.yk-pannela
 bozatv140.combozatv139.com,bozatv138.com,bozatv137.com,bozatv136.com,bozatv135.com,bozatv134.com,bozatv133.com,bozatv132.com,bozatv131.com,bozatv130.com,bozatv129.com,bozatv128.com,bozatv127.com,bozatv126.com,bozatv125.com,bozatv124.com,bozatv123.com,bozatv122.com,bozatv121.com,bozatv120.com,bozatv119.com,bozatv118.com,bozatv117.com,bozatv116.com,bozatv115.com,bozatv114.com,bozatv113.com,bozatv112.com,bozatv111.com,bozatv110.com,bozatv109.com,bozatv108.com,bozatv107.com,bozatv106.com,bozatv105.com,bozatv104.com,bozatv103.com,bozatv102.com,bozatv101.com,bozatv100.com,bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com##.popup_left
 ! gltv
 ||gltv*.com/files/attach/*.png$image
@@ -2357,6 +2356,7 @@ a-ads.com##.aa_container
 ||ugepodownload.mediatek.com^
 
 ! - 기타
+fayerwayer.com##[id^="arcad-feature-"]
 bikeforums.net##[class^=ad-placeholder]
 biz.heraldcorp.com##.hbanner_section
 4pda.to##[src^="https://i.4pda.ws/s/"]
@@ -2388,6 +2388,7 @@ coolenjoy.net##[class="carousel-inner"]
 xiaomitoday.it##[id^="xiaom-"]
 xiaomitoday.it##.egg-container
 nosearch.com##.flex-col.overflow-hidden.border-solid
+nosearch.com##[class="w-full  !h-auto"]
 doctornow.co.kr##[role="button"] > div
 majorgeeks.com###fanback
 music.bugs.co.kr##.layerPromotionBanner
