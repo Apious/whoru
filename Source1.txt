@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250125.2
+! Version: 250126.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -319,6 +319,9 @@ bing.com##.openfo.toolTip.id_button
 bing.com###id_rh
 bing.com##.header
 bing.com##.ttc_visible
+bing.com###b_bnp_bopc
+bing.com##[class="id_button linkBtn"]
+bing.com##.b_algo:has(> .b_caption > p[class*="lineclamp3"])
 msn.com##[id^="native_ad"]
 msn.com##[id^="entry-point-hp-wc-banner"]
 msn.com##[class^="preview-card"]
@@ -330,6 +333,9 @@ msn.com##div > end-of-content-block[category="others"]
 msn.com##.article-cont-read-button-on-app
 msn.com##social-lead-gen-in-article
 msn.com##.consumption-page-rail-wrapper
+msn.com##a[class="news-list-item   "]:has(> msn-native-ad-ad-label)
+msn.com##[data-t*="LeadGen."]
+msn.com##[instance-id="CommonAutoSuggest"]
 ! xportsnews
 xportsnews.com##.in_200_200
 xportsnews.com###r_ad
@@ -669,12 +675,6 @@ en.seoul.co.kr##[title*="AdIframe"]
 en.seoul.co.kr##[class*="hed_ad"]
 m.en.seoul.co.kr##[id^="seoulAD"]
 m.en.seoul.co.kr##div:nth-of-type(3)
-! wikitree
-wikitree.co.kr##.clearfix
-wikitree.co.kr##.wikitree_tv
-wikitree.co.kr##div.content_right_inner:nth-of-type(1)
-wikitree.co.kr##.section_col_ban
-wikitree.co.kr##section.container.section:nth-of-type(5)
 ! yna
 @@||cdp.yna.co.kr^
 www.yna.co.kr###marketingPlayer
@@ -759,6 +759,9 @@ moneys.co.kr##[class^="adbox"]
 moneys.co.kr##[id^="taboola"]
 moneys.co.kr##[data-ad]
 moneys.co.kr##[class^="ad-area"]
+! 청년의사
+docdocdoc.co.kr##div.index-columns-flex > .float-center > .index-row > .width-280
+docdocdoc.co.kr##.box-skin:nth-of-type(3)
 ! news-etc
 @@||07c225f3.online^$domain=etoday.co.kr
 ||www.businesspost.co.kr/*/banner/*/$image
@@ -2069,26 +2072,17 @@ asuracomic.net##.justify-center.w-full
 ||media.cokcok.vip/assets/*/*.^
 cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com,cokcoktv4.com,cokcoktv3.com##[class="cpb-popup-banners"]
 cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com,cokcoktv4.com,cokcoktv3.com##[class^="custom_banner"]
-! daisotv
-org##[href^="/banner/click"]
-org##div.banner_ads_item
 ! chachatv
 ||chachatv*.pro/ad/index.html$subdocument
 ! tvzota
 ||tvzota*.com/ad$subdocument
 com##[class="wid"]
-! tvwiki, tvmon
-||tvwiki*.com/AD$image
-tvmon50.org,tvmon49.org,tvmon48.org,tvmon47.org,tvmon46.org,tvmon45.org,tvmon44.org,tvmon43.org,tvmon42.org,tvmon41.org,tvmon40.org,tvmon39.org,tvmon38.org,tvmon37.org,tvmon36.org,tvmon35.org,tvmon34.org,tvmon33.org,tvmon32.org,tvmon31.org,tvmon30.org,tvmon29.org,tvmon28.org,tvmon27.org,tvmon26.org,tvmon25.org,tvmon24.org,tvmon23.org,tvmon22.org,tvmon21.org,tvmon20.org,tvmon19.org,tvmon18.org,tvmon17.org,tvmon16.org,tvmon15.org,tvmon14.org##[id^="banner"]
-tvmon50.org,tvmon49.org,tvmon48.org,tvmon47.org,tvmon46.org,tvmon45.org,tvmon44.org,tvmon43.org,tvmon42.org,tvmon41.org,tvmon40.org,tvmon39.org,tvmon38.org,tvmon37.org,tvmon36.org,tvmon35.org,tvmon34.org,tvmon33.org,tvmon32.org,tvmon31.org,tvmon30.org,tvmon29.org,tvmon28.org,tvmon27.org,tvmon26.org,tvmon25.org,tvmon24.org,tvmon23.org,tvmon22.org,tvmon21.org,tvmon20.org,tvmon19.org,tvmon18.org,tvmon17.org,tvmon16.org,tvmon15.org,tvmon14.org##[class^="banner"]
-tvmon50.org,tvmon49.org,tvmon48.org,tvmon47.org,tvmon46.org,tvmon45.org,tvmon44.org,tvmon43.org,tvmon42.org,tvmon41.org,tvmon40.org,tvmon39.org,tvmon38.org,tvmon37.org,tvmon36.org,tvmon35.org,tvmon34.org,tvmon33.org,tvmon32.org,tvmon31.org,tvmon30.org,tvmon29.org,tvmon28.org,tvmon27.org,tvmon26.org,tvmon25.org,tvmon24.org,tvmon23.org,tvmon22.org,tvmon21.org,tvmon20.org,tvmon19.org,tvmon18.org,tvmon17.org,tvmon16.org,tvmon15.org,tvmon14.org##.money-site-button
 ! tvroom
 tvroom10.org,tvroom9.org,tvroom8.org,tvroom7.org,tvroom6.org,tvroom5.org#@#div.banner_l
 ||tinypic.host/images/*.$image
-/^https:\/\/blacktoon[0-9]+\.com\/poster_js\/[0-9]+\.js/
 ! bozatv
 com##.yk-pannela
-bozatv140.combozatv139.com,bozatv138.com,bozatv137.com,bozatv136.com,bozatv135.com,bozatv134.com,bozatv133.com,bozatv132.com,bozatv131.com,bozatv130.com,bozatv129.com,bozatv128.com,bozatv127.com,bozatv126.com,bozatv125.com,bozatv124.com,bozatv123.com,bozatv122.com,bozatv121.com,bozatv120.com,bozatv119.com,bozatv118.com,bozatv117.com,bozatv116.com,bozatv115.com,bozatv114.com,bozatv113.com,bozatv112.com,bozatv111.com,bozatv110.com,bozatv109.com,bozatv108.com,bozatv107.com,bozatv106.com,bozatv105.com,bozatv104.com,bozatv103.com,bozatv102.com,bozatv101.com,bozatv100.com,bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com##.popup_left
+bozatv140.combozatv139.com,bozatv138.com,bozatv137.com,bozatv136.com,bozatv135.com,bozatv134.com,bozatv133.com,bozatv132.com,bozatv131.com,bozatv130.com,bozatv129.com,bozatv128.com,bozatv127.com,bozatv126.com,bozatv125.com,bozatv124.com,bozatv123.com,bozatv122.com,bozatv121.com,bozatv120.com,bozatv119.com,bozatv118.com,bozatv117.com,bozatv116.com,bozatv115.com,bozatv114.com,bozatv113.com,bozatv112.com,bozatv111.com,bozatv110.com,bozatv109.com,bozatv108.com,bozatv107.com,bozatv106.com,bozatv105.com,bozatv104.com,bozatv103.com,bozatv102.com,bozatv101.com,bozatv100.com,bozatv99.com,bozatv98.com##.popup_left
 ! gltv
 ||gltv*.com/files/attach/*.png$image
 ||gltv*.com/files/attach/*.jpg$image
@@ -2105,6 +2099,7 @@ bozatv140.combozatv139.com,bozatv138.com,bozatv137.com,bozatv136.com,bozatv135.c
 3377tv.kr###mhbottom_ad_box
 3377tv.kr##body > .rel.box-width
 !! TV-etc
+/^https:\/\/blacktoon[0-9]+\.com\/poster_js\/[0-9]+\.js/
 twtw.tv##wow-image
 fun##.bannerwrap1
 kotbc.com##.at-title
