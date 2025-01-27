@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250126.1
+! Version: 250127.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -1768,6 +1768,8 @@ a2zapk.io##.MenuDeveloper
 a2zapk.io##.modalpop
 a2zapk.io##center:nth-of-type(2)
 a2zapk.io##div.ArticleLand > [src]
+a2zapk.io##div.ArticleLand:nth-of-type(4) > .ObbExplainCont
+a2zapk.io##div.ArticleLand:nth-of-type(5)
 a2zapk.io##div.ArticleLand:nth-of-type(6)
 a2zapk.io##div.ArticleLand:nth-of-type(7)
 a2zapk.io##div.ArticleLand:nth-of-type(8)
