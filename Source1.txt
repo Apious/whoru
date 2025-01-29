@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250127.1
+! Version: 250129.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -1277,6 +1277,7 @@ carmmunity.oilnow.co.kr##[src*="/channel_banners_images/"]
 @@||wcs.naver.net^
 @@||nelo2-col.navercorp.com^
 @@||s.search.naver.com^$domain=m.search.naver.com
+korean.dict.naver.com##dictbanner
 ||*.nbms.naver.com^
 ||lcs.naver.com^
 ||service.whale.naver.com^
@@ -1462,6 +1463,8 @@ m.shopping.naver.com##[data-shp-area-id="membanner"]
 ||nng-phinf.pstatic.net/*.PNG/*_714x400.png$image
 chzzk.naver.com##[class^="live_chatting_input_discount"]
 chzzk.naver.com##[class^="loungehome_event_popup_main"]
+chzzk.naver.com##[class^="top_banner"]
+chzzk.naver.com##[class^="popup_dimmed"]
 ! talks.naver.com
 talk.naver.com##._marketingMessage
 talk.naver.com##li.menu_item:nth-of-type(2)
