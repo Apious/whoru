@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250129.1
+! Version: 250130.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -2519,7 +2519,7 @@ youngja.org##div.row:nth-of-type(4)
 @@||rawdata.kr^
 @@||s1.daumcdn.net^
 @@||s2s.singular.net^
-@@||static.cloudflareinsights.com^
+!@@||static.cloudflareinsights.com^
 @@||syndication.realsrv.com^
 @@||t1.daumcdn.net^
 @@||tkor.*/data/wtoon^
