@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250201.1
+! Version: 250217.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -1458,6 +1458,7 @@ shopping.naver.com##.advertise
 search.shopping.naver.com##div[class^="card_section_card"]:has(> [class^="todayBenefit"])
 search.shopping.naver.com##div[class^="card_section_card"]:has(> ._nlog_click)
 search.shopping.naver.com##[class^="mallShortCut_brand_shortcut"]
+search.shopping.naver.com##[class^="basicProductCard_basic_product_card"]:has(> [href^="https://adcr.naver.com"])
 m.shopping.naver.com##[data-shp-area-id="membanner"]
 
 ! chzzk
@@ -1492,6 +1493,7 @@ smartstore.naver.com##[class*="banner"]
 smartstore.naver.com##[data-shp-inventory="banner"]
 smartstore.naver.com##[data-shp-area-id="externalbanner"]
 smartstore.naver.com##[data-shp-area-id="memboxbnfjoin"]
+smartstore.naver.com##fieldset > div > div > div > ul > div
 ! mycar.naver
 mycar.naver.com##div[class^="FeedManagement_advertisement"]
 mycar.naver.com##a[class^="Banner_article"]
@@ -1600,6 +1602,11 @@ dropgalaxy.com##+js(nano-stb)
 upfiles-urls.com##[class="ad-element"]
 upfiles.app##.faqs
 upfiles.app##fieldset
+! gigafile
+gigafile.nu##[class^="banner"]
+gigafile.nu##[id^="gigafile-slot"]
+gigafile.nu###main_panel
+gigafile.nu##[class^="gf-bottom-panel"]
 ! etc
 douploads.net##[src="/images/StartDownload.gif"]
 intoupload.net##.banneradshome
@@ -1611,62 +1618,6 @@ financemonk.net##+js(nano-stb)
 flash.getpczone.com##+js(nano-stb)
 frdl.to##+js(nano-stb)
 
-
-! - terabox / 1024tera / app:com.dubox.drive
-||s2.teraboxcdn.com/fe-opera-static/node-static-v4/fe-webv4-main/img/*.png^$image
-www.1024tera.com##.ad-eggplant
-www.1024tera.com##.bottom-box
-www.1024tera.com##.bottom-tip-wrap
-www.1024tera.com##.coupon-Popup-box
-www.1024tera.com##.dialog-extra-del
-www.1024tera.com##.header
-www.1024tera.com##.membership-entry
-www.1024tera.com##.notification-wrap
-www.1024tera.com##.operate-box
-www.1024tera.com##.operate-popup-box
-www.1024tera.com##.overlay
-www.1024tera.com##.report
-www.1024tera.com##.seo-banner-box
-www.1024tera.com##.text-banner
-www.1024tera.com##.u-carousel--horizontal.u-carousel.notification-wrap
-www.1024tera.com##[class*="product-card"]
-www.1024tera.com##.product-img
-www.1024tera.com##.exclusive
-www.1024tera.com##.user-name
-www.1024tera.com##+js(nowoif)
-www.1024tera.com##.txt
-gibibox.com##[class^="product-card"]
-gibibox.com##.user-name
-gibibox.com##.operate-box
-gibibox.com##.text-banner
-gibibox.com##+js(nowoif)
-gibibox.com##.txt
-gibibox.com##[class*="-ad-"]
-terabox.com##.bottom-box
-terabox.com##.bottom-tip-wrap
-terabox.com##.coupon-Popup-box
-terabox.com##.dialog-extra-del
-terabox.com##.membership-entry
-terabox.com##.notification-wrap
-terabox.com##.operate-popup-box
-terabox.com##.overlay
-terabox.com##.product-img
-terabox.com##.seo-banner-box
-terabox.com##.social-media
-terabox.com##.u-carousel--horizontal.u-carousel.notification-wrap
-terabox.com##img[class="pc-download"]
-terabox.com##.product-img
-terabox.com##.exclusive
-terabox.com##[class^="product-card"]
-terabox.com##.user-name
-terabox.com##.operate-box
-terabox.com##.text-banner
-terabox.com##+js(nowoif)
-terabox.com##.txt
-terabox.com##.wrapper
-terabox.com##[class^="membership-"]
-terabox.com##[class^="download-list-top-toast"]
-terabox.com##.seo-banner-box
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
 watcha.com##main > section
@@ -2360,6 +2311,7 @@ a-ads.com##.aa_container
 ||ugepodownload.mediatek.com^
 
 ! - 기타
+forx.mazen-ve3.com###adblock-modal
 fayerwayer.com##[id^="arcad-feature-"]
 bikeforums.net##[class^=ad-placeholder]
 biz.heraldcorp.com##.hbanner_section
