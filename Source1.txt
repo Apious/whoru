@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250309.1
+! Version: 250311.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - microsoft
@@ -149,6 +149,7 @@ jobkorea.co.kr##[class="entrance_bnr"]
 jobkorea.co.kr##[id="lottie-model"]
 jobkorea.co.kr##article[id="event"]
 m.jobkorea.co.kr##+js(nowoif)
+jobkorea.co.kr##[class*="tvc-banner"]
 
 ! - okcashbag
 member.okcashbag.com##.ad
@@ -242,6 +243,7 @@ kr.investing.com##div[class*="mid-page-promo-btn"]
 kr.investing.com##strong
 kr.investing.com##.proPromo-stripe
 kr.investing.com##.contentMediaBox
+kr.investing.com##.order-4
 m.kr.investing.com##.inlineBanner
 
 ! - finup
@@ -719,6 +721,10 @@ newsis.com##.banner300
 mobile.newsis.com##.bxcn
 mobile.newsis.com##.listStyle04
 mobile.newsis.com##.fixBanner
+www.newsis.com##[id^="banner"]
+www.newsis.com##.fix > div.smallbox
+www.newsis.com##[src^="https://www.adflow.kr/ad/"]
+||www.adflow.kr^
 /adReq/*
 ! dt / 디지털타임즈
 dt.co.kr##.main_wrap > center
@@ -759,6 +765,10 @@ moneys.co.kr##[class^="adbox"]
 moneys.co.kr##[id^="taboola"]
 moneys.co.kr##[data-ad]
 moneys.co.kr##[class^="ad-area"]
+! mbn.co.kr
+@@||ad.smartmediarep.com^
+@@||smrmembers-smr.smartmediarep.com^
+www.mbn.co.kr##.news8_bt_bn_area
 ! 청년의사
 docdocdoc.co.kr##div.index-columns-flex > .float-center > .index-row > .width-280
 docdocdoc.co.kr##.box-skin:nth-of-type(3)
@@ -2313,6 +2323,7 @@ a-ads.com##.aa_container
 ||ugepodownload.mediatek.com^
 
 ! - 기타
+www.bigkinds.or.kr##.popup-container
 www.happypointcard.com##.simple-login-banner
 forx.mazen-ve3.com###adblock-modal
 fayerwayer.com##[id^="arcad-feature-"]
@@ -2376,7 +2387,6 @@ compunik.net##.adsbygoogle
 ||resource.steelmedia.co.uk/skins$image
 ||rsload.net/images5/$image
 ||scontent.fvca1-*.fna.fbcdn.net/$image
-||smrmembers-smr.smartmediarep.com^
 ||studiouniversal.net/banner$image
 ||trace.rememberapp.co.kr^
 any.do##.NotificationBarProvider
