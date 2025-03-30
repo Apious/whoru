@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250328.1
+! Version: 250330.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - freet, 알뜰
@@ -1865,11 +1865,11 @@ skyve.io##script[src="//ausoafab.net/tag.min.js"]
 
 ! - a-ha.io
 @@||media.a-ha.io/aha-qna/assets/common/$image
+||adrop.io^
 a-ha.io##.homeCarousel.headerCarousel
 a-ha.io##.expert-section-wrapper
 a-ha.io##[href="/extras/about-membership"]
 a-ha.io###notification-modal > div:has([id])
-a-ha.io###modal-root
 a-ha.io##main > div > div > div:has(> [height="263"])
 
 ! - hanjin.co.kr
