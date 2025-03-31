@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250401.1
+! Version: 250401.2
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - freet, 알뜰
@@ -1633,8 +1633,23 @@ gigafile.nu##[class^="banner"]
 gigafile.nu##[id^="gigafile-slot"]
 gigafile.nu###main_panel
 gigafile.nu##[class^="gf-bottom-panel"]
-! etc
+! djxmaza
 @@/devfiles.pages.dev\/img\/[a-zA-Z0-9]{8,}.jpeg/$domain=miuiflash.com|djxmaza.in|thecubexguide.com
+djxmaza.in#@#+js(window.open-defuser, !devuploads.com)
+djxmaza.in#@#+js(window.open-defuser)
+djxmaza.in##ul
+djxmaza.in##p
+djxmaza.in##ol
+djxmaza.in##h3
+djxmaza.in##h2
+djxmaza.in##+js(nowoif)
+! prenewstime
+prenewstime.com##main > .container
+prenewstime.com##div.mb-5.mt-5:nth-of-type(4)
+prenewstime.com##a.btn-primary.btn:nth-of-type(1)
+prenewstime.com##+js(nowoif)
+prenewstime.com##.container > p
+! etc
 douploads.net##[src="/images/StartDownload.gif"]
 intoupload.net##.banneradshome
 workupload.com##[id^="div-gpt-ad"]
@@ -1644,7 +1659,7 @@ modsfire.com##.inf-down
 financemonk.net##+js(nano-stb)
 flash.getpczone.com##+js(nano-stb)
 frdl.to##+js(nano-stb)
-djxmaza.in##+js(nowoif)
+
 
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
