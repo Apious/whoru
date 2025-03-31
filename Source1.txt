@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250330.1
+! Version: 250401.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - freet, 알뜰
@@ -1572,7 +1572,7 @@ xda-developers.com##[id*="ad-zone"]
 xda-developers.com##[class="valnet-gallery"]
 xda-developers.com##[data-original-ad-element-id]
 
-! - uptodown, devuploads, dailyuploads, uploadrar, uplod, dailyenter, douploads, intoupload, workupload, mediafire, upfiles-urls
+! - uptodown,devuploads,dailyuploads,uploadrar,uplod,dailyenter,douploads,intoupload,workupload,mediafire,upfiles-urls,djxmaza
 @@||dailyuploads.net^
 ! Uploadrar, cloud.rahim-soft
 uploadrar.com###commonId > [href]
@@ -1634,6 +1634,7 @@ gigafile.nu##[id^="gigafile-slot"]
 gigafile.nu###main_panel
 gigafile.nu##[class^="gf-bottom-panel"]
 ! etc
+@@/devfiles.pages.dev\/img\/[a-zA-Z0-9]{8,}.jpeg/$domain=miuiflash.com|djxmaza.in|thecubexguide.com
 douploads.net##[src="/images/StartDownload.gif"]
 intoupload.net##.banneradshome
 workupload.com##[id^="div-gpt-ad"]
@@ -1643,6 +1644,7 @@ modsfire.com##.inf-down
 financemonk.net##+js(nano-stb)
 flash.getpczone.com##+js(nano-stb)
 frdl.to##+js(nano-stb)
+djxmaza.in##+js(nowoif)
 
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
@@ -2220,6 +2222,7 @@ a-ads.com##.aa_container
 ||priel.co.kr^
 ||ad.*.skt-jive.com^
 ||ads.mtgroup.kr/$subdocument
+||cast-steel.lat^
 /banner/*.gif$image
 /data/apms/background/*.$image
 /allimg/*/banner*.gif$image
