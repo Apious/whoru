@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250403.2
+! Version: 250403.3
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - freet, 알뜰
@@ -1620,6 +1620,8 @@ dropgalaxy.com##div[id*="apkad"]
 dropgalaxy.com##iframe[title="DropGalaxy File Download Tutorial"]
 dropgalaxy.com##div[style^="border:1px"]
 dropgalaxy.com##+js(nano-stb)
+dropgalaxy.com##.pb-5.pt-4.row
+dropgalaxy.com##div.downloadPage.container:nth-of-type(8)
 /images/dgpromo.jpg$image
 @@||securepubads.g.doubleclick.net^$domain=dropgalaxy.com
 #@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
@@ -1628,6 +1630,9 @@ dropgalaxy.com##+js(nano-stb)
 upfiles-urls.com##[class="ad-element"]
 upfiles.app##.faqs
 upfiles.app##fieldset
+! upfion
+upfion.com##.faqs
+upfion.com##fieldset
 ! gigafile
 gigafile.nu##[class^="banner"]
 gigafile.nu##[id^="gigafile-slot"]
@@ -1663,7 +1668,9 @@ modsfire.com##.inf-down
 financemonk.net##+js(nano-stb)
 flash.getpczone.com##+js(nano-stb)
 frdl.to##+js(nano-stb)
-
+cloud.getpczone.com##.premiumTable
+katfile.com##.notranslate
+up-4ever.net##div.mb-5.col-lg-6.col-12
 
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
