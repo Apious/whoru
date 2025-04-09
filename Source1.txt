@@ -4,6 +4,16 @@
 ! Version: 250403.3
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
+tplusmobile.com##.pc.btn-login-phone
+tplusmobile.com##.notice-swiper
+
+! investing
+kr.investing.com##.mt-12
+
+! nicepay
+web.nicepay.co.kr###rollBn
+web.nicepay.co.kr###btn_banner_player
+
 ! - freet, 알뜰
 freet.co.kr###popupListBoxMo
 freet.co.kr###mainTopBannerBox
