@@ -1,24 +1,12 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250409.1
+! Version: 250412.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
-tplusmobile.com##.pc.btn-login-phone
-tplusmobile.com##.notice-swiper
-
-! investing
-kr.investing.com##.mt-12
-
-! nicepay
+! - nicepay
 web.nicepay.co.kr###rollBn
 web.nicepay.co.kr###btn_banner_player
-
-! - freet, 알뜰
-freet.co.kr###popupListBoxMo
-freet.co.kr###mainTopBannerBox
-freet.co.kr###mainMidBannerBox
-freet.co.kr##.promotion-area
 
 ! - microsoft
 microsoft.com###epb.x-hidden-vp-mobile-st
@@ -260,13 +248,14 @@ investing.com##.installAppPopup-top
 investing.com##.mobile.float_lang_base_1
 investing.com##[href="/pro/pricing"]
 investing.com##div[class*="adNotification"]
+m.kr.investing.com##.inlineBanner
 kr.investing.com##div[class*="promo-strip_proPromo"]
 kr.investing.com##div[class*="mid-page-promo-btn"]
 kr.investing.com##strong
 kr.investing.com##.proPromo-stripe
 kr.investing.com##.contentMediaBox
 kr.investing.com##.order-4
-m.kr.investing.com##.inlineBanner
+kr.investing.com##.mt-12
 
 ! - finup
 stock.finup.co.kr##[src^="https://img.finup.co.kr/stock/Banner"]
@@ -1852,11 +1841,19 @@ tvchak.com##.big-tit-area
 comcbt.com##center:nth-of-type(2)
 googlewph.com##.widget_media_image.widget_block.inner-padding.widget
 
-! - eyes mobile
+! - mobile site / eyes, tplusmobile, freet
 eyes.co.kr##.on.popup
 eyes.co.kr##.popup_main.popup_wra
 eyes.co.kr##.quick_menu
 eyes.co.kr##.top-goto
+! tplusmobile
+tplusmobile.com##.pc.btn-login-phone
+tplusmobile.com##.notice-swiper
+! freet
+freet.co.kr###popupListBoxMo
+freet.co.kr###mainTopBannerBox
+freet.co.kr###mainMidBannerBox
+freet.co.kr##.promotion-area
 
 ! - gyeyang
 gyeyang.go.kr##.covid
