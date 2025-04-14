@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250412.1
+! Version: 250414.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - nicepay
@@ -902,15 +902,8 @@ coupang.com##[class^="sc-ztbp"]
 
 ! - danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
-auto.danawa.com###homeFinder_adver
-auto.danawa.com##div[class^="ad-powerlink"]
-danawa.com##.auto_product_list
-danawa.com##.event_link
-dpg.danawa.com##.wrap_link_left.comty_wrap_link
-shop.danawa.com##.banner-container
-shop.danawa.com##.product-recommend
-shop.danawa.com##[class*="_banner_"]
-shop.danawa.com##[onmousedown*="배너"]
+www.danawa.com##.auto_product_list
+www.danawa.com##.event_link
 www.danawa.com###adSmartArea
 www.danawa.com###adSmartArea2
 www.danawa.com###ebayPowerClickBottomArea
@@ -929,6 +922,22 @@ www.danawa.com##[class="prod-list__link top100AdProductClick"]
 www.danawa.com##[id*="Banner"]
 www.danawa.com##div[class="main-coupon swiper-coupon"]
 www.danawa.com##li.prod_ad_item
+auth.danawa.com###banner_area
+auto.danawa.com###homeFinder_adver
+auto.danawa.com##div[class^="ad-powerlink"]
+search.danawa.com###powerShoppingAreaTop
+search.danawa.com###powerClickListArea
+shop.danawa.com##.banner-container
+shop.danawa.com##.product-recommend
+shop.danawa.com##[class*="_banner_"]
+shop.danawa.com##[onmousedown*="배너"]
+prod.danawa.com###powerShoppingContent
+prod.danawa.com###adSmartArea
+dpg.danawa.com##.wrap_link_left.comty_wrap_link
+dpg.danawa.com###danawa-community-rnb-ad-top
+dpg.danawa.com##[id^="dablewidget_"]
+dpg.danawa.com##[id^="danawa-community-rnb-ad-bottom"]
+dpg.danawa.com##.rnb_inner > [style^="min-height"]
 ! malltail
 post.malltail.com##.floating-banner
 post.malltail.com##.banner-slider
@@ -1716,6 +1725,7 @@ apkpure.com##.chrome-install-pop
 apkpure.com##.download-vip-subscribe-wrap
 apkpure.com##.vip-subscribe-pop
 apkpure.com##.secondary-body
+apkpure.com##.withdraw-entrance-fancy-wrap
 ! apkmirror
 @@||html-load.com^$domain=apkmirror.com
 www.apkmirror.com###bottom-slider
@@ -2380,6 +2390,7 @@ a-ads.com##.aa_container
 ||ugepodownload.mediatek.com^
 
 ! - 기타
+zpaste.net##[class*="-banner"]
 sourceforge.net##[src*="https://as.sourceforge.net/contents/sourceforge.net"]
 www.bigkinds.or.kr##.popup-container
 www.happypointcard.com##.simple-login-banner
