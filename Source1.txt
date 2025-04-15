@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250414.1
+! Version: 250415.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - nicepay
@@ -93,6 +93,10 @@ pillyze.com##.banner-wrap
 pillyze.com##.f-footer-banner-170
 pillyze.com##.f-footer-row1
 pillyze.com##.middle-banner
+
+! - anotepad.com
+anotepad.com##[class*="-ads"]
+anotepad.com###edit_content > form div > div:has( > div)
 
 ! - linkedin
 www.linkedin.com###ember60
@@ -931,8 +935,11 @@ shop.danawa.com##.banner-container
 shop.danawa.com##.product-recommend
 shop.danawa.com##[class*="_banner_"]
 shop.danawa.com##[onmousedown*="배너"]
-prod.danawa.com###powerShoppingContent
+prod.danawa.com##.ad-etype
+prod.danawa.com###adReaderBanner
 prod.danawa.com###adSmartArea
+prod.danawa.com###powerClickListArea
+prod.danawa.com###powerShoppingContent
 dpg.danawa.com##.wrap_link_left.comty_wrap_link
 dpg.danawa.com###danawa-community-rnb-ad-top
 dpg.danawa.com##[id^="dablewidget_"]
@@ -1859,6 +1866,7 @@ eyes.co.kr##.top-goto
 ! tplusmobile
 tplusmobile.com##.pc.btn-login-phone
 tplusmobile.com##.notice-swiper
+tplusmobile.com##.popup-group
 ! freet
 freet.co.kr###popupListBoxMo
 freet.co.kr###mainTopBannerBox
