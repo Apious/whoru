@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250421.1
+! Version: 250430.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - nicepay
@@ -254,7 +254,7 @@ investing.com##.mobile.float_lang_base_1
 investing.com##[href="/pro/pricing"]
 investing.com##div[class*="adNotification"]
 investing.com##.inlineBanner
-investing.com##div[class*="promo-strip_proPromo"]
+investing.com##[class*="promo-strip_"]
 investing.com##div[class*="mid-page-promo-btn"]
 investing.com##strong
 investing.com##.proPromo-stripe
@@ -262,6 +262,7 @@ investing.com##.contentMediaBox
 investing.com##.order-4
 investing.com##.mt-12
 investing.com##.preloaded_lightbox
+investing.com##.h-fit.hidden.sticky
 
 ! - finup
 stock.finup.co.kr##[src^="https://img.finup.co.kr/stock/Banner"]
@@ -1218,11 +1219,13 @@ search.daum.net##.list_ad
 search.daum.net###n0nlColl
 search.daum.net###psbColl:has([class="ico_ad"])
 ! Kakao shoppinghow
+daum.net##div.box_g:nth-of-type(4)
+daum.net##.box_shorts.box_g
 shoppinghow.kakao.com##.wrap_shoppingad
 store.kakao.com##.area_mybnr
 store.kakao.com##.inner_slide
-daum.net##div.box_g:nth-of-type(4)
-daum.net##.box_shorts.box_g
+store.kakao.com##cu-carousel
+store.kakao.com##fu-view-main-top-banner
 
 ! - tistory
 @@||www.tistory.com^
@@ -2396,12 +2399,13 @@ a-ads.com##.aa_container
 
 ! - Xiaomi Tracker
 ! micloud
-||find.api.micloud.xiaomi.net^
+!||find.api.micloud.xiaomi.net^
 ! etc
+!||ugepodownload.mediatek.com^
 ||app.chat.global.xiaomi.net^
-||ugepodownload.mediatek.com^
 
 ! - 기타
+||giftshow.com^$app=com.merakiplace.mydoctor
 zpaste.net##[class*="-banner"]
 sourceforge.net##[src*="https://as.sourceforge.net/contents/sourceforge.net"]
 www.bigkinds.or.kr##.popup-container
