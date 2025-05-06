@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250503.2
+! Version: 250506.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - nicepay
@@ -1185,8 +1185,12 @@ danawa.com##li.ad.shop_link_item
 @@||mud-kage.kakaocdn.net^$app=com.kakao.talk
 @@||search1.daumcdn.net^$app=com.kakao.talk
 @@||videostats.kakao.com^$app=com.kakao.talk
-||mk.kakaocdn.net/$important,app=com.kakao.talk
 ||cpaad.co.kr^$app=com.kakao.talk
+||mk.kakaocdn.net/$important,app=com.kakao.talk
+||bz.kakaocdn.net^$important,app=com.kakao.talk
+||bz.kakaocdn.net^
+||kaat.daum.net^
+
 !#endif
 ||*.ad.kakao.com^
 ||*.ad.kakaocorp.com^
