@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250506.1
+! Version: 250509.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - nicepay
@@ -468,34 +468,38 @@ map.dailypharm.com##.mainTopBannerImg
 map.dailypharm.com##[class*="border-1"]
 ! edaily / 이데일리
 ||image.edaily.co.kr/images/content/naver*
-edaily.co.kr##[class*="_ad"]
-edaily.co.kr##[class^="boxshow_"]
-edaily.co.kr###w_read_right
-edaily.co.kr##[class^="gg_"]
-edaily.co.kr##[class*="_gg"]
-edaily.co.kr##.gpmclhd-link
-edaily.co.kr##.iwm_ba
-edaily.co.kr##.m_shows
-edaily.co.kr##.manyview_info
-edaily.co.kr##.mb40
-edaily.co.kr##.mr10
-edaily.co.kr##.newscontainer > div > [src]
-edaily.co.kr##.newsletter_area
-edaily.co.kr##.pnutSlot
-edaily.co.kr##.right.more-stories
-edaily.co.kr##.rightArea01
-edaily.co.kr##.weekend_news
-edaily.co.kr##.youlike_news
 m.edaily.co.kr##iframe[class^="slot"]
 m.edaily.co.kr##[src^="https://cdn.taboola.com/"]
 m.edaily.co.kr##[src^="//ads.priel.co.kr/"]
 m.edaily.co.kr##[src^="//ad.ad"]
 m.edaily.co.kr##[id^="taboola-"]
-m.edaily.co.kr##[id^="ed_banner"]
-m.edaily.co.kr##[id^="ad_"]
-m.edaily.co.kr##[class^="ad_"]
-m.edaily.co.kr##[class*="_banners"]
 m.edaily.co.kr##.realtalk_zone
+edaily.co.kr##[id*="ad_"]
+edaily.co.kr##[id*="_banner"]
+edaily.co.kr##[class*="boxshow_"]
+edaily.co.kr##[class*="gg_"]
+edaily.co.kr##[class*="ad_"]
+edaily.co.kr##[class*="_textAD"]
+edaily.co.kr##[class*="_gg"]
+edaily.co.kr##[class*="_banner"]
+edaily.co.kr##[class*="_ad"]
+edaily.co.kr##.youlike_news
+edaily.co.kr##.weekend_news
+edaily.co.kr##.special_area
+edaily.co.kr##.rightArea01
+edaily.co.kr##.right.more-stories
+edaily.co.kr##.pnutSlot
+edaily.co.kr##.newsletter_area
+edaily.co.kr##.newscontainer > div > [src]
+edaily.co.kr##.mr10
+edaily.co.kr##.mb40
+edaily.co.kr##.mark_mousehover
+edaily.co.kr##.manyview_info
+edaily.co.kr##.m_shows
+edaily.co.kr##.iwm_ba
+edaily.co.kr##.gpmclhd-link
+edaily.co.kr##.btn_special
+edaily.co.kr###w_read_right
 ! fnnews
 ||io1.innorame.com^$subdocument
 fnnews.com###ad_pitPc
@@ -810,6 +814,7 @@ news.koreadaily.com##[id*="div-gpt-ad"]
 msnews/edgenext
 msnews/libs^
 msnews/node_modules^
+aimatters.co.kr##.size-full.wp-block-image
 
 ! - op.gg
 ||talk.op.gg/images/banner$image
@@ -1705,16 +1710,17 @@ up-4ever.net##div.mb-5.col-lg-6.col-12
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
 watcha.com##main > section
-watcha.com##div[class*="navManager"] > div
-watcha.com##li > [href^="https://watcha.com/notices/"]
 watcha.com##li > [href^="https://watcha.com/webview/notices/"]
-pedia.watcha.com##[alt*="배너"]
-pedia.watcha.com##[href*="/notices"]
-pedia.watcha.com##[href*="/promotions"]
-pedia.watcha.com##[id^="modal-container"] a[class]
-pedia.watcha.com##[id="root"] section:has(> div[class^="media-area"])
+watcha.com##li > [href^="https://watcha.com/notices/"]
+watcha.com##div[class*="navManager"] > div
 pedia.watcha.com##[rel^="noreferrer"]
+pedia.watcha.com##[id="root"] section:has(> div[class^="media-area"])
+pedia.watcha.com##[id^="modal-container"] a[class]
+pedia.watcha.com##[href*="/promotions"]
+pedia.watcha.com##[href*="/notices"]
 pedia.watcha.com##[class*="w_exposed_cell"][class="w_exposed_cell"]
+pedia.watcha.com##[alt*="배너"]
+pedia.watcha.com##.adFixed
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image
