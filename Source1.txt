@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250514.1
+! Version: 250514.2
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -688,21 +688,31 @@ sedaily.com##.seo_special
 sedaily.com##.today_cube
 sedaily.com##.art_rel
 ! seoul
+||wwwads.seoul.co.kr^$subdocument
+||ad.aceplanet.co.kr^$subdocument
 seoul.co.kr###newsletterPop
 seoul.co.kr###slick_banner
 seoul.co.kr##[id*="div-gpt-ad"]
+seoul.co.kr##[id^="taboola"]
 seoul.co.kr##[class*="articleBottomAD"]
 seoul.co.kr##[class="listAD"]
 seoul.co.kr##[id="iwmads"]
 seoul.co.kr##iframe[src^="/ad/"]
-||wwwads.seoul.co.kr^$subdocument
-en.seoul.co.kr##.listAD
-en.seoul.co.kr##[class^="articleInnerAd"]
-en.seoul.co.kr##[class^="articleAD"]
-en.seoul.co.kr##[title*="AdIframe"]
-en.seoul.co.kr##[class*="hed_ad"]
-m.en.seoul.co.kr##[id^="seoulAD"]
-m.en.seoul.co.kr##div:nth-of-type(3)
+seoul.co.kr##[class^="articleInnerAd"]
+seoul.co.kr##[class^="articleAD"]
+seoul.co.kr##[title*="AdIframe"]
+seoul.co.kr##[class*="hed_ad"]
+seoul.co.kr###livereAdArea
+seoul.co.kr###bottomScrollBox
+seoul.co.kr##.adBox
+seoul.co.kr##.articleAD
+seoul.co.kr##[name="viewTopAD"]
+seoul.co.kr###iwmads
+seoul.co.kr##[title="widsMobAdIframe"]
+seoul.co.kr##[id^="seoulAD"]
+! twig24.com
+twig24.com##.articleInnerAdWrap
+twig24.com##[id^="div-gpt-ad"]
 ! yna
 @@||cdp.yna.co.kr^
 www.yna.co.kr###marketingPlayer
