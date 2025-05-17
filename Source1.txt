@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250515.1
+! Version: 250517.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -895,41 +895,42 @@ m.auction.co.kr##.box--banner_promotion
 mobile.auction.co.kr##.content-slider
 auction.co.kr##.component--sponsor_link
 ! coupang
-@@||/bannerunit/*
 @@||/banner/*$domain=coupang.com
-@@||mercury.coupang.com^$app=com.coupang.mobile
+@@||/bannerunit/*
 @@||image*.coupangcdn.com^$app=com.coupang.mobile
+@@||mercury.coupang.com^$app=com.coupang.mobile
 @@||thumbnail*.coupangcdn.com^$image
 ||ads-partners.coupang.com^
-||static.coupangcdn.com/*/banner$image
-||myqcloud.com^$app=com.coupang.mobile
-||mercury.coupang.com^$app=com.coupang.mobile
 ||crashlyticsreports-pa.googleapis.com^$app=com.coupang.mobile
 ||loyalty.coupang.com^$app=com.coupang.mobile
-coupang.com##div.keen-slider__slide
-coupang.com##.trending_ads
-coupang.com##.srp-top-banner-container
-coupang.com##.search-product__ad-badge
-coupang.com##.sdp-ads
-coupang.com##.related_ads
-coupang.com##.promotion-banner
-coupang.com##.personalized_ads
-coupang.com##.cmg-dco-template
-coupang.com##.category-best-banner
-coupang.com##.ads-line-banner-container
-coupang.com##.ads-impression
-coupang.com###sdp-middle-banner
-coupang.com###sdp-mid-banner-btf
-coupang.com###sdp-mid-banner
-coupang.com###sdp-bottom-promotion-banner-sign-up
-coupang.com###sdp-bottom-banner
-coupang.com###prodStickyBanner
-coupang.com###fullBanner
-coupang.com###coupang-banner
+||mercury.coupang.com^$app=com.coupang.mobile
+||myqcloud.com^$app=com.coupang.mobile
+||static.coupangcdn.com/*/banner$image
+cart.coupang.com##.cart-recommendation-widget
 coupang.com###app-redirect-nudge
+coupang.com###coupang-banner
+coupang.com###fullBanner
+coupang.com###prodStickyBanner
+coupang.com###sdp-bottom-banner
+coupang.com###sdp-bottom-promotion-banner-sign-up
+coupang.com###sdp-mid-banner
+coupang.com###sdp-mid-banner-btf
+coupang.com###sdp-middle-banner
+coupang.com##.ads-impression
+coupang.com##.ads-line-banner-container
+coupang.com##.category-best-banner
+coupang.com##.cmg-dco-template
 coupang.com##.loyalty-banner
+coupang.com##.personalized_ads
+coupang.com##.promotion-banner
+coupang.com##.related_ads
+coupang.com##.sdp-ads
+coupang.com##.search-product__ad-badge
+coupang.com##.srp-top-banner-container
+coupang.com##.trending_ads
 coupang.com##[class^="sc-av2wx"]
 coupang.com##[class^="sc-ztbp"]
+coupang.com##div.keen-slider__slide
 
 ! - danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
@@ -2046,7 +2047,7 @@ url.kr##.banner-container
 url.kr##.notice-box
 url.kr##.warning-box
 
-! - WebToon / 웹툰 // 2024-11
+! - WebToon / 웹툰 // 2025-05
 ! webtoon logo
 ||booktoki*.com/img/logo*
 ||funbe*.com/*/*logo*
@@ -2071,8 +2072,10 @@ mzgtoon.com##.fixed > div:nth-of-type(1) > .relative > div:nth-of-type(1)
 mzgtoon.com##.mt-4.flex-wrap
 mzgtoon.com##[href="https://b1.gob7.com"]
 ! toonkor, tkr
-@@||toonkor*.com/*/btn_submit_comment.gif$image
+@@||tkor.*/data/wtoon^
 @@||tkr*.com/*/btn_submit_comment.gif$image
+@@||toonkor*.com/*/btn_submit_comment.gif$image
+||tkor*.com/*/*375x100*.jpg$image
 ||toonkor*.*/*/*.gif$image
 ||toonkor*.*/bann/*.jpg$image
 ||toonkor*.*/images/*.jpg$image
@@ -2095,12 +2098,15 @@ wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.
 co.com##.gnb > li:nth-of-type(3)
 co.com##.gnb > li:nth-of-type(4)
 ! blacktoon
-blacktoon.com##div[class="col-6 col-sm-4 col-md-3 "]
-blacktoon1.info##[class^="comp-"] > div:nth-of-type(2)
 @@/^https:\/\/blacktoon[0-9]+\.com\/poster_js\/[0-9]+\.js/
 ||blacktoon*.com/upload/*/*.gif$image
 ||blacktoon*.com/upload/*/*.jpg$image
 ||blacktoon*.com/upload/*/*.png$image
+||webimg*.com/*/*.gif$image
+||webimg*.com/*/*.jpg$image
+||webimg*.com/*/*.png$image
+blacktoon.com##div[class="col-6 col-sm-4 col-md-3 "]
+blacktoon1.info##[class^="comp-"] > div:nth-of-type(2)
 ! 펀비, funbe
 ||funbe*.com/images/*.gif
 ||funbe*.com/bann
@@ -2139,15 +2145,23 @@ emmaru.com##body > table > tbody > tr > td > table > tbody > tr:nth-of-type(4) >
 ! greentoon
 ||greentoon.net/bn$image
 greentoon.net##.btn_go
+! namee
+||namee*.com/*/*.gif$image
+||namee*.com/*/*.png$image
+||namee*.com/*/*_*x*.jpg$image
 ! about-etc
-asuracomic.net##.ai-sticky-widget
-asuracomic.net##.justify-center.w-full
+||a*.tooncome.com/*/*.gif$image
+||hoduhodu.com/*X*.gif^$image
+||iabn*.net$image
+||joatoon*.com/*/ad/$image
+||sektoon.me/*/*.gif$image
+||toon-bro.xyz/*/no-image.svg$image
+||www.smilemanga.com/img/*.gif$image
 ||yatoon*.com/*/ad.jpg$image
 ||yatoon*.com/*/drama*.jpg$image
-||a*.tooncome.com/*/*.gif$image
-||www.smilemanga.com/img/*.gif$image
-||iabn*.net$image
-||hoduhodu.com/*X*.gif^$image
+asuracomic.net##.ai-sticky-widget
+asuracomic.net##.justify-center.w-full
+asurascans.us###sticky-ads
 
 ! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브, 주소링크 등
 @@/^https?:\/\/[0-9a-z]{5,}\.(digital|website|life|guru|uno|cfd)\/[a-z0-9]{6,}\//$script,third-party,xmlhttprequest
@@ -2288,153 +2302,149 @@ site##[href^="https://filecast.co.kr/"]
 ||viewtorrent*.com/data/*/*.gif$image
 ||static.tzstatic.top/z/up*$image
 
-! - Ads Tags, 광고 태그, a-ads // 2024-11
-net##.mkt_banner
-net##.idtunemklgfsrpchjoq
-com##.premium-promo-row
-com##.detail-banner
+! - Ads Tags, 광고 태그, a-ads // 2025-05
+a-ads.com##.aa_container
+a-ads.com##.size320x50
+com###desktopBannerWrapped
+com##.ad-container
+com##.app-banner-wrap
 com##.banner-area
 com##.basic-banner
-com##.app-banner-wrap
-com##.ad-container
-com###desktopBannerWrapped
-a-ads.com##.size320x50
-a-ads.com##.aa_container
+com##.detail-banner
+com##.premium-promo-row
+net##.idtunemklgfsrpchjoq
+net##.mkt_banner
+||ad.*.skt-jive.com^
+||ad4989.co.kr^
+||adinc.kr^
+||ads.mtgroup.kr/$subdocument
 ||adthrive.com^
 ||bank1s.co.kr^$document
-||www.play-store.co.kr/ads$subdocument
-||interworksmedia.co.kr^
-||images2.imgbox.com/*_o.gif$image
-||imageaws.popin.cc^
-||imadrep.co.kr^
-||adinc.kr^
-||ad4989.co.kr^
-||priel.co.kr^
-||ad.*.skt-jive.com^
-||ads.mtgroup.kr/$subdocument
 ||cast-steel.lat^
+||imadrep.co.kr^
+||imageaws.popin.cc^
+||images2.imgbox.com/*_o.gif$image
+||interworksmedia.co.kr^
+||madurird.com^
+||priel.co.kr^
+||www.play-store.co.kr/ads$subdocument
+/allimg/*/banner*.gif$image
 /banner/*.gif$image
 /data/apms/background/*.$image
-/allimg/*/banner*.gif$image
-*##[href="http://dk-bb.com"]
+*###ad-box
+*###ad_730
+*###ad_731
+*###ad_732
+*###ad_733
+*###addon-popup1-layer
+*###addon-popup2-layer
+*###addon-popup3-layer
+*###addon-popup4-layer
+*###addon-popup5-layer
+*###ads
+*###banner
+*###categoryBanner
+*###hd_pop
+*###naver_banner
+*###powerLink
+*###top-right-ad-slot
+*###vipada
+*##.ad-form
+*##.ad-revamp
+*##.ad-slot-header
+*##.ad-slot-header__placeholder
+*##.ad-template
+*##.ADbtn
+*##.adfit
+*##.adplaceholder-top
+*##.ads__common
+*##.ads__container
+*##.adsbox970x90
+*##.adslot_collapse
+*##.adtester-container
+*##.banner_menu
+*##.bannerWrap
+*##.coupang_ad
+*##.dotcom-ad
+*##.footerBanner
+*##.google-ad
+*##.google-ad
+*##.google-ads
+*##.kakao_ad_area
+*##.row-box-ads-seri
+*##.tnt-ads-container
+*##.top-banner
+*##.topBanner
+*##.video-banner-ad
+*##.video-banner-ad
+*##.wp-block-gallery-1.wp-block-gallery
 *##[href*="/channel/promotion"]
 *##[href*="/cupang.php"]
 *##[href*="http://hg-rr.com"]
 *##[href*="https://spwebdata.com"]
 *##[href^="/index/banner_click"]
+*##[href="http://dk-bb.com"]
 *##[href="http://ky10453.com"]
 *##[src*="ad.reople.co.kr"]
 *##[src*="adjw.co.kr"]
 *##[src*="adv.imadrep.co.kr"]
 *##[src^="//t1.daumcdn.net/adfit"]
-*##.wp-block-gallery-1.wp-block-gallery
-*##.video-banner-ad
-*##.video-banner-ad
-*##.top-banner
-*##.topBanner
-*##.tnt-ads-container
-*##.row-box-ads-seri
-*##.kakao_ad_area
-*##.google-ads
-*##.google-ad
-*##.google-ad
-*##.footerBanner
-*##.dotcom-ad
-*##.coupang_ad
-*##.bannerWrap
-*##.banner_menu
-*##.adtester-container
-*##.ad-template
-*##.ad-slot-header__placeholder
-*##.ad-slot-header
-*##.adslot_collapse
-*##.adsbox970x90
-*##.ads__container
-*##.ads__common
-*##.ad-revamp
-*##.adplaceholder-top
-*##.ad-form
-*##.adfit
-*##.ADbtn
-*###vipada
-*###top-right-ad-slot
-*###powerLink
-*###naver_banner
-*###hd_pop
-*###categoryBanner
-*###banner
-*###ads
-*###addon-popup5-layer
-*###addon-popup4-layer
-*###addon-popup3-layer
-*###addon-popup2-layer
-*###addon-popup1-layer
-*###ad-box
-*###ad_733
-*###ad_732
-*###ad_731
-*###ad_730
 
 ! - 도박, 토토, 성인게임(불량) // 2024-08
-*##[href="https://ho-2023.com/"]
-*##[href="https://xn--vv0b56ah5v.net/"]
-*##[href="https://mr-113.com/"]
-*##[href="http://ww-ot.com/"]
-*##[href="http://wn-st.com/"]
-*##[href="http://fs-ddff.com"]
-*##[href="http://dh-202.com"]
-*##[href="http://cs-ca.com/"]
-*##[href^="me/AISOL"]
-*##[href^="yes.bet"]
-*##[href^="ww-wg.com"]
-*##[href^="ww-ot.com"]
-*##[href^="wn-st.com"]
-*##[href^="tu-88.com"]
-*##[href^="rk-ccc.com"]
-*##[href^="mr-00.com"]
-*##[href^="https://카림안내.com"]
-*##[href^="https://saveurls.org"]
-*##[href^="https://saveurl.me"]
-*##[href^="http://sun-4488.com/"]
-*##[href^="https://t.me/AISOL88"]
-*##[href*="토토"]
-*##[href*="yadong"]
-*##[href*="wbet"]
-*##[href*="vipkkhh.com"]
-*##[href*="v210x10b"]
-*##[href*="tksxk"]
-*##[href*="tinyurl.com/yzpxazdx"]
-*##[href*="tgtg"]
-*##[href*="t.me/abcdcenter"]
-*##[href*="svsv"]
-*##[href*="play365a"]
-*##[href*="oplove"]
-*##[href*="mmb"]
-*##[href*="luxurynara"]
-*##[href*="hlbam13.com"]
-*##[href*="herbnewming"]
-*##[href*="guarante"]
-*##[href*="gfa69"]
-*##[href*="dh651"]
-*##[href*="bneye"]
-*##[href*="bhm123"]
-*##[href*="bbellabet.com"]
-*##[href*="bannerhit"]
-*##[href*="agitoon.net"]
-*##[href*="agitbridge"]
-*##[href*="aarq"]
 *##[href*="1bet1"]
+*##[href*="aarq"]
+*##[href*="agitbridge"]
+*##[href*="agitoon.net"]
+*##[href*="bannerhit"]
+*##[href*="bbellabet.com"]
+*##[href*="bhm123"]
+*##[href*="bneye"]
+*##[href*="dh651"]
+*##[href*="gfa69"]
+*##[href*="guarante"]
+*##[href*="herbnewming"]
+*##[href*="hlbam13.com"]
+*##[href*="luxurynara"]
+*##[href*="mmb"]
+*##[href*="oplove"]
+*##[href*="play365a"]
+*##[href*="svsv"]
+*##[href*="t.me/abcdcenter"]
+*##[href*="tgtg"]
+*##[href*="tinyurl.com/yzpxazdx"]
+*##[href*="tksxk"]
+*##[href*="v210x10b"]
+*##[href*="vipkkhh.com"]
+*##[href*="wbet"]
+*##[href*="yadong"]
+*##[href*="토토"]
+*##[href^="http://sun-4488.com/"]
+*##[href^="https://saveurl.me"]
+*##[href^="https://saveurls.org"]
+*##[href^="https://t.me/AISOL88"]
+*##[href^="https://카림안내.com"]
+*##[href^="me/AISOL"]
+*##[href^="mr-00.com"]
+*##[href^="onetop.link"]
 *##[href^="optalk.vip"]
 *##[href^="replchak.com"]
-*##[href^="onetop.link"]
+*##[href^="rk-ccc.com"]
+*##[href^="tu-88.com"]
+*##[href^="wn-st.com"]
+*##[href^="ww-ot.com"]
+*##[href^="ww-wg.com"]
+*##[href^="yes.bet"]
+*##[href="http://cs-ca.com/"]
+*##[href="http://dh-202.com"]
+*##[href="http://fs-ddff.com"]
+*##[href="http://wn-st.com/"]
+*##[href="http://ww-ot.com/"]
+*##[href="https://ho-2023.com/"]
+*##[href="https://mr-113.com/"]
+*##[href="https://xn--vv0b56ah5v.net/"]
 *##[src*="/side_banner/"]
 
 ! - Xiaomi Tracker
-! micloud
-!||find.api.micloud.xiaomi.net^
-! etc
-!||ugepodownload.mediatek.com^
-||app.chat.global.xiaomi.net^
 
 ! - 기타
 zpaste.net##[class*="-banner"]
@@ -2606,7 +2616,6 @@ youngja.org##div.row:nth-of-type(4)
 !@@||static.cloudflareinsights.com^
 @@||syndication.realsrv.com^
 @@||t1.daumcdn.net^
-@@||tkor.*/data/wtoon^
 @@||watch-online.xyz^
 @@||www.phoenixdarts.com/kr/shop^
 @@||www.seehd.pl^
