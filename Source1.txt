@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250518.1
+! Version: 250518.2
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -1981,11 +1981,9 @@ bworld.co.kr##.schSwipe_Plan
 @@||emailwebcloudprd.sktelecom.com/*/bill/*/img/*_print.gif
 ! lguplus
 ||www.lguplus.com/*/*banner*.png$image
-lguplus.com##.header-top-banner
-lguplus.com##.mypage-banner
-lguplus.co.kr##.crad--banner
+lguplus.com##[class*="-banner"]
 lguplus.com##.swiper-container
-lguplus.com##[id*="BV_modal_body"]
+lguplus.com##.c-body-content
 ! eyes
 eyes.co.kr##.on.popup
 eyes.co.kr##.popup_main.popup_wra
