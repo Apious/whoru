@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250518.2
+! Version: 250519.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -931,6 +931,7 @@ coupang.com##.trending_ads
 coupang.com##[class^="sc-av2wx"]
 coupang.com##[class^="sc-ztbp"]
 coupang.com##div.keen-slider__slide
+coupang.com###sdp-ad-middle-banner-lg-position
 
 ! - danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
@@ -1817,6 +1818,8 @@ happymodpro.com##.appx.cbox
 happymodpro.com##section.clearfix:nth-of-type(1)modplayapk.com##.describe
 ! etc
 modfyp.com##.adsBox
+@@||html-load.com/loader.min.js
+@@||html-load.com^$xmlhttprequest
 
 ! - a2zapk
 @@||a2z.a2zapk.io^
