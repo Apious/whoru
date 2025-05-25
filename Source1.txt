@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250525.2
+! Version: 250526.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -296,11 +296,6 @@ tube-box.co.kr##div
 ||tube-box.co.kr/mainbanner$subdocument
 ||m.bustago.or.kr/*/*/*/*_banner.$image
 ||m.bustago.or.kr:444/*/*/*/*_banner.$image
-
-! - Cookie Footer / 사이트 들어가자 마자 쿠키 동의 안내
-openweathermap.org###stick-footer-panel
-superuser.com##.js-consent-banner
-bitly.com###banner-cookie
 
 ! - News Paper Ads / 뉴스
 ||cdn.emetro.co.kr/*banner
@@ -2465,7 +2460,14 @@ net##.mkt_banner
 
 ! - Xiaomi Tracker
 
+! - Cookie Footer / 사이트 들어가자 마자 쿠키 동의 안내
+openweathermap.org###stick-footer-panel
+superuser.com##.js-consent-banner
+superuser.com###onetrust-consent-sdk
+bitly.com###banner-cookie
+
 ! - 기타
+proxysite.com##.adsbygoogle
 zpaste.net##[class*="-banner"]
 sourceforge.net##[src*="https://as.sourceforge.net/contents/sourceforge.net"]
 www.bigkinds.or.kr##.popup-container
@@ -2476,7 +2478,7 @@ bikeforums.net##[class^=ad-placeholder]
 biz.heraldcorp.com##.hbanner_section
 4pda.to##[src^="https://i.4pda.ws/s/"]
 sohu.com##[data-spm-content^="3||"]
-mdilbo.com##.mr-0.my-0.tv_wrap
+mdilbo.com##.tv_wrap
 anbox-cloud.io###modal
 ||api.mixpanel.com^
 bstage.in##[class^="CookieBottomSheet"]
