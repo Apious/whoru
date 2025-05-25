@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250523.1
+! Version: 250525.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -1622,7 +1622,7 @@ xda-developers.com##[id*="ad-zone"]
 xda-developers.com##[class="valnet-gallery"]
 xda-developers.com##[data-original-ad-element-id]
 
-! - uptodown,devuploads,dailyuploads,uploadrar,uplod,dailyenter,douploads,intoupload,workupload,mediafire,upfiles-urls,djxmaza
+! - uptodown,devuploads,dailyuploads,uploadrar,uplod,dailyenter,douploads,intoupload,workupload,mediafire,upfiles-urls,djxmaza,febbox
 @@||dailyuploads.net^
 ! Uploadrar, cloud.rahim-soft
 uploadrar.com###commonId > [href]
@@ -1721,6 +1721,7 @@ frdl.to##+js(nano-stb)
 cloud.getpczone.com##.premiumTable
 katfile.com##.notranslate
 up-4ever.net##div.mb-5.col-lg-6.col-12
+febbox.com##div.receive_file_popup
 
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
@@ -2221,6 +2222,10 @@ tvusan.vip##.videowrapper_pc
 bjsale.com##.player-news
 ||*.kotbc2.com/img/$image
 viaproducciones.net##.appList
+||dlrstream.com/*/photo_*.jpg
+kktv12.com##.modal_flex
+||blacktv*.com/*/*.gif$image
+||blacktv*.com/*/setting/*.jpg$image
 
 ! - 애니
 ! linkkf.app / linkkf.tv
