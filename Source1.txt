@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250526.1
+! Version: 250531.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -2057,7 +2057,7 @@ url.kr##.banner-container
 url.kr##.notice-box
 url.kr##.warning-box
 
-! - WebToon / 웹툰 // 2025-05
+! - WebToon / 웹툰 // 2025-06
 ! webtoon logo
 ||booktoki*.com/img/logo*
 ||funbe*.com/*/*logo*
@@ -2107,16 +2107,11 @@ wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.
 ! 밤토끼
 co.com##.gnb > li:nth-of-type(3)
 co.com##.gnb > li:nth-of-type(4)
-! blacktoon
-@@/^https:\/\/blacktoon[0-9]+\.com\/poster_js\/[0-9]+\.js/
-||blacktoon*.com/upload/*/*.gif$image
-||blacktoon*.com/upload/*/*.jpg$image
-||blacktoon*.com/upload/*/*.png$image
+! blacktoon, 블랙툰
+xn--ij2bx6jk1s.co##.banner-content
 ||webimg*.com/*/*.gif$image
 ||webimg*.com/*/*.jpg$image
 ||webimg*.com/*/*.png$image
-blacktoon.com##div[class="col-6 col-sm-4 col-md-3 "]
-blacktoon1.info##[class^="comp-"] > div:nth-of-type(2)
 ! 펀비, funbe
 ||funbe*.com/images/*.gif
 ||funbe*.com/bann
@@ -2467,6 +2462,7 @@ superuser.com###onetrust-consent-sdk
 bitly.com###banner-cookie
 
 ! - 기타
+stackoverflow.com###onetrust-consent-sdk
 proxysite.com##.adsbygoogle
 zpaste.net##[class*="-banner"]
 sourceforge.net##[src*="https://as.sourceforge.net/contents/sourceforge.net"]
