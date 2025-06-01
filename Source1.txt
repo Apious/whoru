@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250601.1
+! Version: 250601.2
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -120,7 +120,7 @@ jobplanet.co.kr###PopularJobs
 jobplanet.co.kr##.welfare-content__ads
 jobplanet.co.kr##.induce-write-image
 
-! - JobKorea
+! - JobKorea, albamon
 @@||coimg.jobkorea.co.kr^
 @@||ds.jobkorea.kr^
 @@||fileco.jobkorea.co.kr^
@@ -167,8 +167,11 @@ jobkorea.co.kr##[class="adBan"]
 jobkorea.co.kr##[class="entrance_bnr"]
 jobkorea.co.kr##[id="lottie-model"]
 jobkorea.co.kr##article[id="event"]
-m.jobkorea.co.kr##+js(nowoif)
 jobkorea.co.kr##[class*="tvc-banner"]
+m.jobkorea.co.kr##+js(nowoif)
+! albamon
+albamon.com##.app > div > main > div > div > div > div[class^="Login_tvcf"]
+albamon.com###gnb-top-banner
 
 ! - okcashbag
 member.okcashbag.com##.ad
@@ -808,6 +811,10 @@ skyedaily.com##[class^="banner"]
 ! 청년의사
 docdocdoc.co.kr##div.index-columns-flex > .float-center > .index-row > .width-280
 docdocdoc.co.kr##.box-skin:nth-of-type(3)
+! bntnews
+bntnews.co.kr##div.googleBanner
+bntnews.co.kr##header > .banner
+bntnews.co.kr###wrap_index > .banner
 ! news-etc
 @@||07c225f3.online^$domain=etoday.co.kr
 ||www.businesspost.co.kr/*/banner/*/$image
@@ -1205,7 +1212,6 @@ danawa.com##li.ad.shop_link_item
 ||bz.kakaocdn.net^$important,app=com.kakao.talk
 ||bz.kakaocdn.net^
 ||kaat.daum.net^
-
 !#endif
 ||*.ad.kakao.com^
 ||*.ad.kakaocorp.com^
@@ -1231,6 +1237,10 @@ map.kakao.com##.Howto
 map.kakao.com##.AdItem
 open.kakao.com##.link_bnr
 v.daum.net##.box_floating
+! map
+map.kakao.com##.bnr_ad
+m.map.kakao.com##.comm_popup
+m.map.kakao.com##.dimmed_layer
 ! Daum Search Ads
 daum.net##.ad_sch
 daum.net##.advert_bnr
@@ -2461,6 +2471,9 @@ superuser.com###onetrust-consent-sdk
 bitly.com###banner-cookie
 
 ! - 기타
+osen.co.kr##.adsbygoogle
+viva100.com##.banner_box
+life.healthytheday.co.kr##.shining-fixed-button
 stackoverflow.com###onetrust-consent-sdk
 proxysite.com##.adsbygoogle
 zpaste.net##[class*="-banner"]
@@ -2617,10 +2630,8 @@ youngja.org##div.row:nth-of-type(4)
 @@||jinair.sc.jinair.com^
 @@||kdca.go.kr/cdc/img/*
 @@||log.ngsm.nexon.com^
-@@||m.albamon.com^
 @@||m.giro.or.kr^
 @@||m4ufree.tv^
-@@||mc.albamon.kr^
 @@||mmthcoffee.kokonutstamp.com^
 @@||mon-va.byteoversea.com^$domain=tiktok.com
 @@||outcome-ssp.supersonicads.com^
