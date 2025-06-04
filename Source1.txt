@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250604.1
+! Version: 250604.2
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -11,6 +11,13 @@ moviebox.ng##.pc-guide-mask
 ! - nicepay
 web.nicepay.co.kr###rollBn
 web.nicepay.co.kr###btn_banner_player
+
+! - kmcert.com
+@@||adobe-secure.cjone.com^
+kmcert.com##.service-caution:nth-of-type(2)
+kmcert.com##.service-cert
+kmcert.com##.service-submit
+
 
 ! - microsoft
 microsoft.com###epb.x-hidden-vp-mobile-st
@@ -1622,8 +1629,10 @@ xda-developers.com##[id*="ad-zone"]
 xda-developers.com##[class="valnet-gallery"]
 xda-developers.com##[data-original-ad-element-id]
 
-! - uptodown,devuploads,dailyuploads,uploadrar,uplod,dailyenter,douploads,intoupload,workupload,mediafire,upfiles-urls,djxmaza,febbox
-@@||dailyuploads.net^
+! - uptodown,devuploads,dailyuploads,uploadrar,uplod,dailyenter,douploads,intoupload,workupload,mediafire,upfiles-urls,djxmaza,febbox, send-anywhere
+! send-anywhere
+send-anywhere.com###onetrust-consent-sdk
+send-anywhere.com##[id^="div-gpt-ad"]
 ! Uploadrar, cloud.rahim-soft
 uploadrar.com###commonId > [href]
 uploadrar.com##.hide2
@@ -1709,6 +1718,7 @@ hypershort.com##.small-heading
 hypershort.com##.register-banner
 hypershort.com##.steps-to-earn
 ! etc
+@@||dailyuploads.net^
 douploads.net##[src="/images/StartDownload.gif"]
 intoupload.net##.banneradshome
 workupload.com##[id^="div-gpt-ad"]
@@ -2172,6 +2182,8 @@ greentoon.net##.btn_go
 asuracomic.net##.ai-sticky-widget
 asuracomic.net##.justify-center.w-full
 asurascans.us###sticky-ads
+komiku.in##.kln
+webtoonguide.com##.realtime-rank-section
 
 ! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브, 주소링크 등
 @@/^https?:\/\/[0-9a-z]{5,}\.(digital|website|life|guru|uno|cfd)\/[a-z0-9]{6,}\//$script,third-party,xmlhttprequest
@@ -2466,6 +2478,7 @@ superuser.com###onetrust-consent-sdk
 bitly.com###banner-cookie
 
 ! - 기타
+geulgu.com##[class^="ads"]
 osen.co.kr##.adsbygoogle
 viva100.com##.banner_box
 life.healthytheday.co.kr##.shining-fixed-button
@@ -2498,7 +2511,6 @@ www.luckymodapk.com###appx
 unlockapk.com##.adsbyvli
 www.webhosting.uk.com##.adv-link
 duckduckgo.com##div[data-testid="serp-popover-promo"]
-www.webtoonguide.com##.realtime-rank-section
 www.lawtalk.co.kr##[class^="lawtalk-next-main-top__carousel-section"]
 mypetlife.co.kr##[id^="bemypetDisplayAd"]
 ||bff-images.bemypet.kr/media/medias/all/*_ad.jpg$image
