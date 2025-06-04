@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250601.2
+! Version: 250604.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -913,10 +913,8 @@ coupang.com###app-redirect-nudge
 coupang.com###coupang-banner
 coupang.com###fullBanner
 coupang.com###prodStickyBanner
-coupang.com###sdp-bottom-banner
-coupang.com###sdp-bottom-promotion-banner-sign-up
-coupang.com###sdp-mid-banner
-coupang.com###sdp-mid-banner-btf
+coupang.com##[id^="sdp-bottom"]
+coupang.com##[id^="sdp-mid-banner"]
 coupang.com###sdp-middle-banner
 coupang.com##.ads-impression
 coupang.com##.ads-line-banner-container
@@ -927,14 +925,11 @@ coupang.com##.personalized_ads
 coupang.com##.promotion-banner
 coupang.com##.related_ads
 coupang.com##.sdp-ads
+coupang.com##.trending_ads
 coupang.com##.search-product__ad-badge
 coupang.com##.srp-top-banner-container
-coupang.com##.trending_ads
-coupang.com##[class^="sc-av2wx"]
-coupang.com##[class^="sc-ztbp"]
 coupang.com##div.keen-slider__slide
-coupang.com###sdp-ad-middle-banner-lg-position
-
+coupang.com##[id^="sdp-ad-middle-banner"]
 ! - danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 www.danawa.com##.auto_product_list
