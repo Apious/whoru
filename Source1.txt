@@ -902,13 +902,13 @@ auction.co.kr##.component--sponsor_link
 @@||image*.coupangcdn.com^$app=com.coupang.mobile
 @@||mercury.coupang.com^$app=com.coupang.mobile
 @@||thumbnail*.coupangcdn.com^$image
-||ads-partners.coupang.com^
 ||crashlyticsreports-pa.googleapis.com^$app=com.coupang.mobile
 ||loyalty.coupang.com^$app=com.coupang.mobile
 ||mercury.coupang.com^$app=com.coupang.mobile
 ||myqcloud.com^$app=com.coupang.mobile
+||ads-partners.coupang.com^
 ||static.coupangcdn.com/*/banner$image
-cart.coupang.com##.cart-recommendation-widget
+coupang.com##.cart-recommendation-widget
 coupang.com###app-redirect-nudge
 coupang.com###coupang-banner
 coupang.com###fullBanner
