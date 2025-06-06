@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250604.2
+! Version: 250606.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -2125,10 +2125,9 @@ co.com##.gnb > li:nth-of-type(4)
 ! blacktoon, 블랙툰
 xn--ij2bx6jk1s.co##.banner-content
 ||webimg*.com/*/*.gif$image
-||webimg*.com/*/*.jpg$image
-||webimg*.com/*/*.png$image
 ! 펀비, funbe
 ||funbe*.com/images/*.gif
+||funbe*.com/images/*x120*.png$image
 ||funbe*.com/bann
 com##.mobile-banner.col-md-12
 ! manhwa.co.kr - 인터넷만화
