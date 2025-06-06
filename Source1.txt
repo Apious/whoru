@@ -2126,8 +2126,8 @@ co.com##.gnb > li:nth-of-type(4)
 xn--ij2bx6jk1s.co##.banner-content
 ||webimg*.com/*/*.gif$image
 ! 펀비, funbe
-||funbe*.com/images/*.gif
-||funbe*.com/images/*x120*.png$image
+||funbe*.com/*/*.gif
+||funbe*.com/*/*x120*.png$image
 ||funbe*.com/bann
 com##.mobile-banner.col-md-12
 ! manhwa.co.kr - 인터넷만화
