@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250606.1
+! Version: 250607.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -452,11 +452,14 @@ imnews.imbc.com##[class*="_banner"]
 imnews.imbc.com##[class*="_dable"]
 imnews.imbc.com##.clip-preview-msg
 ! isplus / 일간스포츠
+! 07c225f3.online STYLE broken when blocked
+@@||07c225f3.online^$domain=isplus.com
 isplus.com###eventBusiness
 isplus.com##.t_banner
-isplus.com##div.item
+isplus.com##.item
 isplus.com##.relative.border_b_black
 isplus.com##.flex.section_inner
+isplus.com##.center_banner
 ! ddaily
 ||m.ddaily.co.kr/data/banner^
 ||www.ddaily.co.kr/*/*/*/naver_channel.jpg$image
