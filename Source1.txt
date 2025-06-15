@@ -938,7 +938,7 @@ coupang.com##.trending_ads
 coupang.com##[id*="sdp-ad"]
 coupang.com##[id*="sdp-bottom"]
 coupang.com##[id*="Banner"]
-coupang.com##[class="impression-logged view-logged"]
+!coupang.com##[class="impression-logged view-logged"]
 ! - danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 www.danawa.com##.auto_product_list
