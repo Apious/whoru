@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250620.2
+! Version: 250620.3
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -2483,6 +2483,7 @@ superuser.com###onetrust-consent-sdk
 bitly.com###banner-cookie
 
 ! - 기타
+||windy.com/img/logo-windy-premium-watermark.svg^
 geulgu.com##[class^="ads"]
 osen.co.kr##.adsbygoogle
 viva100.com##.banner_box
