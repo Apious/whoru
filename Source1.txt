@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250620.3
+! Version: 250701.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -918,13 +918,12 @@ auction.co.kr##.component--sponsor_link
 ||myqcloud.com^$app=com.coupang.mobile
 ||ads-partners.coupang.com^
 ||static.coupangcdn.com/*/banner$image
-coupang.com##[data-component-id="title-app-download-link"]
-coupang.com##.cart-recommendation-widget
 coupang.com###app-redirect-nudge
 coupang.com###coupang-banner
 coupang.com###sdp-middle-banner
 coupang.com##.ads-impression
 coupang.com##.ads-line-banner-container
+coupang.com##.cart-recommendation-widget
 coupang.com##.category-best-banner
 coupang.com##.cmg-dco-template
 coupang.com##.keen-slider__slide
@@ -935,9 +934,12 @@ coupang.com##.related_ads
 coupang.com##.search-product__ad-badge
 coupang.com##.srp-top-banner-container
 coupang.com##.trending_ads
+coupang.com##[class*="sdp-ad"]
+coupang.com##[class*="sdp-bottom"
+coupang.com##[data-component-id="title-app-download-link"]
+coupang.com##[id*="Banner"]
 coupang.com##[id*="sdp-ad"]
 coupang.com##[id*="sdp-bottom"]
-coupang.com##[id*="Banner"]
 !coupang.com##[class="impression-logged view-logged"]
 ! - danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
@@ -1755,6 +1757,7 @@ pedia.watcha.com###root div:nth-of-type(8)
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image
 m.kinolights.com##[href="https://linktr.ee/showbox.movie"]
+m.kinolights.com##.featured-ranking
 
 ! - onstove
 onstove.com###main-floating
@@ -1831,11 +1834,6 @@ happymod.to##div[class^="modCon"]
 happymodpro.com###appx
 happymodpro.com##.appx.cbox
 happymodpro.com##section.clearfix:nth-of-type(1)modplayapk.com##.describe
-! etc
-modfyp.com##.adsBox
-@@||html-load.com/loader.min.js
-@@||html-load.com^$xmlhttprequest
-
 ! - a2zapk
 @@||a2z.a2zapk.io^
 @@||a2zapk.io/cdn-cgi/
@@ -1865,6 +1863,11 @@ a2zapk.io#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: 
 rtxkeeda.com###a-ads5
 rtxkeeda.com##.modalpop
 rtxkeeda.com##.NewBlock1 > [src]
+! etc
+modfyp.com##.adsBox
+@@||html-load.com/loader.min.js
+@@||html-load.com^$xmlhttprequest
+liteapks.com##.warning-box
 
 ! - infidrive
 @@||pagead2.googlesyndication.com^$domain=infidrive.net,third-party
@@ -2048,6 +2051,7 @@ scloud.ws##[id^="no-open-"]
 softonic.kr##.sam-slot
 softonic.kr##.rv-di-modal
 softonic.kr##.sam-slot__content
+softonic.com###pdp-bundle
 
 ! - softwareok
 softwareok.com##td:nth-of-type(2) > center
@@ -2483,6 +2487,9 @@ superuser.com###onetrust-consent-sdk
 bitly.com###banner-cookie
 
 ! - 기타
+youtube-nocookie.com##.ytp-pause-overlay-container
+efficient.app##.partner-block
+tunemymusic.com##[class^="HeaderMenu_CookieAlert"]
 ||windy.com/img/logo-windy-premium-watermark.svg^
 geulgu.com##[class^="ads"]
 osen.co.kr##.adsbygoogle
