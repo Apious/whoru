@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250701.1
+! Version: 250709.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -825,6 +825,10 @@ docdocdoc.co.kr##.box-skin:nth-of-type(3)
 bntnews.co.kr##div.googleBanner
 bntnews.co.kr##header > .banner
 bntnews.co.kr###wrap_index > .banner
+! careet, 캐릿
+careet.net##.careet-secret-cover__wrap
+careet.net##.type-content.cover
+careet.net##.type-dictionary.cover
 ! news-etc
 @@||07c225f3.online^$domain=etoday.co.kr
 ||www.businesspost.co.kr/*/banner/*/$image
@@ -1218,6 +1222,8 @@ danawa.com##li.ad.shop_link_item
 ||bz.kakaocdn.net^$important,app=com.kakao.talk
 ||bz.kakaocdn.net^
 ||kaat.daum.net^
+v.daum.net##.box_floating
+daum.net##[data-cloud="banner"]
 !#endif
 ||*.ad.kakao.com^
 ||*.ad.kakaocorp.com^
@@ -1242,7 +1248,6 @@ payments.kakao.com###bannerBottomSection
 map.kakao.com##.Howto
 map.kakao.com##.AdItem
 open.kakao.com##.link_bnr
-v.daum.net##.box_floating
 ! map
 map.kakao.com##.bnr_ad
 m.map.kakao.com##.comm_popup
