@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250709.1
+! Version: 250711.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -1472,6 +1472,7 @@ cafe.naver.com##.location.home_section
 cafe.naver.com##.notice_area.AsideNotice
 cafe.naver.com##.section_home_town
 cafe.naver.com##.smart_bot_area.AsideSmartBot
+cafe.naver.com##[data-linkdata*="brand.naver.com"]
 m.cafe.naver.com###articleFeedList
 m.cafe.naver.com##.HomeFeedItem
 m.cafe.naver.com##.home_recommend
@@ -2181,6 +2182,10 @@ greentoon.net##.btn_go
 ||namee*.com/*/*.gif$image
 ||namee*.com/*/*.png$image
 ||namee*.com/*/*_*x*.jpg$image
+! komiku.asia
+||komiku.asia/wp-content/uploads/*/Popup.jpg$image
+||komiku.asia/wp-content/uploads/*/*terbaru.jpg$image
+komiku.asia##.kln
 ! about-etc
 ||a*.tooncome.com/*/*.gif$image
 ||hoduhodu.com/*X*.gif^$image
@@ -2194,7 +2199,6 @@ greentoon.net##.btn_go
 asuracomic.net##.ai-sticky-widget
 asuracomic.net##.justify-center.w-full
 asurascans.us###sticky-ads
-komiku.in##.kln
 webtoonguide.com##.realtime-rank-section
 
 ! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브, 주소링크 등
