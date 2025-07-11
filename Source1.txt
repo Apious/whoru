@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250711.1
+! Version: 250712.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -1752,7 +1752,6 @@ watcha.com##li > [href^="https://watcha.com/notices/"]
 watcha.com##div[class*="navManager"] > div
 pedia.watcha.com##[rel^="noreferrer"]
 pedia.watcha.com##[id="root"] section:has(> div[class^="media-area"])
-pedia.watcha.com##[id^="modal-container"] a[class]
 pedia.watcha.com##[href*="/promotions"]
 pedia.watcha.com##[href*="/notices"]
 pedia.watcha.com##[class*="w_exposed_cell"][class="w_exposed_cell"]
