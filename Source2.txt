@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250620.1
+! Version: 250711.1
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - xiaomi tracker
@@ -257,4 +257,3 @@
 @@||static.wixstatic.com^
 @@||syndication.realsrv.com^
 @@||videotongs.com^
-@@||web.nicepay.co.kr^
