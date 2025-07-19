@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250712.2
+! Version: 250719.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -21,6 +21,8 @@ kmcert.com##.service-submit
 
 ! - microsoft
 microsoft.com###epb.x-hidden-vp-mobile-st
+account.microsoft.com###home\.drawers\.copilot
+copilot.microsoft.com##.bg-cover.justify-center
 support.microsoft.com###uhf-upgrade-banner
 support.microsoft.com##.AboveUhfBanner
 support.microsoft.com##.topbanner_onedrive
@@ -939,12 +941,12 @@ coupang.com##.search-product__ad-badge
 coupang.com##.srp-top-banner-container
 coupang.com##.trending_ads
 coupang.com##[class*="sdp-ad"]
-coupang.com##[class*="sdp-bottom"
+coupang.com##[id*="sdp-ad"]
+coupang.com##[class*="sdp-bottom"]
+coupang.com##[id*="sdp-bottom"]
 coupang.com##[data-component-id="title-app-download-link"]
 coupang.com##[id*="Banner"]
-coupang.com##[id*="sdp-ad"]
-coupang.com##[id*="sdp-bottom"]
-!coupang.com##[class="impression-logged view-logged"]
+coupang.com##[class="impression-logged view-logged"]
 ! - danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 www.danawa.com##.auto_product_list
@@ -2486,8 +2488,6 @@ net##.mkt_banner
 *##[href="https://xn--vv0b56ah5v.net/"]
 *##[src*="/side_banner/"]
 
-! - Xiaomi Tracker
-
 ! - Cookie Footer / 사이트 들어가자 마자 쿠키 동의 안내
 openweathermap.org###stick-footer-panel
 superuser.com##.js-consent-banner
@@ -2497,6 +2497,8 @@ bitly.com###banner-cookie
 ! - 기타
 ||web.nicepay.co.kr/images/email/*$image
 ||cdn.kcp.co.kr/pay/images/MAIL/*$image
+grok.com##.mb-1.p-0.items-start
+grok.com##.items-center.py-4.px-5
 perplexity.ai##.pb-md.pl-md
 perplexity.ai##.mt-md
 youtube-nocookie.com##.ytp-pause-overlay-container
@@ -2635,6 +2637,8 @@ www.puresys.net###aiviy-union-ad-2
 youngja.org##div.row:nth-of-type(4)
 
 ! - 기타 예외
+! pinterest open error
+pinterest.*#@#+js(json-prune, initialReduxState.pins.{-}.pin_promotion_id initialReduxState.resources.UserHomefeedResource.*.data.[-].pin_promotion_id)
 @@||inklinkor.com^$xhr,domain=oii.la
 @@||i.keezip.com/data/
 @@||api-zero.livere.com/*/comments
