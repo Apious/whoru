@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250719.2
+! Version: 250722.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -329,9 +329,9 @@ static.hankyung.com##.pop-wrap
 hankyung.com##.ad-box
 hankyung.com##.ad-top
 hankyung.com##.ad-wrap
-hankyung.com##.ad_area
 hankyung.com##.aside-ad
 hankyung.com##.aside-ad-component
+hankyung.com##.article-promotion
 tenasia.hankyung.com##.aedi-link
 ! newspim
 newspim.com##.ad-box
@@ -635,6 +635,7 @@ mdjournal.kr##.wrap_new_13.auto-p06.auto-article
 ||m.shopping.nate.com^$domain=m.mail.nate.com
 ||m.mail.nate.com/banner$image
 m.mail.nate.com##.banner
+m.mail.nate.com##.w_notice
 nate.com##.nmBanner
 nate.com##.SnbNewsBar
 nate.com##[class^="area_ad"]
