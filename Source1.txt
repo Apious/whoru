@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250722.1
+! Version: 250726.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - moviebox.ng
@@ -2341,6 +2341,9 @@ xyz##[href="/ad-5"]
 xyz##[href="/ad-6"]
 xyz##[href="/ad-7"]
 xyz##[href="/ad-8"]
+! torrentssg
+||torrentssg*.com/data/apms/$image
+||torrentssg*.com/data/file/*.gif$image
 ! torrentreel
 site##[href^="https://filecast.co.kr/"]
 ! torrentbot
@@ -2505,7 +2508,6 @@ bitly.com###banner-cookie
 grok.com##.mb-1.p-0.items-start
 grok.com##.items-center.py-4.px-5
 perplexity.ai##.pb-md.pl-md
-perplexity.ai##.mt-md
 youtube-nocookie.com##.ytp-pause-overlay-container
 efficient.app##.partner-block
 tunemymusic.com##[class^="HeaderMenu_CookieAlert"]
