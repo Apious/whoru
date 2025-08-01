@@ -1,17 +1,11 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250711.1
+! Version: 250802.1
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
-! - xiaomi tracker
-@@||i.mi.com^
-||flash.sec.intl.miui.com^
-||g.galleryapi.micloud.xiaomi.net^
-||us.find.api.micloud.xiaomi.net^
-||pjbs.blackshark.com^
-||gamespace.sec.intl.miui.com^
-||gamebox.sec.miui.com^
+! - doctornow, 닥터나우
+||doctornow-front-images.s3.ap-northeast-2.amazonaws.com^
 
 ! - 쿠팡
 @@||coupangeats.app.link^
@@ -46,6 +40,7 @@
 ||ka.*.daum.net^
 ||tr.*.daum.net^
 ||vads-api.daumkakao.com^
+0.0.0.0 t1.kakaocdn.net
 
 ! - AfreecaTV
 ||item.m.afreecatv.com^
@@ -173,8 +168,8 @@
 ||advoncommerce.com^
 ||adsninja.ca^
 
-
 ! - 기타
+||e.notifly.tech^
 ||*.catad5959.com^
 ||*.cauly.co.kr
 ||*.ctobsnssdk.com^
