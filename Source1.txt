@@ -23,7 +23,6 @@ kmcert.com##.service-caution:nth-of-type(2)
 kmcert.com##.service-cert
 kmcert.com##.service-submit
 
-
 ! - microsoft
 microsoft.com###epb.x-hidden-vp-mobile-st
 account.microsoft.com###home\.drawers\.copilot
