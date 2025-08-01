@@ -1,8 +1,13 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250726.1
+! Version: 250802.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
+
+! - Github
+@@||github.com^
+@@||api.github.com^$domain=github.com,important
+github.com$@$link[rel="manifest"]
 
 ! - moviebox.ng
 moviebox.ng##.pc-box
@@ -67,7 +72,9 @@ moneypin.biz##[id^="ad-web"]
 moneypin.biz##.max-lg\:hidden
 
 ! - apti.co.kr
-apti.co.kr##[id^="banner"]
+||api-marketing.apti.co.kr^
+apti.co.kr##[id*="banner"]
+apti.co.kr##[class*="banner"]
 apti.co.kr##.footer-banner
 azapi.apti.co.kr###noticePopup
 
@@ -893,15 +900,15 @@ modoodoc.com##[class^="styles_bannerWrapper"]
 cjone.com##.login_slideBanner
 ! aliexpress
 @@||aeis.alicdn.com^$domain=feedback.aliexpress.com
-mbest.aliexpress.com###header-float-banner
+||aliexpress-media.com/kf/*/804x52*$image
 aliexpress.com###container-for-smart-banner
+aliexpress.com###header-float-banner
+aliexpress.com##.header-toolbar
+aliexpress.com##.image-poplayer-modal
 aliexpress.com##.pop-picture
 aliexpress.com##.ranking-main
 aliexpress.com##.top-banner-container
-aliexpress.com##.image-poplayer-modal
-aliexpress.com##.header-toolbar
-m.aliexpress.com###header-float-banner
-ko.aliexpress.com###header-float-banner
+
 ! auction
 itempage3.auction.co.kr##.plcc_banner
 itempage3.auction.co.kr##.vip-detailinfo_banner
@@ -1001,6 +1008,8 @@ enuri.com##[class^="bnrbox"]
 
 ! - gmarket
 @@||script.gmarket.co.kr^$script
+@@||ad-img.gmarket.com/ADS
+
 ||pics.gmarket.com/smilepay/banner$image
 www.gmarket.co.kr##.box__promotion
 www.gmarket.co.kr##.box__smilefresh-benefit
@@ -1277,6 +1286,8 @@ store.kakao.com##.area_mybnr
 store.kakao.com##.inner_slide
 store.kakao.com##cu-carousel
 store.kakao.com##fu-view-main-top-banner
+! Kakao Pay
+||t1.daumcdn.net^$important,app=com.kakaopay.app
 
 ! - tistory
 @@||www.tistory.com^
@@ -2604,7 +2615,6 @@ gamemeca.com###sliderBox
 gamemeca.com##.event-right
 gamingdial.com###col-right-yt
 genie.co.kr##.wrap_layerpopup
-github.com$@$link[rel="manifest"]
 giznext.com##.desktopaddBox
 gsmarena.com##.pt-10.d-flex
 healthymaster.xyz##div.row:nth-of-type(3)
@@ -2666,7 +2676,6 @@ pinterest.*#@#+js(json-prune, initialReduxState.pins.{-}.pin_promotion_id initia
 @@||cmp.osano.com^
 @@||code.jquery.com^
 @@||files.modyolo.com^
-@@||github.com^
 @@||hypebeast.kr^
 @@||images.dmca.com^
 @@||iyfsearch.com^
