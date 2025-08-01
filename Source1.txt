@@ -1223,47 +1223,45 @@ danawa.com##li.ad.shop_link_item
 @@||121.53.205.66:1009^
 @@||aem-collector.daumkakao.io^
 @@||kauth.kakao.com^
+@@||mk.kakaocdn.net^$domain=map.kakao.com
 @@||mud-kage.kakaocdn.net^
 @@||search1.daumcdn.net^
-@@||videoads.kakao.com^
 @@||t1.daumcdn.net/*/subway/*
-@@||mk.kakaocdn.net^$domain=map.kakao.com
+@@||videoads.kakao.com^
 !#if env_mobile
 @@||kauth.kakao.com^$app=com.kakao.talk
 @@||mud-kage.kakaocdn.net^$app=com.kakao.talk
 @@||search1.daumcdn.net^$app=com.kakao.talk
 @@||videostats.kakao.com^$app=com.kakao.talk
-||cpaad.co.kr^$app=com.kakao.talk
-||mk.kakaocdn.net/$important,app=com.kakao.talk
-||bz.kakaocdn.net^$important,app=com.kakao.talk
 ||bz.kakaocdn.net^
+||cpaad.co.kr^$app=com.kakao.talk
 ||kaat.daum.net^
-v.daum.net##.box_floating
+||mk.kakaocdn.net/$important,app=com.kakao.talk
 daum.net##[data-cloud="banner"]
+v.daum.net##.box_floating
 !#endif
 ||*.ad.kakao.com^
 ||*.ad.kakaocorp.com^
 ||ad-content.*.kakao.com^
-||adserver.*.kakao.com^
 ||ad.daum.net^$important
 ||adclix.daum.net^$important
 ||adclixad.daum.net^$important
+||adserver.*.kakao.com^
 ||amsimg.daum-img.net^
 ||amsv2.daum.net^
 ||ca.adtc.daum.net^$important
 ||display.ad.daum.net^$important
 ||ka.*.daum.net/*
 ||kyson.ad.daum.net^$important
-||t1.daumcdn.net/adfit/*
+||page.kakao.com/_next/*_banner_*.png$image
 ||tr.*.daum.net/*
 ||webid.ad.daum.net^$important
-||page.kakao.com/_next/*_banner_*.png$image
-page.kakao.com##img[alt^="pc 앱"]
-payments.kakao.com##.bnr
-payments.kakao.com###bannerBottomSection
-map.kakao.com##.Howto
 map.kakao.com##.AdItem
+map.kakao.com##.Howto
 open.kakao.com##.link_bnr
+page.kakao.com##img[alt^="pc 앱"]
+payments.kakao.com###bannerBottomSection
+payments.kakao.com##.bnr
 ! map
 map.kakao.com##.bnr_ad
 m.map.kakao.com##.comm_popup
@@ -1272,15 +1270,15 @@ m.map.kakao.com##.dimmed_layer
 daum.net##.ad_sch
 daum.net##.advert_bnr
 daum.net##.advert_shoppingbox
-daum.net##.content_sponsor
 daum.net##.content_ad
+daum.net##.content_sponsor
 daum.net##.log_wide.adLinkColl
-search.daum.net##.list_ad
 search.daum.net###n0nlColl
 search.daum.net###psbColl:has([class="ico_ad"])
+search.daum.net##.list_ad
 ! Kakao shoppinghow
-daum.net##div.box_g:nth-of-type(4)
 daum.net##.box_shorts.box_g
+daum.net##div.box_g:nth-of-type(4)
 shoppinghow.kakao.com##.wrap_shoppingad
 store.kakao.com##.area_mybnr
 store.kakao.com##.inner_slide
@@ -1290,21 +1288,20 @@ store.kakao.com##fu-view-main-top-banner
 ||t1.daumcdn.net^$important,app=com.kakaopay.app
 
 ! - tistory
+@@||tistory.com/manage
 @@||www.tistory.com^
 @@||www.tistory.com^$app=com.kakao.talk
-@@||tistory.com/manage
 ||tistory1.daumcdn.net/tistory/*/skin/images/*.jpg$image
-tistory.com##[data-og-host="www.coupang.com"]
-tistory.com#@#+js(abort-current-script, $, div.adsbygoogle)
-tistory.com#@#.ad-wp
-tistory.com##div.module_plugin.module:nth-of-type(1)
-tistory.com##.donation
 tistory.com##.adfit.revenue_unit_item
+tistory.com##.container_layer_type2
+tistory.com##.donation
 tistory.com##.kakao_ad_area
 tistory.com##.revenue_unit_wrap
 tistory.com##.wrap_bnr_story
-tistory.com##.container_layer_type2
-*##[data-tistory-react-app="NaverAd"]
+tistory.com##[data-og-host="www.coupang.com"]
+tistory.com##div.module_plugin.module:nth-of-type(1)
+tistory.com#@#.ad-wp
+tistory.com#@#+js(abort-current-script, $, div.adsbygoogle)
 
 ! - dcinside
 dcinside.com##.adv-group
@@ -2366,7 +2363,7 @@ site##[href^="https://filecast.co.kr/"]
 ||viewtorrent*.com/data/*/*.gif$image
 ||static.tzstatic.top/z/up*$image
 
-! - Ads Tags, 광고 태그, a-ads // 2025-05
+! - Ads Tags, 광고 태그, a-ads // 2025-08
 a-ads.com##.aa_container
 a-ads.com##.size320x50
 com###desktopBannerWrapped
@@ -2441,6 +2438,7 @@ net##.mkt_banner
 *##.video-banner-ad
 *##.video-banner-ad
 *##.wp-block-gallery-1.wp-block-gallery
+*##[data-tistory-react-app="NaverAd"]
 *##[href*="/channel/promotion"]
 *##[href*="/cupang.php"]
 *##[href*="http://hg-rr.com"]
@@ -2508,10 +2506,10 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - Cookie Footer / 사이트 들어가자 마자 쿠키 동의 안내
-openweathermap.org###stick-footer-panel
-superuser.com##.js-consent-banner
-superuser.com###onetrust-consent-sdk
 bitly.com###banner-cookie
+openweathermap.org###stick-footer-panel
+superuser.com###onetrust-consent-sdk
+superuser.com##.js-consent-banner
 
 ! - 기타
 ||web.nicepay.co.kr/images/email/*$image
@@ -2694,7 +2692,6 @@ pinterest.*#@#+js(json-prune, initialReduxState.pins.{-}.pin_promotion_id initia
 @@||s2s.singular.net^
 !@@||static.cloudflareinsights.com^
 @@||syndication.realsrv.com^
-@@||t1.daumcdn.net^
 @@||watch-online.xyz^
 @@||www.phoenixdarts.com/kr/shop^
 @@||www.seehd.pl^
