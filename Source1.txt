@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250802.2
+! Version: 250802.3
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - Github
@@ -2067,10 +2067,11 @@ scloud.ws##[data-link^="http://kcmhdb.click"]
 scloud.ws##[id^="no-open-"]
 
 ! - softonic
+softonic.com###pdp-bundle
 softonic.kr##.sam-slot
 softonic.kr##.rv-di-modal
 softonic.kr##.sam-slot__content
-softonic.com###pdp-bundle
+softonic.kr##.is-mobile-hide
 
 ! - softwareok
 softwareok.com##td:nth-of-type(2) > center
