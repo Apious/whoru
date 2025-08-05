@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250802.3
+! Version: 250805.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - Github
@@ -1909,14 +1909,6 @@ br0wsers.com##.adsbyvli
 taiwebs.com###vi-smartbanner
 taiwebs.com##.adsbyvli
 taiwebs.com##[id="pixcel"]
-
-! - en-ter, 에너지 캐시백
-en-ter.co.kr###js-popup-bg
-en-ter.co.kr##.js-popup.layer_pop
-en-ter.co.kr##.main_pop
-en-ter.co.kr###display_view1
-en-ter.co.kr###display_view2
-en-ter.co.kr###display_view3
 
 ! - filetender
 filetender.com##[id*="sidebar"]
