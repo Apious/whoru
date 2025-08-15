@@ -912,7 +912,15 @@ aliexpress.com##.image-poplayer-modal
 aliexpress.com##.pop-picture
 aliexpress.com##.ranking-main
 aliexpress.com##.top-banner-container
-
+! - 하이마트
+e-himart.co.kr##.ad-banner
+e-himart.co.kr###container > .hm-content-wrap > .hm-popup
+e-himart.co.kr###container >  .hm-content-wrap >  .main-modules-inner >  .hm-card__wrap:last-child >  .masonry-wall >  .masonry-column:last-child >  .masonry-item:first-child > section.hm-content-area.item >  .hm-main__product-ad-wrap
+e-himart.co.kr###__nuxt >  .hm-wrapper >  .dropdown-menu--open.specialty-hall.dropdown-menu:nth-child(2) >  .dropdown-menu-wrapper >  .dropdown-menu-body:nth-child(2) >  .hm-inner >  .hm-inner >  .marketing-banner-box:nth-child(2)
+e-himart.co.kr###container > .hm-content-wrap > .main-modules-inner > .hm-card__wrap:last-child > .masonry-wall > .masonry-column:first-child > .masonry-item:nth-child(2)
+secure.e-himart.co.kr##.hm-floating-banner
+secure.e-himart.co.kr##.hm-banner-area
+secure.e-himart.co.kr##.citrus-product-area-1
 ! auction
 itempage3.auction.co.kr##.plcc_banner
 itempage3.auction.co.kr##.vip-detailinfo_banner
