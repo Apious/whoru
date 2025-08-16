@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250816.1
+! Version: 250816.2
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -1211,8 +1211,10 @@ www.tripadvisor.co.kr##section.mowmC:nth-of-type(13)
 www.tripadvisor.co.kr##section.mowmC:nth-of-type(17)
 
 ! - 번개장터
-m.bunjang.co.kr##div[class^="ProductExternalAdsstyle"]
-m.bunjang.co.kr##[src^="https://ssl.pstatic.net/adimg"]
+bunjang.co.kr##div[class^="ProductExternalAdsstyle"]
+bunjang.co.kr##[src^="https://ssl.pstatic.net/adimg"]
+bunjang.co.kr##[class="app"] > div > div > div:has( > [alt^="앱"])
+bunjang.co.kr##.slick-slide
 
 ! - Danawa(PC)
 @@||danawa.com/RealMedia/ads$domain=event.danawa.com
