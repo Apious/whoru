@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250815.5
+! Version: 250816.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -2104,7 +2104,7 @@ url.kr##.banner-container
 url.kr##.notice-box
 url.kr##.warning-box
 
-! - WebToon / 웹툰 // 2025-06
+! - WebToon / 웹툰 // 2025-08
 ! webtoon logo
 ||booktoki*.com/img/logo*
 ||funbe*.com/*/*logo*
@@ -2141,11 +2141,11 @@ com##[class="popnotice"][style="display: block;"]
 ||iabn*.net/*.$image
 *##[src^="https://iabn"]
 ||wtwt*.com/assets/img/banner*$image
-wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.com,wtwt318.com,wtwt317.com,wtwt316.com,wtwt315.com,wtwt314.com,wtwt313.com,wtwt312.com,wtwt311.com,wtwt310.com,wtwt309.com,wtwt308.com,wtwt307.com,wtwt306.com,wtwt305.com,wtwt304.com,wtwt303.com,wtwt302.com,wtwt301.com,wtwt300.com,wtwt299.com,wtwt298.com,wtwt297.com,wtwt296.com,wtwt295.com,wtwt294.com,wtwt293.com,wtwt292.com,wtwt291.com,wtwt290.com,wtwt289.com,wtwt288.com,wtwt287.com,wtwt286.com,wtwt285.com,wtwt284.com,wtwt283.com,wtwt282.com,wtwt281.com,wtwt280.com,wtwt279.com,wtwt278.com,wtwt277.com,wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com##[href="/w6"]
-wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.com,wtwt318.com,wtwt317.com,wtwt316.com,wtwt315.com,wtwt314.com,wtwt313.com,wtwt312.com,wtwt311.com,wtwt310.com,wtwt309.com,wtwt308.com,wtwt307.com,wtwt306.com,wtwt305.com,wtwt304.com,wtwt303.com,wtwt302.com,wtwt301.com,wtwt300.com,wtwt299.com,wtwt298.com,wtwt297.com,wtwt296.com,wtwt295.com,wtwt294.com,wtwt293.com,wtwt292.com##.top.row
-wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.com,wtwt318.com,wtwt317.com,wtwt316.com,wtwt315.com,wtwt314.com,wtwt313.com,wtwt312.com,wtwt311.com,wtwt310.com,wtwt309.com,wtwt308.com,wtwt307.com,wtwt306.com,wtwt305.com,wtwt304.com,wtwt303.com,wtwt302.com,wtwt301.com,wtwt300.com,wtwt299.com,wtwt298.com,wtwt297.com,wtwt296.com,wtwt295.com,wtwt294.com,wtwt293.com,wtwt292.com##.left > ul > li:nth-of-type(4)
-wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.com,wtwt318.com,wtwt317.com,wtwt316.com,wtwt315.com,wtwt314.com,wtwt313.com,wtwt312.com,wtwt311.com,wtwt310.com,wtwt309.com,wtwt308.com,wtwt307.com,wtwt306.com,wtwt305.com,wtwt304.com,wtwt303.com,wtwt302.com,wtwt301.com,wtwt300.com,wtwt299.com,wtwt298.com,wtwt297.com,wtwt296.com,wtwt295.com,wtwt294.com,wtwt293.com,wtwt292.com##.toon-bottom
-wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.com,wtwt318.com,wtwt317.com,wtwt316.com,wtwt315.com,wtwt314.com,wtwt313.com,wtwt312.com,wtwt311.com,wtwt310.com,wtwt309.com,wtwt308.com,wtwt307.com,wtwt306.com,wtwt305.com,wtwt304.com,wtwt303.com,wtwt302.com,wtwt301.com,wtwt300.com,wtwt299.com,wtwt298.com,wtwt297.com,wtwt296.com,wtwt295.com,wtwt294.com,wtwt293.com,wtwt292.com##.banner
+wtwt380.com,wtwt379.com,wtwt378.com,wtwt377.com,wtwt376.com,wtwt375.com,wtwt374.com,wtwt373.com,wtwt372.com,wtwt371.com,wtwt370.com,wtwt369.com,wtwt368.com,wtwt367.com,wtwt366.com,wtwt365.com,wtwt364.com,wtwt363.com,wtwt362.com,wtwt361.com,wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com,wtwt332.com,wtwt331.com,wtwt330.com,wtwt329.com,wtwt328.com,wtwt327.com,wtwt326.com,wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com##[href="/w6"]
+wtwt380.com,wtwt379.com,wtwt378.com,wtwt377.com,wtwt376.com,wtwt375.com,wtwt374.com,wtwt373.com,wtwt372.com,wtwt371.com,wtwt370.com,wtwt369.com,wtwt368.com,wtwt367.com,wtwt366.com,wtwt365.com,wtwt364.com,wtwt363.com,wtwt362.com,wtwt361.com,wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com,wtwt332.com,wtwt331.com,wtwt330.com,wtwt329.com,wtwt328.com,wtwt327.com,wtwt326.com,wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com##.top.row
+wtwt380.com,wtwt379.com,wtwt378.com,wtwt377.com,wtwt376.com,wtwt375.com,wtwt374.com,wtwt373.com,wtwt372.com,wtwt371.com,wtwt370.com,wtwt369.com,wtwt368.com,wtwt367.com,wtwt366.com,wtwt365.com,wtwt364.com,wtwt363.com,wtwt362.com,wtwt361.com,wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com,wtwt332.com,wtwt331.com,wtwt330.com,wtwt329.com,wtwt328.com,wtwt327.com,wtwt326.com,wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com##.left > ul > li:nth-of-type(4)
+wtwt380.com,wtwt379.com,wtwt378.com,wtwt377.com,wtwt376.com,wtwt375.com,wtwt374.com,wtwt373.com,wtwt372.com,wtwt371.com,wtwt370.com,wtwt369.com,wtwt368.com,wtwt367.com,wtwt366.com,wtwt365.com,wtwt364.com,wtwt363.com,wtwt362.com,wtwt361.com,wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com,wtwt332.com,wtwt331.com,wtwt330.com,wtwt329.com,wtwt328.com,wtwt327.com,wtwt326.com,wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com##.toon-bottom
+wtwt380.com,wtwt379.com,wtwt378.com,wtwt377.com,wtwt376.com,wtwt375.com,wtwt374.com,wtwt373.com,wtwt372.com,wtwt371.com,wtwt370.com,wtwt369.com,wtwt368.com,wtwt367.com,wtwt366.com,wtwt365.com,wtwt364.com,wtwt363.com,wtwt362.com,wtwt361.com,wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com,wtwt332.com,wtwt331.com,wtwt330.com,wtwt329.com,wtwt328.com,wtwt327.com,wtwt326.com,wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com##.banner
 ! agit
 ||agit*.xyz/*/banner/$image
 ||agit*.xyz/upload/$image
@@ -2154,6 +2154,11 @@ wtwt325.com,wtwt324.com,wtwt323.com,wtwt322.com,wtwt321.com,wtwt320.com,wtwt319.
 ! 밤토끼
 co.com##.gnb > li:nth-of-type(3)
 co.com##.gnb > li:nth-of-type(4)
+! mzgtoon
+mzgtoon.com##[href^="https://b1.gob7"]
+mzgtoon.com##[href^="https://"] > .relative
+||mzgtoon.com/banner*
+||mzgtoon.com/_next/image?url=%2Fimg%2Flogo$image
 ! blacktoon, 블랙툰
 xn--ij2bx6jk1s.co##.banner-content
 ||webimg*.com/*/*.gif$image
