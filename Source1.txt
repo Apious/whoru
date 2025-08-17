@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250816.2
+! Version: 250817.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -668,6 +668,7 @@ view.nate.com##figure.wp-caption:nth-of-type(6)
 view.nate.com##figure.wp-caption:nth-of-type(7)
 view.nate.com##figure.wp-caption:nth-of-type(8)
 view.nate.com##figure.wp-caption:nth-of-type(9)
+toonnbook.nate.com##.BannerBox
 ! Search bar hidden problem
 nate.com#@##topAd
 nate.com#@#.topAd
@@ -2138,6 +2139,9 @@ mzgtoon.com##[href="https://b1.gob7.com"]
 ||toonkor*.*/*/*.gif$image
 ||toonkor*.*/bann/*.jpg$image
 ||toonkor*.*/images/*.jpg$image
+! wfwf
+||*.net/winner_*.jpg$image
+||*.net/win_ico.png$image
 ! wtwt, Wtoon
 com##[class="popnotice"][style="display: block;"]
 ||iabn*.net/*.$image
@@ -2279,6 +2283,7 @@ store##[href^="https://daepiso.xyz"]
 tvusan.vip##.videowrapper_pc
 twtw.tv##wow-image
 viaproducciones.net##.appList
+||imgdd.com$image
 
 ! - 애니
 ! linkkf.app / linkkf.tv
