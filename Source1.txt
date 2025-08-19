@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250817.1
+! Version: 250819.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -938,40 +938,7 @@ m.auction.co.kr##.box--banner_promotion
 mobile.auction.co.kr##.content-slider
 auction.co.kr##.component--sponsor_link
 ! coupang
-@@||/banner/*$domain=coupang.com
-@@||/bannerunit/*
-@@||image*.coupangcdn.com^$app=com.coupang.mobile
-@@||mercury.coupang.com^$app=com.coupang.mobile
-@@||thumbnail*.coupangcdn.com^$image
-||crashlyticsreports-pa.googleapis.com^$app=com.coupang.mobile
-||loyalty.coupang.com^$app=com.coupang.mobile
-||mercury.coupang.com^$app=com.coupang.mobile
-||myqcloud.com^$app=com.coupang.mobile
-||ads-partners.coupang.com^
-||static.coupangcdn.com/*/banner$image
-coupang.com###app-redirect-nudge
-coupang.com###coupang-banner
-coupang.com###sdp-middle-banner
-coupang.com##.ads-impression
-coupang.com##.ads-line-banner-container
-coupang.com##.cart-recommendation-widget
-coupang.com##.category-best-banner
-coupang.com##.cmg-dco-template
-coupang.com##.keen-slider__slide
-coupang.com##.loyalty-banner
-coupang.com##.personalized_ads
-coupang.com##.promotion-banner
-coupang.com##.related_ads
-coupang.com##.search-product__ad-badge
-coupang.com##.srp-top-banner-container
-coupang.com##.trending_ads
-coupang.com##[class*="sdp-ad"]
-coupang.com##[id*="sdp-ad"]
-coupang.com##[class*="sdp-bottom"]
-coupang.com##[id*="sdp-bottom"]
-coupang.com##[data-component-id="title-app-download-link"]
-coupang.com##[id*="Banner"]
-coupang.com##[class="impression-logged view-logged"]
+! 수정중
 ! - danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 www.danawa.com##.auto_product_list
