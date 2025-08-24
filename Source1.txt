@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250823.2
+! Version: 250824.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -865,6 +865,7 @@ msnews/edgenext
 msnews/libs^
 msnews/node_modules^
 aimatters.co.kr##.size-full.wp-block-image
+sportsworldi.com##[src*="ads"]
 
 ! - op.gg
 ||talk.op.gg/images/banner$image
@@ -1806,7 +1807,6 @@ apkpure.com##.vip-subscribe-pop
 apkpure.com##.secondary-body
 apkpure.com##.withdraw-entrance-fancy-wrap
 ! apkmirror
-@@||html-load.com^$domain=apkmirror.com
 www.apkmirror.com###bottom-slider
 www.apkmirror.com###ez-content-blocker-container
 www.apkmirror.com###sidebar > div.listWidget:nth-of-type(1)
@@ -1881,6 +1881,7 @@ rtxkeeda.com##.NewBlock1 > [src]
 modfyp.com##.adsBox
 @@||html-load.com/loader.min.js
 @@||html-load.com^$xmlhttprequest
+@@||html-load.com^$domain=apkmirror.com|sourceforge.net
 liteapks.com##.warning-box
 
 ! - infidrive
