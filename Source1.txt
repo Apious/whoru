@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250824.1
+! Version: 250830.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -866,6 +866,8 @@ msnews/libs^
 msnews/node_modules^
 aimatters.co.kr##.size-full.wp-block-image
 sportsworldi.com##[src*="ads"]
+insweek.co.kr##[href^="/ad_"]
+insweek.co.kr##[id^="ad_"]
 
 ! - op.gg
 ||talk.op.gg/images/banner$image
@@ -2403,7 +2405,6 @@ net##.mkt_banner
 *###addon-popup3-layer
 *###addon-popup4-layer
 *###addon-popup5-layer
-*###ads
 *###banner
 *###categoryBanner
 *###hd_pop
@@ -2514,6 +2515,8 @@ superuser.com###onetrust-consent-sdk
 superuser.com##.js-consent-banner
 
 ! - 기타
+mobileindex.com##[id^="image-banner"]
+mobileindex.com###mktc-popup
 ||web.nicepay.co.kr/images/email/*$image
 ||cdn.kcp.co.kr/pay/images/MAIL/*$image
 grok.com##.mb-1.p-0.items-start
