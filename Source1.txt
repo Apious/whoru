@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250905.1
+! Version: 250905.2
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -953,6 +953,8 @@ coupang.com##[id^="midCarousel"]
 coupang.com##.sdp-ads
 coupang.com###sdp-ad-middle-banner-lg-position
 coupang.com##.sdp-bottom-banner
+mc.coupang.com##.keen-slider
+mc.coupang.com##.iRlyIl
 ! danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 www.danawa.com##.auto_product_list
