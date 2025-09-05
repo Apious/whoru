@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250830.1
+! Version: 250905.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -999,11 +999,9 @@ post.malltail.com##.floating-banner
 post.malltail.com##.banner-slider
 ! enuri
 enuri.com##[class^="bnrbox"]
-
-! - gmarket
+! gmarket
 @@||script.gmarket.co.kr^$script
 @@||ad-img.gmarket.com/ADS
-
 ||pics.gmarket.com/smilepay/banner$image
 www.gmarket.co.kr##.box__promotion
 www.gmarket.co.kr##.box__smilefresh-benefit
@@ -1179,6 +1177,9 @@ lowchart.com##.btn-secondary.btn-fixed-download.btn
 hmall.com##.login-ad
 ||ad-img.ebaykorea.com^
 m.shein.com##.ccc-ad-flow-img
+fallcent.com##.pc_app_down_button
+glowpick.com##.banner
+glowpick.com##.popup
 
 ! - 여행사, trip
 kr.trip.com##.list-app-download__wrapper
@@ -1400,7 +1401,7 @@ search.naver.com##.banner_inner
 search.naver.com##[id="power_link_together_broad_section"]
 search.naver.com#@#div[class^="ad_"]
 naver.com###header .header_inner:style(height: 100px !important;)
-! m.naver - 2024-06
+! m.naver
 naver.com###ad_timeboard
 naver.com###HOME_AD
 naver.com###MM_SEARCH_NOW
@@ -1430,6 +1431,12 @@ naver.com##.id_comp_guarantee_banner
 naver.com##.id_comp_napp_banner
 naver.com##.MM_GIFT_FLICK_BANNER
 naver.com##.type_load
+m.naver.com##._MM_TREND_SHOP
+m.naver.com##._MM_TREND_PICK
+m.naver.com##._MM_SEARCH_AD
+m.naver.com##.comp_banner_feed
+m.naver.com##.id_comp_shorts_banner
+m.naver.com##.MM_DO_NOT_AD_POSITION
 ! m.place.naver.com
 pcmap.place.naver.com##.l__qc.no_margin.place_section
 m.place.naver.com###visit_tab_top_ad
@@ -1487,6 +1494,7 @@ cafe.naver.com##[data-linkdata*="brand.naver.com"]
 m.cafe.naver.com###articleFeedList
 m.cafe.naver.com##.HomeFeedItem
 m.cafe.naver.com##.home_recommend
+m.cafe.naver.com##.home_popular_articles
 ! comic.naver
 comic.naver.com###mflickAd
 comic.naver.com##.ads_sc
@@ -1528,6 +1536,11 @@ pay.naver.com##[class^="TitleMessage_desciption"]
 pay.naver.com##[data-au="total.click_total"]
 pay.naver.com##div.s_sc
 pay.naver.com##div.s_sc:nth-of-type(5)
+pay.naver.com##[class*="pay-app-banner_article"]
+pay.naver.com##[class^="flicking-area_article"]
+! stock.naver.com
+naver.com##[class^="BigBannerWrapper_article"]
+naver.com##[class^="NpayDownloadButton-module_article"]
 ! shopping.naver, 네이버쇼핑
 shopping.naver.com##[data-cy="card-section-card_section"] [href*="/festa/onsale/"]
 shopping.naver.com##[class^="targetBanner_link"]
