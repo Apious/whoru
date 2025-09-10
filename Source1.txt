@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250905.2
+! Version: 250909.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -742,13 +742,17 @@ twig24.com##.articleInnerAdWrap
 twig24.com##[id^="div-gpt-ad"]
 ! yna
 @@||cdp.yna.co.kr^
-www.yna.co.kr###marketingPlayer
-www.yna.co.kr##.wrap-header01
-www.ytn.co.kr##.YTN_CSA_newsletter
-www.ytn.co.kr##.newsletter
-www.ytn.co.kr##.top_banner
-www.yna.co.kr##[id*="div-gpt-ad"]
+
 star.ytn.co.kr##[title^="하단 광고"]
+ytn.co.kr##.YTN_CSA_newsletter
+ytn.co.kr##.newsletter
+ytn.co.kr##.top_banner
+ytn.co.kr##[name*="AdServerChange"]
+ytn.co.kr###czone > div:has(>[name*="AdServer"])
+ytn.co.kr##[id^="from"]
+yna.co.kr###marketingPlayer
+yna.co.kr##.wrap-header01
+yna.co.kr##[id*="div-gpt-ad"]
 yna.co.kr##[class^="aside-"]
 ! zdnet
 zdnet.co.kr##.webinar
@@ -779,6 +783,8 @@ imaeil.com##.h25
 imaeil.com##.h20
 imaeil.com##.h55
 imaeil.com##.h70
+imaeil.com##[id^="PanthomAd"]
+imaeil.com##.livery
 ! newsis
 newsis.com##.banner300
 mobile.newsis.com##.bxcn
@@ -2530,6 +2536,8 @@ superuser.com###onetrust-consent-sdk
 superuser.com##.js-consent-banner
 
 ! - 기타
+||mplad.ahnlab.com:8880^$important
+||gms.ahnlab.com^$important
 mobileindex.com##[id^="image-banner"]
 mobileindex.com###mktc-popup
 ||web.nicepay.co.kr/images/email/*$image
@@ -2606,7 +2614,6 @@ compunik.net##.adsbygoogle
 ||kingjjal.com/$subdocument
 ||log.snow.me^$app=com.snowcorp.soda.android
 ||mdm.alps.llogis.com:*/openui/mdm/*/ads-banner*$image
-||mplad.ahnlab.com:8880^$important
 ||petzoa.co.kr/$subdocument
 ||resource.steelmedia.co.uk/skins$image
 ||rsload.net/images5/$image
@@ -2671,6 +2678,7 @@ www.puresys.net###aiviy-union-ad-2
 youngja.org##div.row:nth-of-type(4)
 
 ! - 기타 예외
+@@||openweathermap.org^
 ! pinterest open error
 pinterest.*#@#+js(json-prune, initialReduxState.pins.{-}.pin_promotion_id initialReduxState.resources.UserHomefeedResource.*.data.[-].pin_promotion_id)
 @@||inklinkor.com^$xhr,domain=oii.la
