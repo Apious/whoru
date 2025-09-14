@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250909.1
+! Version: 250914.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -1379,6 +1379,7 @@ carmmunity.oilnow.co.kr##[src*="/channel_banners_images/"]
 !#endif
 
 ! - Naver, 네이버
+! 추적 필터 차단 등에 의한 page 표시 에러로 예외 적용
 @@||ace.naver.com^
 @@||common.like.naver.com^
 @@||learn.dict.naver.com^
@@ -1389,6 +1390,7 @@ carmmunity.oilnow.co.kr##[src*="/channel_banners_images/"]
 @@||wcs.naver.net^
 @@||nelo2-col.navercorp.com^
 @@||s.search.naver.com^$domain=m.search.naver.com
+@@||nam.veta.naver.com^$app=com.nhn.android.search
 korean.dict.naver.com##dictbanner
 ||*.nbms.naver.com^
 ||lcs.naver.com^
@@ -1585,7 +1587,6 @@ search.shopping.naver.com##[class^="mallShortCut_brand_shortcut"]
 search.shopping.naver.com##[class^="basicProductCard_basic_product_card"]:has(> [href^="https://adcr.naver.com"])
 search.shopping.naver.com##[class^="recommendProductList_item"]:has(>div [class^="advertisement"])
 m.shopping.naver.com##[data-shp-area-id="membanner"]
-
 ! chzzk
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.png$image
