@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250914.1
+! Version: 250914.2
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -347,6 +347,7 @@ tenasia.hankyung.com##.aedi-link
 ! newspim
 newspim.com##.ad-box
 ||img.newspim.com/m/banner/*$image
+newspim.com##.my-banner-class
 ! nocutnews
 nocutnews.co.kr##.slick-slide.nocut
 nocutnews.co.kr##.slick-slide.channel
@@ -742,7 +743,6 @@ twig24.com##.articleInnerAdWrap
 twig24.com##[id^="div-gpt-ad"]
 ! yna
 @@||cdp.yna.co.kr^
-
 star.ytn.co.kr##[title^="하단 광고"]
 ytn.co.kr##.YTN_CSA_newsletter
 ytn.co.kr##.newsletter
@@ -874,6 +874,9 @@ aimatters.co.kr##.size-full.wp-block-image
 sportsworldi.com##[src*="ads"]
 insweek.co.kr##[href^="/ad_"]
 insweek.co.kr##[id^="ad_"]
+korea.kr##.slick-list
+jinju.news##[class^="box_banner"]
+jinju.news##.banner
 
 ! - op.gg
 ||talk.op.gg/images/banner$image
@@ -1667,6 +1670,13 @@ clien.net##.side_posjduenfj
 ygosu.com,ppss.kr,tgd.kr##+js(no-setTimeout-if, [native code], 0)
 ygosu.com##+js(abort-on-stack-trace, XMLHttpRequest.prototype.send, /th:\d+\s+[a-zA-Z]\d\/<@[^\t]+\t\s[a-zA-Z]\d@|th:\d+\s+in[a-zA-Z\d:;]+\t\s[a-zA-Z]\d\si/)
 
+! - dvdprime
+dvdprime.com###top_banner
+dvdprime.com##[id^="ad_view"]
+dvdprime.com##.menu_left_banner
+dvdprime.com##.get_ad_img
+dvdprime.com##.flexslider
+
 ! - XDA
 xda-developers.com##[class*="ad-zone"]
 xda-developers.com##[id*="ad-zone"]
@@ -2256,6 +2266,7 @@ com##[class="wid"]
 tvroom10.org,tvroom9.org,tvroom8.org,tvroom7.org,tvroom6.org,tvroom5.org#@#div.banner_l
 ||tinypic.host/images/*.$image
 ! bozatv
+||bozatv*.com/ad/$subdocument
 com##.yk-pannela
 bozatv140.combozatv139.com,bozatv138.com,bozatv137.com,bozatv136.com,bozatv135.com,bozatv134.com,bozatv133.com,bozatv132.com,bozatv131.com,bozatv130.com,bozatv129.com,bozatv128.com,bozatv127.com,bozatv126.com,bozatv125.com,bozatv124.com,bozatv123.com,bozatv122.com,bozatv121.com,bozatv120.com,bozatv119.com,bozatv118.com,bozatv117.com,bozatv116.com,bozatv115.com,bozatv114.com,bozatv113.com,bozatv112.com,bozatv111.com,bozatv110.com,bozatv109.com,bozatv108.com,bozatv107.com,bozatv106.com,bozatv105.com,bozatv104.com,bozatv103.com,bozatv102.com,bozatv101.com,bozatv100.com,bozatv99.com,bozatv98.com##.popup_left
 ! gltv
