@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250914.2
+! Version: 250916.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -542,6 +542,7 @@ fnnews.com##.__fnbottom_wrap
 @@||m.hani.co.kr^
 ||adimg.hani.co.kr^
 ||img.hani.co.kr/*/*/*/*/event-blanket/*.png^
+h21.hani.co.kr##.ad-all
 hani.co.kr###asideSupport
 hani.co.kr##.ad_top
 hani.co.kr##.bn-promotion
@@ -558,7 +559,9 @@ hani.co.kr##.support-btn
 hani.co.kr##.support-header
 hani.co.kr###ad_tag
 hani.co.kr##.ad-slide
-h21.hani.co.kr##.ad-all
+hani.co.kr##[class^="article_imageBanner"]
+hani.co.kr##[class^="ArticleAdTop"]
+hani.co.kr##[class^="ArticleDetail_supportBannerWrap"]
 ! hankookilbo
 ||www.hankookilbo.com/*/Default-Image*
 hankookilbo.com##.ad-news-todays
@@ -854,6 +857,12 @@ bntnews.co.kr###wrap_index > .banner
 careet.net##.careet-secret-cover__wrap
 careet.net##.type-content.cover
 careet.net##.type-dictionary.cover
+! anewsa.com
+m.anewsa.com##.detailCon > div:nth-of-type(1) > div > div
+m.anewsa.com##.detailCon > div:has( > script)
+! newsworks.co.kr
+newsworks.co.kr##[class="ad-template"]
+newsworks.co.kr##[src*="/adManager/"]
 ! news-etc
 @@||07c225f3.online^$domain=etoday.co.kr
 ||www.businesspost.co.kr/*/banner/*/$image
