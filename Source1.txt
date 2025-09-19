@@ -1,13 +1,14 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250916.1
+! Version: 250919.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
 perplexity.ai##.pb-md.pl-md
 perplexity.ai##.overflow-y-auto.shadow-md
 perplexity.ai##.fill-mode-both.md\:items-center.items-stretch
+perplexity.ai##.right-md.bottom-md
 
 ! - Github
 @@||github.com^
@@ -863,13 +864,22 @@ m.anewsa.com##.detailCon > div:has( > script)
 ! newsworks.co.kr
 newsworks.co.kr##[class="ad-template"]
 newsworks.co.kr##[src*="/adManager/"]
+! jinju.news
+jinju.news##[class^="box_banner"]
+jinju.news##.banner
+! businesstimes.com.sg
+businesstimes.com.sg##[_neuron-ad-impression-tracked]
+businesstimes.com.sg##[data-testid="whatsapp-qr-breaking-news-component"]
+businesstimes.com.sg##[data-testid="article-newsletter-component"]
+businesstimes.com.sg##[data-component="component-container"] > [class*="py-"]
+businesstimes.com.sg##[data-testid="bt-global-newsletter-component"]
 ! news-etc
 @@||07c225f3.online^$domain=etoday.co.kr
 ||www.businesspost.co.kr/*/banner/*/$image
 ||*.newscj.com^
 ||*.newsmobile.co.kr^
-www.newsen.com##[src^="//photo.newsen.com/images/2024/ASEA"]
-www.news1.kr##.ads-article-warp
+newsen.com##[src^="//photo.newsen.com/images/2024/ASEA"]
+news1.kr##.ads-article-warp
 kjtimes.com##.ht_right
 kjtimes.com##.top_banner
 @@/openads/*
@@ -884,8 +894,6 @@ sportsworldi.com##[src*="ads"]
 insweek.co.kr##[href^="/ad_"]
 insweek.co.kr##[id^="ad_"]
 korea.kr##.slick-list
-jinju.news##[class^="box_banner"]
-jinju.news##.banner
 
 ! - op.gg
 ||talk.op.gg/images/banner$image
@@ -1283,6 +1291,7 @@ payments.kakao.com##.bnr
 map.kakao.com##.bnr_ad
 m.map.kakao.com##.comm_popup
 m.map.kakao.com##.dimmed_layer
+m.map.kakao.com##.comm_layer
 ! Daum Search Ads
 daum.net##.ad_sch
 daum.net##.advert_bnr
