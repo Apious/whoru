@@ -26,8 +26,8 @@
 @@||aem-collector.daumkakao.io^
 @@||movie.daum.net^
 @@||stat.tiara.daum.net^
-@@||stat.tiara.kakao.com^
-@@||videostats.kakao.com^
+!@@||stat.tiara.kakao.com^
+!@@||videostats.kakao.com^
 ||tr.ds.kakao.com^
 ||*.ad.daum.net^
 ||*.ad.kakao.com^
