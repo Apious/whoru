@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250925.2
+! Version: 250925.3
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -1239,22 +1239,20 @@ danawa.com##.wing_banner_list
 danawa.com##li.ad.shop_link_item
 
 ! - Kakao, Daum
-!@@||videoads.kakao.com^
-!@@||videostats.kakao.com^$app=com.kakao.talk
-!@@||*.tiara.daum.net^
-!@@||*.tiara.kakao.com^
-!@@||[2404:4600:4:44:203:217:229:218]:10009^
-!@@||[2404:4600:6:165:211:231:98:46]:10009^
-!@@||[2404:4600:9:8158:211:249:242:51]:10009^
-!@@||[2404:4600:9:815a:211:249:242:111]:10009^
-!@@||121.53.205.66:1009^
+! @@||videoads.kakao.com^
+! @@||videostats.kakao.com^$app=com.kakao.talk
+! @@||[2404:4600:4:44:203:217:229:218]:10009^
+! @@||[2404:4600:6:165:211:231:98:46]:10009^
+! @@||[2404:4600:9:8158:211:249:242:51]:10009^
+! @@||[2404:4600:9:815a:211:249:242:111]:10009^
+! @@||121.53.205.66:1009^
 @@||aem-collector.daumkakao.io^
 @@||kauth.kakao.com^
 @@||mk.kakaocdn.net^$domain=map.kakao.com
 @@||t1.daumcdn.net/*/subway/*
 @@||kauth.kakao.com^$app=com.kakao.talk
 @@||mud-kage.kakaocdn.net^$app=com.kakao.talk
-@@||search1.daumcdn.net^$app=com.kakao.talk
+||search1.daumcdn.net^$app=com.kakao.talk
 ||bz.kakaocdn.net^
 ||cpaad.co.kr^$app=com.kakao.talk
 ||kaat.daum.net^
