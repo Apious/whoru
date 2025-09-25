@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250925.1
+! Version: 250925.2
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -2705,6 +2705,7 @@ youngja.org##div.row:nth-of-type(4)
 
 ! - 기타 예외
 @@||openweathermap.org^
+@@||pro.openweathermap.org^
 ! pinterest open error
 pinterest.*#@#+js(json-prune, initialReduxState.pins.{-}.pin_promotion_id initialReduxState.resources.UserHomefeedResource.*.data.[-].pin_promotion_id)
 @@||inklinkor.com^$xhr,domain=oii.la
