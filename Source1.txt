@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250925.3
+! Version: 250925.4
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -873,6 +873,10 @@ businesstimes.com.sg##[data-testid="whatsapp-qr-breaking-news-component"]
 businesstimes.com.sg##[data-testid="article-newsletter-component"]
 businesstimes.com.sg##[data-component="component-container"] > [class*="py-"]
 businesstimes.com.sg##[data-testid="bt-global-newsletter-component"]
+! tomsguide
+tomsguide.com###slice-container-newsletterForm-exitIntent
+tomsguide.com##[id^="slice-container-newsletterForm"]
+
 ! news-etc
 @@||07c225f3.online^$domain=etoday.co.kr
 ||www.businesspost.co.kr/*/banner/*/$image
@@ -1239,24 +1243,12 @@ danawa.com##.wing_banner_list
 danawa.com##li.ad.shop_link_item
 
 ! - Kakao, Daum
-! @@||videoads.kakao.com^
-! @@||videostats.kakao.com^$app=com.kakao.talk
-! @@||[2404:4600:4:44:203:217:229:218]:10009^
-! @@||[2404:4600:6:165:211:231:98:46]:10009^
-! @@||[2404:4600:9:8158:211:249:242:51]:10009^
-! @@||[2404:4600:9:815a:211:249:242:111]:10009^
-! @@||121.53.205.66:1009^
 @@||aem-collector.daumkakao.io^
 @@||kauth.kakao.com^
 @@||mk.kakaocdn.net^$domain=map.kakao.com
 @@||t1.daumcdn.net/*/subway/*
 @@||kauth.kakao.com^$app=com.kakao.talk
 @@||mud-kage.kakaocdn.net^$app=com.kakao.talk
-||search1.daumcdn.net^$app=com.kakao.talk
-||bz.kakaocdn.net^
-||cpaad.co.kr^$app=com.kakao.talk
-||kaat.daum.net^
-||mk.kakaocdn.net/$important,app=com.kakao.talk
 ||*.ad.kakao.com^
 ||*.ad.kakaocorp.com^
 ||ad-content.*.kakao.com^
@@ -1266,19 +1258,24 @@ danawa.com##li.ad.shop_link_item
 ||adserver.*.kakao.com^
 ||amsimg.daum-img.net^
 ||amsv2.daum.net^
+||bz.kakaocdn.net^
 ||ca.adtc.daum.net^$important
+||cpaad.co.kr^$app=com.kakao.talk
 ||display.ad.daum.net^$important
 ||ka.*.daum.net/*
+||kaat.daum.net^
 ||kyson.ad.daum.net^$important
+||mk.kakaocdn.net/$important,app=com.kakao.talk
 ||page.kakao.com/_next/*_banner_*.png$image
+||search1.daumcdn.net^$app=com.kakao.talk
 ||tr.*.daum.net/*
 ||webid.ad.daum.net^$important
 daum.net##[data-cloud="banner"]
-v.daum.net##.box_floating
 open.kakao.com##.link_bnr
 page.kakao.com##img[alt^="pc 앱"]
 payments.kakao.com###bannerBottomSection
 payments.kakao.com##.bnr
+v.daum.net##.box_floating
 ! map
 map.kakao.com##.AdItem
 map.kakao.com##.bnr_ad
@@ -1306,6 +1303,12 @@ store.kakao.com##cu-carousel
 store.kakao.com##fu-view-main-top-banner
 ! Kakao Pay
 ||t1.daumcdn.net^$important,app=com.kakaopay.app
+! App:KakaoTalk
+||t1.kakaocdn.net^$important,app=com.kakao.talk
+||kamp.kakao.com^$important,app=com.kakao.talk
+||shortformstats.kakao.com^$important,app=com.kakao.talk
+||vsak1.play.kakao.com^$important,app=com.kakao.talk
+||vscf.play.kakao.com^$important,app=com.kakao.talk
 
 ! - tistory
 @@||tistory.com/manage
@@ -1356,7 +1359,6 @@ utweb.rainberrytv.com###upgrade-sidebar
 @@||*.samsungdm.com^
 ||img.samsungmembers.com/default/banner^
 
-!#if env_mobile
 ! - Tmap app / ($app=com.skt.tmap.ku)
 @@||cdn.tmap.co.kr/tmapweb^$app=com.skt.tmap.ku
 @@||decide.mixpanel.com^
@@ -1391,7 +1393,6 @@ carmmunity.oilnow.co.kr##[src*="/channel_banners_images/"]
 ||api.*.avatye.com^$app=com.gretech.gomplayerko
 ||reward-download.*.*.amazonaws.com^$app=com.gretech.gomplayerko
 ||reward-sdk.*.*.amazonaws.com^$app=com.gretech.gomplayerko
-!#endif
 
 ! - Naver, 네이버
 ! 추적 필터 차단 등에 의한 page 표시 에러로 예외 적용
@@ -1410,7 +1411,6 @@ korean.dict.naver.com##dictbanner
 ||*.nbms.naver.com^
 ||lcs.naver.com^
 ||service.whale.naver.com^
-!||ssl.pstatic.net/adimg*.search/*
 ||event.impression-neo.naver.com^
 ! Naver Search Ads
 ||*.ad.naver.com^
@@ -1474,6 +1474,7 @@ m.place.naver.com##[id^="FEED_TAB"]
 m.place.naver.com##[id^="REVIEW_PLACE_END"]
 m.place.naver.com##[id^="VISIT_TAB"]
 m.place.naver.com##div[class^="ptr"] > div > div > div > div > div > button > img[src]
+m.place.naver.com##div:has( > div[class] > div[class] > button > img)
 ! news.naver, news
 news.naver.com##._da_banner
 news.naver.com##._MY_CHANNEL_OFFICE_WRAP
@@ -1688,6 +1689,15 @@ dvdprime.com##[id^="ad_view"]
 dvdprime.com##.menu_left_banner
 dvdprime.com##.get_ad_img
 dvdprime.com##.flexslider
+
+! - SNS, App:instagram Ext. Connect.
+! instagram
+||gateway.instagram.com^
+157.240.31.7:443$network,app=com.instagram.android
+157.240.31.7:443$network,app=com.instagram.android
+31.13.76.23:443$network,app=com.instagram.android
+! facebook
+||edge-mqtt.facebook.com^
 
 ! - XDA
 xda-developers.com##[class*="ad-zone"]
@@ -2134,6 +2144,15 @@ url.kr##.banner-container
 url.kr##.notice-box
 url.kr##.warning-box
 
+! - bloomberg
+||sourcepointcmp.bloomberg.com/privacy-manager/index.html$subdocument
+bloomberg.com##[class^="unsupported-browser"]
+bloomberg.com##html.sp-message-open:style(display:block !important)
+bloomberg.com##style[type="text/css"]:style(display:block !important)
+bloomberg.com##head:style(display:block !important)
+bloomberg.com##body[style="overflow-y: auto;"]:style(display:block !important)
+bloomberg.com##[style="display: none;"]
+
 ! - WebToon / 웹툰 // 2025-08
 ! webtoon logo
 ||booktoki*.com/img/logo*
@@ -2560,6 +2579,7 @@ superuser.com###onetrust-consent-sdk
 superuser.com##.js-consent-banner
 
 ! - 기타
+||find.api.micloud.xiaomi.net^
 ||mplad.ahnlab.com:8880^$important
 ||gms.ahnlab.com^$important
 mobileindex.com##[id^="image-banner"]
@@ -2632,7 +2652,6 @@ compunik.net##.adsbygoogle
 ||b.cdnst.net/images/speedtestMobileAds^
 ||catad5959.com/$subdocument
 ||cdn-f.adsmoloco.com^
-||graph.facebook.com^$domain=graph.facebook.com
 ||i.keezip.com/ad/*
 ||ifh.cc/*/$image
 ||kingjjal.com/$subdocument
