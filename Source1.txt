@@ -1303,7 +1303,6 @@ store.kakao.com##fu-view-main-top-banner
 ! Kakao Pay
 ||t1.daumcdn.net^$important,app=com.kakaopay.app
 ! App:KakaoTalk
-||t1.kakaocdn.net^$important,app=com.kakao.talk
 ||kamp.kakao.com^$important,app=com.kakao.talk
 ||shortformstats.kakao.com^$important,app=com.kakao.talk
 ||vsak1.play.kakao.com^$important,app=com.kakao.talk
