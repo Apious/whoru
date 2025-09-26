@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250925.4
+! Version: 250926.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -1267,7 +1267,6 @@ danawa.com##li.ad.shop_link_item
 ||kyson.ad.daum.net^$important
 ||mk.kakaocdn.net/$important,app=com.kakao.talk
 ||page.kakao.com/_next/*_banner_*.png$image
-||search1.daumcdn.net^$app=com.kakao.talk
 ||tr.*.daum.net/*
 ||webid.ad.daum.net^$important
 daum.net##[data-cloud="banner"]
