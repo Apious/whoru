@@ -45,8 +45,8 @@
 ||vads-api.daumkakao.com^
 ! App:KakaoTalk
 ||kamp.kakao.com^
+||thumb.kakaocdn.net^
 ||shortformstats.kakao.com^
-||talk-pilsner.kakao.com^
 ||vsak1.play.kakao.com^
 ||vscf.play.kakao.com^
 
