@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250926.2
+! Version: 250926.3
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - apti, 아파트아이
@@ -46,7 +46,7 @@
 ! App:KakaoTalk
 ||kamp.kakao.com^
 ||shortformstats.kakao.com^
-!||talk-pilsner.kakao.com^
+||talk-pilsner.kakao.com^
 ||vsak1.play.kakao.com^
 ||vscf.play.kakao.com^
 
