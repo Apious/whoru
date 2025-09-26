@@ -46,7 +46,7 @@
 ! App:KakaoTalk
 ||kamp.kakao.com^
 ||shortformstats.kakao.com^
-||talk-pilsner.kakao.com^
+!||talk-pilsner.kakao.com^
 ||vsak1.play.kakao.com^
 ||vscf.play.kakao.com^
 
