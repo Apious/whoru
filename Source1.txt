@@ -1,17 +1,19 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250927.1
+! Version: 250927.2
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
-! - perplexity.ai
+! - Ai모음, Ai관련 팝업 제거
+! perplexity.ai, 퍼플렉시티
 perplexity.ai##.pb-md.pl-md
 perplexity.ai##.overflow-y-auto.shadow-md
 perplexity.ai##.fill-mode-both.md\:items-center.items-stretch
 perplexity.ai##.right-md.bottom-md
-
-! 뤼튼, wrtn
+! wrtn, 뤼튼
 wrtn.ai##.slick-slider
+! maxai, 맥스
+maxai.me##[data-testid="maxai-sidebar--promotion-dialog"]
 
 ! - Github
 @@||github.com^
