@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250926.6
+! Version: 250927.1
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
 ! - apti, 아파트아이
@@ -49,6 +49,9 @@
 ||shortformstats.kakao.com^
 ||vsak1.play.kakao.com^
 ||vscf.play.kakao.com^
+||t1.kakaocdn.net^
+||iopen.kakaocdn.net^
+||talk.kakaocdn.net^
 
 ! - AfreecaTV
 ||item.m.afreecatv.com^
@@ -177,6 +180,7 @@
 ||adsninja.ca^
 
 ! - 기타
+||sdkconfig.intl.xiaomi.com^
 ||e.notifly.tech^
 ||*.catad5959.com^
 ||*.cauly.co.kr
