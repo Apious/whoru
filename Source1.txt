@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250926.3
+! Version: 250927.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - perplexity.ai
@@ -9,6 +9,9 @@ perplexity.ai##.pb-md.pl-md
 perplexity.ai##.overflow-y-auto.shadow-md
 perplexity.ai##.fill-mode-both.md\:items-center.items-stretch
 perplexity.ai##.right-md.bottom-md
+
+! 뤼튼, wrtn
+wrtn.ai##.slick-slider
 
 ! - Github
 @@||github.com^
@@ -1246,9 +1249,9 @@ danawa.com##li.ad.shop_link_item
 @@||aem-collector.daumkakao.io^
 @@||kauth.kakao.com^
 @@||mk.kakaocdn.net^$domain=map.kakao.com
-@@||t1.daumcdn.net/*/subway/*
-@@||kauth.kakao.com^$app=com.kakao.talk
 @@||mud-kage.kakaocdn.net^$app=com.kakao.talk
+@@||t1.daumcdn.net/*/subway/*
+@@||t1.kakaocdn.net/kakao_js_sdk/*$domain=fnnews.com
 ||*.ad.kakao.com^
 ||*.ad.kakaocorp.com^
 ||ad-content.*.kakao.com^
