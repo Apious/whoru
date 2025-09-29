@@ -25,6 +25,7 @@
 ! - Kakao, Daum
 @@||aem-collector.daumkakao.io^
 @@||movie.daum.net^
+@@||t1.daumcdn.net^
 @@||t1.kakaocdn.net^
 ! @@||stat.tiara.daum.net^
 ! @@||stat.tiara.kakao.com^
@@ -44,7 +45,7 @@
 ||ka.*.daum.net^
 ||tr.*.daum.net^
 ||vads-api.daumkakao.com^
-! App:KakaoTalk
+! KakaoTalk-App
 ! ||talk-pilsner.kakao.com^
 ||kamp.kakao.com^
 ||shortformstats.kakao.com^
