@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 250930.1
+! Version: 251001.1
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
 ! - Ai모음, Ai관련 팝업 제거
@@ -992,6 +992,9 @@ coupang.com###sdp-ad-middle-banner-lg-position
 coupang.com##.sdp-bottom-banner
 mc.coupang.com##.keen-slider
 mc.coupang.com##.iRlyIl
+mc.coupang.com##.mclp-wow-card-nudge-new
+coupang.com##.app-redirect
+coupang.com###app-redirect-nudge
 ! danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 www.danawa.com##.auto_product_list
@@ -1282,6 +1285,7 @@ page.kakao.com##img[alt^="pc 앱"]
 payments.kakao.com###bannerBottomSection
 payments.kakao.com##.bnr
 v.daum.net##.box_floating
+m.daum.net##.bnr_appset_v2_high.bnr_popup.bnr_layer
 ! map
 map.kakao.com##.AdItem
 map.kakao.com##.bnr_ad
@@ -1289,6 +1293,8 @@ map.kakao.com##.Howto
 m.map.kakao.com##.comm_popup
 m.map.kakao.com##.dimmed_layer
 m.map.kakao.com##.comm_layer
+place.map.kakao.com##.leverage_layer.comm_layer
+place.map.kakao.com##.section_bizboard
 ! Daum Search Ads
 daum.net##.ad_sch
 daum.net##.advert_bnr
@@ -1307,6 +1313,8 @@ store.kakao.com##.area_mybnr
 store.kakao.com##.inner_slide
 store.kakao.com##cu-carousel
 store.kakao.com##fu-view-main-top-banner
+m.shoppinghow.kakao.com##mobile-ad-affiliate
+
 ! Kakao Pay
 ! ~ !
 ! KakaoTalk-App
@@ -1480,6 +1488,7 @@ m.place.naver.com##[id^="REVIEW_PLACE_END"]
 m.place.naver.com##[id^="VISIT_TAB"]
 m.place.naver.com##div[class^="ptr"] > div > div > div > div > div > button > img[src]
 m.place.naver.com##div:has( > div[class] > div[class] > button > img)
+m.place.naver.com##.no_margin.place_section > ul > li:has( > div > div > a > .place_blind)
 ! news.naver, news
 news.naver.com##._da_banner
 news.naver.com##._MY_CHANNEL_OFFICE_WRAP
@@ -2584,6 +2593,7 @@ superuser.com###onetrust-consent-sdk
 superuser.com##.js-consent-banner
 
 ! - 기타
+deepl.com##.fixed.pointer-events-auto
 ||find.api.micloud.xiaomi.net^
 ||mplad.ahnlab.com:8880^$important
 ||gms.ahnlab.com^$important
