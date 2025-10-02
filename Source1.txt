@@ -1314,9 +1314,7 @@ store.kakao.com##.inner_slide
 store.kakao.com##cu-carousel
 store.kakao.com##fu-view-main-top-banner
 m.shoppinghow.kakao.com##mobile-ad-affiliate
-
 ! Kakao Pay
-! ~ !
 ! KakaoTalk-App
 ||kamp.kakao.com^$important,app=com.kakao.talk
 ||shortformstats.kakao.com^$important,app=com.kakao.talk
