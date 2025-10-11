@@ -16,6 +16,10 @@
 @@||weblog.coupang.com^
 ||ad-video.coupangcdn.com^
 ||ads-partners.coupang.com^
+||ljc.coupang.com^
+||shop.coupang.com^
+||fintech-benefit.coupang.com^
+||content-autofill.googleapis.com^
 
 ! - Snow, Soda Camera
 ||lan3rd.line.me^
