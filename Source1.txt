@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251005.1
+! Version: 251012.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -11,6 +11,7 @@ perplexity.ai##.pb-md.pl-md
 perplexity.ai##.overflow-y-auto.shadow-md
 perplexity.ai##.fill-mode-both.md\:items-center.items-stretch
 perplexity.ai##.right-md.bottom-md
+perplexity.ai##.bg-subtler.divide-subtlest.ring-subtlest.border-subtlest.ring-1.shadow-xl.rounded-xl.md\:flex-row.rounded-md.items-center.flex-col.w-full.flex
 ! wrtn, 뤼튼
 wrtn.ai##.slick-slider
 ! maxai, 맥스
@@ -884,7 +885,16 @@ businesstimes.com.sg##[data-testid="bt-global-newsletter-component"]
 ! tomsguide
 tomsguide.com###slice-container-newsletterForm-exitIntent
 tomsguide.com##[id^="slice-container-newsletterForm"]
-
+! msnews
+msnews/edgenext
+msnews/libs^
+msnews/node_modules^
+! insweek
+insweek.co.kr##[href^="/ad_"]
+insweek.co.kr##[id^="ad_"]
+! kjtimes
+kjtimes.com##.ht_right
+kjtimes.com##.top_banner
 ! news-etc
 @@||07c225f3.online^$domain=etoday.co.kr
 ||www.businesspost.co.kr/*/banner/*/$image
@@ -892,20 +902,15 @@ tomsguide.com##[id^="slice-container-newsletterForm"]
 ||*.newsmobile.co.kr^
 newsen.com##[src^="//photo.newsen.com/images/2024/ASEA"]
 news1.kr##.ads-article-warp
-kjtimes.com##.ht_right
-kjtimes.com##.top_banner
 @@/openads/*
 openads.co.kr##.adBanner
 mksports.co.kr##[id^="slot"]
 news.koreadaily.com##[id*="div-gpt-ad"]
-msnews/edgenext
-msnews/libs^
-msnews/node_modules^
 aimatters.co.kr##.size-full.wp-block-image
 sportsworldi.com##[src*="ads"]
-insweek.co.kr##[href^="/ad_"]
-insweek.co.kr##[id^="ad_"]
 korea.kr##.slick-list
+gamemeca.com##.content-top-add
+byline.network##.wp-block-image
 
 ! - op.gg
 ||talk.op.gg/images/banner$image
@@ -996,6 +1001,8 @@ mc.coupang.com##.iRlyIl
 mc.coupang.com##.mclp-wow-card-nudge-new
 coupang.com##.app-redirect
 coupang.com###app-redirect-nudge
+coupang.com###fullBanner
+coupang.com##[id^="sdp-ad-"]
 ! danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 www.danawa.com##.auto_product_list
@@ -1309,12 +1316,12 @@ search.daum.net##.list_ad
 ! Kakao shoppinghow
 daum.net##.box_shorts.box_g
 daum.net##div.box_g:nth-of-type(4)
-shoppinghow.kakao.com##.wrap_shoppingad
 store.kakao.com##.area_mybnr
 store.kakao.com##.inner_slide
 store.kakao.com##cu-carousel
 store.kakao.com##fu-view-main-top-banner
-m.shoppinghow.kakao.com##mobile-ad-affiliate
+shoppinghow.kakao.com##.wrap_shoppingad
+shoppinghow.kakao.com##mobile-ad-affiliate
 ! Kakao Pay
 ! KakaoTalk-App
 ||kamp.kakao.com^$important,app=com.kakao.talk
@@ -1807,6 +1814,7 @@ hypershort.com##.small-heading
 hypershort.com##.register-banner
 hypershort.com##.steps-to-earn
 ! etc
+@@||googleusercontent.com^$domain=foodtechnos.in
 @@||dailyuploads.net^
 douploads.net##[src="/images/StartDownload.gif"]
 intoupload.net##.banneradshome
@@ -2347,6 +2355,7 @@ tvusan.vip##.videowrapper_pc
 twtw.tv##wow-image
 viaproducciones.net##.appList
 ||imgdd.com$image
+rood.app##.e-child.e-con.e-flex.e-con-full.elementor-element
 
 ! - 애니
 ! linkkf.app / linkkf.tv
@@ -2592,6 +2601,9 @@ superuser.com###onetrust-consent-sdk
 superuser.com##.js-consent-banner
 
 ! - 기타
+ma-pia.net##[class*="banner"]
+nosearch.com##.flex-col.overflow-hidden.border-solid
+nosearch.com##[class="w-full  !h-auto"]
 deepl.com##.fixed.pointer-events-auto
 ||find.api.micloud.xiaomi.net^
 ||mplad.ahnlab.com:8880^$important
@@ -2647,8 +2659,6 @@ dxomark.com###orejime
 coolenjoy.net##[class="carousel-inner"]
 xiaomitoday.it##[id^="xiaom-"]
 xiaomitoday.it##.egg-container
-nosearch.com##.flex-col.overflow-hidden.border-solid
-nosearch.com##[class="w-full  !h-auto"]
 doctornow.co.kr##[role="button"] > div
 majorgeeks.com###fanback
 music.bugs.co.kr##.layerPromotionBanner
@@ -2705,6 +2715,7 @@ instoworld.*###text-2
 itnmobile.net##center
 karanpc.com##.litespeed-loaded.entered.aligncenter
 karanpc.com##[class^="ads-"]
+karanpc.com##.entry-content > div:nth-of-type(1)
 kfdn.co.kr###ad_link_read
 kfdn.co.kr##[href^="/ad_link.php"]
 kolompc.com##.alert.cookies-alert
@@ -2735,6 +2746,7 @@ www.puresys.net###aiviy-union-ad-2
 youngja.org##div.row:nth-of-type(4)
 
 ! - 기타 예외
+@@/img.gif?
 @@||openweathermap.org^
 @@||pro.openweathermap.org^
 ! pinterest open error
