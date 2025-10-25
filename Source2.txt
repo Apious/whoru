@@ -52,10 +52,10 @@
 ||vads-api.daumkakao.com^
 ! KakaoTalk-App
 ! ||talk-pilsner.kakao.com^
-||kamp.kakao.com^
+! ||kamp.kakao.com^
 ||shortformstats.kakao.com^
 ||vsak1.play.kakao.com^
-||vscf.play.kakao.com^
+! ||vscf.play.kakao.com^
 ||iopen.kakaocdn.net^
 ||talk.kakaocdn.net^
 
