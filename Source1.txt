@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251024.1
+! Version: 251025.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1266,6 +1266,8 @@ danawa.com##li.ad.shop_link_item
 @@||mud-kage.kakaocdn.net^$app=com.kakao.talk
 @@||t1.daumcdn.net/*/subway/*
 @@||t1.kakaocdn.net/kakao_js_sdk/*$domain=fnnews.com
+@@||kamp.kakao.com/vod/*$domain=play-tv.kakao.com
+@@||vscf.play.kakao.com/s-daum_tistory/vod/*$domain=play-tv.kakao.com
 ||*.ad.kakao.com^
 ||*.ad.kakaocorp.com^
 ||ad-content.*.kakao.com^
