@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251027.2
+! Version: 251027.3
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2317,10 +2317,9 @@ webtoonguide.com##.realtime-rank-section
 cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com,cokcoktv4.com,cokcoktv3.com##[class="cpb-popup-banners"]
 cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com,cokcoktv4.com,cokcoktv3.com##[class^="custom_banner"]
 ! tvchak
-||images2.imgbox.com/a*_o.jpg$image
-tvchak170.com###advertiseMain
-tvchak170.com##[class^="hezuo_"]
-tvchak170.com##.banner-box
+tvchak173.com,tvchak172.com,tvchak171.com,tvchak170.com###advertiseMain
+tvchak173.com,tvchak172.com,tvchak171.com,tvchak170.com##[class^="hezuo_"]
+tvchak173.com,tvchak172.com,tvchak171.com,tvchak170.com##.banner-box
 ! chachatv
 ||chachatv*.pro/ad/index.html$subdocument
 ! tvzota
