@@ -2180,7 +2180,7 @@ bloomberg.com##head:style(display:block !important)
 bloomberg.com##body[style="overflow-y: auto;"]:style(display:block !important)
 bloomberg.com##[style="display: none;"]
 
-! - WebToon / 웹툰 // 2025-08
+! - WebToon / 웹툰 // 2025-11
 ! webtoon logo
 ||booktoki*.com/img/logo*
 ||funbe*.com/*/*logo*
@@ -2255,6 +2255,7 @@ sub.manhwa.co.kr###main_banner_first_top_box
 ||sub.manhwa.co.kr/img/detail_google_appdown_banner.jpg$image
 ! 11toon, 103.204.13.68:8901
 @@||11toonimg*.spotv*.com/data/file/*/*.jpg$image
+||kmana*.net/webtoon/images/*.gif$image
 ||pl*.com/*/pop/$image
 ||wwwimageup.angle777899.com$image
 com##[href^="http://11toon"]
@@ -2387,7 +2388,7 @@ ohlitv.com###exon
 ! 라프텔, laftel.net
 ||service.iamport.kr^$domain=laftel.net
 
-!! 주소, 링크
+! - 주소, 링크
 ! bobaelink, 보배링크
 xyz##div.dh.col-xs-6:nth-of-type(3)
 xyz##div.dh.col-xs-6:nth-of-type(5)
@@ -2398,6 +2399,21 @@ xyz##div.dh.col-xs-6:nth-of-type(14)
 xyz##div.dh.col-xs-6:nth-of-type(15)
 ! juso.wiki
 juso.wiki##div[class^="alert alert"]
+! jusogall
+jusogall.com###banner-container
+jusogall.com##.nt-container:nth-of-type(4)
+jusogall.com##div.col:nth-of-type(2)
+jusogall.com##div.col:nth-of-type(9)
+jusogall.com##div.col:nth-of-type(7)
+jusogall.com##div.col:nth-of-type(4)
+! wdwd
+wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##.col-md-12
+wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com###dvhidden
+wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##.banner_list
+wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##[class*="box"]:nth-of-type(7)
+wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##[class*="box"]:nth-of-type(8)
+wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##[class*="box"]:nth-of-type(10)
+wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##[class*="box"]:nth-of-type(13)
 ! jusopang
 @@||jusopang*.com/*.png
 ||jusopang*.com/*/*330x230*.webp$image
