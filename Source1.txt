@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251028.1
+! Version: 251029.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -297,6 +297,8 @@ investing.com##.order-4
 investing.com##.mt-12
 investing.com##.preloaded_lightbox
 investing.com##.h-fit.hidden.sticky
+investing.com###sideNotificationZone
+investing.com##.text-xs.text-center
 
 ! - finup
 stock.finup.co.kr##[src^="https://img.finup.co.kr/stock/Banner"]
@@ -351,6 +353,7 @@ hankyung.com##.aside-ad
 hankyung.com##.aside-ad-component
 hankyung.com##.article-promotion
 tenasia.hankyung.com##.aedi-link
+plus.hankyung.com##.banner_img
 ! newspim
 newspim.com##.ad-box
 ||img.newspim.com/m/banner/*$image
@@ -750,9 +753,14 @@ seoul.co.kr##[name="viewTopAD"]
 seoul.co.kr###iwmads
 seoul.co.kr##[title="widsMobAdIframe"]
 seoul.co.kr##[id^="seoulAD"]
+m.nownews.seoul.co.kr##[class$="adArea"]
 ! twig24.com
 twig24.com##.articleInnerAdWrap
 twig24.com##[id^="div-gpt-ad"]
+twig24.com##[id^="div-gpt-ad"]
+twig24.com###livereAd
+twig24.com##[class="viewBottomAdWrap"]:nth-of-type(1)
+twig24.com##[class$="AdWrap"]
 ! yna
 @@||cdp.yna.co.kr^
 star.ytn.co.kr##[title^="하단 광고"]
@@ -910,6 +918,7 @@ sportsworldi.com##[src*="ads"]
 korea.kr##.slick-list
 gamemeca.com##.content-top-add
 byline.network##.wp-block-image
+businesstimes.com.sg##.font-poppins.text-center
 
 ! - op.gg
 ||talk.op.gg/images/banner$image
