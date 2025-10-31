@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251029.1
+! Version: 251031.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1487,12 +1487,11 @@ naver.com##.id_comp_guarantee_banner
 naver.com##.id_comp_napp_banner
 naver.com##.MM_GIFT_FLICK_BANNER
 naver.com##.type_load
-m.naver.com##._MM_TREND_SHOP
-m.naver.com##._MM_TREND_PICK
 m.naver.com##._MM_SEARCH_AD
 m.naver.com##.comp_banner_feed
 m.naver.com##.id_comp_shorts_banner
-m.naver.com##.MM_DO_NOT_AD_POSITION
+m.naver.com##[data-insp-card-exp-key="search-clip-review"]
+m.naver.com##.sch_logo_container:style(margin-bottom: 0px !important;)
 ! m.place.naver.com
 pcmap.place.naver.com##.l__qc.no_margin.place_section
 m.place.naver.com###visit_tab_top_ad
@@ -1527,6 +1526,7 @@ m.notify.naver.com##.banner_card
 blog.naver.com##.btm_banner
 blog.naver.com##[id="floating_inf"]
 m.blog.naver.com###BANNER_ONE
+m.blog.naver.com##[class^="banner_wrap"]
 ! cafe.naver, 까페, m.cafe.naver
 @@||ipada.cafe.naver.com^
 @@||cafeptthumb-phinf.pstatic.net^$image,domain=cafe.naver.com
