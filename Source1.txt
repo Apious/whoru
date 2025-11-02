@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251102.1
+! Version: 251102.2
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2227,6 +2227,8 @@ mzgtoon.com##.pb-0.w-full
 ! wfwf
 ||*.net/winner_*.jpg$image
 ||*.net/win_ico.png$image
+||ionppn*.net/*g$image
+com##[href="/bz"]
 ! wtwt, Wtoon
 com##[class="popnotice"][style="display: block;"]
 ||iabn*.net/*.$image
@@ -2303,13 +2305,19 @@ greentoon.net##.btn_go
 ||komiku.asia/wp-content/uploads/*/*terbaru.jpg$image
 komiku.asia##.kln
 komiku.asia##.textwidget
+! toon-bro
+toon-bro.xyz##.inset-0.fixed
+!toon-bro.xyz###radix-\:rc\:
+!toon-bro.xyz###radix-\:r7\:
+||*.toon-bro.xyz/images/*.svg$image
+||*.toon-bro.xyz/images/ad^$image
+toon-bro.xyz##div.flex-1.container:nth-of-type(1)
 ! about-etc
 ||a*.tooncome.com/*/*.gif$image
 ||hoduhodu.com/*X*.gif^$image
 ||iabn*.net$image
 ||joatoon*.com/*/ad/$image
 ||sektoon.me/*/*.gif$image
-||toon-bro.xyz/*/no-image.svg$image
 ||www.smilemanga.com/img/*.gif$image
 ||yatoon*.com/*/ad.jpg$image
 ||yatoon*.com/*/drama*.jpg$image
