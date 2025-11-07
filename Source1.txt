@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251102.2
+! Version: 251107.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -352,6 +352,7 @@ hankyung.com##.ad-wrap
 hankyung.com##.aside-ad
 hankyung.com##.aside-ad-component
 hankyung.com##.article-promotion
+hankyung.com##[class$="promotion"]
 tenasia.hankyung.com##.aedi-link
 plus.hankyung.com##.banner_img
 ! newspim
@@ -362,6 +363,7 @@ newspim.com##.my-banner-class
 nocutnews.co.kr##.slick-slide.nocut
 nocutnews.co.kr##.slick-slide.channel
 nocutnews.co.kr##.slick-slide.rainbow
+nocutnews.co.kr##.ban_b
 ! bing, MSN
 ||ntp.msn.com/edge/ntp/*.js^
 ||ntp.msn.com/bundles/*/edgechromium^
@@ -421,6 +423,8 @@ hellot.net##.com_ban
 kormedi.com##.widget_better-ads
 kormedi.com##.sidebar-col-ad-right
 kormedi.com##.sidebar-col-ad-left
+kormedi.com##[class^="banner"]
+kormedi.com##.code-block
 ! chosun
 ||*.health.chosun.com/*banner*
 ||health.chosun.com/*banner*.jpg$image
@@ -580,6 +584,7 @@ hankookilbo.com##.right-area
 hankookilbo.com##.serial-ad
 hankookilbo.com##.side-ad-box
 hankookilbo.com##.toast-popup
+hankookilbo.com##.ad
 ! inews24
 inews24.com###articleBody > div:nth-of-type(1)
 inews24.com##container > div
@@ -587,8 +592,9 @@ inews24.com##div:nth-of-type(3)
 inews24.com##hr.blank
 inews24.com##hr.h50.blank
 ! jtbc
-||ad-imp.jtbc.co.kr^
+@@||imasdk.googleapis.com^$script,domain=vod.jtbc.co.kr
 ||wecandeo.com^
+||ad-imp.jtbc.co.kr^
 jtbc.co.kr###right_top_ad
 jtbc.co.kr##.ad_banner_250x250
 jtbc.co.kr##.ad_item
@@ -604,6 +610,12 @@ jtbc.co.kr##.sub_banner01
 jtbc.co.kr##.tv_right_ad
 jtbc.co.kr##.v_banner
 jtbc.co.kr##.vjs-ad-playing
+jtbc.co.kr##div:has(>[src*="ad"])
+jtbc.co.kr##a:has(>[src*="banner"])
+jtbc.co.kr##div:has(>[id^="taboola"])
+jtbc.co.kr##div:has(> div > div > div > div > div > div > a[href*="ad"])
+jtbc.co.kr##.MuiBox-root.swiper-navigation-wrapper
+
 ! joins
 @@||cast.imp.joins.com^
 ||images.joins.com/*/talk_ad/*
@@ -737,22 +749,20 @@ seoul.co.kr###newsletterPop
 seoul.co.kr###slick_banner
 seoul.co.kr##[id*="div-gpt-ad"]
 seoul.co.kr##[id^="taboola"]
-seoul.co.kr##[class*="articleBottomAD"]
-seoul.co.kr##[class="listAD"]
 seoul.co.kr##[id="iwmads"]
 seoul.co.kr##iframe[src^="/ad/"]
-seoul.co.kr##[class^="articleInnerAd"]
-seoul.co.kr##[class^="articleAD"]
 seoul.co.kr##[title*="AdIframe"]
 seoul.co.kr##[class*="hed_ad"]
-seoul.co.kr###livereAdArea
 seoul.co.kr###bottomScrollBox
 seoul.co.kr##.adBox
-seoul.co.kr##.articleAD
-seoul.co.kr##[name="viewTopAD"]
 seoul.co.kr###iwmads
 seoul.co.kr##[title="widsMobAdIframe"]
-seoul.co.kr##[id^="seoulAD"]
+seoul.co.kr##[id*="AD"]
+seoul.co.kr##[id*="Ad"]
+seoul.co.kr##[id*="ads"]
+seoul.co.kr##[class*="AD"]
+seoul.co.kr##[class*="Ad"]
+seoul.co.kr##[name*="AD"]
 m.nownews.seoul.co.kr##[class$="adArea"]
 ! twig24.com
 twig24.com##.articleInnerAdWrap
@@ -774,8 +784,16 @@ yna.co.kr###marketingPlayer
 yna.co.kr##.wrap-header01
 yna.co.kr##[id*="div-gpt-ad"]
 yna.co.kr##[class^="aside-"]
+ytn.co.kr##div[class^="ad"]:has(>[src*="ad"])
+ytn.co.kr##div:has(>[id^="dable"])
+ytn.co.kr##[class^="top_banner"]
+ytn.co.kr##div:has(>[src*="ad"])
+ytn.co.kr##div:has(>[src*="banner"])
+ytn.co.kr##.wing_ad
 ! zdnet
 zdnet.co.kr##.webinar
+zdnet.co.kr##[id^="dablewidget"]
+zdnet.co.kr##[title="livereAd"]
 ! mk
 ||img.mk.co.kr/*/banner*
 mk.co.kr###area_banner
@@ -796,6 +814,7 @@ gamezo.co.uk##.adthrive-ad
 mt.co.kr##.naver_channel_banner_wrap
 mt.co.kr##.adbox
 mt.co.kr##.cardinfo1
+mt.co.kr##[class*="ads"]
 news.imaeil.com##.arl_007
 imaeil.com##[id*="div-gpt-ad"]
 imaeil.com##.h30
