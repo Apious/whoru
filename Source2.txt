@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251025.1
+! Version: 251114.1
 ! Description: DNS
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
@@ -16,7 +16,6 @@
 @@||weblog.coupang.com^
 ||ad-video.coupangcdn.com^
 ||ads-partners.coupang.com^
-||ljc.coupang.com^
 ||shop.coupang.com^
 ||fintech-benefit.coupang.com^
 ||content-autofill.googleapis.com^
