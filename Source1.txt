@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251113.2
+! Version: 251114.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1011,25 +1011,26 @@ m.auction.co.kr##.box--banner_promotion
 mobile.auction.co.kr##.content-slider
 auction.co.kr##.component--sponsor_link
 ! coupang
-coupang.com###wa-banners
-coupang.com##.promotion-banner
-coupang.com###__next > div > div > div > div:has( > [class*="keen-slider"])
-coupang.com###coupang-banner
-coupang.com##.gw-line-banners
-coupang.com##.category-best-adzerk
-coupang.com##.cart-recommendation-widget
-coupang.com##[id^="srp"]
-coupang.com##[id^="midCarousel"]
-coupang.com##.sdp-ads
-coupang.com###sdp-ad-middle-banner-lg-position
-coupang.com##.sdp-bottom-banner
 mc.coupang.com##.keen-slider
 mc.coupang.com##.iRlyIl
 mc.coupang.com##.mclp-wow-card-nudge-new
-coupang.com##.app-redirect
+coupang.com###__next > div > div > div > div:has( > [class*="keen-slider"])
 coupang.com###app-redirect-nudge
+coupang.com###coupang-banner
 coupang.com###fullBanner
+coupang.com###sdp-ad-middle-banner-lg-position
+coupang.com###wa-banners
+coupang.com##.app-redirect
+coupang.com##.cart-recommendation-widget
+coupang.com##.category-best-adzerk
+coupang.com##.gw-line-banners
+coupang.com##.prod-banner-link
+coupang.com##.promotion-banner
+coupang.com##.sdp-ads
+coupang.com##.sdp-bottom-banner
+coupang.com##[id^="midCarousel"]
 coupang.com##[id^="sdp-ad-"]
+coupang.com##[id^="srp"]
 ! danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 www.danawa.com##.auto_product_list
