@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251113.1
+! Version: 251113.2
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1591,6 +1591,7 @@ map.naver.com##.promotion_wrap
 !pay.naver.com##[class^="NaverPlusMembership"]
 !pay.naver.com##[class^="PanelWrapper"]
 !pay.naver.com##[class^="flicking-area_article"]
+!pay.naver.com##[class^="ADRewardList"]
 ||new-m.pay.naver.com/api/timeline/v2/aitems
 new-m.pay.naver.com##[class^="FlickingBanner_article"]
 new-m.pay.naver.com##[class^="Tools_item"]:nth-of-type(1)
@@ -1600,7 +1601,6 @@ pay.naver.com##.commonBannerArea
 pay.naver.com##.flicking-viewport
 pay.naver.com##.membership_sc
 pay.naver.com##[class*="BigBanner"]
-pay.naver.com##[class^="ADRewardList"]
 pay.naver.com##[class^="BenefitCards"]
 pay.naver.com##[class^="CreditScoreAndLoanComparison"]
 pay.naver.com##[class^="FinanceMenu_item"]:nth-of-type(1)
