@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251114.1
+! Version: 251117.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -444,6 +444,8 @@ health.chosun.com##.left_banner
 health.chosun.com##.li_ad
 health.chosun.com##.top_area
 health.chosun.com##.ad-main-top
+health.chosun.com###banner-top-google
+health.chosun.com##.sub_Banner
 it.chosun.com##.desktop
 it.chosun.com##.inner
 it.chosun.com##.news_letter
@@ -1031,6 +1033,7 @@ coupang.com##.sdp-bottom-banner
 coupang.com##[id^="midCarousel"]
 coupang.com##[id^="sdp-ad-"]
 coupang.com##[id^="srp"]
+coupang.com##.twc-relative.max-smpad\:twc-block.smpad\:twc-justify-between.smpad\:twc-flex > .max-csm\:twc-visible.csm\:twc-hidden
 ! danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 www.danawa.com##.auto_product_list
@@ -1908,6 +1911,7 @@ apkcombo.com##div.widget
 apkpure.net###policy-info
 apkpure.com###policy-info
 apkpure.com##.aegon-down-item
+apkpure.net##.aegon-card
 apkpure.com##.apkpure-download-card
 apkpure.com##.debut-game
 apkpure.com##.share-box
