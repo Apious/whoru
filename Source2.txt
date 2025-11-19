@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251114.1
+! Version: 251119.1
 ! Description: DNS
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
@@ -27,13 +27,13 @@
 ||log.snow.me^
 
 ! - Kakao, Daum
-@@||aem-collector.daumkakao.io^
-@@||movie.daum.net^
-@@||t1.daumcdn.net^
-@@||t1.kakaocdn.net^
+! @@||aem-collector.daumkakao.io^
 ! @@||stat.tiara.daum.net^
 ! @@||stat.tiara.kakao.com^
 ! @@||videostats.kakao.com^
+@@||movie.daum.net^
+||t1.daumcdn.net^
+||t1.kakaocdn.net
 ||tr.ds.kakao.com^
 ||*.ad.daum.net^
 ||*.ad.kakao.com^
