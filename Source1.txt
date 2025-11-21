@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251117.1
+! Version: 251121.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -11,6 +11,9 @@ perplexity.ai##.pb-md.pl-md
 perplexity.ai##.fill-mode-both.md\:items-center.items-stretch
 perplexity.ai##.right-md.bottom-md
 perplexity.ai##.bg-subtler.divide-subtlest.ring-subtlest.border-subtlest.ring-1.shadow-xl.rounded-xl.md\:flex-row.rounded-md.items-center.flex-col.w-full.flex
+perplexity.ai##.bg-super.divide-subtlest.ring-subtlest.border-subtlest.justify-center.hover\:opacity-80.duration-200.transition.items-center.cursor-pointer.w-full.flex.rounded-sm.h-bannerHeight
+perplexity.ai##.\[\@media\(max-height\:680px\)\]\:hidden.items-center.flex-col.appearance-none.inline-flex.group.gap-xs
+perplexity.ai##.\[\@media\(max-height\:680px\)\]\:hidden.items-center.flex-col.flex.gap-xs
 ! wrtn, 뤼튼
 wrtn.ai##.slick-slider
 ! maxai, 맥스
@@ -617,7 +620,6 @@ jtbc.co.kr##a:has(>[src*="banner"])
 jtbc.co.kr##div:has(>[id^="taboola"])
 jtbc.co.kr##div:has(> div > div > div > div > div > div > a[href*="ad"])
 jtbc.co.kr##.MuiBox-root.swiper-navigation-wrapper
-
 ! joins
 @@||cast.imp.joins.com^
 ||images.joins.com/*/talk_ad/*
@@ -653,6 +655,7 @@ khan.co.kr##.ad_popularInfo_sub
 khan.co.kr##.nzine_banner_sub
 sports.khan.co.kr##[class*="Ad"]
 sports.khan.co.kr##[id*="ads"]
+khan.co.kr##.major-art-top-wrap
 ! mercola
 korean.mercola.com###mid-optin
 korean.mercola.com##.gdpr-wrap
@@ -734,6 +737,10 @@ ohmynews.com##.faceb
 ohmynews.com##.footer_club
 ohmynews.com##.support-box
 ohmynews.com##.support-omn
+||ojsimg.ohmynews.com/*_ad$subdocument
+ohmynews.com##[id^="dablewidget"]
+ohmynews.com##div[style]:has(>[src*="_ad"])
+ohmynews.com##.newswrap > center
 ! rpm9
 rpm9.com##.ad_right120x600
 rpm9.com##div.ad_right300
@@ -923,6 +930,9 @@ insweek.co.kr##[id^="ad_"]
 ! kjtimes
 kjtimes.com##.ht_right
 kjtimes.com##.top_banner
+! bigkinds
+bigkinds.or.kr##.popup-container
+bigkinds.or.kr##div.col-lg-6:nth-of-type(2)
 ! news-etc
 @@||07c225f3.online^$domain=etoday.co.kr
 ||www.businesspost.co.kr/*/banner/*/$image
@@ -940,6 +950,7 @@ korea.kr##.slick-list
 gamemeca.com##.content-top-add
 byline.network##.wp-block-image
 businesstimes.com.sg##.font-poppins.text-center
+newdaily.co.kr##[class^="banner"]
 
 ! - op.gg
 ||talk.op.gg/images/banner$image
@@ -1320,6 +1331,8 @@ danawa.com##li.ad.shop_link_item
 ||page.kakao.com/_next/*_banner_*.png$image
 ||tr.*.daum.net/*
 ||webid.ad.daum.net^$important
+||t1.daumcdn.net^$app=net.daum.android.map
+||t1.kakaocdn.net^$app=net.daum.android.map
 daum.net##[data-cloud="banner"]
 open.kakao.com##.link_bnr
 page.kakao.com##img[alt^="pc 앱"]
@@ -2672,6 +2685,8 @@ superuser.com###onetrust-consent-sdk
 superuser.com##.js-consent-banner
 
 ! - 기타
+alphasquare.co.kr##.portfolio-unfolded__promotion-wrapper
+alphasquare.co.kr##.soft-banner-layout
 rottentomatoes.com###onetrust-consent-sdk
 ma-pia.net##[class*="banner"]
 nosearch.com##.flex-col.overflow-hidden.border-solid
@@ -2698,7 +2713,6 @@ stackoverflow.com###onetrust-consent-sdk
 proxysite.com##.adsbygoogle
 zpaste.net##[class*="-banner"]
 sourceforge.net##[src*="https://as.sourceforge.net/contents/sourceforge.net"]
-www.bigkinds.or.kr##.popup-container
 www.happypointcard.com##.simple-login-banner
 forx.mazen-ve3.com###adblock-modal
 fayerwayer.com##[id^="arcad-feature-"]
