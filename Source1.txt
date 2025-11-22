@@ -1403,6 +1403,11 @@ joins.com##[class^="banner_article"]
 issuefeed.dcinside.com##section > iframe[src^="https://issue-cmt"]
 issuefeed.dcinside.com##div > a > [src^="https://static"]
 
+! - youtube
+youtube-nocookie.com##.ytp-pause-overlay-container
+youtube.com##tp-yt-paper-dialog[id="dialog"]
+youtube.com##tp-yt-iron-overlay-backdrop
+
 ! - sooplive (구.아프리카)
 !||adballoon.sooplive.co.kr^
 ||deapi.sooplive.co.kr/*/*&*&placement=LIVE_LOADING_BANNER_PC_WEB^
@@ -1462,8 +1467,6 @@ carmmunity.oilnow.co.kr##[src*="/channel_banners_images/"]
 ||reward-sdk.*.*.amazonaws.com^$app=com.gretech.gomplayerko
 
 ! - startpage
-youtube.com##tp-yt-paper-dialog[id="dialog"]
-youtube.com##tp-yt-iron-overlay-backdrop
 startpage.com##tp-yt-paper-dialog[id="dialog"]
 startpage.com##tp-yt-iron-overlay-backdrop
 
@@ -2707,7 +2710,6 @@ mobileindex.com###mktc-popup
 ||cdn.kcp.co.kr/pay/images/MAIL/*$image
 grok.com##.mb-1.p-0.items-start
 grok.com##.items-center.py-4.px-5
-youtube-nocookie.com##.ytp-pause-overlay-container
 efficient.app##.partner-block
 tunemymusic.com##[class^="HeaderMenu_CookieAlert"]
 ||windy.com/img/logo-windy-premium-watermark.svg^
