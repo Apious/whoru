@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251122.2
+! Version: 251125.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1727,48 +1727,53 @@ media.naver.com##.channel_add_wrap
 premium.naver.com##.bottom_layer
 tv.naver.com##[class^="index_banner_list"]
 
-! - ppomppu
+! - 포럼, 커뮤
+! ppomppu
 ||cdn.ppomppu.co.kr/*/banner$image
 ppomppu.co.kr##.ad-banner
 ppomppu.co.kr##.power-link1
 ppomppu.co.kr##.power-link2
 ppomppu.co.kr##.topSub-nav
 ppomppu.co.kr##[href^="https://s.ppomppu.co.kr/"]
-
-! - fmkorea
+! fmkorea
 fmkorea.com##.fmad_naver_power_link
 fmkorea.com##.fmad_wrapper
 /fmad/*
-
-! - ruliweb
+! ruliweb
 ruliweb.com##.ad_back_wrapper
 ruliweb.com##[href^="//api.ruliweb.com/adClick"]
 ruliweb.com##.ad
 ruliweb.com##.adrr
 ruliweb.com##.nbp_container
 ruliweb.com###nbp_container_v4
-
-! - meeco / 미코
+! meeco / 미코
 meeco.kr##.w_slide
 meeco.kr##.sidebar.sidebar2
-
-! - clien / 클리안
+! clien / 클리안
 clien.net##.view_center_idlfksyenf
 clien.net##.ad_banner
 clien.net##.side_posjduenfj
-
-! - ygosu / 와이고수
+! ygosu / 와이고수
 ygosu.com,ppss.kr,tgd.kr##+js(no-setTimeout-if, [native code], 0)
 ygosu.com##+js(abort-on-stack-trace, XMLHttpRequest.prototype.send, /th:\d+\s+[a-zA-Z]\d\/<@[^\t]+\t\s[a-zA-Z]\d@|th:\d+\s+in[a-zA-Z\d:;]+\t\s[a-zA-Z]\d\si/)
-
-! - dvdprime
+! dvdprime
 dvdprime.com###top_banner
 dvdprime.com##[id^="ad_view"]
 dvdprime.com##.menu_left_banner
 dvdprime.com##.get_ad_img
 dvdprime.com##.flexslider
+! XDA
+xda-developers.com##[class*="ad-zone"]
+xda-developers.com##[id*="ad-zone"]
+xda-developers.com##[class="valnet-gallery"]
+xda-developers.com##[data-original-ad-element-id]
+! xiaomi 관련
+xiaomitoday.it##[id^="xiaom-"]
+xiaomitoday.it##.egg-container
+xiaomi-miui.gr##[id^="ai_widget"]
+xiaomi-miui.gr##[class^="google_responsive"]
 
-! - SNS, App:instagram Ext. Connect.
+! SNS, App:instagram Ext. Connect.
 ! instagram
 ||gateway.instagram.com^
 157.240.31.7:443$network,app=com.instagram.android
@@ -1776,12 +1781,6 @@ dvdprime.com##.flexslider
 31.13.76.23:443$network,app=com.instagram.android
 ! facebook
 ||edge-mqtt.facebook.com^
-
-! - XDA
-xda-developers.com##[class*="ad-zone"]
-xda-developers.com##[id*="ad-zone"]
-xda-developers.com##[class="valnet-gallery"]
-xda-developers.com##[data-original-ad-element-id]
 
 ! - uptodown,devuploads,dailyuploads,uploadrar,uplod,dailyenter,douploads,intoupload,workupload,mediafire,upfiles-urls,djxmaza,febbox, send-anywhere
 ! send-anywhere
@@ -1905,6 +1904,8 @@ pedia.watcha.com##.adFixed
 pedia.watcha.com###root div:nth-of-type(8)
 pedia.watcha.com##[class^="_adSection"]
 pedia.watcha.com##div > a[class*="_link_"]
+watcha.com##.disableBodyScrolling:style(overflow:  auto!important;)
+watcha.com##[class^="_backscreen"]
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image
@@ -2236,6 +2237,10 @@ bloomberg.com##head:style(display:block !important)
 bloomberg.com##body[style="overflow-y: auto;"]:style(display:block !important)
 bloomberg.com##[style="display: none;"]
 
+! - gsmarena
+gsmarena.com##.pt-10.d-flex
+gsmarena.com##.sidebar:style(padding: 0px;)
+
 ! - WebToon / 웹툰 // 2025-11
 ! webtoon logo
 ||booktoki*.com/img/logo*
@@ -2546,6 +2551,12 @@ site##[href^="https://filecast.co.kr/"]
 ||viewtorrent*.com/data/*/*.gif$image
 ||static.tzstatic.top/z/up*$image
 
+! - Cookie Footer / 사이트 들어가자 마자 쿠키 동의 안내
+bitly.com###banner-cookie
+openweathermap.org###stick-footer-panel
+superuser.com###onetrust-consent-sdk
+superuser.com##.js-consent-banner
+
 ! - Ads Tags, 광고 태그, a-ads // 2025-08
 a-ads.com##.aa_container
 a-ads.com##.size320x50
@@ -2687,12 +2698,6 @@ net##.mkt_banner
 *##[href="https://xn--vv0b56ah5v.net/"]
 *##[src*="/side_banner/"]
 
-! - Cookie Footer / 사이트 들어가자 마자 쿠키 동의 안내
-bitly.com###banner-cookie
-openweathermap.org###stick-footer-panel
-superuser.com###onetrust-consent-sdk
-superuser.com##.js-consent-banner
-
 ! - 기타
 alphasquare.co.kr##.portfolio-unfolded__promotion-wrapper
 alphasquare.co.kr##.soft-banner-layout
@@ -2751,8 +2756,6 @@ mypetlife.co.kr##[id^="bemypetDisplayAd"]
 www.cvsnet.co.kr##[src^="/common_m/images/banner"]
 dxomark.com###orejime
 coolenjoy.net##[class="carousel-inner"]
-xiaomitoday.it##[id^="xiaom-"]
-xiaomitoday.it##.egg-container
 doctornow.co.kr##[role="button"] > div
 majorgeeks.com###fanback
 music.bugs.co.kr##.layerPromotionBanner
@@ -2801,7 +2804,6 @@ gamemeca.com##.event-right
 gamingdial.com###col-right-yt
 genie.co.kr##.wrap_layerpopup
 giznext.com##.desktopaddBox
-gsmarena.com##.pt-10.d-flex
 healthymaster.xyz##div.row:nth-of-type(3)
 humoruniv.com###choo_web_read_top_wrap
 humoruniv.com##.adsbyadop
