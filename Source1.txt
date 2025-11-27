@@ -1472,15 +1472,15 @@ startpage.com##tp-yt-iron-overlay-backdrop
 
 ! - Naver, 네이버
 ! 추적 필터 차단 등에 의한 page 표시 에러로 예외 적용
+!@@||s.pstatic.net^
+!@@||wcs.naver.net^
+!@@||nelo2-col.navercorp.com^
 @@||ace.naver.com^
 @@||common.like.naver.com^
 @@||learn.dict.naver.com^
 @@||m.naver.com/aside^
 @@||nid.naver.com^
-@@||s.pstatic.net^
 @@||sp.naver.com^
-@@||wcs.naver.net^
-@@||nelo2-col.navercorp.com^
 @@||s.search.naver.com^$domain=m.search.naver.com
 @@||nam.veta.naver.com^$app=com.nhn.android.search
 korean.dict.naver.com##dictbanner
