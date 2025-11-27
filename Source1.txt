@@ -1504,7 +1504,6 @@ search.naver.com#@#div[class^="ad_"]
 naver.com###header .header_inner:style(height: 100px !important;)
 ! m.naver
 naver.com###ad_timeboard
-naver.com###HOME_AD
 naver.com###MM_SEARCH_NOW
 naver.com###MM_SEARCH_SHOP_LIVE
 naver.com###timesquare
