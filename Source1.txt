@@ -1475,7 +1475,6 @@ startpage.com##tp-yt-iron-overlay-backdrop
 !@@||s.pstatic.net^
 !@@||wcs.naver.net^
 !@@||nelo2-col.navercorp.com^
-!@@||nam.veta.naver.com^$app=com.nhn.android.search
 @@||ace.naver.com^
 @@||common.like.naver.com^
 @@||learn.dict.naver.com^
@@ -1494,6 +1493,8 @@ korean.dict.naver.com##dictbanner
 ||adcr.naver.com^
 ||adcreative.naver.com^
 ||searchad.naver.com^
+||ssl.pstatic.net/melona/libs/*$document
+||nam.veta.naver.com^$app=com.nhn.android.search
 search.naver.com/#@#div[class^="ad_"]
 search.naver.com##._ad.box
 search.naver.com##.ad_section
