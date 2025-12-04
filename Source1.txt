@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251127.3
+! Version: 251204.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -454,6 +454,7 @@ it.chosun.com##.inner
 it.chosun.com##.news_letter
 sports.chosun.com##.hoseBn
 biz.chosun.com##.science-banner-area
+chosun.com##.slick-initialized
 ! donga
 donga.com###above_cmcl_box
 donga.com###banner_slider
@@ -466,6 +467,7 @@ donga.com##.facebook_api
 donga.com##.i-amphtml-unresolved
 donga.com##.promotion_wrap
 donga.com##.today_issue
+donga.com##[id^="PanthomAd"]
 ! dongascience
 dongascience.com##.advertise
 dongascience.com###advertise_fixed
@@ -834,6 +836,8 @@ imaeil.com##.h70
 imaeil.com##[id^="PanthomAd"]
 imaeil.com##.livery
 ! newsis
+||www.adflow.kr^
+/adReq/*
 newsis.com##.banner300
 mobile.newsis.com##.bxcn
 mobile.newsis.com##.listStyle04
@@ -841,8 +845,9 @@ mobile.newsis.com##.fixBanner
 www.newsis.com##[id^="banner"]
 www.newsis.com##.fix > div.smallbox
 www.newsis.com##[src^="https://www.adflow.kr/ad/"]
-||www.adflow.kr^
-/adReq/*
+www.newsis.com##[href^="https://v.daum.net/channel"]
+www.newsis.com##div[style]:has(>[src*="ad"])
+www.newsis.com##div[style]:has(>*>[src*="ad"])
 ! dt / 디지털타임즈
 dt.co.kr##.main_wrap > center
 dt.co.kr##div.bk20
@@ -1904,7 +1909,6 @@ pedia.watcha.com###root div:nth-of-type(8)
 pedia.watcha.com##[class^="_adSection"]
 pedia.watcha.com##div > a[class*="_link_"]
 watcha.com##.disableBodyScrolling:style(overflow:  auto!important;)
-watcha.com##[class^="_backscreen"]
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image
@@ -2015,6 +2019,10 @@ a2zapk.io#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: 
 rtxkeeda.com###a-ads5
 rtxkeeda.com##.modalpop
 rtxkeeda.com##.NewBlock1 > [src]
+! p30download.ir
+download.ir##.actw
+download.ir##.sidebar-teb.widget > .block-content
+download.ir##[id$="download_ir_related-top-post"]
 ! etc
 modfyp.com##.adsBox
 @@||html-load.com/loader.min.js
@@ -2022,6 +2030,9 @@ modfyp.com##.adsBox
 ! unblocked for page error
 @@||html-load.com^$domain=apkmirror.com|sourceforge.net
 liteapks.com##.warning-box
+www.luckymodapk.com###appx
+unlockapk.com##.adsbyvli
+apk4all.com##iframe.eww
 
 ! - infidrive
 @@||pagead2.googlesyndication.com^$domain=infidrive.net,third-party
@@ -2457,6 +2468,7 @@ ohlitv.com##.insty
 ohlitv.com###exon
 ! 라프텔, laftel.net
 ||service.iamport.kr^$domain=laftel.net
+anilife.app##.sm\:grid-cols-2
 
 ! - 주소, 링크
 ! bobaelink, 보배링크
@@ -2745,8 +2757,6 @@ instamod.net##iframe[id][style^="width: 100% !important;"]
 instamod.app##iframe[id][style^="width: 100% !important;"]
 zigzag.kr##.rolling__banner__item
 zigzag.kr##[id="__next"] > div > div > div[class^="css-"]:has(> div[class*="f"])
-www.luckymodapk.com###appx
-unlockapk.com##.adsbyvli
 www.webhosting.uk.com##.adv-link
 duckduckgo.com##div[data-testid="serp-popover-promo"]
 www.lawtalk.co.kr##[class^="lawtalk-next-main-top__carousel-section"]
@@ -2784,7 +2794,6 @@ compunik.net##.adsbygoogle
 ||studiouniversal.net/banner$image
 ||trace.rememberapp.co.kr^
 any.do##.NotificationBarProvider
-apk4all.com##iframe.eww
 arca.live##.ad
 br0wsers.com##[id^="div-gpt-ad"]
 cineaste.co.kr##[class^="basic-banner"]
