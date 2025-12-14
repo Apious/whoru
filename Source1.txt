@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251209.1
+! Version: 251214.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1908,6 +1908,7 @@ pedia.watcha.com##.adFixed
 pedia.watcha.com###root div:nth-of-type(8)
 pedia.watcha.com##[class^="_adSection"]
 pedia.watcha.com##div > a[class*="_link_"]
+pedia.watcha.com##[class^="_backscreen"]
 watcha.com##.disableBodyScrolling:style(overflow:  auto!important;)
 
 ! - kinolights.com
@@ -2711,6 +2712,9 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+extrememanual.net##.adsbygoogle
+computerbase.de##[class^="adbox"]
+themoviedb.org###onetrust-consent-sdk
 alphasquare.co.kr##.portfolio-unfolded__promotion-wrapper
 alphasquare.co.kr##.soft-banner-layout
 rottentomatoes.com###onetrust-consent-sdk
