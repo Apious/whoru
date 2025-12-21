@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251216.2
+! Version: 251221.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1647,7 +1647,6 @@ pay.naver.com##[data-au="total.click_total"]
 pay.naver.com##div.s_sc
 pay.naver.com##div.s_sc:nth-of-type(5)
 pay.naver.com##[class*="pay-app-banner_article"]
-
 ! stock.naver.com
 naver.com##[class^="BigBannerWrapper_article"]
 naver.com##[class^="NpayDownloadButton-module_article"]
@@ -1732,6 +1731,7 @@ booking.naver.com##.banner_area
 media.naver.com##.channel_add_wrap
 premium.naver.com##.bottom_layer
 tv.naver.com##[class^="index_banner_list"]
+m.entertain.naver.com##[class^="AsideBanner"]
 
 ! - 포럼, 커뮤
 ! ppomppu
@@ -2254,6 +2254,15 @@ bloomberg.com##[style="display: none;"]
 gsmarena.com##.pt-10.d-flex
 gsmarena.com##.sidebar:style(padding: 0px;)
 
+! - mapgenie.io / 연운 게임 지도 정보
+mapgenie.io###onetrust-consent-sdk
+mapgenie.io##[class$="upgrade"]
+mapgenie.io##a[href$="/upgrade"]
+mapgenie.io##.text-center:has-text(upgrade)
+mapgenie.io##.free-user-locations-info
+mapgenie.io###blobby-left
+
+
 ! - WebToon / 웹툰 // 2025-11
 ! webtoon logo
 ||booktoki*.com/img/logo*
@@ -2713,6 +2722,9 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+game8.co##[class^="mv-ad"]
+gamemeca.com###sliderBox
+gamemeca.com##.event-right
 extrememanual.net##.adsbygoogle
 computerbase.de##[class^="adbox"]
 themoviedb.org###onetrust-consent-sdk
@@ -2813,8 +2825,6 @@ en.wikipedia.org###siteNotice
 evoload.fun##.header-main
 eyagi.co.kr###event_topbn_wrap
 fugitives.com##.code-block
-gamemeca.com###sliderBox
-gamemeca.com##.event-right
 gamingdial.com###col-right-yt
 genie.co.kr##.wrap_layerpopup
 giznext.com##.desktopaddBox
