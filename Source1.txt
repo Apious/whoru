@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251221.1
+! Version: 251223.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -50,6 +50,8 @@ support.microsoft.com##.TopPageBanner
 ! - bilibili
 bilibili.com##[class="feed-card"]:has([class="bili-video-card is-rcmd"])
 bilibili.com##[class="bili-video-card is-rcmd"]:has([class="bili-video-card__skeleton hide"])
+bilibili.com###slide_ad
+bilibili.com##.ad-report
 
 ! - dlfox
 ||dlfox.com/wp-content/uploads/*/*728x90.gif$image
@@ -1909,8 +1911,10 @@ pedia.watcha.com##[alt*="배너"]
 pedia.watcha.com##.adFixed
 pedia.watcha.com###root div:nth-of-type(8)
 pedia.watcha.com##[class^="_adSection"]
-pedia.watcha.com##div > a[class*="_link_"]
 watcha.com##.disableBodyScrolling:style(overflow:  auto!important;)
+pedia.watcha.com##[class^="_backscreen"]:style(background-color: transparent !important)
+pedia.watcha.com##[class^="_adCell"] > [class^="_linkSection"]
+pedia.watcha.com##[class^="_section"] > section:has(header[class^="_header"] > span[class]:has-text(AD))
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image
