@@ -1,9 +1,15 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251223.1
+! Version: 251225.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
+
+! - card-gorilla.com
+card-gorilla.com##.ad_bottom
+card-gorilla.com##.ad
+card-gorilla.com##.con_hd_ad
+card-gorilla.com##.m-hide.board.inner.con_wrap > .board_part
 
 ! - Ai모음, Ai관련 팝업 제거
 ! perplexity.ai, 퍼플렉시티
@@ -2726,6 +2732,7 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+gcamloader.com##.vpnverseadimg
 game8.co##[class^="mv-ad"]
 gamemeca.com###sliderBox
 gamemeca.com##.event-right
