@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251225.2
+! Version: 260104.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -948,13 +948,16 @@ kjtimes.com##.top_banner
 ! bigkinds
 bigkinds.or.kr##.popup-container
 bigkinds.or.kr##div.col-lg-6:nth-of-type(2)
+! news1
+news1.kr##.ads-article-warp
+news1.kr##[class^="amp-ad"]
+news1.kr##.w100-center
 ! news-etc
 @@||07c225f3.online^$domain=etoday.co.kr
 ||www.businesspost.co.kr/*/banner/*/$image
 ||*.newscj.com^
 ||*.newsmobile.co.kr^
 newsen.com##[src^="//photo.newsen.com/images/2024/ASEA"]
-news1.kr##.ads-article-warp
 @@/openads/*
 openads.co.kr##.adBanner
 mksports.co.kr##[id^="slot"]
@@ -1060,6 +1063,7 @@ coupang.com##[id^="midCarousel"]
 coupang.com##[id^="sdp-ad-"]
 coupang.com##[id^="srp"]
 coupang.com##.twc-relative.max-smpad\:twc-block.smpad\:twc-justify-between.smpad\:twc-flex > .max-csm\:twc-visible.csm\:twc-hidden
+coupang.com##.product-sticky-banner-container
 ! danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 www.danawa.com##.auto_product_list
@@ -1484,6 +1488,10 @@ carmmunity.oilnow.co.kr##[src*="/channel_banners_images/"]
 startpage.com##tp-yt-paper-dialog[id="dialog"]
 startpage.com##tp-yt-iron-overlay-backdrop
 
+! - Gemini Ai / Google
+gemini.google.com##zs-advanced-upsell
+gemini.google.com##.human-review-disclosure-container
+
 ! - Naver, 네이버
 ! 추적 필터 차단 등에 의한 page 표시 에러로 예외 적용
 !@@||s.pstatic.net^
@@ -1741,6 +1749,12 @@ premium.naver.com##.bottom_layer
 tv.naver.com##[class^="index_banner_list"]
 m.entertain.naver.com##[class^="AsideBanner"]
 
+! - teamblind / 블라인드
+teamblind.com##[class^="article-list-pre"]:has( > div > p:has-text(광고))
+teamblind.com##[class*="-ad"]
+teamblind.com##.top_banner
+teamblind.com##.coupang_gnb
+
 ! - 포럼, 커뮤
 ! ppomppu
 ||cdn.ppomppu.co.kr/*/banner$image
@@ -1921,6 +1935,7 @@ watcha.com##.disableBodyScrolling:style(overflow:  auto!important;)
 pedia.watcha.com##[class^="_backscreen"]:style(background-color: transparent !important)
 pedia.watcha.com##[class^="_adCell"] > [class^="_linkSection"]
 pedia.watcha.com##[class^="_section"] > section:has(header[class^="_header"] > span[class]:has-text(AD))
+watcha.com##[class^="_section_1"]:has(>section>header>span[class^="_adBadge"])
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image
@@ -2846,6 +2861,7 @@ instoworld.*###text-2
 itnmobile.net##center
 karanpc.com##.litespeed-loaded.entered.aligncenter
 karanpc.com##[class^="ads-"]
+karanpc.com##.zestmodal
 kfdn.co.kr###ad_link_read
 kfdn.co.kr##[href^="/ad_link.php"]
 kolompc.com##.alert.cookies-alert
