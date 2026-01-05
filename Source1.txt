@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260104.1
+! Version: 260105.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -148,15 +148,13 @@ www.linkedin.com##.ad-banner-container
 www.linkedin.com##[class*="premium-upsell"]
 
 ! - jobplanet, 잡플래닛
+jobplanet.co.kr##[class$="__ads"]
+jobplanet.co.kr##[class*="_banner_"]
 jobplanet.co.kr##.archive_section
-jobplanet.co.kr##.img_banner_box
 jobplanet.co.kr##.jp_adds_wrap
-jobplanet.co.kr##.jply_banner_ty1
-jobplanet.co.kr##.job_top_banner
-jobplanet.co.kr##.goodjob_banner_box
 jobplanet.co.kr###PopularJobs
-jobplanet.co.kr##.welfare-content__ads
 jobplanet.co.kr##.induce-write-image
+jobplanet.co.kr###NewsContentsBox
 
 ! - JobKorea, albamon
 @@||coimg.jobkorea.co.kr^
@@ -206,7 +204,6 @@ jobkorea.co.kr##[class="entrance_bnr"]
 jobkorea.co.kr##[id="lottie-model"]
 jobkorea.co.kr##article[id="event"]
 jobkorea.co.kr##[class*="tvc-banner"]
-m.jobkorea.co.kr##+js(nowoif)
 ! albamon
 albamon.com##.app > div > main > div > div > div > div[class^="Login_tvcf"]
 albamon.com###gnb-top-banner
@@ -952,6 +949,15 @@ bigkinds.or.kr##div.col-lg-6:nth-of-type(2)
 news1.kr##.ads-article-warp
 news1.kr##[class^="amp-ad"]
 news1.kr##.w100-center
+! heraldcorp / 헤럴드
+||pryzmads.com^
+||ad.doorigo.co.kr^
+heraldcorp.com##.event_bnn
+heraldcorp.com##[id^="svcad"]
+heraldcorp.com###articleText > div:has(>iframe[src*="delivery/ad"])
+heraldcorp.com##[class^="horizon-ad"]
+heraldcorp.com##[class^="hbanner"]
+heraldcorp.com##[id^="da"]
 ! news-etc
 @@||07c225f3.online^$domain=etoday.co.kr
 ||www.businesspost.co.kr/*/banner/*/$image
@@ -2747,6 +2753,7 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+vineedu.co.kr##+js(interval, , ,100)
 gcamloader.com##.vpnverseadimg
 game8.co##[class^="mv-ad"]
 gamemeca.com###sliderBox
@@ -2785,7 +2792,6 @@ www.happypointcard.com##.simple-login-banner
 forx.mazen-ve3.com###adblock-modal
 fayerwayer.com##[id^="arcad-feature-"]
 bikeforums.net##[class^=ad-placeholder]
-biz.heraldcorp.com##.hbanner_section
 4pda.to##[src^="https://i.4pda.ws/s/"]
 sohu.com##[data-spm-content^="3||"]
 mdilbo.com##.tv_wrap
