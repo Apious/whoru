@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 251126.1
+! Version: 260117.1
 ! Description: DNS
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
@@ -50,7 +50,6 @@
 ||shortformstats.kakao.com^
 ||vsak1.play.kakao.com^
 ! ||vscf.play.kakao.com^
-||iopen.kakaocdn.net^
 ||talk.kakaocdn.net^
 
 ! - AfreecaTV
