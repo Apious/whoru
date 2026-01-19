@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260105.1
+! Version: 260119.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -975,6 +975,7 @@ gamemeca.com##.content-top-add
 byline.network##.wp-block-image
 businesstimes.com.sg##.font-poppins.text-center
 newdaily.co.kr##[class^="banner"]
+aitimes.kr##.adsbygoogle
 
 ! - op.gg
 ||talk.op.gg/images/banner$image
@@ -1497,6 +1498,7 @@ startpage.com##tp-yt-iron-overlay-backdrop
 ! - Gemini Ai / Google
 gemini.google.com##zs-advanced-upsell
 gemini.google.com##.human-review-disclosure-container
+gemini.google.com##.capabilities-disclaimer
 
 ! - Naver, 네이버
 ! 추적 필터 차단 등에 의한 page 표시 에러로 예외 적용
@@ -1531,6 +1533,7 @@ search.naver.com##.banner_inner
 search.naver.com##[id="power_link_together_broad_section"]
 search.naver.com#@#div[class^="ad_"]
 naver.com###header .header_inner:style(height: 100px !important;)
+search.naver.com##.banner_area
 ! m.naver
 naver.com###ad_timeboard
 naver.com###MM_SEARCH_NOW
@@ -1942,6 +1945,7 @@ pedia.watcha.com##[class^="_backscreen"]:style(background-color: transparent !im
 pedia.watcha.com##[class^="_adCell"] > [class^="_linkSection"]
 pedia.watcha.com##[class^="_section"] > section:has(header[class^="_header"] > span[class]:has-text(AD))
 watcha.com##[class^="_section_1"]:has(>section>header>span[class^="_adBadge"])
+pedia.watcha.com##[class^="_commentsOverlayContainer"]
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image
@@ -1957,7 +1961,7 @@ onstove.com/ko/promotion/*
 ||cloudfront.net^$app=com.merakiplace.mydoctor
 ||giftishow.com^$app=com.merakiplace.mydoctor
 
-! - apk store
+! - apks store
 ! aptoide
 aptoide.com##[class^="promote-game-banner"]
 aptoide.com##[class^="promotional_"]
@@ -2067,6 +2071,8 @@ liteapks.com##.warning-box
 www.luckymodapk.com###appx
 unlockapk.com##.adsbyvli
 apk4all.com##iframe.eww
+leeapk.com##.ads-banner
+gocmod.com###gm-float-widget
 
 ! - infidrive
 @@||pagead2.googlesyndication.com^$domain=infidrive.net,third-party
