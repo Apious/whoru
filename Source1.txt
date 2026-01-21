@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260121.2
+! Version: 260121.3
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2182,7 +2182,7 @@ spaces.im##[data-src*="?&valid2=125V180V84V250I0V0V0V0&sign="]
 spaces.im##[id="siteContent"] > div[class^="f"]
 
 ! - bworld,SKB,lguplus,eyes,tplusmobile,freet,ajd
-||osms.bworld.co.kr/agreement/marketing*/*$1p
+||osms.bworld.co.kr/agreement/marketing*/*$document
 bworld.co.kr###campaignFloatingPopupTypeA
 bworld.co.kr###mainPop
 bworld.co.kr###opsbot
