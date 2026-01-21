@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260121.1
+! Version: 260121.2
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2195,6 +2195,10 @@ bworld.co.kr##[class^="swiper main_top_banner"]
 bworld.co.kr##[id*="_marketing"]
 bworld.co.kr##.lnb_banner
 bworld.co.kr##.schSwipe_Plan
+bworld.co.kr##.active.main_topband
+bworld.co.kr###mainApp
+aibot.bworld.co.kr###chat-banner
+aibot.bworld.co.kr##[src^="https://aibot.bworld.co.kr/msgbe"]
 ! SKB
 ||emailwebcloudprd.sktelecom.com/*/bill/*/skb/*.png^
 @@||emailwebcloudprd.sktelecom.com/*/bill/*/img/*_print.gif
