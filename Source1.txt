@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260121.3
+! Version: 260124.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -976,6 +976,8 @@ byline.network##.wp-block-image
 businesstimes.com.sg##.font-poppins.text-center
 newdaily.co.kr##[class^="banner"]
 aitimes.kr##.adsbygoogle
+foeconomy.co.kr##[class^="ads_"]
+foeconomy.co.kr##.banner_con
 
 ! - op.gg
 ||talk.op.gg/images/banner$image
@@ -1012,6 +1014,17 @@ modoodoc.com##[class^="styles_header"]
 modoodoc.com##[class^="styles_index"]
 modoodoc.com##[class^="styles_bannerWrapper"]
 
+! - 닥터나우, doctornow, com.baedalyakgook
+doctornow.co.kr##[role="button"] > div
+||file.doctorhow.co.kr^
+||file.dev.doctorhow.co.kr^
+||link.doctorhow.co.kr^
+||vv14cloud.com^
+||api.notifly.tech^
+||calls.sendbird.com^
+||ibytedtos.com^
+||facebook.net^$important,app=com.baedalyakgook_user
+
 ! - 쇼핑몰 / Tmon, Coupang, CooCha, Aliexpress, WemakePrice, Gmarket, Auction, SSG, interpark, LotteON, 11st, tdeal(T딜), shein
 cjone.com##.login_slideBanner
 ! aliexpress
@@ -1024,7 +1037,7 @@ aliexpress.com##.image-poplayer-modal
 aliexpress.com##.pop-picture
 aliexpress.com##.ranking-main
 aliexpress.com##.top-banner-container
-! - 하이마트
+! 하이마트
 e-himart.co.kr##.ad-banner
 e-himart.co.kr###container > .hm-content-wrap > .hm-popup
 e-himart.co.kr###container >  .hm-content-wrap >  .main-modules-inner >  .hm-card__wrap:last-child >  .masonry-wall >  .masonry-column:last-child >  .masonry-item:first-child > section.hm-content-area.item >  .hm-main__product-ad-wrap
@@ -1071,6 +1084,8 @@ coupang.com##[id^="sdp-ad-"]
 coupang.com##[id^="srp"]
 coupang.com##.twc-relative.max-smpad\:twc-block.smpad\:twc-justify-between.smpad\:twc-flex > .max-csm\:twc-visible.csm\:twc-hidden
 coupang.com##.product-sticky-banner-container
+||ljc.coupang.com^
+||link.coupang.com^
 ! danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 www.danawa.com##.auto_product_list
@@ -1374,6 +1389,7 @@ m.map.kakao.com##.dimmed_layer
 m.map.kakao.com##.comm_layer
 place.map.kakao.com##.leverage_layer.comm_layer
 place.map.kakao.com##.section_bizboard
+||k3f-poi.kakao.com^
 ! Daum Search Ads
 daum.net##.ad_sch
 daum.net##.advert_bnr
@@ -1759,10 +1775,13 @@ tv.naver.com##[class^="index_banner_list"]
 m.entertain.naver.com##[class^="AsideBanner"]
 
 ! - teamblind / 블라인드
+! web
 teamblind.com##[class^="article-list-pre"]:has( > div > p:has-text(광고))
 teamblind.com##[class*="-ad"]
 teamblind.com##.top_banner
 teamblind.com##.coupang_gnb
+! app / com.teamblind.blind
+||cloudfront.net^$app=com.teamblind.blind
 
 ! - 포럼, 커뮤
 ! ppomppu
@@ -2827,7 +2846,6 @@ mypetlife.co.kr##[id^="bemypetDisplayAd"]
 www.cvsnet.co.kr##[src^="/common_m/images/banner"]
 dxomark.com###orejime
 coolenjoy.net##[class="carousel-inner"]
-doctornow.co.kr##[role="button"] > div
 majorgeeks.com###fanback
 music.bugs.co.kr##.layerPromotionBanner
 compunik.net##.adsbygoogle
@@ -2911,8 +2929,7 @@ youngja.org##div.row:nth-of-type(4)
 
 ! - 기타 예외
 @@/img.gif?
-@@||openweathermap.org^
-@@||pro.openweathermap.org^
+@@||openweathermap.org^$important
 ! pinterest open error
 pinterest.*#@#+js(json-prune, initialReduxState.pins.{-}.pin_promotion_id initialReduxState.resources.UserHomefeedResource.*.data.[-].pin_promotion_id)
 @@||inklinkor.com^$xhr,domain=oii.la
