@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260125.2
+! Version: 260126.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1945,7 +1945,6 @@ febbox.com##div.receive_file_popup
 
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
-watcha.com##main > section
 watcha.com##li > [href^="https://watcha.com/webview/notices/"]
 watcha.com##li > [href^="https://watcha.com/notices/"]
 watcha.com##div[class*="navManager"] > div
