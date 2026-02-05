@@ -20,6 +20,7 @@ perplexity.ai##.bg-subtler.divide-subtlest.ring-subtlest.border-subtlest.ring-1.
 perplexity.ai##.bg-super.divide-subtlest.ring-subtlest.border-subtlest.justify-center.hover\:opacity-80.duration-200.transition.items-center.cursor-pointer.w-full.flex.rounded-sm.h-bannerHeight
 perplexity.ai##.\[\@media\(max-height\:680px\)\]\:hidden.items-center.flex-col.appearance-none.inline-flex.group.gap-xs
 perplexity.ai##.\[\@media\(max-height\:680px\)\]\:hidden.items-center.flex-col.flex.gap-xs
+perplexity.ai##.rounded-xl.items-center.max-w-full.flex
 ! wrtn, 뤼튼
 wrtn.ai##.slick-slider
 ! maxai, 맥스
@@ -2085,6 +2086,10 @@ rtxkeeda.com##.NewBlock1 > [src]
 download.ir##.actw
 download.ir##.sidebar-teb.widget > .block-content
 download.ir##[id$="download_ir_related-top-post"]
+! gocmod
+gocmod.com###gm-float-widget
+gocmod.com###gm-big-popup
+gocmod.com##[class*="banner"]
 ! etc
 modfyp.com##.adsBox
 @@||html-load.com/loader.min.js
@@ -2096,7 +2101,6 @@ www.luckymodapk.com###appx
 unlockapk.com##.adsbyvli
 apk4all.com##iframe.eww
 leeapk.com##.ads-banner
-gocmod.com###gm-float-widget
 
 ! - infidrive
 @@||pagead2.googlesyndication.com^$domain=infidrive.net,third-party
