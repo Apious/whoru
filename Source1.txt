@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260203.1
+! Version: 260205.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -125,6 +125,27 @@ api/popup/$document,1p
 referrer=toss_game_referrer_mission$document
 utm_source=toss$document
 utm_source=toss_all$document
+! toss ads - 060205
+||api-logncrash.cloud.toast.com^
+||assets-fe.toss.im^
+||find.api.micloud.xiaomi.net^
+||hermes.toss.im^
+||hermes.tossbank.com^
+||ibytedtos.com^
+||lc.toss.im^
+||o89496.ingest.us.sentry.io^
+||pbid.adview.com^
+||polyfill-fe.toss.im^
+||sg.global.market.xiaomi.com^
+||storage-fe.toss.im^
+||storage-fe.toss.im^
+||trillion.toss.im^
+||tuba-static.toss.im^
+||tuba-static.tossinvest.com^
+||tuba-static.tossinvest.com^
+
+! - payco, 페이코
+||events.payco.com^
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1397,6 +1418,7 @@ m.map.kakao.com##.dimmed_layer
 m.map.kakao.com##.comm_layer
 place.map.kakao.com##.leverage_layer.comm_layer
 place.map.kakao.com##.section_bizboard
+||cocoa.kakao.com^$app=net.daum.android.map
 ! Daum Search Ads
 daum.net##.ad_sch
 daum.net##.advert_bnr
@@ -1664,14 +1686,7 @@ map.naver.com##.ng-trigger-fadeInWrap.notice_wrap
 map.naver.com##.ng-trigger-promotionToggleEffect
 map.naver.com##around-contents-card
 map.naver.com##.promotion_wrap
-! pay.naver, 페이
-!pay.naver.com###BOTTOM_MODAL_NOTICE
-!pay.naver.com##._orderDonePopup_commonBanner
-!pay.naver.com##[class^="AssetList"]
-!pay.naver.com##[class^="NaverPlusMembership"]
-!pay.naver.com##[class^="PanelWrapper"]
-!pay.naver.com##[class^="flicking-area_article"]
-!pay.naver.com##[class^="ADRewardList"]
+! pay.naver, 페이, com.nhnent.payapp
 ||new-m.pay.naver.com/api/timeline/v2/aitems
 new-m.pay.naver.com##[class^="FlickingBanner_article"]
 new-m.pay.naver.com##[class^="Tools_item"]:nth-of-type(1)
@@ -1695,6 +1710,8 @@ pay.naver.com##[data-au="total.click_total"]
 pay.naver.com##div.s_sc
 pay.naver.com##div.s_sc:nth-of-type(5)
 pay.naver.com##[class*="pay-app-banner_article"]
+||cloud.toast.com^$app=com.nhnent.payapp
+||su5.ahnlab.com^$app=com.nhnent.payapp
 ! stock.naver.com
 naver.com##[class^="BigBannerWrapper_article"]
 naver.com##[class^="NpayDownloadButton-module_article"]
