@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260205.2
+! Version: 260205.3
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2103,14 +2103,17 @@ rtxkeeda.com##.NewBlock1 > [src]
 download.ir##.actw
 download.ir##.sidebar-teb.widget > .block-content
 download.ir##[id$="download_ir_related-top-post"]
-! gocmod
-gocmod.com###gm-float-widget
-gocmod.com###gm-big-popup
-gocmod.com##[class*="banner"]
 ! 4pda
 4pda.to##[src^="https://i.4pda.ws/s/"]
 4pda.to##body > div > [class] > [class] > div:has([style])
 4pda.to##[class*="RcN2"]:has(a[href^="https://4pda.to"])
+! leeapk
+leeapk.com##.ads-banner
+leeapk.com##+js(nowoif)
+! gocmod
+gocmod.com###gm-float-widget
+gocmod.com###gm-big-popup
+gocmod.com##[class*="banner"]
 ! etc
 modfyp.com##.adsBox
 @@||html-load.com/loader.min.js
@@ -2121,7 +2124,6 @@ liteapks.com##.warning-box
 www.luckymodapk.com###appx
 unlockapk.com##.adsbyvli
 apk4all.com##iframe.eww
-leeapk.com##.ads-banner
 
 ! - infidrive
 @@||pagead2.googlesyndication.com^$domain=infidrive.net,third-party
