@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260205.3
+! Version: 260206.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -183,6 +183,9 @@ jobplanet.co.kr##.induce-write-image
 jobplanet.co.kr###NewsContentsBox
 
 ! - JobKorea, albamon
+! banner 일괄 차단시 홈페이지 열리지 않음
+@@||jobkorea.co.kr/banner/
+jobkorea.co.kr#@#[class*="-banner"]
 @@||coimg.jobkorea.co.kr^
 @@||ds.jobkorea.kr^
 @@||fileco.jobkorea.co.kr^
@@ -222,7 +225,6 @@ jobkorea.co.kr##.show.snackbar-connect-app
 jobkorea.co.kr##.td-message
 jobkorea.co.kr##.topHead_onepick_txt
 jobkorea.co.kr##.view2wayVvip > ul > li.agencyTypList
-jobkorea.co.kr##[class*="-banner"]
 jobkorea.co.kr##[class*="advertisement"]
 jobkorea.co.kr##[class^="middle_banner"]
 jobkorea.co.kr##[class="adBan"]
