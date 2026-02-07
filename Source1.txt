@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260206.4
+! Version: 260208.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -276,6 +276,7 @@ m.diningcode.com##.ad-item
 m.diningcode.com##.google-ad
 m.diningcode.com##.naver.section
 m.diningcode.com##.PoiAdsSpacerList
+diningcode.com###subright-cont > div:has(.adsbygoogle)
 
 ! - inven
 inven.co.kr#@#.banner
@@ -1653,6 +1654,7 @@ blog.naver.com##.btm_banner
 blog.naver.com##[id="floating_inf"]
 m.blog.naver.com###BANNER_ONE
 m.blog.naver.com##[class^="banner_wrap"]
+section.blog.naver.com##.area_promotion
 ! cafe.naver, 까페, m.cafe.naver
 @@||ipada.cafe.naver.com^
 @@||cafeptthumb-phinf.pstatic.net^$image,domain=cafe.naver.com
@@ -1691,6 +1693,7 @@ map.naver.com##.ng-trigger-fadeInWrap.notice_wrap
 map.naver.com##.ng-trigger-promotionToggleEffect
 map.naver.com##around-contents-card
 map.naver.com##.promotion_wrap
+map.naver.com##[class^="StyledMapsBlogNotice"]
 ! pay.naver, 페이, com.nhnent.payapp
 ||new-m.pay.naver.com/api/timeline/v2/aitems
 new-m.pay.naver.com##[class^="FlickingBanner_article"]
@@ -1764,6 +1767,7 @@ chzzk.naver.com##[class^="live_chatting_input_discount"]
 chzzk.naver.com##[class^="loungehome_event_popup_main"]
 chzzk.naver.com##[class^="top_banner"]
 chzzk.naver.com##[class^="popup_dimmed"]
+chzzk.naver.com##[class^="skin_container__"]
 ! talks.naver.com
 talk.naver.com##._marketingMessage
 talk.naver.com##li.menu_item:nth-of-type(2)
@@ -1802,6 +1806,7 @@ media.naver.com##.channel_add_wrap
 premium.naver.com##.bottom_layer
 tv.naver.com##[class^="index_banner_list"]
 m.entertain.naver.com##[class^="AsideBanner"]
+land.naver.com###_CastContainer
 
 ! - teamblind / 블라인드
 ! web
@@ -2393,6 +2398,8 @@ mzgtoon.com##.pb-0.w-full
 @@||tkr*.com/*/btn_submit_comment.gif$image
 @@||toonkor*.com/*/btn_submit_comment.gif$image
 ||tkor*.com/*/*375x100*.jpg$image
+||tkor*.com/*/quick*.jpg$image
+||tkor*.com/bann$image
 ||toonkor*.*/*/*.gif$image
 ||toonkor*.*/bann/*.jpg$image
 ||toonkor*.*/images/*.jpg$image
