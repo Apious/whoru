@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260208.1
+! Version: 260214.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -492,6 +492,7 @@ it.chosun.com##.news_letter
 sports.chosun.com##.hoseBn
 biz.chosun.com##.science-banner-area
 chosun.com##.slick-initialized
+chosun.com##[id^="ad_"]
 ! donga
 donga.com###above_cmcl_box
 donga.com###banner_slider
@@ -1808,6 +1809,12 @@ tv.naver.com##[class^="index_banner_list"]
 m.entertain.naver.com##[class^="AsideBanner"]
 land.naver.com###_CastContainer
 
+! - pandarank
+pandarank.net##[class$="justify-center"]
+pandarank.net##[data-ad-slot]
+pandarank.net##main.hidden.pc\:block:style(display: block !important;)
+pandarank.net##[class*="backdrop"]:has([data-gtm*="banner"])
+
 ! - teamblind / 블라인드
 ! web
 teamblind.com##[class^="article-list-pre"]:has( > div > p:has-text(광고))
@@ -1862,6 +1869,12 @@ xiaomitoday.it##[id^="xiaom-"]
 xiaomitoday.it##.egg-container
 xiaomi-miui.gr##[id^="ai_widget"]
 xiaomi-miui.gr##[class^="google_responsive"]
+! gsmarena
+gsmarena.com##.pt-10.d-flex
+gsmarena.com##.sidebar:style(padding: 0px;)
+! etc
+mixvale.com.br##div:has([class="adsbygoogle"])
+guiahardware.es##.code-block
 
 ! SNS, App:instagram Ext. Connect.
 ! instagram
@@ -2352,10 +2365,6 @@ bloomberg.com##style[type="text/css"]:style(display:block !important)
 bloomberg.com##head:style(display:block !important)
 bloomberg.com##body[style="overflow-y: auto;"]:style(display:block !important)
 bloomberg.com##[style="display: none;"]
-
-! - gsmarena
-gsmarena.com##.pt-10.d-flex
-gsmarena.com##.sidebar:style(padding: 0px;)
 
 ! - mapgenie.io / 연운 게임 지도 정보
 mapgenie.io###onetrust-consent-sdk
