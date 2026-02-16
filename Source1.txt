@@ -1,10 +1,9 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260214.1
+! Version: 260216.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
-
 
 ! - g2b.go.kr, 나라장터, 메인 팝업만 차단
 g2b.go.kr##[id*="_poup"]
@@ -302,6 +301,13 @@ inven.co.kr##.mobileDaNs1
 
 ! - iq.com
 @@||fundingchoicesmessages.google.com^$script,domain=www.iq.com
+
+! - discord, 디스코드(웹)
+discord.com##[class^="notice"]:has([aria-label="닫기"])
+discord.com##aside[class^="upsellContainer"]
+discord.com##[class^="container"][style^="background-image"]
+discord.com##[data-list-item-id$="nitro"]
+discord.com##[data-list-item-id^="private-channels"][href="/shop"]
 
 ! - aagag
 aagag.com#@#ins.adsbygoogle
