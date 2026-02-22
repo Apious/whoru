@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260218.1
+! Version: 260223.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -37,9 +37,10 @@ lmarena.ai##.translate-y-full.w-full.absolute:has(> div > div > p:has-text(perso
 @@||api.github.com^$domain=github.com,important
 github.com$@$link[rel="manifest"]
 
-! - moviebox.ng
+! - moviebox, 123movienow
 moviebox.ng##.pc-box
 moviebox.ng##.pc-guide-mask
+123movienow.cc###downloadBanner
 
 ! - nicepay
 web.nicepay.co.kr###rollBn
@@ -1170,6 +1171,7 @@ dpg.danawa.com###danawa-community-rnb-ad-top
 dpg.danawa.com##[id^="dablewidget_"]
 dpg.danawa.com##[id^="danawa-community-rnb-ad-bottom"]
 dpg.danawa.com##.rnb_inner > [style^="min-height"]
+dpg.danawa.com##.auto_product_list:has([id^="auto_banner"])
 ! malltail
 post.malltail.com##.floating-banner
 post.malltail.com##.banner-slider
@@ -1378,6 +1380,7 @@ bunjang.co.kr##.slick-slide
 ! - Danawa(PC)
 @@||danawa.com/RealMedia/ads$domain=event.danawa.com
 search.danawa.com##[class^="aside_widget_wrap"]
+search.danawa.com##.section-ad
 danawa.com###danawa-gnb-banner
 danawa.com##.font_dotum.bbs_power_link
 danawa.com##.power_link.ad_reader4
@@ -1865,6 +1868,11 @@ dvdprime.com##[id^="ad_view"]
 dvdprime.com##.menu_left_banner
 dvdprime.com##.get_ad_img
 dvdprime.com##.flexslider
+! newduck
+newduck.net##.custom-banner
+newduck.net##.adsbygoogle
+newduck.net##.pc_top_ad
+newduck.net##[class^="code-list"]
 ! XDA
 xda-developers.com##[class*="ad-zone"]
 xda-developers.com##[id*="ad-zone"]
@@ -1878,6 +1886,9 @@ xiaomi-miui.gr##[class^="google_responsive"]
 ! gsmarena
 gsmarena.com##.pt-10.d-flex
 gsmarena.com##.sidebar:style(padding: 0px;)
+! cuonet.com
+cuonet.com##div[style]:has([class="basic-post-slider"])
+cuonet.com##.hoverZoomLink
 ! etc
 mixvale.com.br##div:has([class="adsbygoogle"])
 guiahardware.es##.code-block
@@ -2069,6 +2080,7 @@ www.apkmirror.com##[class^="adsbygoogle"]
 www.apkmirror.com##[id^="google_ads"]
 www.apkmirror.com##[class="grippy-host"]
 www.apkmirror.com##[id^="adtester"]
+www.apkmirror.com##[id^="dsq-poll"]
 ! playmods
 playmods.net##.ad-height-2
 playmods.net##[href="http://playmods.net/online"]
