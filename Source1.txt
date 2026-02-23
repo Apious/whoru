@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260223.2
+! Version: 260223.3
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -128,7 +128,7 @@ api/popup/$document,1p
 referrer=toss_game_referrer_mission$document
 utm_source=toss$document
 utm_source=toss_all$document
-! toss ads - 060205
+! toss ads/DNS - 060205
 ||api-logncrash.cloud.toast.com^
 ||assets-fe.toss.im^
 ||find.api.micloud.xiaomi.net^
@@ -141,10 +141,8 @@ utm_source=toss_all$document
 ||polyfill-fe.toss.im^
 ||sg.global.market.xiaomi.com^
 ||storage-fe.toss.im^
-||storage-fe.toss.im^
 ||trillion.toss.im^
 ||tuba-static.toss.im^
-||tuba-static.tossinvest.com^
 ||tuba-static.tossinvest.com^
 
 ! - payco, 페이코
