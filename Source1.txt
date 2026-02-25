@@ -35,7 +35,6 @@ lmarena.ai##.translate-y-full.w-full.absolute:has(> div > div > p:has-text(perso
 ! chatgpt
 chatgpt.com##.bg-token-bg-tertiary:has(div > h1:has-text(쿠키))
 
-
 ! - Github
 @@||github.com^
 @@||api.github.com^$domain=github.com,important
