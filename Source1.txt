@@ -2539,7 +2539,7 @@ asuracomic.net##.justify-center.w-full
 asurascans.us###sticky-ads
 webtoonguide.com##.realtime-rank-section
 
-! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브, 주소링크 등
+! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브
 @@/^https?:\/\/[0-9a-z]{5,}\.(digital|website|life|guru|uno|cfd)\/[a-z0-9]{6,}\//$script,third-party,xmlhttprequest
 ! cokcoktv
 ||cokcok.stream^$xhr
@@ -2667,6 +2667,8 @@ com##[href*="com/%ec%8a%a4%ed%8f%ac%ec%b8%a0-%ec%98%81%ec%83%81/"]
 ! ygy01.com
 ||www.ygy*.com/upload_files/popup$image
 ygy01.com##.close
+! koreasite
+com##.banner_list
 
 !! 토렌트
 ! torrentqq
