@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260227.1
+! Version: 260227.2
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2669,8 +2669,12 @@ com##[href*="com/%ec%8a%a4%ed%8f%ac%ec%b8%a0-%ec%98%81%ec%83%81/"]
 ygy01.com##.close
 ! koreasite
 com##.banner_list
+com##.mainflex > div:has(> div > li:has-text(오피))
+com##.mainflex > div:has(> div > li:has-text(성인))
+com##.mainflex > div:has(> div > li:has-text(검증))
+com##.mainflex > div:has(> div > li:has-text(정화))
 
-!! 토렌트
+! - 토렌트
 ! torrentqq
 com##.row-banner
 com##.at-banner
@@ -2716,7 +2720,7 @@ site##[href^="https://filecast.co.kr/"]
 ||viewtorrent*.com/data/*/*.gif$image
 ||static.tzstatic.top/z/up*$image
 
-! - Cookie Footer / 사이트 들어가자 마자 쿠키 동의 안내
+! - Cookie, 쿠키 / 사이트 쿠키 동의 안내
 bitly.com###banner-cookie
 openweathermap.org###stick-footer-panel
 superuser.com###onetrust-consent-sdk
