@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260227.3
+! Version: 260301.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -21,11 +21,12 @@ perplexity.ai##.pb-md.pl-md
 perplexity.ai##.fill-mode-both.md\:items-center.items-stretch
 perplexity.ai##.right-md.bottom-md
 perplexity.ai##.bg-subtler.divide-subtlest.ring-subtlest.border-subtlest.ring-1.shadow-xl.rounded-xl.md\:flex-row.rounded-md.items-center.flex-col.w-full.flex
-perplexity.ai##.bg-super.divide-subtlest.ring-subtlest.border-subtlest.justify-center.hover\:opacity-80.duration-200.transition.items-center.cursor-pointer.w-full.flex.rounded-sm.h-bannerHeight
+perplexity.ai##.bg-super.divide-subtlest.ring-subtlest.border-subtlest.justify-center.transition.items-center.cursor-pointer.w-full.flex.rounded-sm.h-bannerHeight
 perplexity.ai##.\[\@media\(max-height\:680px\)\]\:hidden.items-center.flex-col.appearance-none.inline-flex.group.gap-xs
 perplexity.ai##.\[\@media\(max-height\:680px\)\]\:hidden.items-center.flex-col.flex.gap-xs
 perplexity.ai##.rounded-xl.items-center.max-w-full.flex
 perplexity.ai##.justify-center.flex.pb-md:has(> button > button > span:has-text(업그))
+perplexity.ai##.animate-fadeIn.justify-center.items-center.absolute.w-full:has(>button:has-text(업그레이드))
 ! wrtn, 뤼튼
 wrtn.ai##.slick-slider
 ! maxai, 맥스
@@ -426,6 +427,12 @@ bing.com##.ttc_visible
 bing.com###b_bnp_bopc
 bing.com##[class="id_button linkBtn"]
 bing.com##.b_algo:has(> .b_caption > p[class*="lineclamp3"])
+bing.com##[role="main"] > div > form > div > div > div > div:has(> div:has-text(트렌드))
+bing.com##[style="display: inline-block;"]
+bing.com##main > div > ol:has(> [class$="adTop"])
+bing.com##main > div > ol > li:has(> div > h2 > a[h][style])
+bing.com##li[class$="_ad"]
+bing.com##[id*="ads"]
 msn.com##[id^="native_ad"]
 msn.com##[id^="entry-point-hp-wc-banner"]
 msn.com##[class^="preview-card"]
@@ -892,12 +899,13 @@ newsis.com##.banner300
 mobile.newsis.com##.bxcn
 mobile.newsis.com##.listStyle04
 mobile.newsis.com##.fixBanner
-www.newsis.com##[id^="banner"]
-www.newsis.com##.fix > div.smallbox
-www.newsis.com##[src^="https://www.adflow.kr/ad/"]
-www.newsis.com##[href^="https://v.daum.net/channel"]
-www.newsis.com##div[style]:has(>[src*="ad"])
-www.newsis.com##div[style]:has(>*>[src*="ad"])
+newsis.com##[id^="banner"]
+newsis.com##.fix > div.smallbox
+newsis.com##[src^="https://www.adflow.kr/ad/"]
+newsis.com##[href^="https://v.daum.net/channel"]
+newsis.com##div[style]:has(>[src*="ad"])
+newsis.com##div[style]:has(>*>[src*="ad"])
+newsis.com###shuffle:has(> ul > li > [src*="/ad/"])
 ! dt / 디지털타임즈
 dt.co.kr##.main_wrap > center
 dt.co.kr##div.bk20
@@ -2872,6 +2880,7 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+howtogeek.com##.adblock::backdrop:style(backdrop-filter: unset; background: unset;)
 wwmmap.kr##.ad-container
 myonecare.co.kr###div_advert
 vineedu.co.kr##+js(interval, , ,100)
