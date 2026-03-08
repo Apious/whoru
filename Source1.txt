@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260308.3
+! Version: 260308.4
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2567,7 +2567,9 @@ webtoonguide.com##.realtime-rank-section
 ! theboda
 ||img.smartnote.blog/*.gif$image
 ||theboda*.com/img/video_bg*.gif$image
-! - 누누티비, nooo9.tv
+! 위키
+tvwiki.app###cpb-popup-banners
+! 누누티비, nooo9.tv
 tv##[id^="site-banner"]
 ! cokcoktv
 ||cokcok.stream^$xhr
