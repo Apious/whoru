@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260308.4
+! Version: 260310.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1415,6 +1415,7 @@ danawa.com##li.ad.shop_link_item
 @@||t1.kakaocdn.net/kakao_js_sdk/*$domain=fnnews.com
 @@||kamp.kakao.com/vod/*$domain=play-tv.kakao.com
 @@||vscf.play.kakao.com/s-daum_tistory/vod/*$domain=play-tv.kakao.com
+@@||img1.daumcdn.net/thumb/*$image,domain=daum.net
 ||*.ad.kakao.com^
 ||*.ad.kakaocorp.com^
 ||ad-content.*.kakao.com^
@@ -1869,6 +1870,8 @@ ruliweb.com##.ad
 ruliweb.com##.adrr
 ruliweb.com##.nbp_container
 ruliweb.com###nbp_container_v4
+ruliweb.com##.notice_wrapper.fixed_layer1
+m.ruliweb.com##.fixed_ad_wrapper
 ! meeco / 미코
 meeco.kr##.w_slide
 meeco.kr##.sidebar.sidebar2
@@ -2707,6 +2710,13 @@ com##.off.menu-li:has(> a:has-text(오피))
 com##.off.menu-li:has(> a:has-text(성인))
 com##.off.menu-li:has(> a:has-text(검증))
 com##.off.menu-li:has(> a:has-text(정화))
+! 주소월드, 김치주소, 주소야
+/theme/*/*.webp^$domain=jusoworld.cc|jusoya.com|kimchijuso.com
+*##.card:has-text(즐겨)
+*##.card:has-text(오피)
+*##.card:has-text(성인)
+*##.card:has-text(먹튀)
+*##.card:has-text(선물)
 
 ! - 토렌트
 ! torrentqq
