@@ -2616,13 +2616,14 @@ tv##[id^="site-banner"]
 ! cokcoktv
 ||cokcok.stream^$xhr
 ||media.cokcok.vip/assets/*/*.^
-cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com,cokcoktv4.com##[class="cpb-popup-banners"]
-cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com,cokcoktv4.com##[class^="custom_banner"]
-cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com,cokcoktv4.com##.tooltipster-box
+cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com##[class="cpb-popup-banners"]
+cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com##[class^="custom_banner"]
+cokcoktv30.com,cokcoktv29.com,cokcoktv28.com,cokcoktv27.com,cokcoktv26.com,cokcoktv25.com,cokcoktv24.com,cokcoktv23.com,cokcoktv22.com,cokcoktv21.com,cokcoktv20.com,cokcoktv19.com,cokcoktv18.com,cokcoktv17.com,cokcoktv16.com,cokcoktv15.com,cokcoktv14.com,cokcoktv13.com,cokcoktv12.com,cokcoktv11.com,cokcoktv10.com,cokcoktv9.com,cokcoktv8.com,cokcoktv7.com,cokcoktv6.com,cokcoktv5.com##.tooltipster-box
 ! tvchak
-tvchak173.com,tvchak172.com,tvchak171.com,tvchak170.com###advertiseMain
-tvchak173.com,tvchak172.com,tvchak171.com,tvchak170.com##[class^="hezuo_"]
-tvchak173.com,tvchak172.com,tvchak171.com,tvchak170.com##.banner-box
+com##.banner-box
+com##.popup_mdd
+com###advertiseMain
+com##.hezuo_div1
 ! chachatv
 ||chachatv*.pro/ad/index.html$subdocument
 ! tvzota
@@ -2673,6 +2674,8 @@ twtw.tv##wow-image
 viaproducciones.net##.appList
 ||imgdd.com$image
 rood.app##.e-child.e-con.e-flex.e-con-full.elementor-element
+tvmon.site##[class^="banner"]
+
 
 ! - 애니
 ! linkkf.app / linkkf.tv
