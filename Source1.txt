@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260310.1
+! Version: 260310.2
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2035,10 +2035,49 @@ katfile.com##.notranslate
 katfile.com#@#+js(addEventListener-defuser, click, , elements, a#dlink)
 up-4ever.net##div.mb-5.col-lg-6.col-12
 
-! - terabox.com
+! - terabox.com, nephobox.com, 1024terabox.com, freeterabox.com, teraboxapp.com, teraboxurl.com, videyyy.com, freevidey.com, videynow.com, myvidey.com, cleandoods.com, doodssteam.com, doodspro.com, doodslink.com
 terabox.com##.seo-banner-img
 terabox.com##.bottom-tip-wrap
 terabox.com##[class*="banner"]
+nephobox.com##.seo-banner-img
+nephobox.com##.bottom-tip-wrap
+nephobox.com##[class*="banner"]
+1024terabox.com##.seo-banner-img  
+1024terabox.com##.bottom-tip-wrap 
+1024terabox.com##[class*="banner"]
+freeterabox.com##.seo-banner-img  
+freeterabox.com##.bottom-tip-wrap 
+freeterabox.com##[class*="banner"]
+teraboxapp.com##.seo-banner-img  
+teraboxapp.com##.bottom-tip-wrap 
+teraboxapp.com##[class*="banner"]
+teraboxurl.com##.seo-banner-img  
+teraboxurl.com##.bottom-tip-wrap 
+teraboxurl.com##[class*="banner"]
+videyyy.com##.seo-banner-img  
+videyyy.com##.bottom-tip-wrap 
+videyyy.com##[class*="banner"]
+freevidey.com##.seo-banner-img  
+freevidey.com##.bottom-tip-wrap 
+freevidey.com##[class*="banner"]
+videynow.com##.seo-banner-img  
+videynow.com##.bottom-tip-wrap 
+videynow.com##[class*="banner"]
+myvidey.com##.seo-banner-img  
+myvidey.com##.bottom-tip-wrap 
+myvidey.com##[class*="banner"]
+cleandoods.com##.seo-banner-img  
+cleandoods.com##.bottom-tip-wrap 
+cleandoods.com##[class*="banner"]
+doodssteam.com##.seo-banner-img  
+doodssteam.com##.bottom-tip-wrap 
+doodssteam.com##[class*="banner"]
+doodspro.com##.seo-banner-img  
+doodspro.com##.bottom-tip-wrap 
+doodspro.com##[class*="banner"]
+doodslink.com##.seo-banner-img  
+doodslink.com##.bottom-tip-wrap 
+doodslink.com##[class*="banner"]
 
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
