@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260315.1
+! Version: 260317.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -94,6 +94,15 @@ imyfone.com##.ios-update
 ! - hogangnono
 hogangnono.com##div[class^="css-"]:has(> [id^="google-ad"])
 hogangnono.com##[id="container"] > div > div > div > div > div > div > div > div:has(> svg[fill])
+hogangnono.com##[class^="css-"]:has(> div > [data-ga-event="intro,sms"]:has-text(설치))
+hogangnono.com##.realPrice > div:has(> button:has-text(알림))
+
+! kbland.kr
+kbland.kr##.banner-top
+kbland.kr##.today-pick
+kbland.kr##.today-headline
+kbland.kr##[class^="banner"]
+kbland.kr##.bg-bg1.today-section:has(.list-area > .menu-benefit)
 
 ! - discountspot
 discountspot.co.kr##[class^="cta"]
@@ -1446,6 +1455,8 @@ danawa.com##li.ad.shop_link_item
 ||tr.*.daum.net/*
 ||webid.ad.daum.net^$important
 ||t1.kakaocdn.net^$app=net.daum.android.map
+||t1.kakaocdn.net/*ad^$important
+gift.kakao.com##app-banner
 daum.net##[data-cloud="banner"]
 open.kakao.com##.link_bnr
 page.kakao.com##img[alt^="pc 앱"]
@@ -1861,6 +1872,10 @@ teamblind.com##.coupang_gnb
 ||cloudfront.net^$app=com.teamblind.blind
 
 ! - 포럼, 커뮤
+! i-boss
+i-boss.co.kr##[class$="-bn"]
+i-boss.co.kr###topAd
+i-boss.co.kr##.topNoticeArea:has-text(광고)
 ! ppomppu
 ||cdn.ppomppu.co.kr/*/banner$image
 ppomppu.co.kr##.ad-banner
