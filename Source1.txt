@@ -148,8 +148,8 @@ referrer=toss_game_referrer_mission$document
 utm_source=toss$document
 utm_source=toss_all$document
 ! toss ads/DNS - 260326
+@||assets-fe.toss.im^
 ||api-logncrash.cloud.toast.com^
-||assets-fe.toss.im^
 ||find.api.micloud.xiaomi.net^
 ||hermes.toss.im^
 ||hermes.tossbank.com^
