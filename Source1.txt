@@ -2750,9 +2750,7 @@ jusogall.com##div.col:nth-of-type(9)
 jusogall.com##div.col:nth-of-type(7)
 jusogall.com##div.col:nth-of-type(4)
 ! wdwd
-wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##.col-md-12
-wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com###dvhidden
-wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##.banner_list
+
 ! jusopang
 @@||jusopang*.com/*.png
 ||jusopang*.com/*/*330x230*.webp$image
