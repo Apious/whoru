@@ -2784,11 +2784,6 @@ com##.off.menu-li:has(> a:has-text(검증))
 com##.off.menu-li:has(> a:has-text(정화))
 ! 주소월드, 김치주소, 주소야
 /theme/*/*.webp^$domain=jusoworld.cc|jusoya.com|kimchijuso.com
-*##.card:has-text(즐겨)
-*##.card:has-text(오피)
-*##.card:has-text(성인)
-*##.card:has-text(먹튀)
-*##.card:has-text(선물)
 
 ! - 토렌트
 ! torrentqq
