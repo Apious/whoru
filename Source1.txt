@@ -1600,6 +1600,7 @@ startpage.com##tp-yt-paper-dialog[id="dialog"]
 startpage.com##tp-yt-iron-overlay-backdrop
 
 ! - Gemini Ai / Google
+google.com##div[jsname]:has-text(Google Ads 캠페인)
 gemini.google.com##zs-advanced-upsell
 gemini.google.com##.human-review-disclosure-container
 gemini.google.com##.capabilities-disclaimer
@@ -1937,6 +1938,7 @@ xiaomi-miui.gr##[class^="google_responsive"]
 gsmarena.com##.pt-10.d-flex
 gsmarena.com##.sidebar:style(padding: 0px;)
 gsmarena.com##.ad-label
+gsmarena.com##.show.toast
 ! cuonet.com
 cuonet.com##div[style]:has([class="basic-post-slider"])
 cuonet.com##.hoverZoomLink
@@ -2751,10 +2753,6 @@ jusogall.com##div.col:nth-of-type(4)
 wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##.col-md-12
 wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com###dvhidden
 wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##.banner_list
-wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##[class*="box"]:nth-of-type(7)
-wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##[class*="box"]:nth-of-type(8)
-wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##[class*="box"]:nth-of-type(10)
-wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##[class*="box"]:nth-of-type(13)
 ! jusopang
 @@||jusopang*.com/*.png
 ||jusopang*.com/*/*330x230*.webp$image
