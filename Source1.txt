@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260406.1
+! Version: 260416.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -264,6 +264,7 @@ member.okcashbag.com##.uiBanner
 iherb.com###truste-banner-wrapper
 iherb.com##.promotions-subscribe
 iherb.com##.email-subscription-new-container
+iherb.com##.banner-tool
 
 ! - steptohealth.co.kr
 steptohealth.co.kr##.ad-slot-container
@@ -447,6 +448,7 @@ bing.com##main > div > ol:has(> [class$="adTop"])
 bing.com##main > div > ol > li:has(> div > h2 > a[h][style])
 bing.com##li[class$="_ad"]
 bing.com##[id*="ads"]
+bing.com###sa_sse_block
 msn.com##[id^="native_ad"]
 msn.com##[id^="entry-point-hp-wc-banner"]
 msn.com##[class^="preview-card"]
@@ -461,6 +463,8 @@ msn.com##.consumption-page-rail-wrapper
 msn.com##a[class="news-list-item   "]:has(> msn-native-ad-ad-label)
 msn.com##[data-t*="LeadGen."]
 msn.com##[instance-id="CommonAutoSuggest"]
+msn.com##[slide-id^="nativeAd"]
+msn.com##.ad-text
 ! xportsnews
 xportsnews.com##.in_200_200
 xportsnews.com###r_ad
@@ -1633,6 +1637,7 @@ korean.dict.naver.com##dictbanner
 ||searchad.naver.com^
 ||ssl.pstatic.net/melona/libs/*$document
 ||nam.veta.naver.com^$app=com.nhn.android.search
+naver.com###whale-banner
 search.naver.com/#@#div[class^="ad_"]
 search.naver.com##._ad.box
 search.naver.com##.ad_section
@@ -2845,7 +2850,7 @@ openweathermap.org###stick-footer-panel
 superuser.com###onetrust-consent-sdk
 superuser.com##.js-consent-banner
 
-! - Ads Tags, 광고 태그, a-ads // 2025-08
+! - Ads Tags, 광고 태그, a-ads // 2026-04
 a-ads.com##.aa_container
 a-ads.com##.size320x50
 com###desktopBannerWrapped
@@ -2860,6 +2865,7 @@ net##.mkt_banner
 ||ad.*.skt-jive.com^
 ||ad4989.co.kr^
 ||adinc.kr^
+||adnxs.net^
 ||ads.mtgroup.kr/$subdocument
 ||adthrive.com^
 ||bank1s.co.kr^$document
@@ -2890,12 +2896,12 @@ net##.mkt_banner
 *###powerLink
 *###top-right-ad-slot
 *###vipada
+*##.ADbtn
 *##.ad-form
 *##.ad-revamp
 *##.ad-slot-header
 *##.ad-slot-header__placeholder
 *##.ad-template
-*##.ADbtn
 *##.adfit
 *##.adplaceholder-top
 *##.ads__common
@@ -2903,12 +2909,11 @@ net##.mkt_banner
 *##.adsbox970x90
 *##.adslot_collapse
 *##.adtester-container
-*##.banner_menu
 *##.bannerWrap
+*##.banner_menu
 *##.coupang_ad
 *##.dotcom-ad
 *##.footerBanner
-*##.google-ad
 *##.google-ad
 *##.google-ads
 *##.kakao_ad_area
@@ -2917,16 +2922,15 @@ net##.mkt_banner
 *##.top-banner
 *##.topBanner
 *##.video-banner-ad
-*##.video-banner-ad
 *##.wp-block-gallery-1.wp-block-gallery
 *##[data-tistory-react-app="NaverAd"]
 *##[href*="/channel/promotion"]
 *##[href*="/cupang.php"]
 *##[href*="http://hg-rr.com"]
 *##[href*="https://spwebdata.com"]
-*##[href^="/index/banner_click"]
 *##[href="http://dk-bb.com"]
 *##[href="http://ky10453.com"]
+*##[href^="/index/banner_click"]
 *##[src*="ad.reople.co.kr"]
 *##[src*="adjw.co.kr"]
 *##[src*="adv.imadrep.co.kr"]
@@ -2987,6 +2991,8 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+zeta-ai.io##[class^="flex flex-col gap"]:has([data-sentry-component="WrappedCarousel"])
+benefitshub.co.kr##.footer-bar-align-right.footer-bar-active.site-footer.no-wpr-lazyrender
 wisecleaner.com##.part-bottom-banner.main-wrap
 roms.danielspringer.at##[href^="https://tradingshenzhen.com/de/"]
 howtogeek.com##.adblock::backdrop:style(backdrop-filter: unset; background: unset;)
