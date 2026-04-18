@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260417.2
+! Version: 260419.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -49,6 +49,8 @@ github.com$@$link[rel="manifest"]
 ! - moviebox, 123movienow
 moviebox.ng##.pc-box
 moviebox.ng##.pc-guide-mask
+moviebox.ph##.popup-mask
+moviebox.ph##.pc-detail-banner
 123movienow.cc###downloadBanner
 
 ! - nicepay
@@ -715,6 +717,10 @@ joongang.co.kr##.layer_dark_popup
 joongang.co.kr##.plotting_banner
 joongang.co.kr##.sm_hidden.house_banner
 joongang.co.kr##li.ad_sm_hidden.col_lg6
+joongang.co.kr###topicSnackbar
+joongang.co.kr##.comment_list > li:has-text(중앙)
+joongang.co.kr##.house_banner
+
 ! khan
 khan.co.kr##.left-banner
 khan.co.kr##.wrap_bnr_shortcut
@@ -1142,6 +1148,8 @@ auction.co.kr##.component--sponsor_link
 mc.coupang.com##.keen-slider
 mc.coupang.com##.iRlyIl
 mc.coupang.com##.mclp-wow-card-nudge-new
+mc.coupang.com###__next > div > div:has-text(광고)
+coupang.com##.main-today--thumb-nails > div > li:has( > a > img[src*="https://image14.coupangcdn.com/image/ccm/banner"])
 coupang.com###__next > div > div > div > div:has( > [class*="keen-slider"])
 coupang.com###app-redirect-nudge
 coupang.com###coupang-banner
@@ -1196,6 +1204,7 @@ shop.danawa.com##.banner-container
 shop.danawa.com##.product-recommend
 shop.danawa.com##[class*="_banner_"]
 shop.danawa.com##[onmousedown*="배너"]
+shop.danawa.com##.danawa_direct_sale:has-text(광고)
 prod.danawa.com##.ad-etype
 prod.danawa.com###adReaderBanner
 prod.danawa.com##[id^="adSmartArea"]
@@ -2223,31 +2232,35 @@ happymodpro.com##.appx.cbox
 happymodpro.com##section.clearfix:nth-of-type(1)modplayapk.com##.describe
 ! - a2zapk
 @@||a2z.a2zapk.io^
+@@||a2z.a2zapk.co^
 @@||a2zapk.io/cdn-cgi/
+@@||a2zapk.co/cdn-cgi/
 @@||dl.a2zupload.io^
-@@||doubleclick.net^$domain=a2zapk.io
-@@||google-analytics.com^$domain=a2zapk.io
-@@||googletagmanager.com^$domain=a2zapk.io
+@@||doubleclick.net^$domain=a2zapk.io,a2zapk.co
+@@||google-analytics.com^$domain=a2zapk.io,a2zapk.co
+@@||googletagmanager.com^$domain=a2zapk.io,a2zapk.co
+@@||tpc.googlesyndication.com^$domain=a2zapk.io,a2zapk.co
 ||a2zapk.io/tglink.php^
+||a2zapk.co/tglink.php^
+a2zapk.co,a2zapk.io###primary > center
+a2zapk.co,a2zapk.io###primary > div:nth-of-type(2)
+a2zapk.co,a2zapk.io##.Container > center:nth-of-type(1)
+a2zapk.co,a2zapk.io##.MenuDeveloper
+a2zapk.co,a2zapk.io##.modalpop
+a2zapk.co,a2zapk.io##center:nth-of-type(2)
+a2zapk.co,a2zapk.io##div.ArticleLand > [src]
+a2zapk.co,a2zapk.io##div.ArticleLand:nth-of-type(4) > .ObbExplainCont
+a2zapk.co,a2zapk.io##div.ArticleLand:nth-of-type(5)
+a2zapk.co,a2zapk.io##div.ArticleLand:nth-of-type(6)
+a2zapk.co,a2zapk.io##div.ArticleLand:nth-of-type(7)
+a2zapk.co,a2zapk.io##div.ArticleLand:nth-of-type(8)
+a2zapk.co,a2zapk.io##div.ArticleLand:nth-of-type(9)
+a2zapk.co,a2zapk.io#@#.RightAside
+a2zapk.co,a2zapk.io#@#[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+a2zapk.co,a2zapk.io#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
+a2zapk.co,a2zapk.io#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 ||xxxiijmp.com/i$subdocument
 ||jr.prahmnatured.com^
-a2zapk.io###primary > center
-a2zapk.io###primary > div:nth-of-type(2)
-a2zapk.io##.Container > center:nth-of-type(1)
-a2zapk.io##.MenuDeveloper
-a2zapk.io##.modalpop
-a2zapk.io##center:nth-of-type(2)
-a2zapk.io##div.ArticleLand > [src]
-a2zapk.io##div.ArticleLand:nth-of-type(4) > .ObbExplainCont
-a2zapk.io##div.ArticleLand:nth-of-type(5)
-a2zapk.io##div.ArticleLand:nth-of-type(6)
-a2zapk.io##div.ArticleLand:nth-of-type(7)
-a2zapk.io##div.ArticleLand:nth-of-type(8)
-a2zapk.io##div.ArticleLand:nth-of-type(9)
-a2zapk.io#@#.RightAside
-a2zapk.io#@#[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
-a2zapk.io#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
-a2zapk.io#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 rtxkeeda.com###a-ads5
 rtxkeeda.com##.modalpop
 rtxkeeda.com##.NewBlock1 > [src]
@@ -2508,7 +2521,7 @@ mapgenie.io##.free-user-locations-info
 mapgenie.io###blobby-left
 
 
-! - WebToon / 웹툰 // 2025-11
+! - WebToon / 웹툰 // 2026-04
 ! webtoon logo
 ||booktoki*.com/img/logo*
 ||funbe*.com/*/*logo*
@@ -2646,6 +2659,7 @@ asuracomic.net##.ai-sticky-widget
 asuracomic.net##.justify-center.w-full
 asurascans.us###sticky-ads
 webtoonguide.com##.realtime-rank-section
+webcomicsapp.com##.icon-bonus
 
 ! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브
 @@/^https?:\/\/[0-9a-z]{5,}\.(digital|website|life|guru|uno|cfd)\/[a-z0-9]{6,}\//$script,third-party,xmlhttprequest
