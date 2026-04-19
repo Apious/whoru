@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260419.1
+! Version: 260419.2
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2808,11 +2808,21 @@ com##.off.menu-li:has(> a:has-text(검증))
 com##.off.menu-li:has(> a:has-text(정화))
 ! 주소월드, 김치주소, 주소야
 /theme/*/*.webp^$domain=jusoworld.cc|jusoya.com|kimchijuso.com
-*##.card:has-text(즐겨)
-*##.card:has-text(오피)
-*##.card:has-text(성인)
-*##.card:has-text(먹튀)
-*##.card:has-text(선물)
+jusoworld.cc##.card:has-text(즐겨)
+jusoworld.cc##.card:has-text(오피)
+jusoworld.cc##.card:has-text(성인)
+jusoworld.cc##.card:has-text(먹튀)
+jusoworld.cc##.card:has-text(선물)
+jusoya.com##.card:has-text(즐겨)
+jusoya.com##.card:has-text(오피)
+jusoya.com##.card:has-text(성인)
+jusoya.com##.card:has-text(먹튀)
+jusoya.com##.card:has-text(선물)
+kimchijuso.com##.card:has-text(즐겨)
+kimchijuso.com##.card:has-text(오피)
+kimchijuso.com##.card:has-text(성인)
+kimchijuso.com##.card:has-text(먹튀)
+kimchijuso.com##.card:has-text(선물)
 
 ! - 토렌트
 ! torrentqq
