@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260419.2
+! Version: 260422.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2239,31 +2239,30 @@ happymodpro.com##section.clearfix:nth-of-type(1)modplayapk.com##.describe
 @@||doubleclick.net^$domain=a2zapk.io,a2zapk.co
 @@||google-analytics.com^$domain=a2zapk.io,a2zapk.co
 @@||googletagmanager.com^$domain=a2zapk.io,a2zapk.co
-@@||tpc.googlesyndication.com^$domain=a2zapk.io,a2zapk.co
-||a2zapk.io/tglink.php^
-||a2zapk.co/tglink.php^
-a2zapk.co,a2zapk.io###primary > center
-a2zapk.co,a2zapk.io###primary > div:nth-of-type(2)
-a2zapk.co,a2zapk.io##.Container > center:nth-of-type(1)
-a2zapk.co,a2zapk.io##.MenuDeveloper
-a2zapk.co,a2zapk.io##.modalpop
-a2zapk.co,a2zapk.io##center:nth-of-type(2)
-a2zapk.co,a2zapk.io##div.ArticleLand > [src]
-a2zapk.co,a2zapk.io##div.ArticleLand:nth-of-type(4) > .ObbExplainCont
-a2zapk.co,a2zapk.io##div.ArticleLand:nth-of-type(5)
-a2zapk.co,a2zapk.io##div.ArticleLand:nth-of-type(6)
-a2zapk.co,a2zapk.io##div.ArticleLand:nth-of-type(7)
-a2zapk.co,a2zapk.io##div.ArticleLand:nth-of-type(8)
-a2zapk.co,a2zapk.io##div.ArticleLand:nth-of-type(9)
+@@||tpc.googlesyndication.com^$domain=a2zapk.io,a2zapk.co,important
 a2zapk.co,a2zapk.io#@#.RightAside
 a2zapk.co,a2zapk.io#@#[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 a2zapk.co,a2zapk.io#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 a2zapk.co,a2zapk.io#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 ||xxxiijmp.com/i$subdocument
 ||jr.prahmnatured.com^
-rtxkeeda.com###a-ads5
-rtxkeeda.com##.modalpop
+||a2zapk.io/tglink.php^
+||a2zapk.co/tglink.php^
 rtxkeeda.com##.NewBlock1 > [src]
+a2zapk.co,a2zapk.io,rtxkeeda.com###alert
+a2zapk.co,a2zapk.io,rtxkeeda.com###modalpop
+a2zapk.co,a2zapk.io###primary > center
+a2zapk.co,a2zapk.io###primary > div:nth-of-type(2)
+a2zapk.co,a2zapk.io##.Container > center:nth-of-type(1)
+a2zapk.co,a2zapk.io##.MenuDeveloper
+a2zapk.co,a2zapk.io##center:nth-of-type(2)
+a2zapk.co,a2zapk.io##.ArticleLand > [src]
+a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(4) > .ObbExplainCont
+a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(5)
+a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(6)
+a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(7)
+a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(8)
+a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(9)
 ! liteapks.com
 liteapks.com##.warning-box
 liteapks.com##[id^="ad-unit"]
