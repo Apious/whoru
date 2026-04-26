@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260422.1
+! Version: 260426.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1450,6 +1450,7 @@ danawa.com##li.ad.shop_link_item
 @@||kauth.kakao.com^
 @@||mk.kakaocdn.net^$domain=map.kakao.com
 @@||mud-kage.kakaocdn.net^$app=com.kakao.talk
+@@||t1.kakaocdn.net/*editor/*
 @@||t1.daumcdn.net/*/subway/*
 @@||t1.kakaocdn.net/kakao_js_sdk/*$domain=fnnews.com
 @@||kamp.kakao.com/vod/*$domain=play-tv.kakao.com
@@ -1476,7 +1477,8 @@ danawa.com##li.ad.shop_link_item
 ||tr.*.daum.net/*
 ||webid.ad.daum.net^$important
 ||t1.kakaocdn.net^$app=net.daum.android.map
-||t1.kakaocdn.net/*ad^$important
+||t1.kakaocdn.net/*ad^
+
 kakao.com##app-banner
 daum.net##[data-cloud="banner"]
 open.kakao.com##.link_bnr
@@ -2654,6 +2656,7 @@ toon-bro.xyz##div.flex-1.container:nth-of-type(1)
 ||www.smilemanga.com/img/*.gif$image
 ||yatoon*.com/*/ad.jpg$image
 ||yatoon*.com/*/drama*.jpg$image
+||vortexscans.org/push-sw.js$script,1p,important
 asuracomic.net##.ai-sticky-widget
 asuracomic.net##.justify-center.w-full
 asurascans.us###sticky-ads
@@ -2731,7 +2734,6 @@ viaproducciones.net##.appList
 ||imgdd.com$image
 rood.app##.e-child.e-con.e-flex.e-con-full.elementor-element
 tvmon.site##[class^="banner"]
-
 
 ! - 애니
 ! linkkf.app / linkkf.tv
@@ -2903,6 +2905,7 @@ net##.mkt_banner
 ||madurird.com^
 ||priel.co.kr^
 ||www.play-store.co.kr/ads$subdocument
+||ioxbppx*.net^$image
 /allimg/*/banner*.gif$image
 /banner/*.gif$image
 *###ad-box
