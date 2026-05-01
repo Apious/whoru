@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260426.1
+! Version: 260501.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1111,15 +1111,7 @@ doctornow.co.kr##.flex-col:has-text(AD)
 ! - 쇼핑몰 / Tmon, Coupang, CooCha, Aliexpress, WemakePrice, Gmarket, Auction, SSG, interpark, LotteON, 11st, tdeal(T딜), shein
 cjone.com##.login_slideBanner
 ! aliexpress
-@@||aeis.alicdn.com^$domain=feedback.aliexpress.com
-||aliexpress-media.com/kf/*/804x52*$image
-aliexpress.com###container-for-smart-banner
-aliexpress.com###header-float-banner
-aliexpress.com##.header-toolbar
-aliexpress.com##.image-poplayer-modal
-aliexpress.com##.pop-picture
-aliexpress.com##.ranking-main
-aliexpress.com##.top-banner-container
+
 ! 하이마트
 e-himart.co.kr##.ad-banner
 e-himart.co.kr###container > .hm-content-wrap > .hm-popup
@@ -1737,10 +1729,11 @@ cafe.naver.com#@#.ad_v3
 cafe.naver.com##.ad_area.AsideAdvert
 cafe.naver.com##.ArticleFormBanner
 cafe.naver.com##.aside_banner
+cafe.naver.com##.cafe_banner
+cafe.naver.com##.nflea_banner
 cafe.naver.com##.banner_inner
 cafe.naver.com##.botton.banner_add
 cafe.naver.com##.box_notice
-cafe.naver.com##.cafe_banner
 cafe.naver.com##.CafeAppBanner
 cafe.naver.com##.FormNoticeContent
 cafe.naver.com##.home_editors
@@ -3020,6 +3013,9 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+stackexchange.com###onetrust-consent-sdk
+cloudfam.io###cf-system-notice
+cloudfam.io##.cf-premium-upsell
 zeta-ai.io##[class^="flex flex-col gap"]:has([data-sentry-component="WrappedCarousel"])
 benefitshub.co.kr##.footer-bar-align-right.footer-bar-active.site-footer.no-wpr-lazyrender
 wisecleaner.com##.part-bottom-banner.main-wrap
