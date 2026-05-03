@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260502.1
+! Version: 260503.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -413,7 +413,6 @@ sundaynewsusa.com##.td-is-sticky.td-pb-span4.tdc-column.vc_column_container.wpb_
 ! hankyung
 hankyung.com##.banner-area
 hankyung.com##.promotion-floating2
-static.hankyung.com##.pop-wrap
 hankyung.com##.ad-box
 hankyung.com##.ad-top
 hankyung.com##.ad-wrap
@@ -421,6 +420,8 @@ hankyung.com##.aside-ad
 hankyung.com##.aside-ad-component
 hankyung.com##.article-promotion
 hankyung.com##[class$="promotion"]
+hankyung.com##.ad-area-wrap
+static.hankyung.com##.pop-wrap
 tenasia.hankyung.com##.aedi-link
 plus.hankyung.com##.banner_img
 ! newspim
@@ -869,23 +870,26 @@ twig24.com##[class="viewBottomAdWrap"]:nth-of-type(1)
 twig24.com##[class$="AdWrap"]
 ! yna
 @@||cdp.yna.co.kr^
-star.ytn.co.kr##[title^="하단 광고"]
-ytn.co.kr##.YTN_CSA_newsletter
-ytn.co.kr##.newsletter
-ytn.co.kr##.top_banner
-ytn.co.kr##[name*="AdServerChange"]
-ytn.co.kr###czone > div:has(>[name*="AdServer"])
-ytn.co.kr##[id^="from"]
 yna.co.kr###marketingPlayer
-yna.co.kr##.wrap-header01
 yna.co.kr##[id*="div-gpt-ad"]
 yna.co.kr##[class^="aside-"]
+yna.co.kr##.wrap-header01
+! ytn
+ytn.co.kr#@#div:has(>[src*="banner"])
 ytn.co.kr##div[class^="ad"]:has(>[src*="ad"])
-ytn.co.kr##div:has(>[id^="dable"])
-ytn.co.kr##[class^="top_banner"]
 ytn.co.kr##div:has(>[src*="ad"])
-ytn.co.kr##div:has(>[src*="banner"])
+ytn.co.kr##div:has(>[id^="dable"])
+ytn.co.kr##[title^="하단 광고"]
+ytn.co.kr##[name*="AdServerChange"]
+ytn.co.kr##[id^="from"]
+ytn.co.kr##[class^="top_banner"]
+ytn.co.kr##.YTN_CSA_newsletter
 ytn.co.kr##.wing_ad
+ytn.co.kr##.top_banner
+ytn.co.kr##.newsletter
+ytn.co.kr###czone > div:has(>[name*="AdServer"])
+ytn.co.kr##[src^="/inc_banner"]
+ytn.co.kr##[class^="ad_"]
 ! zdnet
 zdnet.co.kr##.webinar
 zdnet.co.kr##[id^="dablewidget"]
@@ -981,7 +985,7 @@ moneys.co.kr##[class^="ad-area"]
 ! mbn.co.kr
 @@||ad.smartmediarep.com^
 @@||smrmembers-smr.smartmediarep.com^
-www.mbn.co.kr##.news8_bt_bn_area
+mbn.co.kr##.news8_bt_bn_area
 ! skyedaily.com
 skyedaily.com##.topleft > [href^="/ad_location.html"]
 skyedaily.com##[href^="/ad_location.html"]
