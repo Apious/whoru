@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260508.1
+! Version: 260510.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1423,7 +1423,7 @@ glowpick.com##.popup
 geniealert.co.kr##.pcAlert
 @@||ads-partners.coupang.com^$image,domain=geniealert.co.kr
 
-! - 여행사, trip
+! - 여행사, trip, myrealtrip
 kr.trip.com##.list-app-download__wrapper
 kayak.co.kr###inline-1
 kayak.co.kr###OeDX-rightRail
@@ -1434,6 +1434,9 @@ kayak.co.kr##.IIxj
 www.tripadvisor.co.kr##section.mowmC:nth-of-type(5)
 www.tripadvisor.co.kr##section.mowmC:nth-of-type(13)
 www.tripadvisor.co.kr##section.mowmC:nth-of-type(17)
+! myrealtrip
+myrealtrip.com###AD_BANNER > div > div > div > div > div > div:has(> div span:has-text(광고))
+myrealtrip.com##[alt$="배너"]
 
 ! - 중고나라
 ||web.joongna.com/assets/images/ads^$image
@@ -2296,10 +2299,9 @@ download.ir##[id$="download_ir_related-top-post"]
 4pda.to##[class*="RcN2"]:has(a[href^="https://4pda.to"])
 ! leeapk
 leeapk.com##+js(nowoif)
-leeapk.com##.ads-banner
-leeapk.com###ad-container
-leeapk.com##center:has([href])
+leeapk.com##+js(window.open-defuser)
 leeapk.com###stickyAd
+leeapk.com##[class^="mb"]:has(> [class^="acrp-ad"])
 ! gocmod
 gocmod.com###gm-float-widget
 gocmod.com###gm-big-popup
