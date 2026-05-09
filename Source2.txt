@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260507.1
+! Version: 260510.1
 ! Description: DNS
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
@@ -13,14 +13,6 @@
 ! - toss ads / DNS - 260507
 @@||assets-fe.toss.im^
 @@||storage-fe.toss.im^
-! toss ads/DNS - 260507
-||api-logncrash.cloud.toast.com^
-||ibytedtos.com^
-||lc.toss.im^
-||pbid.adview.com^
-||polyfill-fe.toss.im^
-||sg.global.market.xiaomi.com^
-||trillion.toss.im^
 
 ! - apti, 아파트아이
 ||api-marketing.apti.co.kr^
