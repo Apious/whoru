@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260510.1
+! Version: 260510.2
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2002,7 +2002,7 @@ reddit.com##.w-full.block > .w-full.block
 ! facebook
 ||edge-mqtt.facebook.com^
 
-! - uptodown,devuploads,dailyuploads,uploadrar,uplod,dailyenter,douploads,intoupload,workupload,mediafire,upfiles-urls,djxmaza,febbox, send-anywhere
+! - 다운로드, uptodown,devuploads,dailyuploads,uploadrar,uplod,dailyenter,douploads,intoupload,workupload,mediafire,upfiles-urls,djxmaza,febbox, send-anywhere
 ! send-anywhere
 send-anywhere.com###onetrust-consent-sdk
 send-anywhere.com##[id^="div-gpt-ad"]
@@ -2090,6 +2090,11 @@ hypershort.com##fieldset
 hypershort.com##.small-heading
 hypershort.com##.register-banner
 hypershort.com##.steps-to-earn
+! vexfile
+vexfile.com##.profile-block
+vexfile.com##[id^="double_banner"]
+vexfile.com##center:has(> [id^="vexfile_com"])
+vexfile.com##[class^="banner-"][src^="/alt/images/banner"]
 ! etc
 @@||googleusercontent.com^$domain=foodtechnos.in
 @@||dailyuploads.net^
