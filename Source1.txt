@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260510.2
+! Version: 260510.3
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -733,7 +733,6 @@ joongang.co.kr##li.ad_sm_hidden.col_lg6
 joongang.co.kr###topicSnackbar
 joongang.co.kr##.comment_list > li:has-text(중앙)
 joongang.co.kr##.house_banner
-
 ! khan
 khan.co.kr##.left-banner
 khan.co.kr##.wrap_bnr_shortcut
@@ -1065,6 +1064,15 @@ heraldcorp.com##[id^="da"]
 digitaltoday.co.kr##.ad-template
 ||cm.3dpop.co.kr^
 3dpop.co.kr##+js(nowoif)
+! 위키트리, wikitree
+wikitree.co.kr##[class^="google_news"]
+wikitree.co.kr##[role="ad"]
+wikitree.co.kr##[id="google-analytics"]
+wikitree.co.kr##[id^="wikitree_image"][style="min-height: 155px;"]
+wikitree.co.kr##.ad_center
+wikitree.co.kr##[style^="min-height"]:has(> [id^="dablewidget"])
+wikitree.co.kr##[class^="res_ads"]
+wikitree.co.kr###div-gpt-ad-wikitree_mweb_article_bottom_key
 ! news-etc
 @@||07c225f3.online^$domain=etoday.co.kr
 ||www.businesspost.co.kr/*/banner/*/$image
