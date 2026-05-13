@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260513.1
+! Version: 260513.2
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -631,19 +631,27 @@ edaily.co.kr###w_read_right
 dailyesports.com##[class^="dailygame"]
 ! fnnews
 ||io1.innorame.com^$subdocument
-fnnews.com###ad_pitPc
-fnnews.com###ad_right_view_top
 fnnews.com###add_view_upHot
 fnnews.com###FbRoot
+fnnews.com###hotPhotoArea:has(> [id^="dable"][data-widget_id])
 fnnews.com###mb_ad
+fnnews.com##.__fnbottom_wrap
 fnnews.com##.banner_navch
 fnnews.com##.bnr_evt
 fnnews.com##.pc_add06
 fnnews.com##.pineapple
-fnnews.com##.__fnbottom_wrap
-fnnews.com##[class^="ad_banner"]
+fnnews.com##[class^="_ad"]
+fnnews.com##[class^="ad-"]
+fnnews.com##[class^="ad_"]
+fnnews.com##[id*="-banner-"]:has([style])
+fnnews.com##[id^="ad_"]:has([style])
+fnnews.com##[id^="dable"][data-widget_id]
 fnnews.com##[id^="div-gpt-ad"][style]
 fnnews.com##[id^="header_top"]:has([id^="div-gpt-ad"])
+fnnews.com##[style]:has(> [id^="div-gpt-ad"])
+fnnews.com##[style]:has(> [src*="optbeacon"])
+fnnews.com##[style]:has(> [src^="//ad"])
+fnnews.com##[style]:has(> [style] > [class^="adsby"])
 ! hani
 @@||m.hani.co.kr^
 ||adimg.hani.co.kr^
@@ -2716,16 +2724,21 @@ webcomicsapp.com##.icon-bonus
 ! theboda
 ||img.smartnote.blog/*.gif$image
 ||theboda*.com/img/video_bg*.gif$image
-! 위키
+! 위키, tvwiki.app
+||media.cokcok.*/assets/images/*.gif$image
+||media.cokcok.*/assets/images/*.png$image
+||media.cokcok.*/assets/images/*x*.jpg$image
 tvwiki.app###cpb-popup-banners
+tvwiki.app##[src^="https://media.cokcok.vip/assets/images"]
+tvwiki.app##[class^="custom_banner"]
 ! 누누티비, nooo9.tv
 tv##[id^="site-banner"]
 ! cokcoktv
 ||cokcok.stream^$xhr
 ||media.cokcok.vip/assets/*/*.^
-cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com,cokcok11.com,cokcok10.com,cokcok9.com,cokcok8.com,cokcok7.com,cokcok6.com,cokcok5.com##[id*="banners"]
-cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com,cokcok11.com,cokcok10.com,cokcok9.com,cokcok8.com,cokcok7.com,cokcok6.com,cokcok5.com##[class*="banner"]
-cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com,cokcok11.com,cokcok10.com,cokcok9.com,cokcok8.com,cokcok7.com,cokcok6.com,cokcok5.com##.tooltipster-box
+cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com,cokcok11.com,cokcok10.com,cokcok9.com,cokcok8.com,cokcok7.com,cokcok6.com##[id*="banners"]
+cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com,cokcok11.com,cokcok10.com,cokcok9.com,cokcok8.com,cokcok7.com,cokcok6.com##[class*="banner"]
+cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com,cokcok11.com,cokcok10.com,cokcok9.com,cokcok8.com,cokcok7.com,cokcok6.com##.tooltipster-box
 ! tvchak
 com##.banner-box
 com##.popup_mdd
