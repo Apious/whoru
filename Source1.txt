@@ -366,6 +366,7 @@ investing.com##.preloaded_lightbox
 investing.com##.h-fit.hidden.sticky
 investing.com###sideNotificationZone
 investing.com##.text-xs.text-center
+investing.com##[data-test="contextual-subscription-hook"]
 
 ! - finup
 stock.finup.co.kr##[src^="https://img.finup.co.kr/stock/Banner"]
@@ -1987,11 +1988,13 @@ xda-developers.com##[class*="ad-zone"]
 xda-developers.com##[id*="ad-zone"]
 xda-developers.com##[class="valnet-gallery"]
 xda-developers.com##[data-original-ad-element-id]
-! xiaomi 관련
+! xiaomi 관련 포럼
 xiaomitoday.it##[id^="xiaom-"]
 xiaomitoday.it##.egg-container
 xiaomi-miui.gr##[id^="ai_widget"]
 xiaomi-miui.gr##[class^="google_responsive"]
+ximitime.com##.featuredb_ad
+ximitime.com##.our_app
 ! gsmarena
 gsmarena.com##.pt-10.d-flex
 gsmarena.com##.sidebar:style(padding: 0px;)
