@@ -22,15 +22,6 @@ card-gorilla.com##.m-hide.board.inner.con_wrap > .board_part
 
 ! - Ai모음, Ai관련 팝업 제거
 ! perplexity.ai, 퍼플렉시티
-perplexity.ai##.pb-md.pl-md
-perplexity.ai##.fill-mode-both.md\:items-center.items-stretch
-perplexity.ai##.fill-mode-backwards .outline-none
-perplexity.ai##.bg-subtler.divide-subtlest.ring-subtlest.border-subtlest.ring-1.shadow-xl.rounded-xl.md\:flex-row.rounded-md.items-center.flex-col.w-full.flex
-perplexity.ai##.bg-super.divide-subtlest.ring-subtlest.border-subtlest.justify-center.transition.items-center.cursor-pointer.w-full.flex.rounded-sm.h-bannerHeight
-perplexity.ai##.\[\@media\(max-height\:680px\)\]\:hidden.items-center.flex-col.appearance-none.inline-flex.group.gap-xs
-perplexity.ai##.\[\@media\(max-height\:680px\)\]\:hidden.items-center.flex-col.flex.gap-xs
-perplexity.ai##.justify-center.flex.pb-md:has(> button > button > span:has-text(업그))
-perplexity.ai##.animate-fadeIn.justify-center.items-center.absolute.w-full:has(>button:has-text(업그))
 ! wrtn, 뤼튼
 wrtn.ai##.slick-slider
 ! maxai, 맥스
