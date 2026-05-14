@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260513.2
+! Version: 260514.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -29,7 +29,6 @@ perplexity.ai##.bg-subtler.divide-subtlest.ring-subtlest.border-subtlest.ring-1.
 perplexity.ai##.bg-super.divide-subtlest.ring-subtlest.border-subtlest.justify-center.transition.items-center.cursor-pointer.w-full.flex.rounded-sm.h-bannerHeight
 perplexity.ai##.\[\@media\(max-height\:680px\)\]\:hidden.items-center.flex-col.appearance-none.inline-flex.group.gap-xs
 perplexity.ai##.\[\@media\(max-height\:680px\)\]\:hidden.items-center.flex-col.flex.gap-xs
-perplexity.ai##.rounded-xl.items-center.max-w-full.flex
 perplexity.ai##.justify-center.flex.pb-md:has(> button > button > span:has-text(업그))
 perplexity.ai##.animate-fadeIn.justify-center.items-center.absolute.w-full:has(>button:has-text(업그))
 ! wrtn, 뤼튼
@@ -2923,9 +2922,6 @@ xyz##[href="/ad-8"]
 ||torrentssg*.com/data/file/*.gif$image
 ! torrentreel
 site##[href^="https://filecast.co.kr/"]
-! torrentbot
-*##[class^="grid grid-cols-1 md:grid-cols-3"]
-*##[href^="/go/"]
 ! 기타
 ||torrentgram*.com/data/*/*.gif$image
 ||torrentlee*.com/data/*/*.gif$image
@@ -2938,19 +2934,7 @@ openweathermap.org###stick-footer-panel
 superuser.com###onetrust-consent-sdk
 superuser.com##.js-consent-banner
 
-! - Ads Tags, 광고 태그, a-ads // 2026-04
-@@||a-ads.com^$third-party
-a-ads.com##.aa_container
-a-ads.com##.size320x50
-com###desktopBannerWrapped
-com##.ad-container
-com##.app-banner-wrap
-com##.banner-area
-com##.basic-banner
-com##.detail-banner
-com##.premium-promo-row
-net##.idtunemklgfsrpchjoq
-net##.mkt_banner
+! - Ads Tags, 광고 태그, a-ads // 2026-05
 ||ad.*.skt-jive.com^
 ||ad4989.co.kr^
 ||adinc.kr^
@@ -2967,118 +2951,13 @@ net##.mkt_banner
 ||priel.co.kr^
 ||www.play-store.co.kr/ads$subdocument
 ||ioxbppx*.net^$image
-/allimg/*/banner*.gif$image
-/banner/*.gif$image
-*###ad-box
-*###ad_730
-*###ad_731
-*###ad_732
-*###ad_733
-*###addon-popup1-layer
-*###addon-popup2-layer
-*###addon-popup3-layer
-*###addon-popup4-layer
-*###addon-popup5-layer
-*###banner
-*###categoryBanner
-*###hd_pop
-*###naver_banner
-*###powerLink
-*###top-right-ad-slot
-*###vipada
-*##.ADbtn
-*##.ad-form
-*##.ad-revamp
-*##.ad-slot-header
-*##.ad-slot-header__placeholder
-*##.ad-template
-*##.adfit
-*##.adplaceholder-top
-*##.ads__common
-*##.ads__container
-*##.adsbox970x90
-*##.adslot_collapse
-*##.adtester-container
-*##.bannerWrap
-*##.banner_menu
-*##.coupang_ad
-*##.dotcom-ad
-*##.footerBanner
-*##.google-ad
-*##.google-ads
-*##.kakao_ad_area
-*##.row-box-ads-seri
-*##.tnt-ads-container
-*##.top-banner
-*##.topBanner
-*##.video-banner-ad
-*##.wp-block-gallery-1.wp-block-gallery
 *##[data-tistory-react-app="NaverAd"]
-*##[href*="/channel/promotion"]
 *##[href*="/cupang.php"]
-*##[href*="http://hg-rr.com"]
-*##[href*="https://spwebdata.com"]
-*##[href="http://dk-bb.com"]
-*##[href="http://ky10453.com"]
 *##[href^="/index/banner_click"]
 *##[src*="ad.reople.co.kr"]
 *##[src*="adjw.co.kr"]
 *##[src*="adv.imadrep.co.kr"]
 *##[src^="//t1.daumcdn.net/adfit"]
-
-! - 도박, 토토, 성인게임(불량) // 2024-08
-*##[href*="1bet1"]
-*##[href*="aarq"]
-*##[href*="agitbridge"]
-*##[href*="agitoon.net"]
-*##[href*="bannerhit"]
-*##[href*="bbellabet.com"]
-*##[href*="bhm123"]
-*##[href*="bneye"]
-*##[href*="dh651"]
-*##[href*="gfa69"]
-*##[href*="guarante"]
-*##[href*="herbnewming"]
-*##[href*="hlbam13.com"]
-*##[href*="luxurynara"]
-*##[href*="mmb"]
-*##[href*="oplove"]
-*##[href*="play365a"]
-*##[href*="svsv"]
-*##[href*="t.me/abcdcenter"]
-*##[href*="tgtg"]
-*##[href*="tinyurl.com/yzpxazdx"]
-*##[href*="tksxk"]
-*##[href*="v210x10b"]
-*##[href*="vipkkhh.com"]
-*##[href*="wbet"]
-*##[href*="yadong"]
-*##[href*="토토"]
-*##[href^="http://sun-4488.com/"]
-*##[href^="https://saveurl.me"]
-*##[href^="https://saveurls.org"]
-*##[href^="https://t.me/AISOL88"]
-*##[href^="https://카림안내.com"]
-*##[href^="me/AISOL"]
-*##[href^="mr-00.com"]
-*##[href^="onetop.link"]
-*##[href^="optalk.vip"]
-*##[href^="replchak.com"]
-*##[href^="rk-ccc.com"]
-*##[href^="tu-88.com"]
-*##[href^="wn-st.com"]
-*##[href^="ww-ot.com"]
-*##[href^="ww-wg.com"]
-*##[href^="yes.bet"]
-*##[href="http://cs-ca.com/"]
-*##[href="http://dh-202.com"]
-*##[href="http://fs-ddff.com"]
-*##[href="http://wn-st.com/"]
-*##[href="http://ww-ot.com/"]
-*##[href="https://ho-2023.com/"]
-*##[href="https://mr-113.com/"]
-*##[href="https://xn--vv0b56ah5v.net/"]
-*##[src*="/side_banner/"]
 
 ! - 기타
 stackexchange.com###onetrust-consent-sdk
