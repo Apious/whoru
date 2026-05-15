@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260514.1
+! Version: 260516.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1206,50 +1206,37 @@ coupang.com##.product-sticky-banner-container
 coupang.com##[class^="ProductUnit_productUnit"]:has-text(광고)
 ||ljc.coupang.com^$important
 ||link.coupang.com^$important
-! danawa
-||img.danawa.com/images/newsCommunity/eventSkin$image
-www.danawa.com##.auto_product_list
-www.danawa.com##.event_link
-www.danawa.com###adSmartArea
-www.danawa.com###adSmartArea2
-www.danawa.com###ebayPowerClickBottomArea
-www.danawa.com###mainAdReader
-www.danawa.com###mainAdStar
-www.danawa.com###planBPlusAdSmartArea
-www.danawa.com###powerClickListArea
-www.danawa.com###powerLinkArea
-www.danawa.com##.aside_widget
-www.danawa.com##.dealer.diff_list
-www.danawa.com##.diff_bnr
-www.danawa.com##.event_link
-www.danawa.com##.main_ad_prodlist
-www.danawa.com##[class*="bnr"]
-www.danawa.com##[class="prod-list__link top100AdProductClick"]
-www.danawa.com##[id*="Banner"]
-www.danawa.com##div[class="main-coupon swiper-coupon"]
-www.danawa.com##li.prod_ad_item
-auth.danawa.com###banner_area
-auto.danawa.com###homeFinder_adver
-auto.danawa.com##div[class^="ad-powerlink"]
-search.danawa.com###powerShoppingAreaTop
-search.danawa.com###powerClickListArea
-search.danawa.com###powerShoppingAreaBottom
-shop.danawa.com##.banner-container
-shop.danawa.com##.product-recommend
-shop.danawa.com##[class*="_banner_"]
-shop.danawa.com##[onmousedown*="배너"]
-shop.danawa.com##.danawa_direct_sale:has-text(광고)
-prod.danawa.com##.ad-etype
-prod.danawa.com###adReaderBanner
-prod.danawa.com##[id^="adSmartArea"]
-prod.danawa.com###powerClickListArea
-prod.danawa.com###powerShoppingContent
-dpg.danawa.com##.wrap_link_left.comty_wrap_link
-dpg.danawa.com###danawa-community-rnb-ad-top
-dpg.danawa.com##[id^="dablewidget_"]
-dpg.danawa.com##[id^="danawa-community-rnb-ad-bottom"]
-dpg.danawa.com##.rnb_inner > [style^="min-height"]
-dpg.danawa.com##.auto_product_list:has([id^="auto_banner"])
+! danawa, 다나와
+m.danawa.com##[class^="ad_"]
+danawa.com##.main-event:has(> div > ul > li > span > [src^="//ad.danawa"])
+danawa.com##.auto_product_list:has([id^="auto_banner"])
+danawa.com##.main-middlebnr:has(> [src^="//ad.danawa"])
+danawa.com##.rnb_inner > [style^="min-height"]
+danawa.com##[class$="AdProductClick"]
+danawa.com##[class^="ad-"]
+danawa.com##[class^="banner-"]
+danawa.com##[class^="powershopping"]:has-text(광고)
+danawa.com##[class^="prod_ad"]
+danawa.com##[class="danawa_direct_sale"]:has-text(광고)
+danawa.com##[class="goods-list__item"]:has-text(광고)
+danawa.com##[data-ux-event^="ad_"]
+danawa.com##[id$="-ad-top"]
+danawa.com##[id$="-dable"]
+danawa.com##[id$="-powerLink-self"]
+danawa.com##[id$="_adver"]
+danawa.com##[id$="AdSmartArea"]
+danawa.com##[id*="Banner"]
+danawa.com##[id^="adSmart"]
+danawa.com##[id^="banner_"]
+danawa.com##[id^="coupang"]
+danawa.com##[id^="dablewidget_"]
+danawa.com##[id^="danawa-dpg"]:has(> div > [id^="dablewidget"])
+danawa.com##[id^="danawa-community-rnb-ad-bottom"]
+danawa.com##[id^="ebayPowerClick"]
+danawa.com##[id^="mainAd"]
+danawa.com##[id^="powerClick"]
+danawa.com##[id^="powerLink"]
+danawa.com##[id^="powerShopping"]
 ! malltail
 post.malltail.com##.floating-banner
 post.malltail.com##.banner-slider
