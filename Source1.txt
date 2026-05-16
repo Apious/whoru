@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260516.1
+! Version: 260516.2
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1207,7 +1207,10 @@ coupang.com##[class^="ProductUnit_productUnit"]:has-text(광고)
 ||ljc.coupang.com^$important
 ||link.coupang.com^$important
 ! danawa, 다나와
+||contentsfeed.com/RealMedia^
+||advimg.danawa.com^
 m.danawa.com##[class^="ad_"]
+danawa.com##.wing_contents
 danawa.com##.main-event:has(> div > ul > li > span > [src^="//ad.danawa"])
 danawa.com##.auto_product_list:has([id^="auto_banner"])
 danawa.com##.main-middlebnr:has(> [src^="//ad.danawa"])
@@ -1226,6 +1229,7 @@ danawa.com##[id$="-powerLink-self"]
 danawa.com##[id$="_adver"]
 danawa.com##[id$="AdSmartArea"]
 danawa.com##[id*="Banner"]
+danawa.com##[id^="appDownload"]
 danawa.com##[id^="adSmart"]
 danawa.com##[id^="banner_"]
 danawa.com##[id^="coupang"]
@@ -1413,15 +1417,17 @@ www.skstoa.com##.js_l_wing_main
 www.skstoa.com##li.ga-event
 www.skstoa.com##.stoaLogin__etc-link
 ! coocha
-www.coocha.co.kr##.group-power-link
-www.coocha.co.kr##.group-recommended
+coocha.co.kr##.group-power-link
+coocha.co.kr##.group-recommended
+! fallcent, 쿠팡 가격 기록
+fallcent.com##.pc_app_down_button
+fallcent.com##[id*="banner"]
+fallcent.com##div:has(> [onclick^="clickApp"])
 ! etc
 lowchart.com##.btn-secondary.btn-fixed-download.btn
 hmall.com##.login-ad
 ||ad-img.ebaykorea.com^
 m.shein.com##.ccc-ad-flow-img
-fallcent.com##.pc_app_down_button
-fallcent.com##[id*="banner"]
 glowpick.com##.banner
 glowpick.com##.popup
 geniealert.co.kr##.pcAlert
