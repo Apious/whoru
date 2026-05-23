@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260517.2
+! Version: 260524.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2567,7 +2567,7 @@ mapgenie.io##.free-user-locations-info
 mapgenie.io###blobby-left
 
 
-! - WebToon / 웹툰 // 2026-04
+! - WebToon / 웹툰 // 2026-05
 ! webtoon logo
 ||booktoki*.com/img/logo*
 ||funbe*.com/*/*logo*
@@ -2576,17 +2576,18 @@ mapgenie.io###blobby-left
 ||imgcloud*.net/*.gif$image
 ||imgcloud*.net/*.png$image
 ||manatoki*.net/*/*.gif?_=*$image
-||newtoki*.com/*/logo*
 ||tkr*.com/img/*logo*
 ||toonkor*.*/*/*logo*
 ||wftoon*.com/*/*/logo*
 ||wfwf*.com/*/*/logo*
 ||wtwt*.com/*/logo.$image
-! newtoki
-||booktoki*.com/*/*.gif?_=*
-||newtoki*.com/tokinbtoki/*.gif?_=*
-||newtoki*.*/*/banner$image
-||newtoki*.com/guarantee.php
+! new rabbit
+||toonflix.*/board_uploads/*/*.$image,3p
+com##[class*="-po"]:has([class*="pc"])
+com##div:style(position: unset; overflow: unset; inset: unset; background: unset; height: unset; visibility: unset; !important;)
+com##body > div[style][bis_skin_checked="1"]
+com##.vw-main > div[data-brs="header"] > button[aria-label]:style(aspect-ratio: 0/0 !important;)
+com##body > div[data-brs="header"] > button[aria-label]:style(aspect-ratio: 0/0 !important;)
 ! mzgtoon
 mzgtoon.com##.fixed > div:nth-of-type(1) > .relative > div:nth-of-type(1)
 mzgtoon.com##.mt-4.flex-wrap
@@ -2707,6 +2708,10 @@ asuracomic.net##.justify-center.w-full
 asurascans.us###sticky-ads
 webtoonguide.com##.realtime-rank-section
 webcomicsapp.com##.icon-bonus
+
+! - Proxysite Ads
+proxysite.com##.banner-area
+proxysite.com##.banner
 
 ! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브
 @@/^https?:\/\/[0-9a-z]{5,}\.(digital|website|life|guru|uno|cfd)\/[a-z0-9]{6,}\//$script,third-party,xmlhttprequest
