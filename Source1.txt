@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260526.2
+! Version: 260526.3
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2584,7 +2584,7 @@ mapgenie.io###blobby-left
 ||wtwt*.com/*/logo.$image
 ! new rabbit
 ||toonflix.*/board_uploads/*/*.$image,3p
-com##[class*="-po"]:has([class*="pc"])
+com##[class$="-po"]:has([class$="-pc"])
 !com##div:style(position: unset; overflow: unset; inset: unset; background: unset; height: unset; visibility: unset; !important;)
 com##.vw-main > div[data-brs="header"] > button[aria-label]:style(aspect-ratio: 0/0 !important;)
 com##body > div[data-brs="header"] > button[aria-label]:style(aspect-ratio: 0/0 !important;)
