@@ -2573,7 +2573,7 @@ mapgenie.io##.free-user-locations-info
 mapgenie.io###blobby-left
 
 
-! - WebToon / 웹툰 // 2026-05
+! - WebToon / 웹툰 // 2026-06
 ! webtoon logo
 ||booktoki*.com/img/logo*
 ||funbe*.com/*/*logo*
@@ -2587,12 +2587,6 @@ mapgenie.io###blobby-left
 ||wftoon*.com/*/*/logo*
 ||wfwf*.com/*/*/logo*
 ||wtwt*.com/*/logo.$image
-! new rabbit
-||toonflix.*/board_uploads/*/*.$image,3p
-com##[class$="-po"]:has([class$="-pc"])
-!com##div:style(position: unset; overflow: unset; inset: unset; background: unset; height: unset; visibility: unset; !important;)
-com##.vw-main > div[data-brs="header"] > button[aria-label]:style(aspect-ratio: 0/0 !important;)
-com##body > div[data-brs="header"] > button[aria-label]:style(aspect-ratio: 0/0 !important;)
 ! mzgtoon
 mzgtoon.com##.fixed > div:nth-of-type(1) > .relative > div:nth-of-type(1)
 mzgtoon.com##.mt-4.flex-wrap
