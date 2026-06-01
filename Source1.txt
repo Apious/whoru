@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260528.1
+! Version: 260601.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -22,6 +22,9 @@ card-gorilla.com##.m-hide.board.inner.con_wrap > .board_part
 
 ! - Ai모음, Ai관련 팝업 제거
 ! perplexity.ai, 퍼플렉시티
+perplexity.ai###cookie-consent
+perplexity.ai##.bottom-md:has-text(컴퓨터)
+perplexity.ai##.justify-center.flex.pb-md:has-text(Pro)
 ! wrtn, 뤼튼
 wrtn.ai##.slick-slider
 ! maxai, 맥스
@@ -252,6 +255,7 @@ iherb.com###truste-banner-wrapper
 iherb.com##.promotions-subscribe
 iherb.com##.email-subscription-new-container
 iherb.com##.banner-tool
+iherb.com###quality-promise-modal
 
 ! - steptohealth.co.kr
 steptohealth.co.kr##.ad-slot-container
@@ -1246,6 +1250,8 @@ danawa.com##[id^="mainAd"]
 danawa.com##[id^="powerClick"]
 danawa.com##[id^="powerLink"]
 danawa.com##[id^="powerShopping"]
+! 퀘이사존, quasarzone
+quasarzone.com##[id^="banner-"]
 ! malltail
 post.malltail.com##.floating-banner
 post.malltail.com##.banner-slider
@@ -2181,9 +2187,6 @@ doodslink.com##[class*="banner"]
 
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
-watcha.com##li > [href^="https://watcha.com/webview/notices/"]
-watcha.com##li > [href^="https://watcha.com/notices/"]
-watcha.com##div[class*="navManager"] > div
 pedia.watcha.com##[rel^="noreferrer"]
 pedia.watcha.com##[id="root"] section:has(> div[class^="media-area"])
 pedia.watcha.com##[href*="/promotions"]
@@ -2193,12 +2196,16 @@ pedia.watcha.com##[alt*="배너"]
 pedia.watcha.com##.adFixed
 pedia.watcha.com###root div:nth-of-type(8)
 pedia.watcha.com##[class^="_adSection"]
+watcha.com##li > [href^="https://watcha.com/webview/notices/"]
+watcha.com##li > [href^="https://watcha.com/notices/"]
+watcha.com##div[class*="navManager"] > div
 watcha.com##.disableBodyScrolling:style(overflow:  auto!important;)
-pedia.watcha.com##[class^="_backscreen"]:style(background-color: transparent !important)
-pedia.watcha.com##[class^="_adCell"] > [class^="_linkSection"]
-pedia.watcha.com##[class^="_section"] > section:has(header[class^="_header"] > span[class]:has-text(AD))
+watcha.com##[class^="_backscreen"]:style(background-color: transparent !important)
+watcha.com##[class^="_adCell"] > [class^="_linkSection"]
+watcha.com##[class^="_section"] > section:has(header[class^="_header"] > span[class]:has-text(AD))
 watcha.com##[class^="_section_1"]:has(>section>header>span[class^="_adBadge"])
-pedia.watcha.com##[class^="_commentsOverlayContainer"]
+watcha.com##[class^="_commentsOverlayContainer"]
+watcha.com##[class^="_link_"]:has(> [alt^="["])[href]
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image
