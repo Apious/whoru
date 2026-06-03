@@ -1659,7 +1659,7 @@ startpage.com##tp-yt-paper-dialog[id="dialog"]
 startpage.com##tp-yt-iron-overlay-backdrop
 
 ! - Gemini Ai / Google
-@@||play.google.com/log?^$domain=gemini.google.com
+@@||play.google.com/log?^$domain=gemini.google.com,important
 google.com##div[jsname]:has-text(Google Ads 캠페인)
 gemini.google.com##zs-advanced-upsell
 gemini.google.com##.human-review-disclosure-container
