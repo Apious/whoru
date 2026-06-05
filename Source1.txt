@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260604.1
+! Version: 260605.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -393,8 +393,6 @@ tube-box.co.kr##div
 
 ! - News Paper Ads / 뉴스
 ||cdn.emetro.co.kr/*banner
-asiae.co.kr##.sns_area
-asiae.co.kr##.youtube_wrap
 bbc.com##.css-n7zdg2
 busan.com##div.banner_img
 hypebeast.kr##.active
@@ -404,6 +402,14 @@ interfootball.co.kr##.wing-banner
 news.oasisfeed.com##.hideBtn
 newspic.kr##.banner_view
 sundaynewsusa.com##.td-is-sticky.td-pb-span4.tdc-column.vc_column_container.wpb_column.tdi_121.vc_column
+! asiae, 아시아경제
+asiae.co.kr##.sns_area
+asiae.co.kr##.youtube_wrap
+asiae.co.kr##[id^="div-gpt-ad"]
+asiae.co.kr##.ad-area
+asiae.co.kr##[class$="_ad"]
+asiae.co.kr##[class^="article-aside"]:has-text(AD)
+asiae.co.kr##[class^="article-aside"]:has(> [id^="dablewidget"])
 ! hankyung
 hankyung.com##.banner-area
 hankyung.com##.promotion-floating2
@@ -2903,6 +2909,8 @@ superuser.com##.js-consent-banner
 *##[src^="//t1.daumcdn.net/adfit"]
 
 ! - 기타
+crxsoso.com##[class$="_banner"]
+crxsoso.com##.sidebar:has(a[href^="https://www.openseer.ai"])
 stackexchange.com###onetrust-consent-sdk
 cloudfam.io###cf-system-notice
 cloudfam.io##.cf-premium-upsell
