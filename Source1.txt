@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260606.1
+! Version: 260607.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -550,6 +550,7 @@ news.sbs.co.kr###dablewidget_job8QLlW
 news.sbs.co.kr##.page_promotion_banner
 premium.sbs.co.kr##.endBnr_w
 premium.sbs.co.kr##.topBanner_w
+premium.sbs.co.kr##[class^="adBanner"]
 ! imbc
 imnews.imbc.com##[class^="ad-"]
 imnews.imbc.com##[class^="ad_"]
@@ -1085,6 +1086,9 @@ wikitree.co.kr##.floating_banner
 wikitree.co.kr##.img_b_ads
 wikitree.co.kr##.article_bottom > div:nth-of-type(4)
 wikitree.co.kr##.content_left_wrap > div:nth-of-type(2)
+! ikld.kr, 국토일보
+ikld.kr##[id$="Banner"]
+||c114.com^$subdocument
 ! busan.com, 부산일보
 busan.com##[class$="_ad"]
 busan.com##[id^="div-gpt-ad"]
@@ -2012,6 +2016,7 @@ xda-developers.com##[class*="ad-zone"]
 xda-developers.com##[id*="ad-zone"]
 xda-developers.com##[class="valnet-gallery"]
 xda-developers.com##[data-original-ad-element-id]
+xda-developers.com##.w-content .adblock
 ! xiaomi 관련 포럼
 xiaomitoday.it##[id^="xiaom-"]
 xiaomitoday.it##.egg-container
@@ -2432,6 +2437,7 @@ speedtest.net##.prompt-modal
 speedtest.net###onetrust-consent-sdk
 speedtest.net###modal-overlay
 speedtest.net##[aria-hidden="true"]
+speedtest.net##[title="Opens in new tab"][href^="https://play.google.com"]
 
 ! - cosmorning.com
 cosmorning.com##.banner_wrap
