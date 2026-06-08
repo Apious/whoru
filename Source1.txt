@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260607.1
+! Version: 260608.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1086,6 +1086,11 @@ wikitree.co.kr##.floating_banner
 wikitree.co.kr##.img_b_ads
 wikitree.co.kr##.article_bottom > div:nth-of-type(4)
 wikitree.co.kr##.content_left_wrap > div:nth-of-type(2)
+! infoloop, 인포루프
+infoloop.co.kr##[class^="pc-post-ad"]
+infoloop.co.kr##.news-view-wrap:style(padding-top:unset!important;)
+infoloop.co.kr##[class^="infoloop-adsense"]
+infoloop.co.kr##[id$="-banner"]
 ! ikld.kr, 국토일보
 ikld.kr##[id$="Banner"]
 ||c114.com^$subdocument
@@ -1598,6 +1603,7 @@ tistory.com##div.module_plugin.module:nth-of-type(1)
 tistory.com#@#.ad-wp
 tistory.com#@#+js(abort-current-script, $, div.adsbygoogle)
 tistory.com##[data-tistory-react-app]:has-text(광고)
+tistory.com##[class^="sliding-banner"]
 
 ! - dcinside
 dcinside.com##.adv-group
