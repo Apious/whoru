@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260608.2
+! Version: 260609.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1101,7 +1101,10 @@ busan.com##div.banner_img
 ! etoday.co.kr
 @@||07c225f3.online^$domain=etoday.co.kr
 etoday.co.kr##[id^="div-gpt-ad"]
-! news-etc
+! segye, 세계일보
+segye.com##[data-ad-client]
+segye.com##[data-desc$="광고"]
+! news-etc, 뉴스기타
 @@/openads/*
 ||*.newscj.com^
 ||*.newsmobile.co.kr^
