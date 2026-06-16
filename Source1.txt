@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260609.2
+! Version: 260616.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -46,9 +46,11 @@ moviebox.ph##.popup-mask
 moviebox.ph##.pc-detail-banner
 123movienow.cc###downloadBanner
 
-! - nicepay
-web.nicepay.co.kr###rollBn
-web.nicepay.co.kr###btn_banner_player
+! - nicepay, 나이스
+||web.nicepay.co.kr/images/email/*$image
+nicepay.co.kr###rollBn
+nicepay.co.kr###btn_banner_player
+checkplus.co.kr##.footerBanner
 
 ! - kmcert.com
 @@||adobe-secure.cjone.com^
@@ -668,6 +670,7 @@ hani.co.kr##.ad-slide
 hani.co.kr##[class^="article_imageBanner"]
 hani.co.kr##[class^="ArticleAdTop"]
 hani.co.kr##[class^="ArticleDetail_supportBannerWrap"]
+hani.co.kr##[class^="article_inner"]:has(> div [id^="taboola"])
 ! hankookilbo
 ||www.hankookilbo.com/*/Default-Image*
 hankookilbo.com##.ad-news-todays
@@ -750,10 +753,11 @@ khan.co.kr##.bnr-wrap
 khan.co.kr##.ad-area
 khan.co.kr##.ad_popularInfo_sub
 khan.co.kr##.nzine_banner_sub
-sports.khan.co.kr##[class*="Ad"]
-sports.khan.co.kr##[id*="ads"]
 khan.co.kr##.major-art-top-wrap
 khan.co.kr##.ad-inner-wrap
+khan.co.kr##[class^="banner-"]
+sports.khan.co.kr##[class*="Ad"]
+sports.khan.co.kr##[id*="ads"]
 ! mercola
 korean.mercola.com###mid-optin
 korean.mercola.com##.gdpr-wrap
@@ -995,6 +999,9 @@ techpress.co.kr##[class^="pc-post-ad"]
 ilyosisa.co.kr##.thumb.banner_slide
 ilyosisa.co.kr##hr.skin_margin
 ilyosisa.co.kr##hr.spc
+! 시사일보, koreasisailbo
+koreasisailbo.com##.bn:has([href^="/ad"])
+koreasisailbo.com##[id^="ad_"]
 ! MoneyS
 moneys.co.kr##[class^="adbox"]
 moneys.co.kr##[id^="taboola"]
@@ -2968,7 +2975,6 @@ deepl.com##.fixed.pointer-events-auto
 ||gms.ahnlab.com^$important
 mobileindex.com##[id^="image-banner"]
 mobileindex.com###mktc-popup
-||web.nicepay.co.kr/images/email/*$image
 ||cdn.kcp.co.kr/pay/images/MAIL/*$image
 grok.com##.mb-1.p-0.items-start
 grok.com##.items-center.py-4.px-5
