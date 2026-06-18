@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260616.1
+! Version: 260618.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -539,6 +539,8 @@ donga.com##.i-amphtml-unresolved
 donga.com##.promotion_wrap
 donga.com##.today_issue
 donga.com##[id^="PanthomAd"]
+donga.com##.aside_banner
+donga.com##div:has(> [src*="/RealMedia/ads/"])
 ! dongascience
 dongascience.com##.advertise
 dongascience.com###advertise_fixed
@@ -978,10 +980,13 @@ www.stoo.com##img[src^="/banner/"]
 www.stoo.com##img[src^="/ad/"]
 www.stoo.com##.ad_shoopng
 ! etnews, 전자신문
-etnews.com##div.ad_300x250
-etnews.com##div.clearfix:nth-of-type(9)
-etnews.com##div.clearfix:nth-of-type(10)
 etnews.com##[class^="ad_"]
+etnews.com##.clearfix:nth-of-type(9)
+etnews.com##.clearfix:nth-of-type(10)
+etnews.com##[class^="ad_"]
+etnews.com###ictBox
+! 서울경제, sentv.co.kr
+sentv.co.kr##.banner
 ! 아주경제, ajunews.com
 ajunews.com##[id^="div-gpt-ad"]
 ajunews.com##[id^="dcamp_ad"]
