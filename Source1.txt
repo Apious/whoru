@@ -2182,6 +2182,7 @@ katfile.com##.notranslate
 katfile.com#@#+js(addEventListener-defuser, click, , elements, a#dlink)
 up-4ever.net##div.mb-5.col-lg-6.col-12
 up-4ever.net##[id$="cookie-notice"]
+magicly.lat###adblock-overlay
 
 ! - terabox.com, nephobox.com, 1024terabox.com, freeterabox.com, teraboxapp.com, teraboxurl.com, videyyy.com, freevidey.com, videynow.com, myvidey.com, cleandoods.com, doodssteam.com, doodspro.com, doodslink.com
 terabox.com##.seo-banner-img
@@ -2335,6 +2336,8 @@ happymodpro.com##section.clearfix:nth-of-type(1)modplayapk.com##.describe
 ||xxxiijmp.com/i$subdocument
 ||jr.prahmnatured.com^
 /^https?:\/\/([a-z0-9-]+\.)*a2zapk\.[a-z]{2,3}\/tglink\.php\^/$regexp
+/^([a-z0-9-]+\.)*a2zapk\.[a-z]{2,3}$/###alert
+/^([a-z0-9-]+\.)*a2zapk\.[a-z]{2,3}$/###modalpop
 @@/^https?:\/\/a2z\.a2zapk\.[a-z]{2,3}\^/$regexp
 @@/^https?:\/\/([a-z0-9-]+\.)*a2zapk\.[a-z]{2,3}\/cdn-cgi\//$regexp
 @@/^https?:\/\/dl\.a2zupload\.[a-z]{2,3}\^/$regexp
