@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260624.1
+! Version: 260701.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -376,6 +376,11 @@ stock.finup.co.kr##.ad
 stock.finup.co.kr##div[class="box_cont small"]
 stock.finup.co.kr##.cm_float_btn
 finance.finup.co.kr##.box_bn
+
+! - alphasquare.co.kr
+alphasquare.co.kr##.portfolio-unfolded__promotion-wrapper
+alphasquare.co.kr##.soft-banner-layout
+alphasquare.co.kr###app-warp-base
 
 ! - 팝코 / 디지털(사진, 미디어) 포털 사이트
 popco.net###onesignal-slidedown-container
@@ -932,6 +937,7 @@ mk.co.kr##.ad_bottom_wrap
 account.mk.co.kr##.bannertop
 mk.co.kr##[class="native-ad-list-item"]
 mk.co.kr##[id^="TC_billboard"]
+view.mk.co.kr##div:has(> [src$="/adMaker.js"])
 ! gamezo
 gamezo.co.uk##.adthrive
 gamezo.co.uk##.adthrive-ad
@@ -1709,8 +1715,7 @@ startpage.com##tp-yt-paper-dialog[id="dialog"]
 startpage.com##tp-yt-iron-overlay-backdrop
 
 ! - Gemini Ai / Google
-!@@||play.google.com/log?hasfast=true^
-!@@||play.google.com/log?^$domain=gemini.google.com
+@@||play.google.com/log$domain=gemini.google.com
 google.com##div[jsname]:has-text(Google Ads 캠페인)
 gemini.google.com##zs-advanced-upsell
 gemini.google.com##.human-review-disclosure-container
@@ -1824,6 +1829,7 @@ section.blog.naver.com##.area_promotion
 ! cafe.naver, 까페, m.cafe.naver
 @@||ipada.cafe.naver.com^
 @@||cafeptthumb-phinf.pstatic.net^$image,domain=cafe.naver.com
+||cafeskthumb-phinf.pstatic.net/MjAyNjA1MDlfMjQ5/*$image,domain=cafe.naver.com
 cafe.naver.com#@#.ad_v2
 cafe.naver.com#@#.ad_v3
 cafe.naver.com##.ad_area.AsideAdvert
@@ -2391,6 +2397,7 @@ leeapk.com##+js(nowoif)
 leeapk.com##+js(window.open-defuser)
 leeapk.com###stickyAd
 leeapk.com##[class^="mb"]:has(> [class^="acrp-ad"])
+leeapk.com##[id="acrp-sticky-wrap"]
 ! gocmod
 gocmod.com###gm-float-widget
 gocmod.com###gm-big-popup
@@ -2593,6 +2600,11 @@ softonic.kr##.is-mobile-hide
 ! - softwareok
 softwareok.com##td:nth-of-type(2) > center
 softwareok.com##center:nth-of-type(2)
+
+! - rsload
+||rsload.net/images5/$image
+rsload.net##.yo-content
+rsload.net##+js(nowoif)
 
 ! - logii.com
 logii.com##[href^="/UI/LinkClick.pm"]
@@ -2974,6 +2986,7 @@ roms.danielspringer.at##[href^="https://tradingshenzhen.com/de/"]
 howtogeek.com##.adblock::backdrop:style(backdrop-filter: unset; background: unset;)
 wwmmap.kr##.ad-container
 myonecare.co.kr###div_advert
+missav-ok.com##div:has(> [class^="streamer-container"])
 vineedu.co.kr##+js(interval, , ,100)
 gcamloader.com##.vpnverseadimg
 game8.co##[class^="mv-ad"]
@@ -2982,8 +2995,6 @@ gamemeca.com##.event-right
 extrememanual.net##.adsbygoogle
 computerbase.de##[class^="adbox"]
 themoviedb.org###onetrust-consent-sdk
-alphasquare.co.kr##.portfolio-unfolded__promotion-wrapper
-alphasquare.co.kr##.soft-banner-layout
 rottentomatoes.com###onetrust-consent-sdk
 ma-pia.net##[class*="banner"]
 nosearch.com##.flex-col.overflow-hidden.border-solid
@@ -3057,7 +3068,6 @@ compunik.net##.adsbygoogle
 ||mdm.alps.llogis.com:*/openui/mdm/*/ads-banner*$image
 ||petzoa.co.kr/$subdocument
 ||resource.steelmedia.co.uk/skins$image
-||rsload.net/images5/$image
 ||scontent.fvca1-*.fna.fbcdn.net/$image
 ||studiouniversal.net/banner$image
 ||trace.rememberapp.co.kr^
