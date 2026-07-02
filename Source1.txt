@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260701.1
+! Version: 260702.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2645,7 +2645,7 @@ mapgenie.io##.text-center:has-text(upgrade)
 mapgenie.io##.free-user-locations-info
 mapgenie.io###blobby-left
 
-! - WebToon / 웹툰 // 2026-06
+! - WebToon / 웹툰 // 2026-07
 ! webtoon logo
 ||tkr*.com/img/*logo*
 ||toonkor*.*/*/*logo*
@@ -2671,11 +2671,18 @@ com##[class="popnotice"][style="display: block;"]
 ||iabn*.net/*.$image
 *##[src^="https://iabn"]
 ||wtwt*.com/assets/img/banner*$image
-wtwt380.com,wtwt379.com,wtwt378.com,wtwt377.com,wtwt376.com,wtwt375.com,wtwt374.com,wtwt373.com,wtwt372.com,wtwt371.com,wtwt370.com,wtwt369.com,wtwt368.com,wtwt367.com,wtwt366.com,wtwt365.com,wtwt364.com,wtwt363.com,wtwt362.com,wtwt361.com,wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com,wtwt332.com,wtwt331.com,wtwt330.com,wtwt329.com,wtwt328.com##[href="/w6"]
-wtwt380.com,wtwt379.com,wtwt378.com,wtwt377.com,wtwt376.com,wtwt375.com,wtwt374.com,wtwt373.com,wtwt372.com,wtwt371.com,wtwt370.com,wtwt369.com,wtwt368.com,wtwt367.com,wtwt366.com,wtwt365.com,wtwt364.com,wtwt363.com,wtwt362.com,wtwt361.com,wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com,wtwt332.com,wtwt331.com,wtwt330.com,wtwt329.com,wtwt328.com##.top.row
-wtwt380.com,wtwt379.com,wtwt378.com,wtwt377.com,wtwt376.com,wtwt375.com,wtwt374.com,wtwt373.com,wtwt372.com,wtwt371.com,wtwt370.com,wtwt369.com,wtwt368.com,wtwt367.com,wtwt366.com,wtwt365.com,wtwt364.com,wtwt363.com,wtwt362.com,wtwt361.com,wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com,wtwt332.com,wtwt331.com,wtwt330.com,wtwt329.com,wtwt328.com##.left > ul > li:nth-of-type(4)
-wtwt380.com,wtwt379.com,wtwt378.com,wtwt377.com,wtwt376.com,wtwt375.com,wtwt374.com,wtwt373.com,wtwt372.com,wtwt371.com,wtwt370.com,wtwt369.com,wtwt368.com,wtwt367.com,wtwt366.com,wtwt365.com,wtwt364.com,wtwt363.com,wtwt362.com,wtwt361.com,wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com,wtwt332.com,wtwt331.com,wtwt330.com,wtwt329.com,wtwt328.com##.toon-bottom
-wtwt380.com,wtwt379.com,wtwt378.com,wtwt377.com,wtwt376.com,wtwt375.com,wtwt374.com,wtwt373.com,wtwt372.com,wtwt371.com,wtwt370.com,wtwt369.com,wtwt368.com,wtwt367.com,wtwt366.com,wtwt365.com,wtwt364.com,wtwt363.com,wtwt362.com,wtwt361.com,wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com,wtwt332.com,wtwt331.com,wtwt330.com,wtwt329.com,wtwt328.com##.banner
+/wtwt\d+\.com$/##[href="/w6"]
+/wtwt\d+\.com$/##.top.row
+/wtwt\d+\.com$/##.left > ul > li:nth-of-type(4)
+/wtwt\d+\.com$/##.toon-bottom
+/wtwt\d+\.com$/##.banner
+! toki
+/toki\d+\.com$/##div:has-text(그만보기)
+/toki\d+\.com$/##section > button
+/sbxh\d+\.com$/##div:has-text(그만보기)
+/sbxh\d+\.com$/##section > button
+/newtoki\d+\.org$/##div:has-text(그만보기)
+/newtoki\d+\.org$/##section > button
 ! blacktoon, 블랙툰
 xn--ij2bx6jk1s.co##.banner-content
 ||webimg*.com/*/*.gif$image
@@ -2684,7 +2691,6 @@ xn--ij2bx6jk1s.co##.banner-content
 ||kmana*.net/webtoon/images/*.gif$image
 ||pl*.com/*/pop/$image
 ||wwwimageup.angle777899.com$image
-com##[href^="http://11toon"]
 /other/atoona$image
 ! namee
 ||namee*.com/*/*.gif$image
@@ -2697,14 +2703,12 @@ komiku.asia##.kln
 komiku.asia##.textwidget
 ! toon-bro
 toon-bro.xyz##.inset-0.fixed
-!toon-bro.xyz###radix-\:rc\:
-!toon-bro.xyz###radix-\:r7\:
 ||*.toon-bro.xyz/images/*.svg$image
 ||*.toon-bro.xyz/images/ad^$image
 toon-bro.xyz##div.flex-1.container:nth-of-type(1)
 ! xtoon
 ||xtoon*.*cdn.net/collaboration/*$image
-xtoon365.com###category-Ad
+/xtoon\d+\.com$/###category-Ad
 ! about-etc
 ||a*.tooncome.com/*/*.gif$image
 ||hoduhodu.com/*X*.gif^$image
@@ -2738,34 +2742,32 @@ proxysite.com##[class*="banner"]
 tvwiki.app###cpb-popup-banners
 tvwiki.app##[src^="https://media.cokcok.vip/assets/images"]
 tvwiki.app##[class^="custom_banner"]
-! 누누티비, nooo9.tv
-tv##[id^="site-banner"]
 ! cokcoktv
 ||cokcok.stream^$xhr
 ||media.cokcok.vip/assets/*/*.^
-cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com,cokcok11.com,cokcok10.com,cokcok9.com,cokcok8.com,cokcok7.com,cokcok6.com##[id*="banners"]
-cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com,cokcok11.com,cokcok10.com,cokcok9.com,cokcok8.com,cokcok7.com,cokcok6.com##[class*="banner"]
-cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com,cokcok11.com,cokcok10.com,cokcok9.com,cokcok8.com,cokcok7.com,cokcok6.com##.tooltipster-box
+/cokcok\d+\.com$/##[id*="banners"]
+/cokcok\d+\.com$/##[class*="banner"]
+/cokcok\d+\.com$/##.tooltipster-box
 ! tvchak
-com##.banner-box
-com##.popup_mdd
-com###advertiseMain
-com##.hezuo_div1
+/tvchak\d+\.com$/##.banner-box
+/tvchak\d+\.com$/##.popup_mdd
+/tvchak\d+\.com$/###advertiseMain
+/tvchak\d+\.com$/##.hezuo_div1
 ! chachatv
 ||chachatv*.pro/ad/index.html$subdocument
 ! tvzota
 ||tvzota*.com/ad$subdocument
-com##[class="wid"]
-com##[href$="123.com"]
-com##[href^="https://herbmming"]
-com##.banner-container
+/tvzota\d+\.com$/##[class="wid"]
+/tvzota\d+\.com$/##[href$="123.com"]
+/tvzota\d+\.com$/##[href^="https://herbmming"]
+/tvzota\d+\.com$/##.banner-container
 ! tvroom ///
-tvroom10.org,tvroom9.org,tvroom8.org,tvroom7.org,tvroom6.org,tvroom5.org#@#div.banner_l
+/tvroom\d+\.org$/#@#div.banner_l
 ||tinypic.host/images/*.$image
 ! bozatv
 ||bozatv*.com/ad/index.html$subdocument
-bozatv140.combozatv139.com,bozatv138.com,bozatv137.com,bozatv136.com,bozatv135.com,bozatv134.com,bozatv133.com,bozatv132.com,bozatv131.com,bozatv130.com,bozatv129.com,bozatv128.com,bozatv127.com,bozatv126.com,bozatv125.com,bozatv124.com,bozatv123.com,bozatv122.com,bozatv121.com,bozatv120.com,bozatv119.com,bozatv118.com,bozatv117.com,bozatv116.com,bozatv115.com,bozatv114.com,bozatv113.com,bozatv112.com,bozatv111.com##[class^="yk-container"]
-bozatv140.combozatv139.com,bozatv138.com,bozatv137.com,bozatv136.com,bozatv135.com,bozatv134.com,bozatv133.com,bozatv132.com,bozatv131.com,bozatv130.com,bozatv129.com,bozatv128.com,bozatv127.com,bozatv126.com,bozatv125.com,bozatv124.com,bozatv123.com,bozatv122.com,bozatv121.com,bozatv120.com,bozatv119.com,bozatv118.com,bozatv117.com,bozatv116.com,bozatv115.com,bozatv114.com,bozatv113.com,bozatv112.com,bozatv111.com##.popup_left
+/bozatv\d+\.com$/##[class^="yk-container"]
+/bozatv\d+\.com$/##.popup_left
 ! gltv
 ||gltv*.com/files/attach/*.png$image
 ||gltv*.com/files/attach/*.jpg$image
@@ -2773,6 +2775,7 @@ bozatv140.combozatv139.com,bozatv138.com,bozatv137.com,bozatv136.com,bozatv135.c
 ||gltv*.com/layouts/fado/files/*.gif$image
 ! hoohootv
 ||hoohootv*.xyz/static/bnner/*.webp$image
+/hoohootv\d+\.xyz$/###img_row_container
 ! 3377tv
 3377tv.kr###notice
 3377tv.kr##.player-news
@@ -2790,16 +2793,10 @@ bozatv140.combozatv139.com,bozatv138.com,bozatv137.com,bozatv136.com,bozatv135.c
 ||conan-tv.com/theme/*/storage/image/*.gif$image
 ||dlrstream.com/*/photo_*.jpg
 bjsale.com##.player-news
-fun##.bannerwrap1
-kktv12.com##.modal_flex
 kotbc.com##.at-title
-lol##figure.size-full.wp-block-image
-lol/wp-content/uploads/*/*.gif
-store##[href^="https://daepiso.xyz"]
 tvusan.vip##.videowrapper_pc
 twtw.tv##wow-image
 viaproducciones.net##.appList
-||imgdd.com$image
 rood.app##.e-child.e-con.e-flex.e-con-full.elementor-element
 tvmon.site##[class^="banner"]
 
@@ -2824,14 +2821,6 @@ ohlitv.com###exon
 anilife.app##.sm\:grid-cols-2
 
 ! - 주소, 링크
-! bobaelink, 보배링크
-xyz##div.dh.col-xs-6:nth-of-type(3)
-xyz##div.dh.col-xs-6:nth-of-type(5)
-xyz##div.dh.col-xs-6:nth-of-type(6)
-xyz##div.dh.col-xs-6:nth-of-type(9)
-xyz##div.dh.col-xs-6:nth-of-type(10)
-xyz##div.dh.col-xs-6:nth-of-type(14)
-xyz##div.dh.col-xs-6:nth-of-type(15)
 ! juso.wiki
 juso.wiki##div[class^="alert alert"]
 ! jusogall
@@ -2842,39 +2831,29 @@ jusogall.com##div.col:nth-of-type(9)
 jusogall.com##div.col:nth-of-type(7)
 jusogall.com##div.col:nth-of-type(4)
 ! wdwd
-wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##[class*="box"]:has-text(성인)
-wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##[class*="box"]:has-text(오피)
-wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##[class*="box"]:has-text(검증)
-wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com,wdwd10.com##.rainbow-text
+/wdwd\d+\.com$/##[class*="box"]:has-text(성인)
+/wdwd\d+\.com$/##[class*="box"]:has-text(오피)
+/wdwd\d+\.com$/##[class*="box"]:has-text(검증)
+/wdwd\d+\.com$/##.rainbow-text
 ! jusopang
 @@||jusopang*.com/*.png
 ||jusopang*.com/*/*330x230*.webp$image
 ||jusopang*.com/*.webp$image
 ||jusopang*.com/*.gif$image
-jusopang20.com##p:nth-of-type(14)
-jusopang20.com##p > [href*="https://jusopang20.com"]
-jusopang20.com##div[id^="foogallery-gallery-"]
-jusopang20.com##.pc
-com##[id="jt_popup_container"]
-com##[href*="com/aduit/"]
-com##[href*="com/op/"]
-com##[href*="com/%ec%8a%a4%ed%8f%ac%ec%b8%a0-%ec%98%81%ec%83%81/"]
+/jusopang\d+\.com$/##p:nth-of-type(14)
+/jusopang\d+\.com$/##p > [href*="https://jusopang20.com"]
+/jusopang\d+\.com$/##div[id^="foogallery-gallery-"]
+/jusopang\d+\.com$/##.pc
+/jusopang\d+\.com$/##[id="jt_popup_container"]
+/jusopang\d+\.com$/##[href*="com/aduit/"]
+/jusopang\d+\.com$/##[href*="com/op/"]
+/jusopang\d+\.com$/##[href*="com/%ec%8a%a4%ed%8f%ac%ec%b8%a0-%ec%98%81%ec%83%81/"]
 ! linktaxi.net
 ||linktaxi.net/*.jpg$image
 ||linktaxi.net/*.gif$image
 ! ygy01.com
 ||www.ygy*.com/upload_files/popup$image
 ygy01.com##.close
-! koreasite
-com##.banner_list
-com##.mainflex > div:has(> div > li:has-text(오피))
-com##.mainflex > div:has(> div > li:has-text(성인))
-com##.mainflex > div:has(> div > li:has-text(검증))
-com##.mainflex > div:has(> div > li:has-text(정화))
-com##.off.menu-li:has(> a:has-text(오피))
-com##.off.menu-li:has(> a:has-text(성인))
-com##.off.menu-li:has(> a:has-text(검증))
-com##.off.menu-li:has(> a:has-text(정화))
 ! 주소월드, 김치주소, 주소야
 /theme/*/*.webp^$domain=jusoworld.cc|jusoya.com|kimchijuso.com
 jusoworld.cc##.card:has-text(즐겨)
@@ -2894,11 +2873,6 @@ kimchijuso.com##.card:has-text(먹튀)
 kimchijuso.com##.card:has-text(선물)
 
 ! - 토렌트
-! torrentqq
-com##.row-banner
-com##.at-banner
-||i.imgur.com/*.jpg$image
-||i.imgur.com/*.gif$image
 ! TorrentSome
 ||static.filesbest.xyz/s/up$image
 ||torrentsome*.com/*/up$image
@@ -2909,27 +2883,11 @@ etoland.co.kr###bottom-big-banner
 etoland.co.kr###main_popup
 etoland.co.kr##.power_link_top_wrap
 ! torrentsee
-com##div[class="adver-list"]
 ||torrentsee*.com/*/*.gif$image
 ||torrentsee*.com/*/*.png$image
-! torrentwhy, 토렌트와이
-||www.torrentwhy*.xyz/ad/$image
-xyz##[href="/op-bamwolf"]
-xyz##[href="/op-gandago"]
-xyz##[href="/op-opgo"]
-xyz##[href="/ad-1"]
-xyz##[href="/ad-2"]
-xyz##[href="/ad-3"]
-xyz##[href="/ad-4"]
-xyz##[href="/ad-5"]
-xyz##[href="/ad-6"]
-xyz##[href="/ad-7"]
-xyz##[href="/ad-8"]
 ! torrentssg
 ||torrentssg*.com/data/apms/$image
 ||torrentssg*.com/data/file/*.gif$image
-! torrentreel
-site##[href^="https://filecast.co.kr/"]
 ! 기타
 ||torrentgram*.com/data/*/*.gif$image
 ||torrentlee*.com/data/*/*.gif$image
