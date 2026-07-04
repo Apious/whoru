@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260704.1
+! Version: 260704.2
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1757,6 +1757,15 @@ search.naver.com#@#div[class^="ad_"]
 naver.com###header .header_inner:style(height: 100px !important;)
 search.naver.com##.banner_area
 ! m.naver
+m.naver.com###MM_na_topbanner
+m.naver.com##._MM_VIDEO_PREVIEW_WRAP.comp_shortform_new
+m.naver.com##div.id_comp_home_feed
+m.naver.com##[data-home-feed-id="special-issue"]
+m.naver.com##._MM_SEARCH_AD
+m.naver.com##.comp_banner_feed
+m.naver.com##.id_comp_shorts_banner
+m.naver.com##[data-insp-card-exp-key="search-clip-review"]
+m.naver.com##.sch_logo_container:style(margin-bottom: 0px !important;)
 naver.com###ad_timeboard
 naver.com###MM_SEARCH_NOW
 naver.com###MM_SEARCH_SHOP_LIVE
@@ -1773,10 +1782,6 @@ naver.com##.MM_NEWS_CHANNEL_PROMOTION_TOP_BANNER
 naver.com##.nplus_wrap
 naver.com##.st_show._tutorial_wrap.section_tutorial
 naver.com##.link_search_banner
-m.naver.com###MM_na_topbanner
-m.naver.com##._MM_VIDEO_PREVIEW_WRAP.comp_shortform_new
-m.naver.com##div.id_comp_home_feed
-m.naver.com##[data-home-feed-id="special-issue"]
 naver.com###MM_search_todaynaver
 naver.com##.csm_title_wrap
 naver.com##.gnb_banner
@@ -1785,11 +1790,8 @@ naver.com##.id_comp_guarantee_banner
 naver.com##.id_comp_napp_banner
 naver.com##.MM_GIFT_FLICK_BANNER
 naver.com##.type_load
-m.naver.com##._MM_SEARCH_AD
-m.naver.com##.comp_banner_feed
-m.naver.com##.id_comp_shorts_banner
-m.naver.com##[data-insp-card-exp-key="search-clip-review"]
-m.naver.com##.sch_logo_container:style(margin-bottom: 0px !important;)
+naver.com##[class="link_headline"]:has(> [alt^="[광고]"])
+naver.com##.link_service:has-text(AD)
 ! m.place.naver.com
 pcmap.place.naver.com##.l__qc.no_margin.place_section
 m.place.naver.com###visit_tab_top_ad
