@@ -2882,6 +2882,7 @@ superuser.com##.js-consent-banner
 *##[src^="//t1.daumcdn.net/adfit"]
 
 ! - 기타
+en-thunderscans.com###tcbp-overlay
 ! imou
 ||imou-sg-ali-online-bmp-publicread-iot-new.oss-ap-southeast-1.aliyuncs.com^
 ! hyperos app
