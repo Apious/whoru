@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260704.2
+! Version: 260705.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2647,62 +2647,132 @@ mapgenie.io##.text-center:has-text(upgrade)
 mapgenie.io##.free-user-locations-info
 mapgenie.io###blobby-left
 
+! - Proxysite Ads
+proxysite.com##.banner-area
+proxysite.com##.banner
+proxysite.com##[class*="banner"]
+
+! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브, 애니
+! 온도, ondo
+ondotv.com###hd_pop
+ondotv.com##[class^="each_bn_long"]
+ondotv.com##[class^="basic-banner"]
+ondotv.com##li.off.menu-li:has-text(방송)
+ondotv.com##li.off.menu-li:has-text(야동)
+ondotv.com##li.off.menu-li:has-text(오피)
+! theboda
+||img.smartnote.blog/*.gif$image
+||theboda*.com/img/video_bg*.gif$image
+! cokcoktv
+||media.cokcok.*/assets/videos^
+||media.cokcok.*/assets/images/*.gif$image
+||media.cokcok.*/assets/images/*.png$image
+||media.cokcok.*/assets/images/*x*.jpg$image
+cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com##[id*="banners"]
+cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com##[class*="banner"]
+cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com##.tooltipster-box
+cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com##.custom_banner_wrap
+! tvchak
+tvchak230.com,tvchak229.com,tvchak228.com,tvchak227.com,tvchak226.com,tvchak225.com,tvchak224.com,tvchak223.com,tvchak222.com,tvchak221.com,tvchak220.com,tvchak219.com,tvchak218.com,tvchak217.com,tvchak216.com,tvchak215.com,tvchak214.com,tvchak213.com,tvchak212.com,tvchak211.com,tvchak210.com,tvchak209.com,tvchak208.com##.banner-box
+tvchak230.com,tvchak229.com,tvchak228.com,tvchak227.com,tvchak226.com,tvchak225.com,tvchak224.com,tvchak223.com,tvchak222.com,tvchak221.com,tvchak220.com,tvchak219.com,tvchak218.com,tvchak217.com,tvchak216.com,tvchak215.com,tvchak214.com,tvchak213.com,tvchak212.com,tvchak211.com,tvchak210.com,tvchak209.com,tvchak208.com##.popup_mdd
+tvchak230.com,tvchak229.com,tvchak228.com,tvchak227.com,tvchak226.com,tvchak225.com,tvchak224.com,tvchak223.com,tvchak222.com,tvchak221.com,tvchak220.com,tvchak219.com,tvchak218.com,tvchak217.com,tvchak216.com,tvchak215.com,tvchak214.com,tvchak213.com,tvchak212.com,tvchak211.com,tvchak210.com,tvchak209.com,tvchak208.com###advertiseMain
+tvchak230.com,tvchak229.com,tvchak228.com,tvchak227.com,tvchak226.com,tvchak225.com,tvchak224.com,tvchak223.com,tvchak222.com,tvchak221.com,tvchak220.com,tvchak219.com,tvchak218.com,tvchak217.com,tvchak216.com,tvchak215.com,tvchak214.com,tvchak213.com,tvchak212.com,tvchak211.com,tvchak210.com,tvchak209.com,tvchak208.com##.hezuo_div1
+! tvroom
+tvroom40.org,tvroom39.org,tvroom38.org,tvroom37.org,tvroom36.org,tvroom35.org,tvroom34.org,tvroom33.org,tvroom32.org,tvroom31.org,tvroom30.org,tvroom29.org,tvroom28.org,tvroom27.org,tvroom26.org,tvroom25.org,tvroom24.org,tvroom23.org,tvroom22.org,tvroom21.org,tvroom20.org,tvroom19.org,tvroom18.org#@#div.banner_l
+||tinypic.host/images/*.$image
+! hoohootv
+||hoohootv*.xyz/static/bnner/*.webp$image
+hoohootv520.xyz,hoohootv519.xyz,hoohootv518.xyz,hoohootv517.xyz,hoohootv516.xyz,hoohootv515.xyz,hoohootv514.xyz,hoohootv513.xyz,hoohootv512.xyz,hoohootv511.xyz,hoohootv510.xyz,hoohootv509.xyz,hoohootv508.xyz,hoohootv507.xyz,hoohootv506.xyz,hoohootv505.xyz,hoohootv504.xyz,hoohootv503.xyz,hoohootv502.xyz,hoohootv501.xyz,hoohootv500.xyz,hoohootv499.xyz,hoohootv498.xyz,hoohootv497.xyz,hoohootv496.xyz,hoohootv495.xyz,hoohootv494.xyz,hoohootv493.xyz,hoohootv492.xyz,hoohootv491.xyz,hoohootv490.xyz,hoohootv489.xyz,hoohootv488.xyz,hoohootv487.xyz,hoohootv486.xyz,hoohootv485.xyz,hoohootv484.xyz,hoohootv483.xyz,hoohootv482.xyz,hoohootv481.xyz,hoohootv480.xyz,hoohootv479.xyz,hoohootv478.xyz,hoohootv477.xyz,hoohootv476.xyz,hoohootv475.xyz,hoohootv474.xyz,hoohootv473.xyz,hoohootv472.xyz,hoohootv471.xyz,hoohootv470.xyz,hoohootv469.xyz,hoohootv468.xyz,hoohootv467.xyz,hoohootv466.xyz,hoohootv465.xyz,hoohootv464.xyz,hoohootv463.xyz,hoohootv462.xyz,hoohootv461.xyz,hoohootv460.xyz,hoohootv459.xyz,hoohootv458.xyz,hoohootv457.xyz,hoohootv456.xyz,hoohootv455.xyz,hoohootv454.xyz,hoohootv453.xyz,hoohootv452.xyz,hoohootv451.xyz,hoohootv450.xyz,hoohootv449.xyz,hoohootv448.xyz,hoohootv447.xyz,hoohootv446.xyz,hoohootv445.xyz,hoohootv444.xyz,hoohootv443.xyz,hoohootv442.xyz,hoohootv441.xyz,hoohootv440.xyz,hoohootv439.xyz,hoohootv438.xyz,hoohootv437.xyz,hoohootv436.xyz,hoohootv435.xyz,hoohootv434.xyz,hoohootv433.xyz,hoohootv432.xyz,hoohootv431.xyz,hoohootv430.xyz,hoohootv429.xyz,hoohootv428.xyz,hoohootv427.xyz,hoohootv426.xyz,hoohootv425.xyz,hoohootv424.xyz,hoohootv423.xyz###img_row_container
+! mvking
+mvking30.org,mvking29.org,mvking28.org,mvking27.org,mvking26.org,mvking25.org,mvking24.org,mvking23.org,mvking22.org,mvking21.org,mvking20.org,mvking19.org,mvking18.org,mvking17.org,mvking16.org,mvking15.org,mvking14.org,mvking13.org,mvking12.org,mvking11.org,mvking10.org##div.banner_m
+! bbtv
+bbtv110.com,bbtv109.com,bbtv108.com,bbtv107.com,bbtv106.com,bbtv105.com,bbtv104.com,bbtv103.com,bbtv102.com,bbtv101.com,bbtv100.com,bbtv99.com,bbtv98.com,bbtv97.com,bbtv96.com,bbtv95.com,bbtv94.com,bbtv93.com,bbtv92.com,bbtv91.com,bbtv90.com##[id] > div > .el-row
+! gltv
+||gltv*.com/files/attach/*.png$image
+||gltv*.com/files/attach/*.jpg$image
+||gltv*.com/files/attach/*.gif$image
+||gltv*.com/layouts/fado/files/*.gif$image
+! blacktv
+||blacktv*.com/*/*.gif$image
+||blacktv*.com/*/setting/*.jpg$image
+blacktv50.com,blacktv49.com,blacktv48.com,blacktv47.com,blacktv46.com,blacktv45.com,blacktv44.com,blacktv43.com,blacktv42.com,blacktv41.com,blacktv40.com,blacktv39.com,blacktv38.com,blacktv37.com,blacktv36.com,blacktv35.com,blacktv34.com,blacktv33.com,blacktv32.com,blacktv31.com,blacktv30.com,blacktv29.com,blacktv28.com,blacktv27.com,blacktv26.com,blacktv25.com,blacktv24.com##.middle-banner
+! bmtv
+bmtv40.com,bmtv39.com,bmtv38.com,bmtv37.com,bmtv36.com,bmtv35.com,bmtv34.com,bmtv33.com,bmtv32.com,bmtv31.com,bmtv30.com,bmtv29.com,bmtv28.com,bmtv27.com,bmtv26.com,bmtv25.com,bmtv24.com###tgPopup
+!! TV-etc
+||*.kotbc2.com/img/$image
+kotbc.com##.at-title
+conan-tv.com###hd_pop
+conan-tv.com##[id^="topbanner"]
+
+! - 애니
+! 온도, ondo
+ondoani.com###hd_pop
+ondoani.com##[class^="each_bn_long"]
+ondoani.com##[class^="basic-banner"]
+ondoani.com##li.off.menu-li:has-text(방송)
+ondoani.com##li.off.menu-li:has-text(야동)
+ondoani.com##li.off.menu-li:has-text(오피)
+! linkkf.app / linkkf.tv
+@@||ani1c1.top^$image
+kr.linkkf.net###banner
+kr.linkkf.net###banner
+kr.linkkf.net##[data-adsbygoogle-status="done"]
+kr.linkkf.net##[id^="aswift"]
+! 기타
+anilife.app##.sm\:grid-cols-2
+
 ! - WebToon / 웹툰 // 2026-07
+! 온도, ondo
+ondotoon.com###hd_pop
+ondotoon.com##[class^="each_bn_long"]
+ondotoon.com##[class^="basic-banner"]
+ondotoon.com##li.off.menu-li:has-text(방송)
+ondotoon.com##li.off.menu-li:has-text(야동)
+ondotoon.com##li.off.menu-li:has-text(오피)
 ! webtoon logo
 ||tkr*.com/img/*logo*
 ||toonkor*.*/*/*logo*
 ||wftoon*.com/*/*/logo*
 ||wtwt*.com/*/logo.$image
-! toonkor, tkr
+! tkor
 @@||tkor.*/data/wtoon^
 @@||tkr*.com/*/btn_submit_comment.gif$image
-@@||toonkor*.com/*/btn_submit_comment.gif$image
 ||tkor*.com/*/*375x100*.jpg$image
 ||tkor*.com/*/quick*.jpg$image
 ||tkor*.com/bann$image
-||toonkor*.*/*/*.gif$image
-||toonkor*.*/bann/*.jpg$image
-||toonkor*.*/images/*.jpg$image
-! wfwf
-||*.net/winner_*.jpg$image
-||*.net/win_ico.png$image
-||ionppn*.net/*g$image
-com##[href="/bz"]
+tkor150.com,tkor149.com,tkor148.com,tkor147.com,tkor146.com,tkor145.com,tkor144.com,tkor143.com,tkor142.com,tkor141.com,tkor140.com,tkor139.com,tkor138.com,tkor137.com,tkor136.com,tkor135.com,tkor134.com,tkor133.com,tkor132.com##.main_top_bann
 ! wtwt, Wtoon
-com##[class="popnotice"][style="display: block;"]
 ||iabn*.net/*.$image
-*##[src^="https://iabn"]
 ||wtwt*.com/assets/img/banner*$image
-/wtwt\d+\.com$/##[href="/w6"]
-/wtwt\d+\.com$/##.top.row
-/wtwt\d+\.com$/##.left > ul > li:nth-of-type(4)
-/wtwt\d+\.com$/##.toon-bottom
-/wtwt\d+\.com$/##.banner
+wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com##.banner
+wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com##.top.row
+wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com##[class="popnotice"][style="display: block;"]
+wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com##.toon-bottom
+wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com##[href="/w6"]
+wtwt360.com,wtwt359.com,wtwt358.com,wtwt357.com,wtwt356.com,wtwt355.com,wtwt354.com,wtwt353.com,wtwt352.com,wtwt351.com,wtwt350.com,wtwt349.com,wtwt348.com,wtwt347.com,wtwt346.com,wtwt345.com,wtwt344.com,wtwt343.com,wtwt342.com,wtwt341.com,wtwt340.com,wtwt339.com,wtwt338.com,wtwt337.com,wtwt336.com,wtwt335.com,wtwt334.com,wtwt333.com##.left > ul > li:nth-of-type(4)
 ! toki
-/toki\d+\.com$/##div:has-text(그만보기)
-/toki\d+\.com$/##section > button
-/sbxh\d+\.com$/##div:has-text(그만보기)
-/sbxh\d+\.com$/##section > button
-/newtoki\d+\.org$/##div:has-text(그만보기)
-/newtoki\d+\.org$/##section > button
+toki60.com,toki59.com,toki58.com,toki57.com,toki56.com,toki55.com,toki54.com,toki53.com,toki52.com,toki51.com,toki50.com,toki49.com,toki48.com,toki47.com,toki46.com,toki45.com,toki44.com,toki43.com,toki42.com,toki41.com,toki40.com,toki39.com,toki38.com,toki37.com,toki36.com,toki35.com,toki34.com,toki33.com,toki32.com,toki31.com,toki30.com,toki29.com##div:has-text(그만보기)
+toki60.com,toki59.com,toki58.com,toki57.com,toki56.com,toki55.com,toki54.com,toki53.com,toki52.com,toki51.com,toki50.com,toki49.com,toki48.com,toki47.com,toki46.com,toki45.com,toki44.com,toki43.com,toki42.com,toki41.com,toki40.com,toki39.com,toki38.com,toki37.com,toki36.com,toki35.com,toki34.com,toki33.com,toki32.com,toki31.com,toki30.com,toki29.com##section > button
+sbxh40.com,sbxh39.com,sbxh38.com,sbxh37.com,sbxh36.com,sbxh35.com,sbxh34.com,sbxh33.com,sbxh32.com,sbxh31.com,sbxh30.com,sbxh29.com,sbxh28.com,sbxh27.com,sbxh26.com,sbxh25.com,sbxh24.com,sbxh23.com,sbxh22.com,sbxh21.com,sbxh20.com,sbxh19.com,sbxh18.com,sbxh17.com,sbxh16.com,sbxh15.com,sbxh14.com,sbxh13.com,sbxh12.com,sbxh11.com,sbxh10.com,sbxh9.com##div:has-text(그만보기)
+sbxh40.com,sbxh39.com,sbxh38.com,sbxh37.com,sbxh36.com,sbxh35.com,sbxh34.com,sbxh33.com,sbxh32.com,sbxh31.com,sbxh30.com,sbxh29.com,sbxh28.com,sbxh27.com,sbxh26.com,sbxh25.com,sbxh24.com,sbxh23.com,sbxh22.com,sbxh21.com,sbxh20.com,sbxh19.com,sbxh18.com,sbxh17.com,sbxh16.com,sbxh15.com,sbxh14.com,sbxh13.com,sbxh12.com,sbxh11.com,sbxh10.com,sbxh9.com##section > button
+newtoki26.org,newtoki28.org,newtoki30.org,newtoki27.org,newtoki12.org,newtoki14.org,newtoki13.org,newtoki22.org,newtoki24.org,newtoki23.org,newtoki20.org,newtoki29.org,newtoki25.org,newtoki21.org,newtoki10.org,newtoki19.org,newtoki16.org,newtoki17.org,newtoki11.org,newtoki15.org,newtoki18.org,newtoki9.org,newtoki8.org,newtoki7.org,newtoki6.org,newtoki5.org,newtoki4.org,newtoki3.org,newtoki2.org,newtoki1.org##div:has-text(그만보기)
+newtoki26.org,newtoki28.org,newtoki30.org,newtoki27.org,newtoki12.org,newtoki14.org,newtoki13.org,newtoki22.org,newtoki24.org,newtoki23.org,newtoki20.org,newtoki29.org,newtoki25.org,newtoki21.org,newtoki10.org,newtoki19.org,newtoki16.org,newtoki17.org,newtoki11.org,newtoki15.org,newtoki18.org,newtoki9.org,newtoki8.org,newtoki7.org,newtoki6.org,newtoki5.org,newtoki4.org,newtoki3.org,newtoki2.org,newtoki1.org##section > button
+! wfwf, 늑대툰
+wfwf440.com,wfwf439.com,wfwf438.com,wfwf437.com,wfwf436.com,wfwf435.com,wfwf434.com,wfwf433.com,wfwf432.com,wfwf431.com,wfwf430.com,wfwf429.com,wfwf428.com,wfwf427.com,wfwf426.com,wfwf425.com,wfwf424.com,wfwf423.com,wfwf422.com,wfwf421.com,wfwf420.com,wfwf419.com,wfwf418.com,wfwf417.com,wfwf416.com,wfwf415.com,wfwf414.com,wfwf413.com,wfwf412.com##.modal-overlay
 ! blacktoon, 블랙툰
-xn--ij2bx6jk1s.co##.banner-content
-||webimg*.com/*/*.gif$image
+/^https:\/\/blacktoon[0-9]+\.com\/poster_js\/[0-9]+\.js/
+blacktoon450.com,blacktoon449.com,blacktoon448.com,blacktoon447.com,blacktoon446.com,blacktoon445.com,blacktoon444.com,blacktoon443.com,blacktoon442.com,blacktoon441.com,blacktoon440.com,blacktoon439.com,blacktoon438.com,blacktoon437.com,blacktoon436.com,blacktoon435.com,blacktoon434.com,blacktoon433.com,blacktoon432.com,blacktoon431.com,blacktoon430.com,blacktoon429.com,blacktoon428.com,blacktoon427.com,blacktoon426.com,blacktoon425.com,blacktoon424.com,blacktoon423.com,blacktoon422.com,blacktoon421.com,blacktoon420.com,blacktoon419.com,blacktoon418.com,blacktoon417.com,blacktoon416.com,blacktoon415.com##.banner
+! funbe
+funbe680.com,funbe679.com,funbe678.com,funbe677.com,funbe676.com,funbe675.com,funbe674.com,funbe673.com,funbe672.com,funbe671.com,funbe670.com,funbe669.com,funbe668.com,funbe667.com,funbe666.com,funbe665.com,funbe664.com,funbe663.com,funbe662.com,funbe661.com,funbe660.com,funbe659.com,funbe658.com,funbe657.com,funbe656.com,funbe655.com,funbe654.com
 ! 11toon, 103.204.13.68:8901
 @@||11toonimg*.spotv*.com/data/file/*/*.jpg$image
 ||kmana*.net/webtoon/images/*.gif$image
 ||pl*.com/*/pop/$image
-||wwwimageup.angle777899.com$image
 /other/atoona$image
 ! namee
 ||namee*.com/*/*.gif$image
 ||namee*.com/*/*.png$image
 ||namee*.com/*/*_*x*.jpg$image
-! komiku.asia
-||komiku.asia/wp-content/uploads/*/Popup.jpg$image
-||komiku.asia/wp-content/uploads/*/*terbaru.jpg$image
-komiku.asia##.kln
-komiku.asia##.textwidget
 ! toon-bro
 toon-bro.xyz##.inset-0.fixed
 ||*.toon-bro.xyz/images/*.svg$image
@@ -2727,147 +2797,31 @@ asurascans.us###sticky-ads
 webtoonguide.com##.realtime-rank-section
 webcomicsapp.com##.icon-bonus
 
-! - Proxysite Ads
-proxysite.com##.banner-area
-proxysite.com##.banner
-proxysite.com##[class*="banner"]
-
-! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브
-@@/^https?:\/\/[0-9a-z]{5,}\.(digital|website|life|guru|uno|cfd)\/[a-z0-9]{6,}\//$script,third-party,xmlhttprequest
-! theboda
-||img.smartnote.blog/*.gif$image
-||theboda*.com/img/video_bg*.gif$image
-! 위키, tvwiki.app
-
-tvwiki.app###cpb-popup-banners
-tvwiki.app##[src^="https://media.cokcok.vip/assets/images"]
-tvwiki.app##[class^="custom_banner"]
-! cokcoktv
-||media.cokcok.*/assets/images/*.gif$image
-||media.cokcok.*/assets/images/*.png$image
-||media.cokcok.*/assets/images/*x*.jpg$image
-/cokcok\d+\.com$/##[id*="banners"]
-/cokcok\d+\.com$/##[class*="banner"]
-/cokcok\d+\.com$/##.tooltipster-box
-/cokcok\d+\.com$/##.custom_banner_wrap
-! tvchak
-/tvchak\d+\.com$/##.banner-box
-/tvchak\d+\.com$/##.popup_mdd
-/tvchak\d+\.com$/###advertiseMain
-/tvchak\d+\.com$/##.hezuo_div1
-! chachatv
-||chachatv*.pro/ad/index.html$subdocument
-! tvzota
-||tvzota*.com/ad$subdocument
-/tvzota\d+\.com$/##[class="wid"]
-/tvzota\d+\.com$/##[href$="123.com"]
-/tvzota\d+\.com$/##[href^="https://herbmming"]
-/tvzota\d+\.com$/##.banner-container
-! tvroom ///
-/tvroom\d+\.org$/#@#div.banner_l
-||tinypic.host/images/*.$image
-! bozatv
-||bozatv*.com/ad/index.html$subdocument
-/bozatv\d+\.com$/##[class^="yk-container"]
-/bozatv\d+\.com$/##.popup_left
-! gltv
-||gltv*.com/files/attach/*.png$image
-||gltv*.com/files/attach/*.jpg$image
-||gltv*.com/files/attach/*.gif$image
-||gltv*.com/layouts/fado/files/*.gif$image
-! hoohootv
-||hoohootv*.xyz/static/bnner/*.webp$image
-/hoohootv\d+\.xyz$/###img_row_container
-! 3377tv
-3377tv.kr###notice
-3377tv.kr##.player-news
-3377tv.kr##a.fdesc
-3377tv.kr###fundtxt
-3377tv.kr##.wr-list
-3377tv.kr###mhbottom_ad_box
-3377tv.kr##body > .rel.box-width
-!! TV-etc
-/^https:\/\/blacktoon[0-9]+\.com\/poster_js\/[0-9]+\.js/
-||*.kotbc2.com/img/$image
-||blacktv*.com/*/*.gif$image
-||blacktv*.com/*/setting/*.jpg$image
-||bmtv-sportscdn.com/data/popup$image
-||conan-tv.com/theme/*/storage/image/*.gif$image
-||dlrstream.com/*/photo_*.jpg
-bjsale.com##.player-news
-kotbc.com##.at-title
-tvusan.vip##.videowrapper_pc
-twtw.tv##wow-image
-viaproducciones.net##.appList
-rood.app##.e-child.e-con.e-flex.e-con-full.elementor-element
-tvmon.site##[class^="banner"]
-
-! - 애니
-! linkkf.app / linkkf.tv
-@@||ani1c1.top^$image
-kr.linkkf.net###banner
-kr.linkkf.net###banner
-kr.linkkf.net##[data-adsbygoogle-status="done"]
-kr.linkkf.net##[id^="aswift"]
-! ohli365
-||ohli365.vip/*.gif$image
-||ohli365.vip/*.png$image
-ohli365.vip##.at-title
-ohli365.vip##.basic-banner-4
-! ohlitv
-||ohlitv.com/img/*.gif$image
-ohlitv.com##.insty
-ohlitv.com###exon
-! 라프텔, laftel.net
-||service.iamport.kr^$domain=laftel.net
-anilife.app##.sm\:grid-cols-2
-
 ! - 주소, 링크
-! juso.wiki
-juso.wiki##div[class^="alert alert"]
-! jusogall
-jusogall.com###banner-container
-jusogall.com##.nt-container:nth-of-type(4)
-jusogall.com##div.col:nth-of-type(2)
-jusogall.com##div.col:nth-of-type(9)
-jusogall.com##div.col:nth-of-type(7)
-jusogall.com##div.col:nth-of-type(4)
 ! wdwd
-/wdwd\d+\.com$/##[class*="box"]:has-text(성인)
-/wdwd\d+\.com$/##[class*="box"]:has-text(오피)
-/wdwd\d+\.com$/##[class*="box"]:has-text(검증)
-/wdwd\d+\.com$/##.rainbow-text
+wdwd20.com,wdwd19.com,wdwd18.com,wdwd17.com,wdwd16.com,wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com##.banner_list
+wdwd20.com,wdwd19.com,wdwd18.com,wdwd17.com,wdwd16.com,wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com##[class*="box"]:has-text(성인)
+wdwd20.com,wdwd19.com,wdwd18.com,wdwd17.com,wdwd16.com,wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com##[class*="box"]:has-text(오피)
+wdwd20.com,wdwd19.com,wdwd18.com,wdwd17.com,wdwd16.com,wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com##[class*="box"]:has-text(검증)
+wdwd20.com,wdwd19.com,wdwd18.com,wdwd17.com,wdwd16.com,wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com##.rainbow-text
 ! jusopang
 @@||jusopang*.com/*.png
 ||jusopang*.com/*/*330x230*.webp$image
 ||jusopang*.com/*.webp$image
 ||jusopang*.com/*.gif$image
-/jusopang\d+\.com$/##p:nth-of-type(14)
-/jusopang\d+\.com$/##p > [href*="https://jusopang20.com"]
-/jusopang\d+\.com$/##div[id^="foogallery-gallery-"]
-/jusopang\d+\.com$/##.pc
-/jusopang\d+\.com$/##[id="jt_popup_container"]
-/jusopang\d+\.com$/##[href*="com/aduit/"]
-/jusopang\d+\.com$/##[href*="com/op/"]
-/jusopang\d+\.com$/##[href*="com/%ec%8a%a4%ed%8f%ac%ec%b8%a0-%ec%98%81%ec%83%81/"]
-! linktaxi.net
-||linktaxi.net/*.jpg$image
-||linktaxi.net/*.gif$image
-! ygy01.com
+jusopang60.com,jusopang59.com,jusopang58.com,jusopang57.com,jusopang56.com,jusopang55.com,jusopang54.com,jusopang53.com,jusopang52.com,jusopang51.com,jusopang50.com,jusopang49.com,jusopang48.com,jusopang47.com,jusopang46.com,jusopang45.com,jusopang44.com,jusopang43.com,jusopang42.com,jusopang41.com,jusopang40.com,jusopang39.com,jusopang38.com,jusopang37.com,jusopang36.com##p:nth-of-type(14)
+jusopang60.com,jusopang59.com,jusopang58.com,jusopang57.com,jusopang56.com,jusopang55.com,jusopang54.com,jusopang53.com,jusopang52.com,jusopang51.com,jusopang50.com,jusopang49.com,jusopang48.com,jusopang47.com,jusopang46.com,jusopang45.com,jusopang44.com,jusopang43.com,jusopang42.com,jusopang41.com,jusopang40.com,jusopang39.com,jusopang38.com,jusopang37.com,jusopang36.com##p > [href*="https://jusopang"]
+jusopang60.com,jusopang59.com,jusopang58.com,jusopang57.com,jusopang56.com,jusopang55.com,jusopang54.com,jusopang53.com,jusopang52.com,jusopang51.com,jusopang50.com,jusopang49.com,jusopang48.com,jusopang47.com,jusopang46.com,jusopang45.com,jusopang44.com,jusopang43.com,jusopang42.com,jusopang41.com,jusopang40.com,jusopang39.com,jusopang38.com,jusopang37.com,jusopang36.com##div[id^="foogallery-gallery-"]
+jusopang60.com,jusopang59.com,jusopang58.com,jusopang57.com,jusopang56.com,jusopang55.com,jusopang54.com,jusopang53.com,jusopang52.com,jusopang51.com,jusopang50.com,jusopang49.com,jusopang48.com,jusopang47.com,jusopang46.com,jusopang45.com,jusopang44.com,jusopang43.com,jusopang42.com,jusopang41.com,jusopang40.com,jusopang39.com,jusopang38.com,jusopang37.com,jusopang36.com##.pc
+jusopang60.com,jusopang59.com,jusopang58.com,jusopang57.com,jusopang56.com,jusopang55.com,jusopang54.com,jusopang53.com,jusopang52.com,jusopang51.com,jusopang50.com,jusopang49.com,jusopang48.com,jusopang47.com,jusopang46.com,jusopang45.com,jusopang44.com,jusopang43.com,jusopang42.com,jusopang41.com,jusopang40.com,jusopang39.com,jusopang38.com,jusopang37.com,jusopang36.com##[id="jt_popup_container"]
+jusopang60.com,jusopang59.com,jusopang58.com,jusopang57.com,jusopang56.com,jusopang55.com,jusopang54.com,jusopang53.com,jusopang52.com,jusopang51.com,jusopang50.com,jusopang49.com,jusopang48.com,jusopang47.com,jusopang46.com,jusopang45.com,jusopang44.com,jusopang43.com,jusopang42.com,jusopang41.com,jusopang40.com,jusopang39.com,jusopang38.com,jusopang37.com,jusopang36.com##[href*="com/aduit/"]
+jusopang60.com,jusopang59.com,jusopang58.com,jusopang57.com,jusopang56.com,jusopang55.com,jusopang54.com,jusopang53.com,jusopang52.com,jusopang51.com,jusopang50.com,jusopang49.com,jusopang48.com,jusopang47.com,jusopang46.com,jusopang45.com,jusopang44.com,jusopang43.com,jusopang42.com,jusopang41.com,jusopang40.com,jusopang39.com,jusopang38.com,jusopang37.com,jusopang36.com##[href*="com/op/"]
+jusopang60.com,jusopang59.com,jusopang58.com,jusopang57.com,jusopang56.com,jusopang55.com,jusopang54.com,jusopang53.com,jusopang52.com,jusopang51.com,jusopang50.com,jusopang49.com,jusopang48.com,jusopang47.com,jusopang46.com,jusopang45.com,jusopang44.com,jusopang43.com,jusopang42.com,jusopang41.com,jusopang40.com,jusopang39.com,jusopang38.com,jusopang37.com,jusopang36.com##[href*="com/%ec%8a%a4%ed%8f%ac%ec%b8%a0-%ec%98%81%ec%83%81/"]
+! ygy
 ||www.ygy*.com/upload_files/popup$image
-ygy01.com##.close
-! 주소월드, 김치주소, 주소야
-/theme/*/*.webp^$domain=jusoworld.cc|jusoya.com|kimchijuso.com
-jusoworld.cc##.card:has-text(즐겨)
-jusoworld.cc##.card:has-text(오피)
-jusoworld.cc##.card:has-text(성인)
-jusoworld.cc##.card:has-text(먹튀)
-jusoworld.cc##.card:has-text(선물)
-jusoya.com##.card:has-text(즐겨)
-jusoya.com##.card:has-text(오피)
-jusoya.com##.card:has-text(성인)
-jusoya.com##.card:has-text(먹튀)
-jusoya.com##.card:has-text(선물)
+ygy20.com,ygy19.com,ygy18.com,ygy17.com,ygy16.com,ygy15.com,ygy14.com,ygy13.com,ygy12.com,ygy11.com,ygy10.com,ygy09.com,ygy08.com,ygy07.com,ygy06.com,ygy05.com,ygy04.com,ygy03.com,ygy02.com,ygy01.com##.banner_top_box
+! 김치주소
+/theme/*/*.webp^$domain=kimchijuso.com
 kimchijuso.com##.card:has-text(즐겨)
 kimchijuso.com##.card:has-text(오피)
 kimchijuso.com##.card:has-text(성인)
