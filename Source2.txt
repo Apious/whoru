@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260705.1
+! Version: 260711.1
 ! Description: DNS
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
@@ -16,6 +16,8 @@
 
 ! - apti, 아파트아이
 ||api-marketing.apti.co.kr^
+||v2notice.apti.co.kr^
+||fingerpush.com^
 
 ! - doctornow, 닥터나우
 ||doctornow-front-images.s3.ap-northeast-2.amazonaws.com^
