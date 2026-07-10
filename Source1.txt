@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260706.1
+! Version: 260710.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2809,11 +2809,11 @@ webcomicsapp.com##.icon-bonus
 
 ! - 주소, 링크
 ! wdwd
-wdwd20.com,wdwd19.com,wdwd18.com,wdwd17.com,wdwd16.com,wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com##.banner_list
-wdwd20.com,wdwd19.com,wdwd18.com,wdwd17.com,wdwd16.com,wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com##[class*="box"]:has-text(성인)
-wdwd20.com,wdwd19.com,wdwd18.com,wdwd17.com,wdwd16.com,wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com##[class*="box"]:has-text(오피)
-wdwd20.com,wdwd19.com,wdwd18.com,wdwd17.com,wdwd16.com,wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com##[class*="box"]:has-text(검증)
-wdwd20.com,wdwd19.com,wdwd18.com,wdwd17.com,wdwd16.com,wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com,wdwd11.com##.rainbow-text
+wdwd20.com,wdwd19.com,wdwd18.com,wdwd17.com,wdwd16.com,wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com##.banner_list
+wdwd20.com,wdwd19.com,wdwd18.com,wdwd17.com,wdwd16.com,wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com##[class*="box"]:has-text(성인)
+wdwd20.com,wdwd19.com,wdwd18.com,wdwd17.com,wdwd16.com,wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com##[class*="box"]:has-text(오피)
+wdwd20.com,wdwd19.com,wdwd18.com,wdwd17.com,wdwd16.com,wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com##[class*="box"]:has-text(검증)
+wdwd20.com,wdwd19.com,wdwd18.com,wdwd17.com,wdwd16.com,wdwd15.com,wdwd14.com,wdwd13.com,wdwd12.com##.rainbow-text
 ! jusopang
 @@||jusopang*.com/*.png
 ||jusopang*.com/*/*330x230*.webp$image
