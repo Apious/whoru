@@ -547,6 +547,7 @@ donga.com##.promotion_wrap
 donga.com##.today_issue
 donga.com##[id^="PanthomAd"]
 donga.com##.aside_banner
+donga.com##div[class]:has(> [src*="RealMedia/ads"])
 ! dongascience
 dongascience.com##.advertise
 dongascience.com###advertise_fixed
@@ -894,6 +895,14 @@ seoul.co.kr##[class*="AD"]
 seoul.co.kr##[class*="Ad"]
 seoul.co.kr##[name*="AD"]
 m.nownews.seoul.co.kr##[class$="adArea"]
+! sportsseoul.com
+||html-load.com^
+||report.error-report.com^$stylesheet
+||sportsseoul.com/js/lib/sscad.js$script
+||sportsseoul.com/svc/banner^
+sportsseoul.com##div[class]:has(> [src*="//ad"])
+sportsseoul.com###splitscreen-adblocker-fallback
+sportsseoul.com##div[class] [data-period]:has( [src*="banner"])
 ! twig24.com
 twig24.com##.articleInnerAdWrap
 twig24.com##[id^="div-gpt-ad"]
@@ -1042,6 +1051,7 @@ docdocdoc.co.kr##.box-skin:nth-of-type(3)
 bntnews.co.kr##div.googleBanner
 bntnews.co.kr##header > .banner
 bntnews.co.kr###wrap_index > .banner
+bntnews.co.kr##[data-bannerkind]
 ! careet, 캐릿
 careet.net##.careet-secret-cover__wrap
 careet.net##.type-content.cover
@@ -2109,6 +2119,7 @@ send-anywhere.com##[id^="div-gpt-ad"]
 ! Uploadrar, cloud.rahim-soft
 uploadrar.com###commonId > [href]
 uploadrar.com##.hide2
+uploadrar.com##[id$="cookie-notice"]
 cloud.rahim-soft.com##div.fileoption > ul
 cloud.rahim-soft.com##.txt
 cloud.rahim-soft.com##[class^="banner"]
@@ -2179,6 +2190,7 @@ djxmaza.in##p
 djxmaza.in##ol
 djxmaza.in##h3
 djxmaza.in##h2
+djxmaza.in##[id*=featuredimage]
 ! prenewstime
 prenewstime.com##main > .container
 prenewstime.com##div.mb-5.mt-5:nth-of-type(4)
@@ -2214,6 +2226,8 @@ katfile.com#@#+js(addEventListener-defuser, click, , elements, a#dlink)
 up-4ever.net##div.mb-5.col-lg-6.col-12
 up-4ever.net##[id$="cookie-notice"]
 magicly.lat###adblock-overlay
+mega4upload.net##+js(nowoif)
+mega4upload.net##[href*="aliexpress.com"]
 
 ! - terabox.com, nephobox.com, 1024terabox.com, freeterabox.com, teraboxapp.com, teraboxurl.com, videyyy.com, freevidey.com, videynow.com, myvidey.com, cleandoods.com, doodssteam.com, doodspro.com, doodslink.com
 terabox.com##.seo-banner-img
