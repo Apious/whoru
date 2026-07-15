@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260713.1
+! Version: 260715.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -1779,6 +1779,9 @@ search.naver.com##[id="power_link_together_broad_section"]
 search.naver.com#@#div[class^="ad_"]
 naver.com###header .header_inner:style(height: 100px !important;)
 search.naver.com##.banner_area
+search.naver.com##.premium_carousel
+search.naver.com##.brand_new_ui.section.brand_search
+search.naver.com##._banner_wrap
 ! m.naver
 m.naver.com###MM_na_topbanner
 m.naver.com##._MM_VIDEO_PREVIEW_WRAP.comp_shortform_new
@@ -2001,10 +2004,13 @@ mycar.naver.com##div[class^="FeedManagement_advertisement"]
 mycar.naver.com##a[class^="Banner_article"]
 mycar.naver.com##[class^="FeedCardNationalOilBanner_article"]
 mycar.naver.com##[class^="AgreementLayer_content"]
+! booking.naver
+booking.naver.com##.banner_area
+booking.naver.com##.pay_guide_area
+booking.naver.com##[class^="PlusMembership_root"]
 ! naver etc
 ||campaign-cdn.pstatic.net/filemanager/static/404error^
 m-campaign.naver.com##.banner_area.swiper
-booking.naver.com##.banner_area
 media.naver.com##.channel_add_wrap
 premium.naver.com##.bottom_layer
 tv.naver.com##[class^="index_banner_list"]
@@ -2742,10 +2748,11 @@ ondoani.com##li.off.menu-li:has-text(야동)
 ondoani.com##li.off.menu-li:has-text(오피)
 ! linkkf.app / linkkf.tv
 @@||ani1c1.top^$image
-kr.linkkf.net###banner
-kr.linkkf.net###banner
-kr.linkkf.net##[data-adsbygoogle-status="done"]
-kr.linkkf.net##[id^="aswift"]
+linkkf.net###banner
+linkkf.net###banner
+linkkf.net##[data-adsbygoogle-status="done"]
+linkkf.net##[id^="aswift"]
+linkkf.tv##[clamrmwuss$="comment-item clearfix"]:has-text(서울시립대)
 ! 기타
 anilife.app##.sm\:grid-cols-2
 
