@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260715.1
+! Version: 260716.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2891,7 +2891,7 @@ openweathermap.org###stick-footer-panel
 superuser.com###onetrust-consent-sdk
 superuser.com##.js-consent-banner
 
-! - Ads Tags, 광고 태그, a-ads // 2026-05
+! - Ads Tags, 광고 태그, a-ads // 2026-07
 ||ad.*.skt-jive.com^
 ||ad4989.co.kr^
 ||adinc.kr^
@@ -2908,6 +2908,7 @@ superuser.com##.js-consent-banner
 ||priel.co.kr^
 ||www.play-store.co.kr/ads$subdocument
 ||ioxbppx*.net^$image
+||doppiocdn.com^
 *##[data-tistory-react-app="NaverAd"]
 *##[href*="/cupang.php"]
 *##[href^="/index/banner_click"]
