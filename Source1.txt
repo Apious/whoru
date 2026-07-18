@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260718.1
+! Version: 260718.2
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2035,6 +2035,10 @@ teamblind.com##.coupang_gnb
 ||cloudfront.net^$app=com.teamblind.blind
 
 ! - 포럼, 커뮤
+! ilbe
+ilbe.com###wrap [id*="banner"]
+ilbe.com###wrap [class*="banner"]
+ilbe.com##.board-body [id*="ad"]
 ! i-boss
 i-boss.co.kr##[class$="-bn"]
 i-boss.co.kr###topAd
@@ -2713,6 +2717,9 @@ tvchak230.com,tvchak229.com,tvchak228.com,tvchak227.com,tvchak226.com,tvchak225.
 tvchak230.com,tvchak229.com,tvchak228.com,tvchak227.com,tvchak226.com,tvchak225.com,tvchak224.com,tvchak223.com,tvchak222.com,tvchak221.com,tvchak220.com,tvchak219.com,tvchak218.com,tvchak217.com,tvchak216.com,tvchak215.com,tvchak214.com,tvchak213.com,tvchak212.com,tvchak211.com,tvchak210.com,tvchak209.com,tvchak208.com##.popup_mdd
 tvchak230.com,tvchak229.com,tvchak228.com,tvchak227.com,tvchak226.com,tvchak225.com,tvchak224.com,tvchak223.com,tvchak222.com,tvchak221.com,tvchak220.com,tvchak219.com,tvchak218.com,tvchak217.com,tvchak216.com,tvchak215.com,tvchak214.com,tvchak213.com,tvchak212.com,tvchak211.com,tvchak210.com,tvchak209.com,tvchak208.com###advertiseMain
 tvchak230.com,tvchak229.com,tvchak228.com,tvchak227.com,tvchak226.com,tvchak225.com,tvchak224.com,tvchak223.com,tvchak222.com,tvchak221.com,tvchak220.com,tvchak219.com,tvchak218.com,tvchak217.com,tvchak216.com,tvchak215.com,tvchak214.com,tvchak213.com,tvchak212.com,tvchak211.com,tvchak210.com,tvchak209.com,tvchak208.com##.hezuo_div1
+! tvmon
+||apisvc*.com/data/banner$image
+tvmon10.com,tvmon9.com,tvmon8.com,tvmon7.com,tvmon6.com,tvmon5.com,tvmon4.com,tvmon3.com,tvmon2.com,tvmon1.com##[class^="banner"]
 ! tvroom
 tvroom40.org,tvroom39.org,tvroom38.org,tvroom37.org,tvroom36.org,tvroom35.org,tvroom34.org,tvroom33.org,tvroom32.org,tvroom31.org,tvroom30.org,tvroom29.org,tvroom28.org,tvroom27.org,tvroom26.org,tvroom25.org,tvroom24.org,tvroom23.org,tvroom22.org,tvroom21.org,tvroom20.org,tvroom19.org,tvroom18.org#@#div.banner_l
 ||tinypic.host/images/*.$image
@@ -2822,7 +2829,7 @@ wfwf440.com,wfwf439.com,wfwf438.com,wfwf437.com,wfwf436.com,wfwf435.com,wfwf434.
 /^https:\/\/blacktoon[0-9]+\.com\/poster_js\/[0-9]+\.js/
 blacktoon450.com,blacktoon449.com,blacktoon448.com,blacktoon447.com,blacktoon446.com,blacktoon445.com,blacktoon444.com,blacktoon443.com,blacktoon442.com,blacktoon441.com,blacktoon440.com,blacktoon439.com,blacktoon438.com,blacktoon437.com,blacktoon436.com,blacktoon435.com,blacktoon434.com,blacktoon433.com,blacktoon432.com,blacktoon431.com,blacktoon430.com,blacktoon429.com,blacktoon428.com,blacktoon427.com,blacktoon426.com,blacktoon425.com,blacktoon424.com,blacktoon423.com,blacktoon422.com,blacktoon421.com,blacktoon420.com,blacktoon419.com,blacktoon418.com,blacktoon417.com,blacktoon416.com,blacktoon415.com##.banner
 ! funbe
-funbe680.com,funbe679.com,funbe678.com,funbe677.com,funbe676.com,funbe675.com,funbe674.com,funbe673.com,funbe672.com,funbe671.com,funbe670.com,funbe669.com,funbe668.com,funbe667.com,funbe666.com,funbe665.com,funbe664.com,funbe663.com,funbe662.com,funbe661.com,funbe660.com,funbe659.com,funbe658.com,funbe657.com,funbe656.com,funbe655.com,funbe654.com
+||funbe*.com/images/*x*$image
 ! 11toon, 103.204.13.68:8901
 @@||11toonimg*.spotv*.com/data/file/*/*.jpg$image
 ||kmana*.net/webtoon/images/*.gif$image
@@ -2900,9 +2907,12 @@ etoland.co.kr##.power_link_top_wrap
 ! torrentsee
 ||torrentsee*.com/*/*.gif$image
 ||torrentsee*.com/*/*.png$image
+torrentsee374.com,torrentsee373.com,torrentsee372.com,torrentsee371.com,torrentsee370.com,torrentsee369.com,torrentsee368.com,torrentsee367.com,torrentsee366.com,torrentsee365.com,torrentsee364.com,torrentsee363.com,torrentsee362.com,torrentsee361.com,torrentsee360.com,torrentsee359.com,torrentsee358.com,torrentsee357.com,torrentsee356.com,torrentsee355.com,torrentsee354.com,torrentsee353.com,torrentsee352.com,torrentsee351.com,torrentsee350.com,torrentsee349.com,torrentsee348.com,torrentsee347.com,torrentsee346.com,torrentsee345.com##[id^="ad_"]
 ! torrentssg
 ||torrentssg*.com/data/apms/$image
 ||torrentssg*.com/data/file/*.gif$image
+! torrentsome
+||filesbest.xyz/uploadfile/images/*.$image
 ! 기타
 ||torrentgram*.com/data/*/*.gif$image
 ||torrentlee*.com/data/*/*.gif$image
