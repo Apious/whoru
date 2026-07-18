@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260716.2
+! Version: 260718.1
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
 
@@ -2750,11 +2750,29 @@ ondoani.com##li.off.menu-li:has-text(야동)
 ondoani.com##li.off.menu-li:has-text(오피)
 ! linkkf.app / linkkf.tv
 @@||ani1c1.top^$image
-linkkf.net###banner
-linkkf.net###banner
-linkkf.net##[data-adsbygoogle-status="done"]
-linkkf.net##[id^="aswift"]
-linkkf.tv##[clamrmwuss$="comment-item clearfix"]:has-text(서울시립대)
+linkkf.tckopke.com,linkkf.net,linkkf.tv###banner
+linkkf.tckopke.com,linkkf.net,linkkf.tv###banner
+linkkf.tckopke.com,linkkf.net,linkkf.tv##[data-adsbygoogle-status="done"]
+linkkf.tckopke.com,linkkf.net,linkkf.tv##[id^="aswift"]
+! lunkkf reply words
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(010)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(mz련)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(강간)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(광신)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(꼴리)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(뒈지)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(드러브)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(보지)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(ㅅ발)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(서울시립대)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(성병)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(쓰레기)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(암컷)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(오타쿠)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(조선)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(중국년)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(출산)
+linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(한남)
 ! 기타
 anilife.app##.sm\:grid-cols-2
 
