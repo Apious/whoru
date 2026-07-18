@@ -1,7 +1,8 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 260711.1
+! Version: 2026.0719.1
+! Expires: 1 day (update frequency)
 ! Description: DNS
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
 
