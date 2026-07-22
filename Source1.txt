@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0719.1
+! Version: 2026.0722.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -1879,6 +1879,7 @@ cafe.naver.com##.link_area.AsideLink
 cafe.naver.com##.location.home_section
 cafe.naver.com##.notice_area.AsideNotice
 cafe.naver.com##.section_home_town
+cafe.naver.com##.section_home_banner
 cafe.naver.com##.smart_bot_area.AsideSmartBot
 cafe.naver.com##[data-linkdata*="brand.naver.com"]
 m.cafe.naver.com###articleFeedList
@@ -2709,6 +2710,8 @@ ondotv.com##li.off.menu-li:has-text(오피)
 ||media.cokcok.*/assets/images/*.gif$image
 ||media.cokcok.*/assets/images/*.png$image
 ||media.cokcok.*/assets/images/*x*.jpg$image
+||media.cokcok.*/assets/videos/*$media
+||doppiocdn.com^$image
 cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com##[id*="banners"]
 cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com##[class*="banner"]
 cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com##.tooltipster-box
@@ -2951,6 +2954,7 @@ superuser.com##.js-consent-banner
 *##[src*="adjw.co.kr"]
 *##[src*="adv.imadrep.co.kr"]
 *##[src^="//t1.daumcdn.net/adfit"]
+streamhihi.com##+js(nowoif)
 
 ! - 기타
 thelog.co.kr###preRoll
