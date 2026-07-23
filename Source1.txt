@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0722.1
+! Version: 2026.0723.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -509,7 +509,7 @@ kormedi.com##.sidebar-col-ad-right
 kormedi.com##.sidebar-col-ad-left
 kormedi.com##[class^="banner"]
 kormedi.com##.code-block
-! chosun
+! chosun, 조선
 ||*.health.chosun.com/*banner*
 ||health.chosun.com/*banner*.jpg$image
 chosun.com##._popIn_recommend_article_ad
@@ -533,10 +533,14 @@ health.chosun.com##.sub_Banner
 it.chosun.com##.desktop
 it.chosun.com##.inner
 it.chosun.com##.news_letter
-sports.chosun.com##.hoseBn
 biz.chosun.com##.science-banner-area
 chosun.com##.slick-initialized
 chosun.com##[id^="ad_"]
+! sports.chosun, 스포츠조선
+sports.chosun.com##.hoseBn
+sportschosun.com##[class*="ad-"]
+sportschosun.com##[class^="ad"]
+sportschosun.com##div.d-lg-flex.d-none
 ! donga
 donga.com###above_cmcl_box
 donga.com###banner_slider
@@ -561,10 +565,11 @@ dongascience.com##div > .w-full.block
 dongascience.com###article_body > [href*="/redirect.php"]
 ! news.sbs
 news.sbs.co.kr##.w_banner
-news.sbs.co.kr###dablewidget_job8QLlW
+nnews.sbs.co.kr###dablewidget_job8QLlW
 news.sbs.co.kr##.page_promotion_banner
 news.sbs.co.kr###pushBreaking
 news.sbs.co.kr##.w_prom_rolling
+news.sbs.co.kr##[class$="_ad"]
 premium.sbs.co.kr##.endBnr_w
 premium.sbs.co.kr##.topBanner_w
 premium.sbs.co.kr##[class^="adBanner"]
@@ -1148,38 +1153,44 @@ etoday.co.kr##[id^="div-gpt-ad"]
 ! segye, 세계일보
 segye.com##[data-ad-client]
 segye.com##[data-desc$="광고"]
+! 인사이트
+insight.co.kr##.main-aside-list-banner
+insight.co.kr##.adsbygoogle
+! 동행미디어 시대
+sidae.com##.ad-area
+sidae.com##[id^="taboola"]
 ! news-etc, 뉴스기타
 @@/openads/*
-||*.newscj.com^
-||*.newsmobile.co.kr^
-||cdn.emetro.co.kr/*banner
 ||www.businesspost.co.kr/*/banner/*/$image
-aimatters.co.kr##.size-full.wp-block-image
-aitimes.kr##.adsbygoogle
-bbc.com##.css-n7zdg2
-businesstimes.com.sg##.font-poppins.text-center
-byline.network##.wp-block-image
-foeconomy.co.kr##.banner_con
-foeconomy.co.kr##[class^="ads_"]
-gamemeca.com##.content-top-add
-hypebeast.kr##.active
-instiz.net##.market_preview
-interfootball.co.kr##.ad-template
-interfootball.co.kr##.wing-banner
-korea.kr##.slick-list
-mksports.co.kr##[id^="slot"]
-newdaily.co.kr##[class^="banner"]
-news.koreadaily.com##[id*="div-gpt-ad"]
-news.oasisfeed.com##.hideBtn
-newsen.com##[src^="//photo.newsen.com/images/2024/ASEA"]
-newspic.kr##.banner_view
-openads.co.kr##.adBanner
-sportsworldi.com##[src*="ads"]
+||cdn.emetro.co.kr/*banner
+||*.newsmobile.co.kr^
+||*.newscj.com^
 sundaynewsusa.com##.td-is-sticky.td-pb-span4.tdc-column.vc_column_container.wpb_column.tdi_121.vc_column
+sportsworldi.com##[src*="ads"]
 sisajournal-e.com##[class*="cover-banner"]
-atstar1.com##.google-auto-placed
+openads.co.kr##.adBanner
+newspic.kr##.banner_view
+newsen.com##[src^="//photo.newsen.com/images/2024/ASEA"]
+news.oasisfeed.com##.hideBtn
+news.koreadaily.com##[id*="div-gpt-ad"]
+newdaily.co.kr##[class^="banner"]
+mksports.co.kr##[id^="slot"]
 kyeonggi.com###local_slide
+korea.kr##.slick-list
+interfootball.co.kr##.wing-banner
+interfootball.co.kr##.ad-template
+instiz.net##.market_preview
 industrynews.co.kr##div.gl-banner:has([src*="bannerpop"])
+hypebeast.kr##.active
+gamemeca.com##.content-top-add
+foeconomy.co.kr##[class^="ads_"]
+foeconomy.co.kr##.banner_con
+byline.network##.wp-block-image
+businesstimes.com.sg##.font-poppins.text-center
+bbc.com##.css-n7zdg2
+atstar1.com##.google-auto-placed
+aitimes.kr##.adsbygoogle
+aimatters.co.kr##.size-full.wp-block-image
 
 ! - op.gg
 ||talk.op.gg/images/banner$image
