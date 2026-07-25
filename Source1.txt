@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0723.1
+! Version: 2026.0726.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -2717,16 +2717,15 @@ ondotv.com##li.off.menu-li:has-text(오피)
 ||img.smartnote.blog/*.gif$image
 ||theboda*.com/img/video_bg*.gif$image
 ! cokcoktv
-||cokcok.*/public/vast.php$xhr,1p
-||media.cokcok.*/assets/images/*.gif$image
-||media.cokcok.*/assets/images/*.png$image
-||media.cokcok.*/assets/images/*x*.jpg$image
-||media.cokcok.*/assets/videos/*$media
 ||doppiocdn.com^$image
-cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com##[id*="banners"]
-cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com##[class*="banner"]
-cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com##.tooltipster-box
-cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com,cokcok13.com,cokcok12.com##.custom_banner_wrap
+||cokcok.*/public/vast.php$xhr,1p
+||cokcok.*/assets/images$image
+||cokcok.*/assets/*$media
+cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com##.feature-grid
+cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com##[id*="banners"]
+cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com##[class*="banner"]
+cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com##.tooltipster-box
+cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com##.custom_banner_wrap
 ! tvchak
 tvchak230.com,tvchak229.com,tvchak228.com,tvchak227.com,tvchak226.com,tvchak225.com,tvchak224.com,tvchak223.com,tvchak222.com,tvchak221.com,tvchak220.com,tvchak219.com,tvchak218.com,tvchak217.com,tvchak216.com,tvchak215.com,tvchak214.com,tvchak213.com,tvchak212.com,tvchak211.com,tvchak210.com,tvchak209.com,tvchak208.com##.banner-box
 tvchak230.com,tvchak229.com,tvchak228.com,tvchak227.com,tvchak226.com,tvchak225.com,tvchak224.com,tvchak223.com,tvchak222.com,tvchak221.com,tvchak220.com,tvchak219.com,tvchak218.com,tvchak217.com,tvchak216.com,tvchak215.com,tvchak214.com,tvchak213.com,tvchak212.com,tvchak211.com,tvchak210.com,tvchak209.com,tvchak208.com##.popup_mdd
@@ -2761,6 +2760,7 @@ bmtv40.com,bmtv39.com,bmtv38.com,bmtv37.com,bmtv36.com,bmtv35.com,bmtv34.com,bmt
 kotbc.com##.at-title
 conan-tv.com###hd_pop
 conan-tv.com##[id^="topbanner"]
+tv##.happy-inside-player
 
 ! - 애니
 ! 온도, ondo
