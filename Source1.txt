@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0729.1
+! Version: 2026.0729.2
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -2730,6 +2730,7 @@ ondotv.com##li.off.menu-li:has-text(오피)
 ||img.smartnote.blog/*.gif$image
 ||theboda*.com/img/video_bg*.gif$image
 ! cokcoktv
+cokcok.stream##+js(nowoif)
 ||doppiocdn.com^$image
 ||cokcok.*/public/vast.php$xhr,1p
 ||cokcok.*/assets/images$image
@@ -2984,6 +2985,7 @@ superuser.com##.js-consent-banner
 streamhihi.com##+js(nowoif)
 
 ! - 기타
+muko.kr##.muko-ad-impression
 thelog.co.kr###preRoll
 en-thunderscans.com###tcbp-overlay
 ! imou
@@ -3142,6 +3144,8 @@ www.lifewire.com##div[id^="article__broad-video"]
 www.puresys.net###aiviy-union-ad-2
 youngja.org##div.row:nth-of-type(4)
 123av.org##div.lg\:block.hidden > .mx-auto
+javtiful.com##.front-video-card:has-text(Some)
+javtiful.com##.front-home-premium-alert:has-text(Join)
 
 ! - 기타 예외
 @@||pagetual.hoothin.com/rule.html^
