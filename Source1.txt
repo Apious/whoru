@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0726.2
+! Version: 2026.0729.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -406,6 +406,13 @@ tube-box.co.kr##div
 ||m.bustago.or.kr:444/*/*/*/*_banner.$image
 
 ! - News Paper Ads / 뉴스
+! osen
+osen.co.kr##.adsbygoogle
+osen.co.kr###banner-top
+osen.co.kr##[class$="__banner"]
+! 여기어디
+herewhere.kr##.pc-post-ad-header
+herewhere.kr##.news-view-wrap:style(padding-top: unset!important;)
 ! asiae, 아시아경제
 asiae.co.kr##[id^="div-gpt-ad"]
 asiae.co.kr##[class^="ad-"]
@@ -429,6 +436,11 @@ hankyung.com##.ad-area-wrap
 static.hankyung.com##.pop-wrap
 tenasia.hankyung.com##.aedi-link
 plus.hankyung.com##.banner_img
+! tenasia
+tenasia.co.kr##.aside-ad
+tenasia.co.kr##.ad-module
+tenasia.co.kr###realTalkWrap
+tenasia.co.kr##.contents-wrap:style(padding:unset !important;)
 ! newspim
 newspim.com##.ad-box
 ||img.newspim.com/m/banner/*$image
@@ -1165,6 +1177,7 @@ sidae.com##[id^="taboola"]
 ||cdn.emetro.co.kr/*banner
 ||*.newsmobile.co.kr^
 ||*.newscj.com^
+tvreport.co.kr##.adsbygoogle
 sundaynewsusa.com##.td-is-sticky.td-pb-span4.tdc-column.vc_column_container.wpb_column.tdi_121.vc_column
 sportsworldi.com##[src*="ads"]
 sisajournal-e.com##[class*="cover-banner"]
@@ -3017,7 +3030,6 @@ efficient.app##.partner-block
 tunemymusic.com##[class^="CookieConsent"]
 ||windy.com/img/logo-windy-premium-watermark.svg^
 geulgu.com##[class^="ads"]
-osen.co.kr##.adsbygoogle
 viva100.com##.banner_box
 life.healthytheday.co.kr##.shining-fixed-button
 stackoverflow.com###onetrust-consent-sdk
