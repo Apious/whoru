@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0729.2
+! Version: 2026.0730.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -815,6 +815,7 @@ mdjournal.kr##.wrap_new_13.auto-p06.auto-article
 @@/stat.js?$1p,domain=nate.com
 ||m.shopping.nate.com^$domain=m.mail.nate.com
 ||m.mail.nate.com/banner$image
+||news.nate.com/etc/Ad$subdocument
 m.mail.nate.com##.banner
 m.mail.nate.com##.w_notice
 nate.com##.nmBanner
@@ -832,6 +833,11 @@ news.nate.com###AdViewRightBottom
 news.nate.com###ad230306
 news.nate.com###AdCommerce
 news.nate.com##.ad290x330
+news.nate.com##.ads
+news.nate.com##[id^=ad_]
+news.nate.com##.socialAD
+news.nate.com##.AdIbl
+news.nate.com##.ad250
 view.nate.com##.ad-slot-wrap
 view.nate.com##[class^="add-ad-box"]
 view.nate.com##figure.wp-caption:nth-of-type(6)
@@ -2151,11 +2157,12 @@ reddit.com##.w-full.block > .w-full.block
 ! facebook
 ||edge-mqtt.facebook.com^
 
-! - 다운로드, uptodown,devuploads,dailyuploads,uploadrar,uplod,dailyenter,douploads,intoupload,workupload,mediafire,upfiles-urls,djxmaza,febbox, send-anywhere
+! - 다운로드, uptodown,devuploads,dailyuploads,uploadrar,uplod,dailyenter,douploads,intoupload,workupload,mediafire,upfiles-urls,djxmaza,febbox, send-anywhere, zdrive
 ! send-anywhere
 send-anywhere.com###onetrust-consent-sdk
 send-anywhere.com##[id^="div-gpt-ad"]
 ! Uploadrar, cloud.rahim-soft
+||link*.*.shop^$popup,important
 uploadrar.com###commonId > [href]
 uploadrar.com##.hide2
 uploadrar.com##[id$="cookie-notice"]
@@ -2247,7 +2254,7 @@ vexfile.com##.profile-block
 vexfile.com##[id^="double_banner"]
 vexfile.com##center:has(> [id^="vexfile_com"])
 vexfile.com##[class^="banner-"][src^="/alt/images/banner"]
-! etc
+! cloud-etc, 다운로더-기타
 @@||googleusercontent.com^$domain=foodtechnos.in
 @@||dailyuploads.net^
 douploads.net##[src="/images/StartDownload.gif"]
@@ -2267,6 +2274,7 @@ up-4ever.net##[id$="cookie-notice"]
 magicly.lat###adblock-overlay
 mega4upload.net##+js(nowoif)
 mega4upload.net##[href*="aliexpress.com"]
+zdrive.to##+js(nano-stb)
 
 ! - terabox.com, nephobox.com, 1024terabox.com, freeterabox.com, teraboxapp.com, teraboxurl.com, videyyy.com, freevidey.com, videynow.com, myvidey.com, cleandoods.com, doodssteam.com, doodspro.com, doodslink.com
 terabox.com##.seo-banner-img
@@ -2740,6 +2748,7 @@ cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,co
 cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com##[class*="banner"]
 cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com##.tooltipster-box
 cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com##.custom_banner_wrap
+cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com##[class*="slideAnimation"]
 ! tvchak
 tvchak230.com,tvchak229.com,tvchak228.com,tvchak227.com,tvchak226.com,tvchak225.com,tvchak224.com,tvchak223.com,tvchak222.com,tvchak221.com,tvchak220.com,tvchak219.com,tvchak218.com,tvchak217.com,tvchak216.com,tvchak215.com,tvchak214.com,tvchak213.com,tvchak212.com,tvchak211.com,tvchak210.com,tvchak209.com,tvchak208.com##.banner-box
 tvchak230.com,tvchak229.com,tvchak228.com,tvchak227.com,tvchak226.com,tvchak225.com,tvchak224.com,tvchak223.com,tvchak222.com,tvchak221.com,tvchak220.com,tvchak219.com,tvchak218.com,tvchak217.com,tvchak216.com,tvchak215.com,tvchak214.com,tvchak213.com,tvchak212.com,tvchak211.com,tvchak210.com,tvchak209.com,tvchak208.com##.popup_mdd
