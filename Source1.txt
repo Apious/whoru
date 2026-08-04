@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0730.1
+! Version: 2026.0804.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -178,7 +178,6 @@ pillyze.com##.middle-banner
 
 ! - anotepad.com
 anotepad.com##[class*="-ads"]
-anotepad.com###edit_content > form div > div:has( > div)
 anotepad.com##div.col-md-12:nth-of-type(2)
 
 ! - linkedin
@@ -370,6 +369,7 @@ investing.com##[data-test="ad-slot-visible"]
 investing.com###article div > .relative:has-text(광고)
 investing.com##.md\:block.bg-secondary.hidden
 investing.com##.animate-slide-up.flex-col.w-full.flex.bottom-0.fixed
+investing.com##[id^="sidebar-overlay-lightbox"]
 
 ! - finup
 stock.finup.co.kr##[src^="https://img.finup.co.kr/stock/Banner"]
@@ -410,6 +410,7 @@ tube-box.co.kr##div
 osen.co.kr##.adsbygoogle
 osen.co.kr###banner-top
 osen.co.kr##[class$="__banner"]
+osen.co.kr##[class^="ad-"]
 ! 여기어디
 herewhere.kr##.pc-post-ad-header
 herewhere.kr##.news-view-wrap:style(padding-top: unset!important;)
