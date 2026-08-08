@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0804.1
+! Version: 2026.0808.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -443,9 +443,11 @@ tenasia.co.kr##.ad-module
 tenasia.co.kr###realTalkWrap
 tenasia.co.kr##.contents-wrap:style(padding:unset !important;)
 ! newspim
-newspim.com##.ad-box
 ||img.newspim.com/m/banner/*$image
+newspim.com##.ad-box
 newspim.com##.my-banner-class
+newspim.com##.bnbox
+newspim.com##div:has(> [src*="ads"])
 ! nocutnews
 nocutnews.co.kr##.slick-slide.nocut
 nocutnews.co.kr##.slick-slide.channel
@@ -707,6 +709,8 @@ hani.co.kr##[class^="article_imageBanner"]
 hani.co.kr##[class^="ArticleAdTop"]
 hani.co.kr##[class^="ArticleDetail_supportBannerWrap"]
 hani.co.kr##[class^="article_inner"]:has(> div [id^="taboola"])
+hani.co.kr##[class^="BaseAd"]
+hani.co.kr##[bis_skin_checked] > div > div > div:has-text(광고)
 ! hankookilbo
 ||www.hankookilbo.com/*/Default-Image*
 hankookilbo.com##.ad-news-todays
@@ -982,9 +986,16 @@ mk.co.kr##[class^="adbox"]
 ! gamezo
 gamezo.co.uk##.adthrive
 gamezo.co.uk##.adthrive-ad
+! epiccarry.com
+epiccarry.com##.intercom-app
+epiccarry.com##.text-block-prize
+epiccarry.com##.blog-info-media
+epiccarry.com##.blog-info
+epiccarry.com##.promocode
 ! mt
 ||menu.mt.co.kr/news/*Banner
 ||menu.mt.co.kr/*/banner*$image
+||imaeil.com/upload/ads$image
 mt.co.kr##.naver_channel_banner_wrap
 mt.co.kr##.adbox
 mt.co.kr##.cardinfo1
@@ -1000,6 +1011,8 @@ imaeil.com##[id^="PanthomAd"]
 imaeil.com##.livery
 imaeil.com##.art_mid_ad
 imaeil.com##.section > div:has([src^="//ad"])
+imaeil.com##[src^="/upload/ads"]
+imaeil.com##[class^="wcms_banner"]
 ! newsis
 ||z-pro.co.kr/ad^$subdocument
 ||clickon.kr/servlet/adSave$subdocument
@@ -1777,6 +1790,7 @@ google.com##div[jsname]:has-text(Google Ads 캠페인)
 gemini.google.com##zs-advanced-upsell
 gemini.google.com##.human-review-disclosure-container
 gemini.google.com##.capabilities-disclaimer
+gemini.google.com##.ng-star-inserted.lm-enabled > .container
 
 ! - Naver, 네이버
 ! 추적 필터 차단 등에 의한 page 표시 에러로 예외 적용
@@ -2009,6 +2023,7 @@ chzzk.naver.com##[class^="loungehome_event_popup_main"]
 chzzk.naver.com##[class^="top_banner"]
 chzzk.naver.com##[class^="popup_dimmed"]
 chzzk.naver.com##[class^="skin_container__"]
+chzzk.naver.com###live_end_banner
 ! talks.naver.com
 talk.naver.com##._marketingMessage
 talk.naver.com##li.menu_item:nth-of-type(2)
@@ -2457,6 +2472,9 @@ a2zapk.dev,a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(6)
 a2zapk.dev,a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(7)
 a2zapk.dev,a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(8)
 a2zapk.dev,a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(9)
+a2zapk.dev##.Right:has(> #price)
+a2zapk.dev##a:has(> [title="Telegram"])
+a2zapk.dev##[id^="a-ads"]
 ! liteapks.com
 liteapks.com##.warning-box
 liteapks.com##[id^="ad-unit"]
