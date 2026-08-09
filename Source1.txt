@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0808.1
+! Version: 2026.0808.2
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -419,6 +419,7 @@ asiae.co.kr##[id^="div-gpt-ad"]
 asiae.co.kr##[class^="ad-"]
 asiae.co.kr##[class$="_ad"]
 asiae.co.kr##[class^="article-aside"]:has-text(AD)
+asiae.co.kr##[class^="article-aside"]:has-text(인사이트)
 asiae.co.kr##[class^="article-aside"]:has(> [id^="dablewidget"])
 asiae.co.kr##.sns_area
 asiae.co.kr##.youtube_wrap
@@ -1370,6 +1371,7 @@ danawa.com##[id^="powerLink"]
 danawa.com##[id^="powerShopping"]
 ! 퀘이사존, quasarzone
 quasarzone.com##[id^="banner-"]
+quasarzone.com##[class^="banner-"]
 ! malltail
 post.malltail.com##.floating-banner
 post.malltail.com##.banner-slider
@@ -1701,6 +1703,7 @@ tistory.com#@#.ad-wp
 tistory.com#@#+js(abort-current-script, $, div.adsbygoogle)
 tistory.com##[data-tistory-react-app]:has-text(광고)
 tistory.com##[class^="sliding-banner"]
+tistory.com##.page-header:has(> [href])
 
 ! - dcinside
 dcinside.com##.adv-group
@@ -2138,6 +2141,7 @@ xda-developers.com##[id*="ad-zone"]
 xda-developers.com##[class="valnet-gallery"]
 xda-developers.com##[data-original-ad-element-id]
 xda-developers.com##.w-content .adblock
+xda-developers.com##[class^="w-adsninja-video-player"]
 ! xiaomi 관련 포럼
 xiaomitoday.it##[id^="xiaom-"]
 xiaomitoday.it##.egg-container
