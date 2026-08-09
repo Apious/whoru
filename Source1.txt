@@ -2985,7 +2985,7 @@ openweathermap.org###stick-footer-panel
 superuser.com###onetrust-consent-sdk
 superuser.com##.js-consent-banner
 
-! - Ads Tags, 광고 태그, a-ads // 2026-07
+! - Ads Tags, 광고 태그, a-ads // 2026-08
 ||ad.*.skt-jive.com^
 ||ad4989.co.kr^
 ||adinc.kr^
@@ -3174,6 +3174,7 @@ youngja.org##div.row:nth-of-type(4)
 123av.org##div.lg\:block.hidden > .mx-auto
 javtiful.com##.front-video-card:has-text(Some)
 javtiful.com##.front-home-premium-alert:has-text(Join)
+/TMS/tracking?
 
 ! - 기타 예외
 @@||pagetual.hoothin.com/rule.html^
