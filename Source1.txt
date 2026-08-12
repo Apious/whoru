@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0808.2
+! Version: 2026.0812.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -493,13 +493,10 @@ msn.com##.ad-text
 msn.com##[cs-responsive-card]
 ! xportsnews
 xportsnews.com##.in_200_200
-xportsnews.com###r_ad
-xportsnews.com###l_ad
-xportsnews.com##div.ad_wrap
-xportsnews.com##.ad_wrap_list
-xportsnews.com##.ad_1
-xportsnews.com##.ad_2
-xportsnews.com##div:nth-of-type(3)
+xportsnews.com##[id$="_ad"]
+xportsnews.com##[class^="ad_"]
+xportsnews.com##[id^="dcamp_ad"]
+xportsnews.com##[class^="ad "]
 ! gotit
 gotit.co.kr##center
 gotit.co.kr##.mb-latest-gallery-sponsor
@@ -580,12 +577,14 @@ dongascience.com##.mobile-small-articles.w-full > .rounded.overflow-hidden.w-ful
 dongascience.com##div > .w-full.block
 dongascience.com###article_body > [href*="/redirect.php"]
 ! news.sbs
+||sbs.co.kr/news/ad^$subdocument
 news.sbs.co.kr##.w_banner
-nnews.sbs.co.kr###dablewidget_job8QLlW
-news.sbs.co.kr##.page_promotion_banner
+nnews.sbs.co.kr##[id^="dablewidget_"]
+news.sbs.co.kr##[class$="_promotion_banner"]
 news.sbs.co.kr###pushBreaking
 news.sbs.co.kr##.w_prom_rolling
 news.sbs.co.kr##[class$="_ad"]
+news.sbs.co.kr##[id^="sn_banner"]
 premium.sbs.co.kr##.endBnr_w
 premium.sbs.co.kr##.topBanner_w
 premium.sbs.co.kr##[class^="adBanner"]
@@ -1192,6 +1191,9 @@ insight.co.kr##.adsbygoogle
 ! 동행미디어 시대
 sidae.com##.ad-area
 sidae.com##[id^="taboola"]
+! 쿠키뉴스, kukinews
+||data.kod.es/kuk/upload/save/banner$image
+kukinews.com##.banner
 ! news-etc, 뉴스기타
 @@/openads/*
 ||www.businesspost.co.kr/*/banner/*/$image
