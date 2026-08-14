@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0812.1
+! Version: 2026.0815.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -1788,9 +1788,9 @@ carmmunity.oilnow.co.kr##[src*="/channel_banners_images/"]
 ! - startpage
 startpage.com##tp-yt-paper-dialog[id="dialog"]
 startpage.com##tp-yt-iron-overlay-backdrop
+startpage.com##[class]:has(> button:has-text(ads))
 
 ! - Gemini Ai / Google
-@@||play.google.com/log$domain=gemini.google.com
 google.com##div[jsname]:has-text(Google Ads 캠페인)
 gemini.google.com##zs-advanced-upsell
 gemini.google.com##.human-review-disclosure-container
@@ -3019,6 +3019,7 @@ superuser.com##.js-consent-banner
 streamhihi.com##+js(nowoif)
 
 ! - 기타
+neowin.net###neowin_incontent_all_devices
 muko.kr##.muko-ad-impression
 thelog.co.kr###preRoll
 en-thunderscans.com###tcbp-overlay
@@ -3180,6 +3181,7 @@ youngja.org##div.row:nth-of-type(4)
 123av.org##div.lg\:block.hidden > .mx-auto
 javtiful.com##.front-video-card:has-text(Some)
 javtiful.com##.front-home-premium-alert:has-text(Join)
+javtiful.com##.front-watch-text-feature
 /TMS/tracking?
 
 ! - 기타 예외
