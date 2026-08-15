@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0815.2
+! Version: 2026.0815.3
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -1227,6 +1227,8 @@ bbc.com##.css-n7zdg2
 atstar1.com##.google-auto-placed
 aitimes.kr##.adsbygoogle
 aimatters.co.kr##.size-full.wp-block-image
+kfdn.co.kr###ad_link_read
+fkfdn.co.kr##[href^="/ad_link.php"]
 
 ! - op.gg
 ||talk.op.gg/images/banner$image
@@ -1336,41 +1338,6 @@ coupang.com##.product-sticky-banner-container
 coupang.com##[class^="ProductUnit_productUnit"]:has-text(광고)
 ||ljc.coupang.com^$important
 ||link.coupang.com^$important
-! danawa, 다나와
-||contentsfeed.com/RealMedia^
-||advimg.danawa.com^
-m.danawa.com##[class^="ad_"]
-danawa.com##.wing_contents
-danawa.com##.main-event:has(> div > ul > li > span > [src^="//ad.danawa"])
-danawa.com##.auto_product_list:has([id^="auto_banner"])
-danawa.com##.main-middlebnr:has(> [src^="//ad.danawa"])
-danawa.com##.rnb_inner > [style^="min-height"]
-danawa.com##[class$="AdProductClick"]
-danawa.com##[class^="ad-"]
-danawa.com##[class^="banner-"]
-danawa.com##[class^="powershopping"]:has-text(광고)
-danawa.com##[class^="prod_ad"]
-danawa.com##[class="danawa_direct_sale"]:has-text(광고)
-danawa.com##[class="goods-list__item"]:has-text(광고)
-danawa.com##[data-ux-event^="ad_"]
-danawa.com##[id$="-ad-top"]
-danawa.com##[id$="-dable"]
-danawa.com##[id$="-powerLink-self"]
-danawa.com##[id$="_adver"]
-danawa.com##[id$="AdSmartArea"]
-danawa.com##[id*="Banner"]
-danawa.com##[id^="appDownload"]
-danawa.com##[id^="adSmart"]
-danawa.com##[id^="banner_"]
-danawa.com##[id^="coupang"]
-danawa.com##[id^="dablewidget_"]
-danawa.com##[id^="danawa-dpg"]:has(> div > [id^="dablewidget"])
-danawa.com##[id^="danawa-community-rnb-ad-bottom"]
-danawa.com##[id^="ebayPowerClick"]
-danawa.com##[id^="mainAd"]
-danawa.com##[id^="powerClick"]
-danawa.com##[id^="powerLink"]
-danawa.com##[id^="powerShopping"]
 ! 퀘이사존, quasarzone
 quasarzone.com##[id^="banner-"]
 quasarzone.com##[class^="banner-"]
@@ -1597,18 +1564,51 @@ bunjang.co.kr##[src^="https://ssl.pstatic.net/adimg"]
 bunjang.co.kr##[class="app"] > div > div > div:has( > [alt^="앱"])
 bunjang.co.kr##.slick-slide
 
-! - Danawa(PC)
+! - Danawa, 다나와
+||contentsfeed.com/RealMedia^
+||advimg.danawa.com^
 @@||danawa.com/RealMedia/ads$domain=event.danawa.com
-danawa.com##[class^="aside_widget_wrap"]
-danawa.com##.section-ad
+m.danawa.com##[class^="ad_"]
 danawa.com###danawa-gnb-banner
-danawa.com##.font_dotum.bbs_power_link
-danawa.com##.power_link.ad_reader4
-danawa.com##.setpc_middle_banner
-danawa.com##.wing_banner_item
-danawa.com##.wing_banner_list
-danawa.com##li.ad.shop_link_item
 danawa.com###main-rightbnr
+danawa.com##.ad.shop_link_item
+danawa.com##.auto_product_list:has([id^="auto_banner"])
+danawa.com##.font_dotum.bbs_power_link
+danawa.com##.main-event:has(> div > ul > li > span > [src^="//ad.danawa"])
+danawa.com##.main-middlebnr:has(> [src^="//ad.danawa"])
+danawa.com##.power_link[class^="ad_"]
+danawa.com##.rnb_inner > [style^="min-height"]
+danawa.com##.setpc_middle_banner
+danawa.com##.wing_contents
+danawa.com##[class$="-ad"]
+danawa.com##[class$="AdProductClick"]
+danawa.com##[class^="ad-"]
+danawa.com##[class^="aside_widget_wrap"]
+danawa.com##[class^="banner-"]
+danawa.com##[class^="powershopping"]:has-text(광고)
+danawa.com##[class^="prod_ad"]
+danawa.com##[class^="wing_banner"]
+danawa.com##[class="danawa_direct_sale"]:has-text(광고)
+danawa.com##[class="goods-list__item"]:has-text(광고)
+danawa.com##[data-ux-event^="ad_"]
+danawa.com##[id$="-ad-top"]
+danawa.com##[id$="-dable"]
+danawa.com##[id$="-powerLink-self"]
+danawa.com##[id$="_adver"]
+danawa.com##[id$="AdSmartArea"]
+danawa.com##[id*="Banner"]
+danawa.com##[id^="adSmart"]
+danawa.com##[id^="appDownload"]
+danawa.com##[id^="banner_"]
+danawa.com##[id^="coupang"]
+danawa.com##[id^="dablewidget_"]
+danawa.com##[id^="danawa-community-rnb-ad-bottom"]
+danawa.com##[id^="danawa-dpg"]:has(> div > [id^="dablewidget"])
+danawa.com##[id^="ebayPowerClick"]
+danawa.com##[id^="mainAd"]
+danawa.com##[id^="powerClick"]
+danawa.com##[id^="powerLink"]
+danawa.com##[id^="powerShopping"]
 
 ! - Kakao, Daum
 @@||aem-collector.daumkakao.io^
@@ -1644,7 +1644,6 @@ danawa.com###main-rightbnr
 ||webid.ad.daum.net^$important
 ||t1.kakaocdn.net^$app=net.daum.android.map
 ||t1.kakaocdn.net/*ad^
-
 kakao.com##app-banner
 daum.net##[data-cloud="banner"]
 open.kakao.com##.link_bnr
@@ -1707,17 +1706,22 @@ tistory.com##[data-tistory-react-app]:has-text(광고)
 tistory.com##[class^="sliding-banner"]
 tistory.com##.page-header:has(> [href])
 
-! - dcinside
-dcinside.com##.adv-group
-dcinside.com##.rightbanner1
-dcinside.com###comment_li_0
-gall.dcinside.com##.kakao_ad_area
-gall.dcinside.com##tr.ub-content:nth-of-type(1)
-gall.dcinside.com###zzbang_div
-issuefeed.dcinside.com##div.body-ad
-joins.com##[class^="banner_article"]
-issuefeed.dcinside.com##section > iframe[src^="https://issue-cmt"]
-issuefeed.dcinside.com##div > a > [src^="https://static"]
+! - repack
+! pcprogs
+pcprogs.net##.telegram
+pcprogs.net##[data-dlebclicks="yes"]
+pcprogs.net##[class^="subscr"]
+pcprogs.net##+js(nowoif)
+ru##.registration
+ru##.footer
+ru##.btn-dw-ya[href$="pcprogs.ru/download.php"]
+! karanpc
+karanpc.com##.litespeed-loaded.entered.aligncenter
+karanpc.com##[class^="ads-"]
+karanpc.com##.zestmodal
+! lrepacks
+lrepacks.net##.dle_b_yandex
+lrepacks.net##iframe
 
 ! - youtube
 youtube-nocookie.com##.ytp-pause-overlay-container
@@ -2087,6 +2091,17 @@ teamblind.com##.coupang_gnb
 ||cloudfront.net^$app=com.teamblind.blind
 
 ! - 포럼, 커뮤
+! dcinside
+dcinside.com##.adv-group
+dcinside.com##.rightbanner1
+dcinside.com###comment_li_0
+gall.dcinside.com##.kakao_ad_area
+gall.dcinside.com##tr.ub-content:nth-of-type(1)
+gall.dcinside.com###zzbang_div
+issuefeed.dcinside.com##div.body-ad
+joins.com##[class^="banner_article"]
+issuefeed.dcinside.com##section > iframe[src^="https://issue-cmt"]
+issuefeed.dcinside.com##div > a > [src^="https://static"]
 ! ilbe
 ilbe.com###wrap [id*="banner"]
 ilbe.com###wrap [class*="banner"]
@@ -3149,15 +3164,7 @@ humoruniv.com###choo_web_read_top_wrap
 humoruniv.com##.adsbyadop
 instoworld.*###text-2
 itnmobile.net##center
-karanpc.com##.litespeed-loaded.entered.aligncenter
-karanpc.com##[class^="ads-"]
-karanpc.com##.zestmodal
-kfdn.co.kr###ad_link_read
-kfdn.co.kr##[href^="/ad_link.php"]
-kolompc.com##.alert.cookies-alert
 linktr.ee##div.content-panel.section
-lrepacks.net##.dle_b_yandex
-lrepacks.net##iframe
 momq.co.kr##.spotBanner
 mvnohub.kr##.head_banner
 nextpit.com##aside.swiper-slide
