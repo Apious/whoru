@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0815.1
+! Version: 2026.0815.2
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -1721,7 +1721,6 @@ issuefeed.dcinside.com##div > a > [src^="https://static"]
 
 ! - youtube
 youtube-nocookie.com##.ytp-pause-overlay-container
-youtube.com##tp-yt-paper-dialog[id="dialog"]
 youtube.com##tp-yt-iron-overlay-backdrop
 
 ! - sooplive (구.아프리카)
@@ -2103,6 +2102,8 @@ ppomppu.co.kr##.power-link1
 ppomppu.co.kr##.power-link2
 ppomppu.co.kr##.topSub-nav
 ppomppu.co.kr##[href^="https://s.ppomppu.co.kr/"]
+ppomppu.co.kr##.container > div > div:has([class^="ad_"])
+ppomppu.co.kr##.ad_container
 ! fmkorea
 fmkorea.com##.fmad_naver_power_link
 fmkorea.com##.fmad_wrapper
@@ -3009,6 +3010,7 @@ superuser.com##.js-consent-banner
 ||www.play-store.co.kr/ads$subdocument
 ||ioxbppx*.net^$image
 ||doppiocdn.com^
+streamhihi.com##+js(nowoif)
 *##[data-tistory-react-app="NaverAd"]
 *##[href*="/cupang.php"]
 *##[href^="/index/banner_click"]
@@ -3016,7 +3018,7 @@ superuser.com##.js-consent-banner
 *##[src*="adjw.co.kr"]
 *##[src*="adv.imadrep.co.kr"]
 *##[src^="//t1.daumcdn.net/adfit"]
-streamhihi.com##+js(nowoif)
+*##.adsbygoogle
 
 ! - 기타
 neowin.net###neowin_incontent_all_devices
