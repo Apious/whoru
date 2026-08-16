@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0816.1
+! Version: 2026.0817.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -1017,6 +1017,7 @@ imaeil.com##[class^="wcms_banner"]
 ||clickon.kr/servlet/adSave$subdocument
 ||cueknow.co.kr/data/phantomad/*$xhr
 ||www.adflow.kr^
+||newsis.com/*/*_banner*$image
 /adReq/*
 mobile.newsis.com##.bxcn
 mobile.newsis.com##.listStyle04
@@ -1059,6 +1060,8 @@ ajunews.com##div[style="height:220px;"]
 ajunews.com##[href^="https://www.compassion.or.kr/sponsor"]
 ajunews.com##.view_banner
 ajunews.com##[class^="banner_"]
+ajunews.com##[class^="atc_ad"]
+ajunews.com###articleBody > div:has([id^="dcamp_ad"])
 ! techpress
 techpress.co.kr#$#.news-view p { padding-top: 15px !important; }
 techpress.co.kr#$#.news-view p { padding-bottom: 15px !important; }
@@ -2406,9 +2409,9 @@ apkcombo.com##div.widget
 ! apkpure
 @@||a.apkpures.xyz^
 apkpure.net###policy-info
+apkpure.net##.aegon-card
 apkpure.com###policy-info
 apkpure.com##.aegon-down-item
-apkpure.net##.aegon-card
 apkpure.com##.apkpure-download-card
 apkpure.com##.debut-game
 apkpure.com##.share-box
@@ -2419,6 +2422,7 @@ apkpure.com##.download-vip-subscribe-wrap
 apkpure.com##.vip-subscribe-pop
 apkpure.com##.secondary-body
 apkpure.com##.withdraw-entrance-fancy-wrap
+apkpure.com##.show-more-mask:has-text(더 보기)
 ! apkmirror
 www.apkmirror.com###bottom-slider
 www.apkmirror.com###ez-content-blocker-container
@@ -3036,6 +3040,7 @@ streamhihi.com##+js(nowoif)
 *##.adsbygoogle
 
 ! - 기타
+youtube-rank.com##.trend-area.row > div:has([href])
 neowin.net###neowin_incontent_all_devices
 muko.kr##.muko-ad-impression
 thelog.co.kr###preRoll
