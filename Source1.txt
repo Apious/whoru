@@ -2422,6 +2422,7 @@ apkpure.com##.download-vip-subscribe-wrap
 apkpure.com##.vip-subscribe-pop
 apkpure.com##.secondary-body
 apkpure.com##.withdraw-entrance-fancy-wrap
+apkpure.com##.show-more .show-more-mask:style(background: unset !important;)
 ! apkmirror
 www.apkmirror.com###bottom-slider
 www.apkmirror.com###ez-content-blocker-container
