@@ -760,15 +760,14 @@ news.jtbc.co.kr##.set_contents_video_ad
 ! joins
 @@||cast.imp.joins.com^
 ||images.joins.com/*/talk_ad/*
-joins.com##.adBox.adv01.advertise
 joins.com##.adv01.advertise
-joins.com##.advertise
-joins.com##.advertising_990x100
 joins.com##.jtbcGolfAD
-joins.com##.m_mid_ban
-joins.com##.ra_img_ban
 joins.com##.sub_branded_contents.rts
-joins.com##.sub_innov_lab_temp.sub_innov_lab.rts
+joins.com##.sub_innov_lab.rts
+joins.com##[class^="advertis"]
+joins.com##[class$="mid_ban"]
+joins.com##[class$="img_ban"]
+joins.com##[class^="banner_article"]
 ! joongang
 joongang.co.kr##.ad_wrap
 joongang.co.kr##.ad_wrap_area
@@ -2098,8 +2097,8 @@ dcinside.com###comment_li_0
 gall.dcinside.com##.kakao_ad_area
 gall.dcinside.com##tr.ub-content:nth-of-type(1)
 gall.dcinside.com###zzbang_div
+gall.dcinside.com##tr.empty_list.ub-content:has-text(AD)
 issuefeed.dcinside.com##div.body-ad
-joins.com##[class^="banner_article"]
 issuefeed.dcinside.com##section > iframe[src^="https://issue-cmt"]
 issuefeed.dcinside.com##div > a > [src^="https://static"]
 ! ilbe
@@ -3027,6 +3026,7 @@ superuser.com##.js-consent-banner
 ||doppiocdn.com^
 streamhihi.com##+js(nowoif)
 *##[data-tistory-react-app="NaverAd"]
+*##[href*="storage.googleapis.com"]
 *##[href*="/cupang.php"]
 *##[href^="/index/banner_click"]
 *##[src*="ad.reople.co.kr"]
