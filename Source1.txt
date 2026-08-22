@@ -1,10 +1,16 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0821.1
+! Version: 2026.0823.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
+
+! - hyperos app,memeos, memeosupdates
+||revenuecat.com^$app=en.hyperosdownloader.pro
+memeosupdates.com##[class*="-ad"]
+memeosupdates.com##.countdown
+memeosupdates.com#$#.download-link { display: block !important; visibility: visible !important; }
 
 ! - subtitlecat.com
 subtitlecat.com##iframe
@@ -3049,8 +3055,7 @@ thelog.co.kr###preRoll
 en-thunderscans.com###tcbp-overlay
 ! imou
 ||imou-sg-ali-online-bmp-publicread-iot-new.oss-ap-southeast-1.aliyuncs.com^
-! hyperos app
-||revenuecat.com^$app=en.hyperosdownloader.pro
+!
 surffing.net##div:has(> [href^="https://link.coupang"])
 surffing.net##.main:style(min-height: unset !important;)
 crxsoso.com##[class$="_banner"]
