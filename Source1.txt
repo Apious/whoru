@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0823.1
+! Version: 2026.0829.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -32,12 +32,15 @@ card-gorilla.com##.m-hide.board.inner.con_wrap > .board_part
 perplexity.ai###cookie-consent
 perplexity.ai##.bottom-md:has-text(컴퓨터)
 perplexity.ai##.justify-center.flex.pb-md:has-text(Pro)
+perplexity.ai##.bg-raised.border.rounded-xl.items-center.flex
 ! wrtn, 뤼튼
 wrtn.ai##.slick-slider
 ! maxai, 맥스
 maxai.me##[data-testid="maxai-sidebar--promotion-dialog"]
 ! lmarena.ai, LMArena
 lmarena.ai##.translate-y-full.w-full.absolute:has(> div > div > p:has-text(personal information will be disclosed))
+! manus.im
+manus.im##.mt-auto.justify-center.flex.w-full
 ! chatgpt
 chatgpt.com##.bg-token-bg-tertiary:has(div > h1:has-text(쿠키))
 
@@ -52,12 +55,15 @@ moviebox.ng##.pc-guide-mask
 moviebox.ph##.popup-mask
 moviebox.ph##.pc-detail-banner
 123movienow.cc###downloadBanner
+movie-box.co##[class^="third-party-ad"]
 
-! - nicepay, 나이스
-||web.nicepay.co.kr/images/email/*$image
+! - nicepay, niceid, 나이스
+||nicepay.co.kr/images/email/*$image
+||niceid.co.kr/*/banner^$image
 nicepay.co.kr###rollBn
 nicepay.co.kr###btn_banner_player
 checkplus.co.kr##.footerBanner
+cert.niceid.co.kr###footer
 
 ! - kmcert.com
 @@||adobe-secure.cjone.com^
@@ -1714,6 +1720,8 @@ tistory.com#@#+js(abort-current-script, $, div.adsbygoogle)
 tistory.com##[data-tistory-react-app]:has-text(광고)
 tistory.com##[class^="sliding-banner"]
 tistory.com##.page-header:has(> [href])
+tistory.com##[class*="Ads"]
+tistory.com##[class^="banner-"]
 
 ! - repack
 ! pcprogs
@@ -2160,7 +2168,6 @@ dvdprime.com##.get_ad_img
 dvdprime.com##.flexslider
 ! newduck
 newduck.net##.custom-banner
-newduck.net##.adsbygoogle
 newduck.net##.pc_top_ad
 newduck.net##[class^="code-list"]
 ! XDA
@@ -2189,7 +2196,6 @@ cuonet.com##.hoverZoomLink
 sammyfans.com##[class$="ad-wrap"]
 sammyfans.com##.mvp-post-ad-wrap:style(margin: 0;)
 ! ytechb.com
-ytechb.com##.adsbygoogle
 ytechb.com##.widget_block:has(> section > p:has-text(Ad))
 ! etc
 mixvale.com.br##div:has([class="adsbygoogle"])
@@ -2379,6 +2385,7 @@ pedia.watcha.com##[alt*="배너"]
 pedia.watcha.com##.adFixed
 pedia.watcha.com###root div:nth-of-type(8)
 pedia.watcha.com##[class^="_adSection"]
+pedia.watcha.com##[class]:has(>section>header:has-text(AD))
 watcha.com##li > [href^="https://watcha.com/webview/notices/"]
 watcha.com##li > [href^="https://watcha.com/notices/"]
 watcha.com##div[class*="navManager"] > div
@@ -2519,13 +2526,17 @@ download.ir##[id$="download_ir_related-top-post"]
 4pda.to##[src^="https://i.4pda.ws/s/"]
 4pda.to##body > div > [class] > [class] > div:has([style])
 4pda.to##[class*="RcN2"]:has(a[href^="https://4pda.to"])
+4pda.to##[id$="_ad"]
+
 ! leeapk
 @@||googlesyndication.com^$domain=leeapk.com
+leeapk.com###acrpNotice
 leeapk.com##+js(nowoif)
 leeapk.com##+js(window.open-defuser)
 leeapk.com###stickyAd
 leeapk.com##[class^="mb"]:has(> [class^="acrp-ad"])
 leeapk.com##[id="acrp-sticky-wrap"]
+
 ! gocmod
 gocmod.com###gm-float-widget
 gocmod.com###gm-big-popup
@@ -2725,14 +2736,16 @@ softonic.kr##.rv-di-modal
 softonic.kr##.sam-slot__content
 softonic.kr##.is-mobile-hide
 
-! - softwareok
+! - software, program, repack
+! softwareok
 softwareok.com##td:nth-of-type(2) > center
 softwareok.com##center:nth-of-type(2)
-
-! - rsload
+! rsload
 ||rsload.net/images5/$image
 rsload.net##.yo-content
 rsload.net##+js(nowoif)
+! sw-etc
+pirate4all.com##[href^="https://pirate4all.com/out/"]
 
 ! - logii.com
 logii.com##[href^="/UI/LinkClick.pm"]
@@ -3046,6 +3059,7 @@ streamhihi.com##+js(nowoif)
 *##[src*="adv.imadrep.co.kr"]
 *##[src^="//t1.daumcdn.net/adfit"]
 *##.adsbygoogle
+##.adsbygoogle
 
 ! - 기타
 youtube-rank.com##.trend-area.row > div:has([href])
@@ -3184,7 +3198,6 @@ notion.so##.notification-internal
 ok-name.co.kr##.footerBanner
 paraphrasing.io##.min-h-5
 phoneppu.com###div_laypopup
-pirate4all.com##[href^="https://pirate4all.com/out/"]
 riskweather.io##[alt="ads"]
 riskweather.io##[class^="w-full bg-white h-[70px]"]
 savein.io##.sm\:block
@@ -3195,14 +3208,18 @@ trendyflix.xyz##.fb_reset
 wareable.com##[id*="div-gpt-ad"]
 weather.go.kr##.on.ba-wrap
 withtalk.*##div.row
-www.ikea.com###onetrust-consent-sdk
-www.lifewire.com##div[id^="article__broad-video"]
-www.puresys.net###aiviy-union-ad-2
+ikea.com###onetrust-consent-sdk
+lifewire.com##div[id^="article__broad-video"]
+puresys.net###aiviy-union-ad-2
 youngja.org##div.row:nth-of-type(4)
 123av.org##div.lg\:block.hidden > .mx-auto
 javtiful.com##.front-video-card:has-text(Some)
 javtiful.com##.front-home-premium-alert:has-text(Join)
 javtiful.com##.front-watch-text-feature
+javtiful.com##.front-feature-placement-item
+javtiful.com##a.front-drawer-partner-link.front-drawer-link:has-text(Cam)
+javtiful.com##a.front-drawer-partner-link.front-drawer-link:has-text(HD)
+||bkcdn.net^
 /TMS/tracking?
 
 ! - 기타 예외
