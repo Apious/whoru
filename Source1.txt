@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0829.3
+! Version: 2026.0829.5
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -33,6 +33,7 @@ perplexity.ai###cookie-consent
 perplexity.ai##.bottom-md:has-text(컴퓨터)
 perplexity.ai##.justify-center.flex.pb-md:has-text(Pro)
 perplexity.ai##.bg-raised.border.rounded-xl.items-center.flex
+perplexity.ai##.items-center.flex-col.flex.bg-raised.divide-subtlest.ring-subtlest.border-subtlest.border
 ! wrtn, 뤼튼
 wrtn.ai##.slick-slider
 ! maxai, 맥스
