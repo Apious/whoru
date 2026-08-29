@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0829.2
+! Version: 2026.0829.3
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -2530,11 +2530,11 @@ download.ir##[id$="download_ir_related-top-post"]
 
 ! leeapk
 @@||googlesyndication.com^$domain=leeapk.com
-leeapk.com###acrpNotice
 leeapk.com##+js(nowoif)
 leeapk.com##+js(window.open-defuser)
 leeapk.com###stickyAd
 leeapk.com##[class^="mb"]:has(> [class^="acrp-ad"])
+leeapk.com##[id="acrp-sticky-wrap"]
 
 ! gocmod
 gocmod.com###gm-float-widget
