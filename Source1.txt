@@ -1892,6 +1892,7 @@ naver.com##.MM_GIFT_FLICK_BANNER
 naver.com##.type_load
 naver.com##[class="link_headline"]:has(> [alt^="[광고]"])
 naver.com##.link_service:has-text(AD)
+naver.com##.ly_promotion_popup
 ! m.place.naver.com
 pcmap.place.naver.com##.l__qc.no_margin.place_section
 m.place.naver.com###visit_tab_top_ad
@@ -2143,14 +2144,16 @@ fmkorea.com##.fmad_naver_power_link
 fmkorea.com##.fmad_wrapper
 /fmad/*
 ! ruliweb
-ruliweb.com##.ad_back_wrapper
-ruliweb.com##[href^="//api.ruliweb.com/adClick"]
+ruliweb.com###board_read > .content_wrapper > div:has(> [id^="ad_"])
 ruliweb.com##.ad
+ruliweb.com##.ad_back_wrapper
 ruliweb.com##.adrr
-ruliweb.com##.nbp_container
-ruliweb.com###nbp_container_v4
 ruliweb.com##.notice_wrapper.fixed_layer1
-m.ruliweb.com##.fixed_ad_wrapper
+ruliweb.com##[class^"nbp_"]
+ruliweb.com##[class^="fixed_ad"]
+ruliweb.com##[href*="/adClick"]
+ruliweb.com##[id^="nbp_"]
+ruliweb.com##tr.list_inner
 ! meeco / 미코
 meeco.kr##.w_slide
 meeco.kr##.sidebar.sidebar2
