@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0902.1
+! Version: 2026.0904.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -1330,7 +1330,7 @@ auction.co.kr##.component--sponsor_link
 mc.coupang.com##.keen-slider
 mc.coupang.com##.iRlyIl
 mc.coupang.com##.mclp-wow-card-nudge-new
-mc.coupang.com###__next > div > div:has-text(광고)
+mc.coupang.com#@##__next > div > div:has-text("광고")
 coupang.com##.main-today--thumb-nails > div > li:has( > a > img[src*="https://image14.coupangcdn.com/image/ccm/banner"])
 coupang.com###__next > div > div > div > div:has( > [class*="keen-slider"])
 coupang.com###app-redirect-nudge
