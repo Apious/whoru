@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0906.1
+! Version: 2026.0908.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -44,6 +44,7 @@ lmarena.ai##.translate-y-full.w-full.absolute:has(> div > div > p:has-text(perso
 manus.im##.mt-auto.justify-center.flex.w-full
 ! chatgpt
 chatgpt.com##.bg-token-bg-tertiary:has(div > h1:has-text(쿠키))
+chatgpt.com##.transition-opacity:has-text(광고)
 
 ! - Github
 @@||github.com^
@@ -2333,6 +2334,7 @@ magicly.lat###adblock-overlay
 mega4upload.net##+js(nowoif)
 mega4upload.net##[href*="aliexpress.com"]
 zdrive.to##+js(nano-stb)
+gigafile.nu###geniee_overlay_outer
 
 ! - terabox.com, nephobox.com, 1024terabox.com, freeterabox.com, teraboxapp.com, teraboxurl.com, videyyy.com, freevidey.com, videynow.com, myvidey.com, cleandoods.com, doodssteam.com, doodspro.com, doodslink.com
 terabox.com##.seo-banner-img
