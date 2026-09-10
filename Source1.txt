@@ -1303,6 +1303,7 @@ cjone.com##.login_slideBanner
 ! aliexpress
 aliexpress.com##[id$="float-banner"]
 aliexpress.com##[class$="poplayer-modal"]
+aliexpress.com##.signBannerContainer
 ! 하이마트
 e-himart.co.kr##.ad-banner
 e-himart.co.kr###container > .hm-content-wrap > .hm-popup
@@ -1582,50 +1583,54 @@ bunjang.co.kr##[class="app"] > div > div > div:has( > [alt^="앱"])
 bunjang.co.kr##.slick-slide
 
 ! - Danawa, 다나와
+@@||danawa.com/RealMedia/ads$domain=event.danawa.com
 ||contentsfeed.com/RealMedia^
 ||advimg.danawa.com^
-@@||danawa.com/RealMedia/ads$domain=event.danawa.com
+||danawa.com/*/ajungdang_banner^$image
 m.danawa.com##[class^="ad_"]
-danawa.com###danawa-gnb-banner
-danawa.com###main-rightbnr
-danawa.com##.ad.shop_link_item
-danawa.com##.auto_product_list:has([id^="auto_banner"])
-danawa.com##.font_dotum.bbs_power_link
-danawa.com##.main-event:has(> div > ul > li > span > [src^="//ad.danawa"])
-danawa.com##.main-middlebnr:has(> [src^="//ad.danawa"])
-danawa.com##.power_link[class^="ad_"]
-danawa.com##.rnb_inner > [style^="min-height"]
-danawa.com##.setpc_middle_banner
-danawa.com##.wing_contents
-danawa.com##[class$="-ad"]
-danawa.com##[class$="AdProductClick"]
-danawa.com##[class^="ad-"]
-danawa.com##[class^="aside_widget_wrap"]
-danawa.com##[class^="banner-"]
-danawa.com##[class^="powershopping"]:has-text(광고)
-danawa.com##[class^="prod_ad"]
-danawa.com##[class^="wing_banner"]
-danawa.com##[class="danawa_direct_sale"]:has-text(광고)
-danawa.com##[class="goods-list__item"]:has-text(광고)
-danawa.com##[data-ux-event^="ad_"]
-danawa.com##[id$="-ad-top"]
-danawa.com##[id$="-dable"]
-danawa.com##[id$="-powerLink-self"]
+danawa.com##[id^="powerShopping"]
+danawa.com##[id^="powerLink"]
+danawa.com##[id^="powerClick"]
+danawa.com##[id^="mainAd"]
+danawa.com##[id^="ebayPowerClick"]
+danawa.com##[id^="danawa-dpg"]:has(> div > [id^="dablewidget"])
+danawa.com##[id$="-ad-bottom"]
+danawa.com##[id^="dablewidget_"]
+danawa.com##[id^="coupang"]
+danawa.com##[id^="banner_"]
+danawa.com##[id^="appDownload"]
+danawa.com##[id^="adSmart"]
+danawa.com##[id*="Banner"]
 danawa.com##[id$="_adver"]
 danawa.com##[id$="AdSmartArea"]
-danawa.com##[id*="Banner"]
-danawa.com##[id^="adSmart"]
-danawa.com##[id^="appDownload"]
-danawa.com##[id^="banner_"]
-danawa.com##[id^="coupang"]
-danawa.com##[id^="dablewidget_"]
-danawa.com##[id^="danawa-community-rnb-ad-bottom"]
-danawa.com##[id^="danawa-dpg"]:has(> div > [id^="dablewidget"])
-danawa.com##[id^="ebayPowerClick"]
-danawa.com##[id^="mainAd"]
-danawa.com##[id^="powerClick"]
-danawa.com##[id^="powerLink"]
-danawa.com##[id^="powerShopping"]
+danawa.com##[id$="-powerLink-self"]
+danawa.com##[id$="-dable"]
+danawa.com##[id$="-ad-top"]
+danawa.com##[data-ux-event^="ad_"]
+danawa.com##[class^="wing_banner"]
+danawa.com##[class^="prod_ad"]
+danawa.com##[class^="powershopping"]:has-text(광고)
+danawa.com##[class^="banner-"]
+danawa.com##[class^="aside_widget_wrap"]
+danawa.com##[class^="ad-"]
+danawa.com##[class="goods-list__item"]:has-text(광고)
+danawa.com##[class="danawa_direct_sale"]:has-text(광고)
+danawa.com##[class*="ajungdang-banner"]
+danawa.com##[class$="wing-banner"]
+danawa.com##[class$="top_banner"]
+danawa.com##[class$="AdProductClick"]
+danawa.com##[class$="-ad"]
+danawa.com##.wing_contents
+danawa.com##.setpc_middle_banner
+danawa.com##.rnb_inner > [style^="min-height"]
+danawa.com##.power_link[class^="ad_"]
+danawa.com##.main-middlebnr:has(> [src^="//ad.danawa"])
+danawa.com##.main-event:has(> div > ul > li > span > [src^="//ad.danawa"])
+danawa.com##.font_dotum.bbs_power_link
+danawa.com##.auto_product_list:has([id^="auto_banner"])
+danawa.com##.ad.shop_link_item
+danawa.com###main-rightbnr
+danawa.com###danawa-gnb-banner
 
 ! - Kakao, Daum
 @@||aem-collector.daumkakao.io^
