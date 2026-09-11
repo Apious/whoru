@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0910.1
+! Version: 2026.0911.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://cdn.jsdelivr.net/gh/Apious/whoru@main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -44,7 +44,8 @@ lmarena.ai##.translate-y-full.w-full.absolute:has(> div > div > p:has-text(perso
 manus.im##.mt-auto.justify-center.flex.w-full
 ! chatgpt
 chatgpt.com##.bg-token-bg-tertiary:has(div > h1:has-text(쿠키))
-chatgpt.com##.transition-opacity:has-text(광고)
+chatgpt.com##.bottom-full:has-text(업그레이드)
+chatgpt.com##.text-token-text-tertiary:has-text(업그레이드)
 
 ! - Github
 @@||github.com^
@@ -1211,41 +1212,44 @@ sidae.com##[id^="taboola"]
 ! 쿠키뉴스, kukinews
 ||data.kod.es/kuk/upload/save/banner$image
 kukinews.com##.banner
-! news-etc, 뉴스기타
-@@/openads/*
-||www.businesspost.co.kr/*/banner/*/$image
-||cdn.emetro.co.kr/*banner
-||*.newsmobile.co.kr^
-||*.newscj.com^
-tvreport.co.kr##.adsbygoogle
-sundaynewsusa.com##.td-is-sticky.td-pb-span4.tdc-column.vc_column_container.wpb_column.tdi_121.vc_column
-sportsworldi.com##[src*="ads"]
-sisajournal-e.com##[class*="cover-banner"]
-openads.co.kr##.adBanner
-newspic.kr##.banner_view
-newsen.com##[src^="//photo.newsen.com/images/2024/ASEA"]
-news.oasisfeed.com##.hideBtn
-news.koreadaily.com##[id*="div-gpt-ad"]
-newdaily.co.kr##[class^="banner"]
-mksports.co.kr##[id^="slot"]
-kyeonggi.com###local_slide
-korea.kr##.slick-list
+! interfootball
 interfootball.co.kr##.wing-banner
 interfootball.co.kr##.ad-template
-instiz.net##.market_preview
-industrynews.co.kr##div.gl-banner:has([src*="bannerpop"])
-hypebeast.kr##.active
-gamemeca.com##.content-top-add
+! foeconomy, 포커스온
 foeconomy.co.kr##[class^="ads_"]
 foeconomy.co.kr##.banner_con
-byline.network##.wp-block-image
-businesstimes.com.sg##.font-poppins.text-center
-bbc.com##.css-n7zdg2
-atstar1.com##.google-auto-placed
-aitimes.kr##.adsbygoogle
+! news-etc, 뉴스기타
+@@/openads/*
+||*.newscj.com^
+||*.newsmobile.co.kr^
+||cdn.emetro.co.kr/*banner
+||www.businesspost.co.kr/*/banner/*/$image
 aimatters.co.kr##.size-full.wp-block-image
-kfdn.co.kr###ad_link_read
+aitimes.kr##.adsbygoogle
+atstar1.com##.google-auto-placed
+bbc.com##.css-n7zdg2
+businesstimes.com.sg##.font-poppins.text-center
+byline.network##.wp-block-image
 fkfdn.co.kr##[href^="/ad_link.php"]
+gamemeca.com##.content-top-add
+hypebeast.kr##.active
+industrynews.co.kr##div.gl-banner:has([src*="bannerpop"])
+instiz.net##.market_preview
+kfdn.co.kr###ad_link_read
+korea.kr##.slick-list
+kyeonggi.com###local_slide
+mksports.co.kr##[id^="slot"]
+newdaily.co.kr##[class^="banner"]
+news.koreadaily.com##[id*="div-gpt-ad"]
+news.oasisfeed.com##.hideBtn
+newsen.com##[src^="//photo.newsen.com/images/2024/ASEA"]
+newspic.kr##.banner_view
+openads.co.kr##.adBanner
+sisajournal-e.com##[class*="cover-banner"]
+sportsworldi.com##[src*="ads"]
+sundaynewsusa.com##.td-is-sticky.td-pb-span4.tdc-column.vc_column_container.wpb_column.tdi_121.vc_column
+tvreport.co.kr##.adsbygoogle
+weekly.hankooki.com###wingBanner
 
 ! - op.gg
 ||talk.op.gg/images/banner$image
@@ -2220,6 +2224,7 @@ reddit.com##.w-full.block > .w-full.block
 31.13.76.23:443$network,app=com.instagram.android
 ! facebook
 ||edge-mqtt.facebook.com^
+facebook.com##[data-pagelet^="FeedUnit_"]:has-text(광고)
 
 ! - 다운로드, uptodown,devuploads,dailyuploads,uploadrar,uplod,dailyenter,douploads,intoupload,workupload,mediafire,upfiles-urls,djxmaza,febbox, send-anywhere, zdrive
 ! send-anywhere
