@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0911.1
+! Version: 2026.0915.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://cdn.jsdelivr.net/gh/Apious/whoru@main/Source1.txt?
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -831,6 +831,10 @@ mdjournal.kr##.html_banner
 mdjournal.kr##.wrap_new_13.auto-p06.auto-article
 ! nate
 @@||adimg.nate.com^
+! Search bar hidden problem
+nate.com#@##topAd
+nate.com#@#.topAd
+nate.com##.top_ad_area
 ! nate ai
 @@/stat.js?$1p,domain=nate.com
 ||m.shopping.nate.com^$domain=m.mail.nate.com
@@ -838,42 +842,35 @@ mdjournal.kr##.wrap_new_13.auto-p06.auto-article
 ||news.nate.com/etc/Ad$subdocument
 m.mail.nate.com##.banner
 m.mail.nate.com##.w_notice
-nate.com##.nmBanner
+nate.com###AdCommerce
+nate.com###AdIbl
+nate.com##[id^="AdView"]
+nate.com##[id^="ad2"]
+nate.com##[id^="ad_"]
+nate.com###bizRank
+nate.com###bottomAdRect
+nate.com###spaceBanner
+nate.com##.BannerBox
 nate.com##.SnbNewsBar
-nate.com##[class^="area_ad"]
+nate.com##[class^="ad-"]
+nate.com##[clas^="ad2"]
+nate.com##.adBox
+nate.com##.ads
 nate.com##.commercial
-news.nate.com##.googleAd_wrap
-news.nate.com##.sidebar_banner
-news.nate.com###AdIbl
-news.nate.com###bottomAdRect
-news.nate.com###ad_sponsorBar
-news.nate.com###spaceBanner
-news.nate.com##.left-wing-banner
-news.nate.com###AdViewRightBottom
-news.nate.com###ad230306
-news.nate.com###AdCommerce
-news.nate.com##.ad290x330
-news.nate.com##.ads
-news.nate.com##[id^=ad_]
-news.nate.com##.socialAD
-news.nate.com##.AdIbl
-news.nate.com##.ad250
-view.nate.com##.ad-slot-wrap
-view.nate.com##[class^="add-ad-box"]
-view.nate.com##figure.wp-caption:nth-of-type(6)
-view.nate.com##figure.wp-caption:nth-of-type(7)
-view.nate.com##figure.wp-caption:nth-of-type(8)
-view.nate.com##figure.wp-caption:nth-of-type(9)
-toonnbook.nate.com##.BannerBox
+nate.com##[class^="googleAd"]
+nate.com##[class$="-banner"]
+nate.com##[class$="banner"]
+nate.com##.socialAD
+nate.com##.sticky > [class^="ad"]
+nate.com##.todayBox:has([class^="cmBox"])
+nate.com##[href*="cyad"]
+nate.com##[src*="cyad"]
+nate.com##[class*="-ad-"]
 ! nate mobile
 m.nate.com##.mainBgWrap
 m.nate.com##[id$="_ad"]
 m.nate.com##.navTab > li:has-text(커버낫)
 m.nate.com##.navTab > li:has-text(혜택)
-! Search bar hidden problem
-nate.com#@##topAd
-nate.com#@#.topAd
-nate.com##.top_ad_area
 ! zum
 @@||deepdive.zum.com^
 #@#iframe[src*="//deepdive.zum.com/widget/"]
