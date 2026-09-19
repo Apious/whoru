@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0915.1
+! Version: 2026.0919.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://cdn.jsdelivr.net/gh/Apious/whoru@main/Source1.txt?
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -46,6 +46,7 @@ manus.im##.mt-auto.justify-center.flex.w-full
 chatgpt.com##.bg-token-bg-tertiary:has(div > h1:has-text(쿠키))
 chatgpt.com##.bottom-full:has-text(업그레이드)
 chatgpt.com##.text-token-text-tertiary:has-text(업그레이드)
+chatgpt.com##[data-conversation-screenshot-content] > div:has-text(광고)
 
 ! - Github
 @@||github.com^
@@ -1777,6 +1778,7 @@ utweb.rainberrytv.com###upgrade-sidebar
 
 ! - Google, UnBlocked for Some Error shown
 @@||googlesyndication.com^
+mail.google.com##div[jscontroller]:has-text(시작하기)
 
 ! - Tmap app / ($app=com.skt.tmap.ku)
 @@||cdn.tmap.co.kr/tmapweb^$app=com.skt.tmap.ku
@@ -2195,7 +2197,7 @@ xiaomi-miui.gr##[id^="ai_widget"]
 xiaomi-miui.gr##[class^="google_responsive"]
 ximitime.com##.featuredb_ad
 ximitime.com##.our_app
-! gsmarena
+! chatna
 gsmarena.com##.pt-10.d-flex
 gsmarena.com##.sidebar:style(padding: 0px;)
 gsmarena.com##.ad-label
@@ -2209,9 +2211,13 @@ sammyfans.com##.mvp-post-ad-wrap:style(margin: 0;)
 ! ytechb.com
 ytechb.com##.widget_block:has(> section > p:has-text(Ad))
 ! etc
+||hitechcentury.com/wp-content/*/Web-Banner*$image
+hitechcentury.com##[src*="/Web-Banner"]
 mixvale.com.br##div:has([class="adsbygoogle"])
 guiahardware.es##.code-block
 reddit.com##.w-full.block > .w-full.block
+adobotech.net##[class="widget HTML"]
+zod.kr##[href^="https://zod.kr/go"]
 
 ! SNS, App:instagram Ext. Connect.
 ! instagram
@@ -2320,6 +2326,10 @@ vexfile.com##.profile-block
 vexfile.com##[id^="double_banner"]
 vexfile.com##center:has(> [id^="vexfile_com"])
 vexfile.com##[class^="banner-"][src^="/alt/images/banner"]
+! modsfire
+modsfire.com##.inf-down
+modsfire.com##[class^="disc-tabbing"]
+modsfire.com##.download-wrp
 ! cloud-etc, 다운로더-기타
 @@||googleusercontent.com^$domain=foodtechnos.in
 @@||dailyuploads.net^
@@ -2328,7 +2338,6 @@ intoupload.net##.banneradshome
 workupload.com##[id^="div-gpt-ad"]
 bestfile.io##.vr-adv-unit
 file-upload.org##.blocktxt
-modsfire.com##.inf-down
 financemonk.net##+js(nano-stb)
 flash.getpczone.com##+js(nano-stb)
 frdl.to##+js(nano-stb)
@@ -2907,7 +2916,7 @@ linkkf.tckopke.com,linkkf.net,linkkf.tv##.ewave-comment-item:has-text(한녀)
 ! 기타
 anilife.app##.sm\:grid-cols-2
 
-! - WebToon / 웹툰 // 2026-07
+! - WebToon / 웹툰 // 2026-09
 ! 온도, ondo
 ondotoon.com###hd_pop
 ondotoon.com##[class^="each_bn_long"]
@@ -2982,6 +2991,7 @@ asuracomic.net##.justify-center.w-full
 asurascans.us###sticky-ads
 webtoonguide.com##.realtime-rank-section
 webcomicsapp.com##.icon-bonus
+mangahub.me##[id^="popover"]
 
 ! - 주소, 링크
 ! wdwd
