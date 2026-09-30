@@ -2016,3 +2016,44 @@ pay.naver.com##[class*="pay-app-banner_article"]
 ! stock.naver.com
 naver.com##[class^="BigBannerWrapper_article"]
 naver.com##[class^="NpayDownloadButton-module_article"]
+! shopping.naver, 네이버쇼핑
+m.shopping.naver.com##[data-shp-area-id="membanner"]
+shopping.naver.com##[data-cy="card-section-card_section"] [href*="/festa/onsale/"]
+shopping.naver.com##[class^="targetBanner_link"]
+shopping.naver.com##[class^="storePick-module_inner"]:has([class^="storePick-module_ad"])
+shopping.naver.com##[class^="shoppingHomeResponsive_banner"]
+shopping.naver.com##[class^="relationProducts_relation_products"]
+shopping.naver.com##[class^="RecommendSection_recommend_section"]
+shopping.naver.com##[class^="promotionResponsive_wrap_banner"]
+shopping.naver.com##[class^="productCardResponsive_inner"]:has(> [data-shp-contents-grp="ad"])
+shopping.naver.com##[class^="productCardResponsive_inner"]:has(> [data-shp-area="sapd.pd"])
+shopping.naver.com##[class^="OrderDeliverySection_recommend"]
+shopping.naver.com##[class^="NPaySection_my_membership"]
+shopping.naver.com##[class^="membershipBanner_membership_banner"]
+shopping.naver.com##[class^="homeBannerResponsive_home_banner_responsive"]
+shopping.naver.com##[class^="homeBannerPc_home_banner"]
+shopping.naver.com##[class^="discoveryFeedItemResponsive_wide_module"]
+shopping.naver.com##[class^="crmPromotionCardResponsive_crm_promotion_card_responsive"]
+shopping.naver.com##[class^="couponResponsive_coupon"]
+shopping.naver.com##[class^="card_promotion"]
+shopping.naver.com##[class^="adProduct_item"]
+shopping.naver.com##[class^="_todayBenefit_mobile_today_benefit"]
+shopping.naver.com##[class^="_targetBanner_link"]
+shopping.naver.com##[class^="_targetBanner_content"]
+shopping.naver.com##[class^="_popupBanner_"]
+shopping.naver.com##[class^="_marketingBanner_marketing_banner"]
+shopping.naver.com##[class*="shoppingHomeResponsive_today"]:has(> div [class^="titleResponsive_name"])
+shopping.naver.com##[class*="myInformationResponsive_membership"]
+shopping.naver.com##[class*="forYouResponsive"]:has(> div [class="blind"])
+shopping.naver.com##[class*="_advertising_"]
+shopping.naver.com##.advertise
+shopping.naver.com##div[class^="card_section_card"]:has(> [class^="todayBenefit"])
+shopping.naver.com##div[class^="card_section_card"]:has(> ._nlog_click)
+shopping.naver.com##[class^="mallShortCut_brand_shortcut"]
+shopping.naver.com##[class^="basicProductCard_basic_product_card"]:has(> [href^="https://adcr.naver.com"])
+shopping.naver.com##[class^="recommendProductList_item"]:has(>div [class^="advertisement"])
+shopping.naver.com###content > div:has(> [class^="kurly"])
+shopping.naver.com##[class^="brandCRMBlock"]:has-text(님을 위한)
+shopping.naver.com##[class^="fullWidthCompositeCardContainer"]:has-text(님을 위한)
+shopping.naver.com##[class^="compositeCardContainer_composite_card_container"]:has-text(광고)
+shopping.naver.com##[class^="fullWidthCompositeCardContainer"]:has-text(aitems)
