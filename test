@@ -2013,3 +2013,6 @@ pay.naver.com##div.s_sc:nth-of-type(5)
 pay.naver.com##[class*="pay-app-banner_article"]
 ||cloud.toast.com^$app=com.nhnent.payapp
 ||su5.ahnlab.com^$app=com.nhnent.payapp
+! stock.naver.com
+naver.com##[class^="BigBannerWrapper_article"]
+naver.com##[class^="NpayDownloadButton-module_article"]
