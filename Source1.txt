@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0930.1
+! Version: 2026.1004.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -445,28 +445,23 @@ asiae.co.kr##.sns_area
 asiae.co.kr##.youtube_wrap
 asiae.co.kr##.d-lg-block
 ! hankyung
-hankyung.com##.banner-area
+hankyung.com##.aedi-link
+hankyung.com##.pop-wrap
 hankyung.com##.promotion-floating2
-hankyung.com##.ad-box
-hankyung.com##.ad-top
-hankyung.com##.ad-wrap
-hankyung.com##.aside-ad
-hankyung.com##.aside-ad-component
-hankyung.com##.article-promotion
 hankyung.com##[class$="promotion"]
-hankyung.com##.ad-area-wrap
-static.hankyung.com##.pop-wrap
-tenasia.hankyung.com##.aedi-link
-plus.hankyung.com##.banner_img
+hankyung.com##[class*="-ad"]
+hankyung.com##[class^="ad-"]
+hankyung.com##[class^="banner-"]
+hankyung.com##[class^="banner_"]
 ! tenasia
-tenasia.co.kr##.aside-ad
-tenasia.co.kr##.ad-module
 tenasia.co.kr###realTalkWrap
 tenasia.co.kr##.contents-wrap:style(padding:unset !important;)
+tenasia.co.kr##[class^="ad-"]
+tenasia.co.kr##[class$="-ad"]
 ! newspim
 ||img.newspim.com/m/banner/*$image
-newspim.com##.ad-box
-newspim.com##.my-banner-class
+newspim.com##[class^="ad-"]
+newspim.com##[class*="-banner-"]
 newspim.com##.bnbox
 newspim.com##div:has(> [src*="ads"])
 ! nocutnews
@@ -479,65 +474,58 @@ nocutnews.co.kr##[id^="dablewidget"]
 ! bing, MSN
 ||ntp.msn.com/edge/ntp/*.js^
 ||ntp.msn.com/bundles/*/edgechromium^
-bing.com##[id^="nativead"]
-bing.com##[id^="native_ad"]
-bing.com##[class^="native-ad"]
-bing.com##.openfo.toolTip.id_button
-bing.com###id_rh
-bing.com##.header
-bing.com##.ttc_visible
 bing.com###b_bnp_bopc
-bing.com##[class="id_button linkBtn"]
+bing.com###id_rh
+bing.com###rich_card
+bing.com###sa_sse_block
 bing.com##.b_algo:has(> .b_caption > p[class*="lineclamp3"])
+bing.com##.header
+bing.com##.openfo.toolTip.id_button
+bing.com##.ttc_visible
+bing.com##[class^="native-ad"]
+bing.com##[class="id_button linkBtn"]
+bing.com##[data-viewname="VerticalHeaderFlyout"]
+bing.com##[id^="native_ad"]
+bing.com##[id^="nativead"]
 bing.com##[role="main"] > div > form > div > div > div > div:has(> div:has-text(트렌드))
 bing.com##[style="display: inline-block;"]
-bing.com###sa_sse_block
-bing.com##[data-viewname="VerticalHeaderFlyout"]
-bing.com###rich_card
-msn.com##[id^="native_ad"]
-msn.com##[id^="entry-point-hp-wc-banner"]
+msn.com##.article-cont-read-button-on-app
+msn.com##.consumption-page-rail-wrapper
+msn.com##[class$="-ads"]
+msn.com##[class*="bannerAd"]
+msn.com##[class^="ad-"]
 msn.com##[class^="preview-card"]
-msn.com##display-ads
-msn.com##.articlePage_bannerAd_wrapper-DS-EntryPoint1-1
+msn.com##[cs-responsive-card]
+msn.com##[data-t*="LeadGen."]
+msn.com##[id^="entry-point-hp-wc-banner"]
+msn.com##[id^="native_ad"]
+msn.com##[instance-id="CommonAutoSuggest"]
+msn.com##[slide-id^="nativeAd"]
+msn.com##a[class="news-list-item   "]:has(> msn-native-ad-ad-label)
 msn.com##article-close-button
 msn.com##div > [class^="consumption-page-gridarea_eocb_leadgen"] > end-of-content-block
 msn.com##div > end-of-content-block[category="others"]
-msn.com##.article-cont-read-button-on-app
 msn.com##social-lead-gen-in-article
-msn.com##.consumption-page-rail-wrapper
-msn.com##a[class="news-list-item   "]:has(> msn-native-ad-ad-label)
-msn.com##[data-t*="LeadGen."]
-msn.com##[instance-id="CommonAutoSuggest"]
-msn.com##[slide-id^="nativeAd"]
-msn.com##.ad-text
-msn.com##[cs-responsive-card]
 ! xportsnews
 xportsnews.com##.in_200_200
 xportsnews.com##[id$="_ad"]
 xportsnews.com##[class^="ad_"]
 xportsnews.com##[id^="dcamp_ad"]
 xportsnews.com##[class^="ad "]
-! gotit
-gotit.co.kr##center
-gotit.co.kr##.mb-latest-gallery-sponsor
-gotit.co.kr##.td-banner-wrap-full
-gotit.co.kr###menu-item-6167
-gotit.co.kr###menu-item-42453
-gotit.co.kr###menu-item-10126
 ! kmib
 ||kmib.co.kr/*/*_subscription*
-kmib.co.kr##[id*="top_ad"]
+kmib.co.kr##[id*="_ad"]
+kmib.co.kr##[class*="_ad"]
 kmib.co.kr##[title="livereAd"]
 kmib.co.kr###lv-container > div:nth-of-type(1)
-m.kmib.co.kr##.mbnr_kap
-m.kmib.co.kr##.sns_area
-m.kmib.co.kr##.m_ad
+kmib.co.kr##.mbnr_kap
+kmib.co.kr##.sns_area
 ! hellot
 ||www.hellot.net/*banner
 hellot.net##.art_inner_slide
 hellot.net##.com_ban
 ! kormedi
-kormedi.com##.widget_better-ads
+kormedi.com##[class$="-ads"]
 kormedi.com##.sidebar-col-ad-right
 kormedi.com##.sidebar-col-ad-left
 kormedi.com##[class^="banner"]
@@ -545,31 +533,27 @@ kormedi.com##.code-block
 ! chosun, 조선
 ||*.health.chosun.com/*banner*
 ||health.chosun.com/*banner*.jpg$image
-chosun.com##._popIn_recommend_article_ad
+chosun.com###banner-top-google
 chosun.com##.arcad
+chosun.com##.arcad-wrapper
+chosun.com##.aside_doctor
+chosun.com##.aside_hospital
 chosun.com##.box--margin-bottom-sm.flex--align-items-center
 chosun.com##.box--pad-bottom-xl.width--100
 chosun.com##.dfpAd
-chosun.com##.flex--justify-center.arcad-wrapper
 chosun.com##.grid__col--sm-12.visual__image
+chosun.com##.science-banner-area
 chosun.com##.separator-container
+chosun.com##.slick-initialized
+chosun.com##.top_area
+chosun.com##[class$="_ad"]
+chosun.com##[class$="_banner"]
+chosun.com##[class^="ad"]
+chosun.com##[id^="ad_"]
 chosun.com##div.box--hidden-md.box--hidden-lg.box--bg-grey-20
-health.chosun.com##.ad_mid_box
-health.chosun.com##.aside_doctor
-health.chosun.com##.aside_hospital
-health.chosun.com##.left_banner
-health.chosun.com##.li_ad
-health.chosun.com##.top_area
-health.chosun.com##.ad-main-top
-health.chosun.com###banner-top-google
-health.chosun.com##.sub_Banner
 it.chosun.com##.desktop
 it.chosun.com##.inner
 it.chosun.com##.news_letter
-biz.chosun.com##.science-banner-area
-chosun.com##.slick-initialized
-chosun.com##[id^="ad_"]
-! sports.chosun, 스포츠조선
 sports.chosun.com##.hoseBn
 sportschosun.com##[class*="ad-"]
 sportschosun.com##[class^="ad"]
@@ -580,6 +564,7 @@ donga.com###banner_slider
 donga.com###right_wingad
 donga.com##.ad
 donga.com##.adwrap_box
+donga.com##.aside_banner
 donga.com##.bann_wrap
 donga.com##.bestview_news
 donga.com##.facebook_api
@@ -587,24 +572,23 @@ donga.com##.i-amphtml-unresolved
 donga.com##.promotion_wrap
 donga.com##.today_issue
 donga.com##[id^="PanthomAd"]
-donga.com##.aside_banner
 donga.com##div[class]:has(> [src*="RealMedia/ads"])
 ! dongascience
-dongascience.com##.advertise
 dongascience.com###advertise_fixed
+dongascience.com###article_body > [href*="/redirect.php"]
 dongascience.com###letter_apply
+dongascience.com##.advertise
 dongascience.com##.mobile-small-articles.w-full > .rounded.overflow-hidden.w-full
 dongascience.com##div > .w-full.block
-dongascience.com###article_body > [href*="/redirect.php"]
 ! news.sbs
 ||sbs.co.kr/news/ad^$subdocument
-news.sbs.co.kr##.w_banner
-nnews.sbs.co.kr##[id^="dablewidget_"]
-news.sbs.co.kr##[class$="_promotion_banner"]
 news.sbs.co.kr###pushBreaking
+news.sbs.co.kr##.w_banner
 news.sbs.co.kr##.w_prom_rolling
 news.sbs.co.kr##[class$="_ad"]
+news.sbs.co.kr##[class$="_promotion_banner"]
 news.sbs.co.kr##[id^="sn_banner"]
+nnews.sbs.co.kr##[id^="dablewidget_"]
 premium.sbs.co.kr##.endBnr_w
 premium.sbs.co.kr##.topBanner_w
 premium.sbs.co.kr##[class^="adBanner"]
@@ -612,13 +596,13 @@ premium.sbs.co.kr##[class^="adBanner"]
 ||img.ikbc.co.kr/data/kbc/upload/save/banner^$image
 news.ikbc.co.kr##.banner
 ! imbc
-imnews.imbc.com##[class^="ad-"]
-imnews.imbc.com##[class^="ad_"]
-imnews.imbc.com##[class*="_ad"]
+imnews.imbc.com##.clip-preview-msg
 imnews.imbc.com##[class*="-ad"]
+imnews.imbc.com##[class*="_ad"]
 imnews.imbc.com##[class*="_banner"]
 imnews.imbc.com##[class*="_dable"]
-imnews.imbc.com##.clip-preview-msg
+imnews.imbc.com##[class^="ad-"]
+imnews.imbc.com##[class^="ad_"]
 ! isplus / 일간스포츠
 ! 07c225f3.online STYLE broken when blocked
 @@||07c225f3.online^$domain=isplus.com
@@ -634,53 +618,53 @@ isplus.com##.center_banner
 ddaily.co.kr##.util2
 mydaily.co.kr##div.h50
 ! dailypharm
+dailypharm.com##.footerAD
 dailypharm.com##.headLineAD
 dailypharm.com##.overMouse.overlayVideo
-dailypharm.com##.S1-dday
-dailypharm.com##.footerAD
 dailypharm.com##.RightSideADBt
+dailypharm.com##.S1-dday
 dailypharm.com##[href^="https://www.dailypharm.com/Users/Event"]
-recruit.dailypharm.com##.rightBanner
-recruit.dailypharm.com##.footerBannerWrap
 map.dailypharm.com##.ad
-map.dailypharm.com##.mb0
 map.dailypharm.com##.mainTopBannerImg
+map.dailypharm.com##.mb0
 map.dailypharm.com##[class*="border-1"]
+recruit.dailypharm.com##.footerBannerWrap
+recruit.dailypharm.com##.rightBanner
 ! edaily / 이데일리
 ||image.edaily.co.kr/images/content/naver*
-m.edaily.co.kr##iframe[class^="slot"]
-m.edaily.co.kr##[src^="https://cdn.taboola.com/"]
-m.edaily.co.kr##[src^="//ads.priel.co.kr/"]
-m.edaily.co.kr##[src^="//ad.ad"]
-m.edaily.co.kr##[id^="taboola-"]
-m.edaily.co.kr##.realtalk_zone
-edaily.co.kr##[id*="ad_"]
-edaily.co.kr##[id*="_banner"]
+dailyesports.com##[class^="dailygame"]
+edaily.co.kr###w_read_right
+edaily.co.kr##.btn_special
+edaily.co.kr##.gpmclhd-link
+edaily.co.kr##.iwm_ba
+edaily.co.kr##.m_shows
+edaily.co.kr##.manyview_info
+edaily.co.kr##.mark_mousehover
+edaily.co.kr##.mb40
+edaily.co.kr##.mr10
+edaily.co.kr##.newscontainer > div > [src]
+edaily.co.kr##.newsletter_area
+edaily.co.kr##.pnutSlot
+edaily.co.kr##.right.more-stories
+edaily.co.kr##.rightArea01
+edaily.co.kr##.special_area
+edaily.co.kr##.weekend_news
+edaily.co.kr##.youlike_news
+edaily.co.kr##[class*="_ad"]
+edaily.co.kr##[class*="_banner"]
+edaily.co.kr##[class*="_gg"]
+edaily.co.kr##[class*="_textAD"]
+edaily.co.kr##[class*="ad_"]
 edaily.co.kr##[class*="boxshow_"]
 edaily.co.kr##[class*="gg_"]
-edaily.co.kr##[class*="ad_"]
-edaily.co.kr##[class*="_textAD"]
-edaily.co.kr##[class*="_gg"]
-edaily.co.kr##[class*="_banner"]
-edaily.co.kr##[class*="_ad"]
-edaily.co.kr##.youlike_news
-edaily.co.kr##.weekend_news
-edaily.co.kr##.special_area
-edaily.co.kr##.rightArea01
-edaily.co.kr##.right.more-stories
-edaily.co.kr##.pnutSlot
-edaily.co.kr##.newsletter_area
-edaily.co.kr##.newscontainer > div > [src]
-edaily.co.kr##.mr10
-edaily.co.kr##.mb40
-edaily.co.kr##.mark_mousehover
-edaily.co.kr##.manyview_info
-edaily.co.kr##.m_shows
-edaily.co.kr##.iwm_ba
-edaily.co.kr##.gpmclhd-link
-edaily.co.kr##.btn_special
-edaily.co.kr###w_read_right
-dailyesports.com##[class^="dailygame"]
+edaily.co.kr##[id*="_banner"]
+edaily.co.kr##[id*="ad_"]
+m.edaily.co.kr##.realtalk_zone
+m.edaily.co.kr##[id^="taboola-"]
+m.edaily.co.kr##[src^="//ad.ad"]
+m.edaily.co.kr##[src^="//ads.priel.co.kr/"]
+m.edaily.co.kr##[src^="https://cdn.taboola.com/"]
+m.edaily.co.kr##iframe[class^="slot"]
 ! fnnews
 ||io1.innorame.com^$subdocument
 fnnews.com###add_view_upHot
@@ -709,10 +693,10 @@ fnnews.com##[style]:has(> [style] > [class^="adsby"])
 ||adimg.hani.co.kr^
 ||img.hani.co.kr/*/*/*/*/event-blanket/*.png^
 h21.hani.co.kr##.ad-all
+hani.co.kr###ad_tag
 hani.co.kr###asideSupport
+hani.co.kr##.ad-slide
 hani.co.kr##.ad_top
-hani.co.kr##.bn-promotion
-hani.co.kr##.bn-promotion-support-5st
 hani.co.kr##.bn-support-character
 hani.co.kr##.gudokArea
 hani.co.kr##.hani-friend
@@ -723,14 +707,13 @@ hani.co.kr##.open
 hani.co.kr##.support-box
 hani.co.kr##.support-btn
 hani.co.kr##.support-header
-hani.co.kr###ad_tag
-hani.co.kr##.ad-slide
+hani.co.kr##[bis_skin_checked] > div > div > div:has-text(광고)
 hani.co.kr##[class^="article_imageBanner"]
+hani.co.kr##[class^="article_inner"]:has(> div [id^="taboola"])
 hani.co.kr##[class^="ArticleAdTop"]
 hani.co.kr##[class^="ArticleDetail_supportBannerWrap"]
-hani.co.kr##[class^="article_inner"]:has(> div [id^="taboola"])
 hani.co.kr##[class^="BaseAd"]
-hani.co.kr##[bis_skin_checked] > div > div > div:has-text(광고)
+hani.co.kr##[class^="bn-promotion"]
 ! hankookilbo
 ||www.hankookilbo.com/*/Default-Image*
 hankookilbo.com##.ad-news-todays
@@ -742,41 +725,37 @@ hankookilbo.com##.toast-popup
 hankookilbo.com##.ad
 hankookilbo.com##.overflow-hidden.rounded-t-lg > div > div.no-print:has([style])
 ! inews24
+inews24.com###articleBody > div:has([data-ad-client])
 inews24.com###articleBody > div:nth-of-type(1)
+inews24.com##.ad
+inews24.com##.adsbygoogle
 inews24.com##container > div
 inews24.com##div:nth-of-type(3)
 inews24.com##hr.blank
 inews24.com##hr.h50.blank
-inews24.com##.adsbygoogle
-inews24.com###articleBody > div:has([data-ad-client])
-inews24.com##.ad
 inews24.com##section.view > div:has(.adsbygoogle)
 ! jtbc
 @@||imasdk.googleapis.com^$script,domain=vod.jtbc.co.kr
 ||wecandeo.com^
 ||ad-imp.jtbc.co.kr^
 jtbc.co.kr###right_top_ad
-jtbc.co.kr##.ad_banner_250x250
-jtbc.co.kr##.ad_item
-jtbc.co.kr##.ad_shoppingnlife_bottom
-jtbc.co.kr##.article_list_in_ad
 jtbc.co.kr##.article_list_wrap
 jtbc.co.kr##.banner_area
 jtbc.co.kr##.house_banner
-jtbc.co.kr##.main-ad-top
+jtbc.co.kr##.MuiBox-root.swiper-navigation-wrapper
 jtbc.co.kr##.right_banner250_area
 jtbc.co.kr##.sns_wrap
 jtbc.co.kr##.sub_banner01
-jtbc.co.kr##.tv_right_ad
 jtbc.co.kr##.v_banner
-jtbc.co.kr##.vjs-ad-playing
-jtbc.co.kr##div:has(>[src*="ad"])
+jtbc.co.kr##[class$="_ad"]
+jtbc.co.kr##[class*="-ad-"]
+jtbc.co.kr##[class^="ad_"]
 jtbc.co.kr##a:has(>[src*="banner"])
-jtbc.co.kr##div:has(>[id^="taboola"])
 jtbc.co.kr##div:has(> div > div > div > div > div > div > a[href*="ad"])
-jtbc.co.kr##.MuiBox-root.swiper-navigation-wrapper
-news.jtbc.co.kr##aside > div > div:has(> div > div[id$="_AD"])
+jtbc.co.kr##div:has(>[id^="taboola"])
+jtbc.co.kr##div:has(>[src*="ad"])
 news.jtbc.co.kr##.set_contents_video_ad
+news.jtbc.co.kr##aside > div > div:has(> div > div[id$="_AD"])
 ! joins
 @@||cast.imp.joins.com^
 ||images.joins.com/*/talk_ad/*
@@ -785,38 +764,32 @@ joins.com##.jtbcGolfAD
 joins.com##.sub_branded_contents.rts
 joins.com##.sub_innov_lab.rts
 joins.com##[class^="advertis"]
-joins.com##[class$="mid_ban"]
-joins.com##[class$="img_ban"]
+joins.com##[class$="_ban"]
 joins.com##[class^="banner_article"]
 ! joongang
+joongang.co.kr###topicSnackbar
 joongang.co.kr##.ad_wrap
 joongang.co.kr##.ad_wrap_area
-joongang.co.kr##.banner_wrap
-joongang.co.kr##.layer_dark_popup
-joongang.co.kr##.plotting_banner
-joongang.co.kr##.sm_hidden.house_banner
-joongang.co.kr##li.ad_sm_hidden.col_lg6
-joongang.co.kr###topicSnackbar
 joongang.co.kr##.comment_list > li:has-text(중앙)
-joongang.co.kr##.house_banner
+joongang.co.kr##.layer_dark_popup
+joongang.co.kr##[class$="_banner"]
+joongang.co.kr##[class^="banner_"]
+joongang.co.kr##li.ad_sm_hidden.col_lg6
 ! khan
-khan.co.kr##.left-banner
-khan.co.kr##.wrap_bnr_shortcut
 khan.co.kr###bnNewsletter
 khan.co.kr###layerB
-khan.co.kr##.pl00
-khan.co.kr##.ad_hotclip
-khan.co.kr##.nl-bnr-wrap
-khan.co.kr##.wrap_ad_cont_btm
 khan.co.kr##.bnr-wrap
-khan.co.kr##.ad-area
-khan.co.kr##.ad_popularInfo_sub
-khan.co.kr##.nzine_banner_sub
 khan.co.kr##.major-art-top-wrap
-khan.co.kr##.ad-inner-wrap
+khan.co.kr##.nl-bnr-wrap
+khan.co.kr##.nzine_banner_sub
+khan.co.kr##.pl00
+khan.co.kr##.wrap_bnr_shortcut
+khan.co.kr##[class$="-banner"]
+khan.co.kr##[class*="_ad_"]
+khan.co.kr##[class^="ad-"]
+khan.co.kr##[class^="ad_"]
 khan.co.kr##[class^="banner-"]
-sports.khan.co.kr##[class*="Ad"]
-sports.khan.co.kr##[id*="ads"]
+khan.co.kr##[id*="ads"]
 ! mercola
 korean.mercola.com###mid-optin
 korean.mercola.com##.gdpr-wrap
@@ -848,32 +821,31 @@ m.mail.nate.com##.banner
 m.mail.nate.com##.w_notice
 nate.com###AdCommerce
 nate.com###AdIbl
-nate.com##[id^="AdView"]
-nate.com##[id^="ad2"]
-nate.com##[id^="ad_"]
 nate.com###bizRank
 nate.com###bottomAdRect
 nate.com###spaceBanner
-nate.com##.BannerBox
-nate.com##.SnbNewsBar
-nate.com##[class^="ad-"]
-nate.com##[clas^="ad2"]
 nate.com##.adBox
 nate.com##.ads
+nate.com##.BannerBox
 nate.com##.commercial
-nate.com##[class^="googleAd"]
-nate.com##[class$="-banner"]
-nate.com##[class$="banner"]
+nate.com##.SnbNewsBar
 nate.com##.socialAD
 nate.com##.sticky > [class^="ad"]
 nate.com##.todayBox:has([class^="cmBox"])
+nate.com##[clas^="ad2"]
+nate.com##[class$="-banner"]
+nate.com##[class$="banner"]
+nate.com##[class^="ad-"]
+nate.com##[class^="googleAd"]
 nate.com##[href*="cyad"]
-nate.com##[src*="cyad"]
 nate.com##[id$="AdWrap"]
 nate.com##[id$="MainBanner"]
+nate.com##[id^="ad_"]
+nate.com##[id^="ad2"]
+nate.com##[id^="AdView"]
+nate.com##[src*="cyad"]
 on-deal.nate.com##.popup-dim-overlay
 on-deal.nate.com##design-popup
-
 ! nate mobile
 m.nate.com##.mainBgWrap
 m.nate.com##[id$="_ad"]
@@ -882,38 +854,38 @@ m.nate.com##.navTab > li:has-text(혜택)
 ! zum
 @@||deepdive.zum.com^
 #@#iframe[src*="//deepdive.zum.com/widget/"]
+news.zum.com###bottom_shopping_box
+news.zum.com###layer_wrap
+news.zumst.com##.article_bottom
+news.zumst.com##.deepdive_widget_wrap
+news.zumst.com##.hot_news
+news.zumst.com##.section_hot_news
+news.zumst.com##[class*="_banner"]
+zum.com##.brand_widget
+zum.com##.front-bottom-banners
+zum.com##.layer_inner
+zum.com##.setting_box
 zum.com##[class*="_ad_"]
 zum.com##[class*="_banner"]
-zum.com##.front-bottom-banners
-zum.com##.setting_box
-zum.com##.layer_inner
-zum.com##.brand_widget
-news.zumst.com##[class*="_banner"]
-news.zumst.com##.section_hot_news
-news.zumst.com##.hot_news
-news.zumst.com##.deepdive_widget_wrap
-news.zumst.com##.article_bottom
-news.zum.com###layer_wrap
-news.zum.com###bottom_shopping_box
 ! ohmynews
 ||ojsimg.ohmynews.com/*/*/*/local_club_btn
-ohmynews.com##[src*="ohmynews.com/BBS_ADM_FILE/"]
-ohmynews.com##.arc-bottom-wrap > div > [href]
+||ojsimg.ohmynews.com/*_ad$subdocument
 ohmynews.com###scrollTop
-ohmynews.com##[class^="ad_"]
+ohmynews.com##.arc-bottom-wrap > div > [href]
+ohmynews.com##.faceb
+ohmynews.com##.footer_club
+ohmynews.com##.newswrap > center
+ohmynews.com##.support-box
+ohmynews.com##.support-omn
 ohmynews.com##[class*="_ad"]
+ohmynews.com##[class*="_banner"]
+ohmynews.com##[class^="ad_"]
 ohmynews.com##[class^="m_ad"]
 ohmynews.com##[id*="_banner"]
 ohmynews.com##[id*="dvCenterAd"]
-ohmynews.com##[class*="_banner"]
-ohmynews.com##.faceb
-ohmynews.com##.footer_club
-ohmynews.com##.support-box
-ohmynews.com##.support-omn
-||ojsimg.ohmynews.com/*_ad$subdocument
 ohmynews.com##[id^="dablewidget"]
+ohmynews.com##[src*="ohmynews.com/BBS_ADM_FILE/"]
 ohmynews.com##div[style]:has(>[src*="_ad"])
-ohmynews.com##.newswrap > center
 ! rpm9
 rpm9.com##.ad_right120x600
 rpm9.com##div.ad_right300
@@ -928,25 +900,25 @@ sedaily.com##.art_rel
 ! seoul
 ||wwwads.seoul.co.kr^$subdocument
 ||ad.aceplanet.co.kr^$subdocument
+m.nownews.seoul.co.kr##[class$="adArea"]
+seoul.co.kr###bottomScrollBox
+seoul.co.kr###iwmads
 seoul.co.kr###newsletterPop
 seoul.co.kr###slick_banner
-seoul.co.kr##[id*="div-gpt-ad"]
-seoul.co.kr##[id^="taboola"]
-seoul.co.kr##[id="iwmads"]
-seoul.co.kr##iframe[src^="/ad/"]
-seoul.co.kr##[title*="AdIframe"]
-seoul.co.kr##[class*="hed_ad"]
-seoul.co.kr###bottomScrollBox
 seoul.co.kr##.adBox
-seoul.co.kr###iwmads
-seoul.co.kr##[title="widsMobAdIframe"]
+seoul.co.kr##[class*="AD"]
+seoul.co.kr##[class*="Ad"]
+seoul.co.kr##[class*="hed_ad"]
 seoul.co.kr##[id*="AD"]
 seoul.co.kr##[id*="Ad"]
 seoul.co.kr##[id*="ads"]
-seoul.co.kr##[class*="AD"]
-seoul.co.kr##[class*="Ad"]
+seoul.co.kr##[id*="div-gpt-ad"]
+seoul.co.kr##[id^="taboola"]
+seoul.co.kr##[id="iwmads"]
 seoul.co.kr##[name*="AD"]
-m.nownews.seoul.co.kr##[class$="adArea"]
+seoul.co.kr##[title*="AdIframe"]
+seoul.co.kr##[title="widsMobAdIframe"]
+seoul.co.kr##iframe[src^="/ad/"]
 ! sportsseoul.com
 ||html-load.com^
 ||report.error-report.com^$stylesheet
@@ -957,7 +929,6 @@ sportsseoul.com###splitscreen-adblocker-fallback
 sportsseoul.com##div[class] [data-period]:has( [src*="banner"])
 ! twig24.com
 twig24.com##.articleInnerAdWrap
-twig24.com##[id^="div-gpt-ad"]
 twig24.com##[id^="div-gpt-ad"]
 twig24.com###livereAd
 twig24.com##[class="viewBottomAdWrap"]:nth-of-type(1)
@@ -970,39 +941,39 @@ yna.co.kr##[class^="aside-"]
 yna.co.kr##.wrap-header01
 ! ytn
 ytn.co.kr#@#div:has(>[src*="banner"])
-ytn.co.kr##div[class^="ad"]:has(>[src*="ad"])
-ytn.co.kr##div:has(>[src*="ad"])
-ytn.co.kr##div:has(>[id^="dable"])
-ytn.co.kr##[title^="하단 광고"]
-ytn.co.kr##[name*="AdServerChange"]
-ytn.co.kr##[id^="from"]
-ytn.co.kr##[class^="top_banner"]
-ytn.co.kr##.YTN_CSA_newsletter
-ytn.co.kr##.wing_ad
-ytn.co.kr##.top_banner
-ytn.co.kr##.newsletter
 ytn.co.kr###czone > div:has(>[name*="AdServer"])
-ytn.co.kr##[src^="/inc_banner"]
+ytn.co.kr##.newsletter
+ytn.co.kr##.top_banner
+ytn.co.kr##.wing_ad
+ytn.co.kr##.YTN_CSA_newsletter
 ytn.co.kr##[class^="ad_"]
+ytn.co.kr##[class^="top_banner"]
+ytn.co.kr##[id^="from"]
+ytn.co.kr##[name*="AdServerChange"]
+ytn.co.kr##[src^="/inc_banner"]
+ytn.co.kr##[title^="하단 광고"]
+ytn.co.kr##div:has(>[id^="dable"])
+ytn.co.kr##div:has(>[src*="ad"])
+ytn.co.kr##div[class^="ad"]:has(>[src*="ad"])
 ! zdnet
 zdnet.co.kr##.webinar
 zdnet.co.kr##[id^="dablewidget"]
 zdnet.co.kr##[title="livereAd"]
 ! mk
 ||img.mk.co.kr/*/banner*
+account.mk.co.kr##.bannertop
 mk.co.kr###area_banner
-mk.co.kr##div.ad_section
-mk.co.kr##table:nth-of-type(2)
-mk.co.kr##div.reple_box:nth-of-type(3)
-mk.co.kr##div.reple_box:nth-of-type(4)
+mk.co.kr##.ad_bottom_wrap
 mk.co.kr##.banner_bxtop
 mk.co.kr##.bn_newsletter
-mk.co.kr##.ad_bottom_wrap
-account.mk.co.kr##.bannertop
+mk.co.kr##[class^="adbox"]
 mk.co.kr##[class="native-ad-list-item"]
 mk.co.kr##[id^="TC_billboard"]
+mk.co.kr##div.ad_section
+mk.co.kr##div.reple_box:nth-of-type(3)
+mk.co.kr##div.reple_box:nth-of-type(4)
+mk.co.kr##table:nth-of-type(2)
 view.mk.co.kr##div:has(> [src$="/adMaker.js"])
-mk.co.kr##[class^="adbox"]
 ! gamezo
 gamezo.co.uk##.adthrive
 gamezo.co.uk##.adthrive-ad
@@ -1016,23 +987,23 @@ epiccarry.com##.promocode
 ||menu.mt.co.kr/news/*Banner
 ||menu.mt.co.kr/*/banner*$image
 ||imaeil.com/upload/ads$image
-mt.co.kr##.naver_channel_banner_wrap
-mt.co.kr##.adbox
-mt.co.kr##.cardinfo1
-mt.co.kr##[class*="ads"]
-news.imaeil.com##.arl_007
-imaeil.com##[id*="div-gpt-ad"]
-imaeil.com##.h30
-imaeil.com##.h25
+imaeil.com##.art_mid_ad
 imaeil.com##.h20
+imaeil.com##.h25
+imaeil.com##.h30
 imaeil.com##.h55
 imaeil.com##.h70
-imaeil.com##[id^="PanthomAd"]
 imaeil.com##.livery
-imaeil.com##.art_mid_ad
 imaeil.com##.section > div:has([src^="//ad"])
-imaeil.com##[src^="/upload/ads"]
 imaeil.com##[class^="wcms_banner"]
+imaeil.com##[id*="div-gpt-ad"]
+imaeil.com##[id^="PanthomAd"]
+imaeil.com##[src^="/upload/ads"]
+mt.co.kr##.adbox
+mt.co.kr##.cardinfo1
+mt.co.kr##.naver_channel_banner_wrap
+mt.co.kr##[class*="ads"]
+news.imaeil.com##.arl_007
 ! newsis
 ||z-pro.co.kr/ad^$subdocument
 ||clickon.kr/servlet/adSave$subdocument
@@ -1041,22 +1012,22 @@ imaeil.com##[class^="wcms_banner"]
 ||newsis.com/*/*_banner*$image
 /adReq/*
 mobile.newsis.com##.bxcn
-mobile.newsis.com##.listStyle04
 mobile.newsis.com##.fixBanner
-newsis.com##[id^="banner"]
-newsis.com##.fix > div.smallbox
-newsis.com##[src^="https://www.adflow.kr/ad/"]
-newsis.com##[href^="https://v.daum.net/channel"]
-newsis.com##div[style]:has(>[src*="ad"])
-newsis.com##div[style]:has(>*>[src*="ad"])
+mobile.newsis.com##.listStyle04
 newsis.com###shuffle:has(> ul > li > [src*="/ad/"])
+newsis.com##.fix > div.smallbox
+newsis.com##[href^="https://v.daum.net/channel"]
+newsis.com##[id^="banner"]
+newsis.com##[src^="https://www.adflow.kr/ad/"]
+newsis.com##div[style]:has(>*>[src*="ad"])
+newsis.com##div[style]:has(>[src*="ad"])
 ! dt / 디지털타임즈
 dt.co.kr##.main_wrap > center
+dt.co.kr##.top-banner-area
+dt.co.kr##[class^="jizsl"]
+dt.co.kr##[id^="svcad"]
 dt.co.kr##div.bk20
 dt.co.kr##div.bk40
-dt.co.kr##[class^="jizsl"]
-dt.co.kr##.top-banner-area
-dt.co.kr##[id^="svcad"]
 ! alphabiz
 ||alphabiz.co.kr/*/banner$image
 ||widget.publish.link/$subdocument
@@ -1066,23 +1037,22 @@ www.stoo.com##img[src^="/banner/"]
 www.stoo.com##img[src^="/ad/"]
 www.stoo.com##.ad_shoopng
 ! etnews, 전자신문
-etnews.com##[class^="ad_"]
-etnews.com##.clearfix:nth-of-type(9)
-etnews.com##.clearfix:nth-of-type(10)
-etnews.com##[class^="ad_"]
 etnews.com###ictBox
+etnews.com##.clearfix:nth-of-type(10)
+etnews.com##.clearfix:nth-of-type(9)
+etnews.com##[class^="ad_"]
 ! 서울경제, sentv.co.kr
 sentv.co.kr##.banner
 ! 아주경제, ajunews.com
-ajunews.com##[id^="div-gpt-ad"]
-ajunews.com##[id^="dcamp_ad"]
-ajunews.com##[class^="ad_"]
-ajunews.com##div[style="height:220px;"]
-ajunews.com##[href^="https://www.compassion.or.kr/sponsor"]
-ajunews.com##.view_banner
-ajunews.com##[class^="banner_"]
-ajunews.com##[class^="atc_ad"]
 ajunews.com###articleBody > div:has([id^="dcamp_ad"])
+ajunews.com##.view_banner
+ajunews.com##[class^="ad_"]
+ajunews.com##[class^="atc_ad"]
+ajunews.com##[class^="banner_"]
+ajunews.com##[href^="https://www.compassion.or.kr/sponsor"]
+ajunews.com##[id^="dcamp_ad"]
+ajunews.com##[id^="div-gpt-ad"]
+ajunews.com##div[style="height:220px;"]
 ! techpress
 techpress.co.kr#$#.news-view p { padding-top: 15px !important; }
 techpress.co.kr#$#.news-view p { padding-bottom: 15px !important; }
@@ -1096,10 +1066,10 @@ ilyosisa.co.kr##hr.spc
 koreasisailbo.com##.bn:has([href^="/ad"])
 koreasisailbo.com##[id^="ad_"]
 ! MoneyS
-moneys.co.kr##[class^="adbox"]
-moneys.co.kr##[id^="taboola"]
-moneys.co.kr##[data-ad]
 moneys.co.kr##[class^="ad-area"]
+moneys.co.kr##[class^="adbox"]
+moneys.co.kr##[data-ad]
+moneys.co.kr##[id^="taboola"]
 ! mbn.co.kr
 @@||ad.smartmediarep.com^
 @@||smrmembers-smr.smartmediarep.com^
@@ -1112,10 +1082,10 @@ skyedaily.com##[class^="banner"]
 docdocdoc.co.kr##div.index-columns-flex > .float-center > .index-row > .width-280
 docdocdoc.co.kr##.box-skin:nth-of-type(3)
 ! bntnews
-bntnews.co.kr##div.googleBanner
-bntnews.co.kr##header > .banner
 bntnews.co.kr###wrap_index > .banner
 bntnews.co.kr##[data-bannerkind]
+bntnews.co.kr##div.googleBanner
+bntnews.co.kr##header > .banner
 ! careet, 캐릿
 careet.net##.careet-secret-cover__wrap
 careet.net##.type-content.cover
@@ -1131,10 +1101,10 @@ jinju.news##[class^="box_banner"]
 jinju.news##.banner
 ! businesstimes.com.sg
 businesstimes.com.sg##[_neuron-ad-impression-tracked]
-businesstimes.com.sg##[data-testid="whatsapp-qr-breaking-news-component"]
-businesstimes.com.sg##[data-testid="article-newsletter-component"]
 businesstimes.com.sg##[data-component="component-container"] > [class*="py-"]
+businesstimes.com.sg##[data-testid="article-newsletter-component"]
 businesstimes.com.sg##[data-testid="bt-global-newsletter-component"]
+businesstimes.com.sg##[data-testid="whatsapp-qr-breaking-news-component"]
 ! tomsguide
 tomsguide.com###slice-container-newsletterForm-exitIntent
 tomsguide.com##[id^="slice-container-newsletterForm"]
@@ -1154,43 +1124,43 @@ bigkinds.or.kr##div.col-lg-6:nth-of-type(2)
 ! news1
 ||news1.kr/ads^$subdocument
 news1.kr##.ads-article-warp
-news1.kr##[class^="amp-ad"]
+news1.kr##.row > div[class^="mt-"]:has(>.ad-iframe)
 news1.kr##.w100-center
 news1.kr##[class^="ads-article"]
-news1.kr##.row > div[class^="mt-"]:has(>.ad-iframe)
+news1.kr##[class^="amp-ad"]
 ! heraldcorp / 헤럴드
 ||pryzmads.com^
 ||ad.doorigo.co.kr^
-heraldcorp.com##.event_bnn
-heraldcorp.com##[id^="svcad"]
 heraldcorp.com###articleText > div:has(>iframe[src*="delivery/ad"])
-heraldcorp.com##[class^="horizon-ad"]
+heraldcorp.com##.event_bnn
 heraldcorp.com##[class^="hbanner"]
+heraldcorp.com##[class^="horizon-ad"]
 heraldcorp.com##[id^="da"]
+heraldcorp.com##[id^="svcad"]
 ! digitaltoday / 디지탈투데이
 digitaltoday.co.kr##.ad-template
 ||cm.3dpop.co.kr^
 3dpop.co.kr##+js(nowoif)
 ! 위키트리, wikitree
-wikitree.co.kr##[class^="google_news"]
-wikitree.co.kr##[role="ad"]
-wikitree.co.kr##[id="google-analytics"]
-wikitree.co.kr##[id^="wikitree_image"][style="min-height: 155px;"]
-wikitree.co.kr##.ad_center
-wikitree.co.kr##[style^="min-height"]:has(> [id^="dablewidget"])
-wikitree.co.kr##[class^="res_ads"]
 wikitree.co.kr###div-gpt-ad-wikitree_mweb_article_bottom_key
-wikitree.co.kr##[class$="_ban"]
-wikitree.co.kr##.content_right_wrap > div:nth-of-type(1)
-wikitree.co.kr##div.content_right_inner:has(> div)
-wikitree.co.kr##.floating_banner
-wikitree.co.kr##.img_b_ads
+wikitree.co.kr##.ad_center
 wikitree.co.kr##.article_bottom > div:nth-of-type(4)
 wikitree.co.kr##.content_left_wrap > div:nth-of-type(2)
+wikitree.co.kr##.content_right_wrap > div:nth-of-type(1)
+wikitree.co.kr##.floating_banner
+wikitree.co.kr##.img_b_ads
+wikitree.co.kr##[class$="_ban"]
+wikitree.co.kr##[class^="google_news"]
+wikitree.co.kr##[class^="res_ads"]
+wikitree.co.kr##[id^="wikitree_image"][style="min-height: 155px;"]
+wikitree.co.kr##[id="google-analytics"]
+wikitree.co.kr##[role="ad"]
+wikitree.co.kr##[style^="min-height"]:has(> [id^="dablewidget"])
+wikitree.co.kr##div.content_right_inner:has(> div)
 ! infoloop, 인포루프
-infoloop.co.kr##[class^="pc-post-ad"]
 infoloop.co.kr##.news-view-wrap:style(padding-top:unset!important;)
 infoloop.co.kr##[class^="infoloop-adsense"]
+infoloop.co.kr##[class^="pc-post-ad"]
 infoloop.co.kr##[id$="-banner"]
 ! ikld.kr, 국토일보
 ikld.kr##[id$="Banner"]
@@ -1258,49 +1228,39 @@ weekly.hankooki.com###wingBanner
 
 ! - op.gg
 ||talk.op.gg/images/banner$image
-talk.op.gg##[src="/images/300x300_web.png"]
-pubg.op.gg##[id*="ad-container"]
-op.gg#@#[id^="div-gpt-ad"]:not([class]):upward(div[class])
-op.gg#@##__next > div[class^="css-"]:has(> div[id^="div-gpt-ad"])
 op.gg##.premium-banner
 op.gg##[id*="div-gpt-ad"]
+op.gg#@##__next > div[class^="css-"]:has(> div[id^="div-gpt-ad"])
+op.gg#@#[id^="div-gpt-ad"]:not([class]):upward(div[class])
+pubg.op.gg##[id*="ad-container"]
+talk.op.gg##[src="/images/300x300_web.png"]
 
 ! - 모두닥, modoodoc
-modoodoc.com###ad-post
-modoodoc.com###ad-post-1
-modoodoc.com###ad-post-2
-modoodoc.com###ad-post-3
-modoodoc.com###ad-post-4
-modoodoc.com###ad-post-5
-modoodoc.com###ad-post-6
 modoodoc.com###banner-A
 modoodoc.com###recruit-desktop-banner
-modoodoc.com##.app-banner-container
-modoodoc.com##.app-install-popup-banner-total
-modoodoc.com##.app-install-top-banner-total
 modoodoc.com##.d-block
-modoodoc.com##.hospital_list_desktop_ad_event_click
-modoodoc.com##.review_list_mobile_ad_event_click
 modoodoc.com##.show.modal-backdrop
-modoodoc.com##div.hospital_list_mobile_ad_event_click
+modoodoc.com##[class*="-banner-"]
+modoodoc.com##[class*="_ad_"]
 modoodoc.com##[class^="styles_bannerContainer"]
-modoodoc.com##[class^="swiper"]
-modoodoc.com##[class^="styles_mallOwnedMediaBanner"]
+modoodoc.com##[class^="styles_bannerWrapper"]
 modoodoc.com##[class^="styles_cardListSection"],[draggable="true"]
 modoodoc.com##[class^="styles_header"]
 modoodoc.com##[class^="styles_index"]
-modoodoc.com##[class^="styles_bannerWrapper"]
+modoodoc.com##[class^="styles_mallOwnedMediaBanner"]
+modoodoc.com##[class^="swiper"]
+modoodoc.com##[id^="ad-post"]
 
 ! - 닥터나우, doctornow, com.baedalyakgook
-doctornow.co.kr##[role="button"] > div
-doctornow.co.kr##.flex-col:has-text(AD)
-||file.doctorhow.co.kr^
-||file.dev.doctorhow.co.kr^
-||link.doctorhow.co.kr^
 ||api.notifly.tech^
 ||calls.sendbird.com^
-||ibytedtos.com^
 ||facebook.net^$important,app=com.baedalyakgook_user
+||file.dev.doctorhow.co.kr^
+||file.doctorhow.co.kr^
+||ibytedtos.com^
+||link.doctorhow.co.kr^
+doctornow.co.kr##.flex-col:has-text(AD)
+doctornow.co.kr##[role="button"] > div
 
 ! - 배송, 택배
 ! amazing.today
@@ -1314,35 +1274,32 @@ aliexpress.com##[id$="float-banner"]
 aliexpress.com##[class$="poplayer-modal"]
 aliexpress.com##.signBannerContainer
 ! 하이마트
-e-himart.co.kr##.ad-banner
-e-himart.co.kr###container > .hm-content-wrap > .hm-popup
-e-himart.co.kr###container >  .hm-content-wrap >  .main-modules-inner >  .hm-card__wrap:last-child >  .masonry-wall >  .masonry-column:last-child >  .masonry-item:first-child > section.hm-content-area.item >  .hm-main__product-ad-wrap
 e-himart.co.kr###__nuxt >  .hm-wrapper >  .dropdown-menu--open.specialty-hall.dropdown-menu:nth-child(2) >  .dropdown-menu-wrapper >  .dropdown-menu-body:nth-child(2) >  .hm-inner >  .hm-inner >  .marketing-banner-box:nth-child(2)
+e-himart.co.kr###container >  .hm-content-wrap >  .main-modules-inner >  .hm-card__wrap:last-child >  .masonry-wall >  .masonry-column:last-child >  .masonry-item:first-child > section.hm-content-area.item >  .hm-main__product-ad-wrap
+e-himart.co.kr###container > .hm-content-wrap > .hm-popup
 e-himart.co.kr###container > .hm-content-wrap > .main-modules-inner > .hm-card__wrap:last-child > .masonry-wall > .masonry-column:first-child > .masonry-item:nth-child(2)
-secure.e-himart.co.kr##.hm-floating-banner
-secure.e-himart.co.kr##.hm-banner-area
+e-himart.co.kr##.ad-banner
 secure.e-himart.co.kr##.citrus-product-area-1
+secure.e-himart.co.kr##.hm-banner-area
+secure.e-himart.co.kr##.hm-floating-banner
 ! auction
+auction.co.kr###BAC_AD_ZONE20
+auction.co.kr##.component--sponsor_link
+auction.co.kr##.hp_banner
+auction.co.kr##.module_slot.promo
+auction.co.kr##.top_mini_banner
+auction.co.kr#@##body > .hp_allkill:style(margin-top: 375px !important;)
 itempage3.auction.co.kr##.plcc_banner
 itempage3.auction.co.kr##.vip-detailinfo_banner
-auction.co.kr###BAC_AD_ZONE20
-auction.co.kr##.module_slot.promo
-auction.co.kr#@##body > .hp_allkill:style(margin-top: 375px !important;)
-auction.co.kr##.hp_banner
-auction.co.kr##.top_mini_banner
-m.auction.co.kr##.smileclub_area
-m.auction.co.kr##.box__banner-dynamic
-m.auction.co.kr##.box__allkill-ad
-m.auction.co.kr##.smiledelivery-coupon
 m.auction.co.kr##.box--banner_promotion
+m.auction.co.kr##.box__allkill-ad
+m.auction.co.kr##.box__banner-dynamic
+m.auction.co.kr##.smileclub_area
+m.auction.co.kr##.smiledelivery-coupon
 mobile.auction.co.kr##.content-slider
-auction.co.kr##.component--sponsor_link
 ! coupang
-mc.coupang.com##.keen-slider
-mc.coupang.com##.iRlyIl
-mc.coupang.com##.mclp-wow-card-nudge-new
-mc.coupang.com#@##__next > div > div:has-text("광고")
-coupang.com##.main-today--thumb-nails > div > li:has( > a > img[src*="https://image14.coupangcdn.com/image/ccm/banner"])
+||link.coupang.com^$important
+||ljc.coupang.com^$important
 coupang.com###__next > div > div > div > div:has( > [class*="keen-slider"])
 coupang.com###app-redirect-nudge
 coupang.com###coupang-banner
@@ -1353,18 +1310,21 @@ coupang.com##.app-redirect
 coupang.com##.cart-recommendation-widget
 coupang.com##.category-best-adzerk
 coupang.com##.gw-line-banners
+coupang.com##.main-today--thumb-nails > div > li:has( > a > img[src*="https://image14.coupangcdn.com/image/ccm/banner"])
 coupang.com##.prod-banner-link
+coupang.com##.product-sticky-banner-container
 coupang.com##.promotion-banner
 coupang.com##.sdp-ads
 coupang.com##.sdp-bottom-banner
+coupang.com##.twc-relative.max-smpad\:twc-block.smpad\:twc-justify-between.smpad\:twc-flex > .max-csm\:twc-visible.csm\:twc-hidden
+coupang.com##[class^="ProductUnit_productUnit"]:has-text(광고)
 coupang.com##[id^="midCarousel"]
 coupang.com##[id^="sdp-ad-"]
 coupang.com##[id^="srp"]
-coupang.com##.twc-relative.max-smpad\:twc-block.smpad\:twc-justify-between.smpad\:twc-flex > .max-csm\:twc-visible.csm\:twc-hidden
-coupang.com##.product-sticky-banner-container
-coupang.com##[class^="ProductUnit_productUnit"]:has-text(광고)
-||ljc.coupang.com^$important
-||link.coupang.com^$important
+mc.coupang.com##.iRlyIl
+mc.coupang.com##.keen-slider
+mc.coupang.com##.mclp-wow-card-nudge-new
+mc.coupang.com#@##__next > div > div:has-text("광고")
 ! 퀘이사존, quasarzone
 quasarzone.com##[id^="banner-"]
 quasarzone.com##[class^="banner-"]
@@ -1377,27 +1337,27 @@ enuri.com##[class^="bnrbox"]
 @@||script.gmarket.co.kr^$script
 ||ad-img.gmarket.com^$image
 ||pics.gmarket.com/smilepay/banner$image
-www.gmarket.co.kr##.box__promotion
-www.gmarket.co.kr##.box__smilefresh-benefit
-www.gmarket.co.kr##.link__banner
-www.gmarket.co.kr##.box__component-sponsor-link
-gmarket.co.kr##.ng-scope.banner
-gmarket.co.kr##[class^="box-smileclub-banner"]
-gmarket.co.kr##[class^="sc_mbr"]
-my.gmarket.co.kr##.box__additional-message
-m.gmarket.co.kr##.box__app-lead
-m.gmarket.co.kr##.box__bottom-banner
-gmarket.co.kr##.m9.benefit
-gmarket.co.kr##.couponzone.benefit
-gmarket.co.kr##.smileclub_bnr
-gmarket.co.kr##.sns.area
 gmarket.co.kr###login-banner-box
-gmarket.co.kr##.bx_banner
 gmarket.co.kr##.box__club-banner
+gmarket.co.kr##.box__component-sponsor-link
+gmarket.co.kr##.box__promotion
+gmarket.co.kr##.box__smilefresh-benefit
+gmarket.co.kr##.button__benefit
+gmarket.co.kr##.bx_banner
+gmarket.co.kr##.couponzone.benefit
+gmarket.co.kr##.link__banner
 gmarket.co.kr##.list-item--brand
 gmarket.co.kr##.list__nudge-series
-gmarket.co.kr##.button__benefit
+gmarket.co.kr##.m9.benefit
+gmarket.co.kr##.ng-scope.banner
+gmarket.co.kr##.smileclub_bnr
+gmarket.co.kr##.sns.area
 gmarket.co.kr##[class$="-banner"]
+gmarket.co.kr##[class^="box-smileclub-banner"]
+gmarket.co.kr##[class^="sc_mbr"]
+m.gmarket.co.kr##.box__app-lead
+m.gmarket.co.kr##.box__bottom-banner
+my.gmarket.co.kr##.box__additional-message
 ! gsshop
 with.gsshop.com###global-top-banner
 m.gsshop.com##.bnr-item_appdown
@@ -1407,26 +1367,26 @@ m.gsshop.com###md-appdown
 charlotte.lotteon.com##.invalidate-receiver.control-carousel
 charlotte.lotteon.com##.invalidate-receiver.control-frame > .message__wrap
 lotteon.com###modals-container
-lotteon.com##.eventBanner
-lotteon.com##.productAdvertisement
 lotteon.com##.advertisement
-lotteon.com#@##modals-container
-lotteon.com##.popCenter.popRound.v--modal-box
 lotteon.com##.bottomAdBanner
+lotteon.com##.eventBanner
+lotteon.com##.popCenter.popRound.v--modal-box
+lotteon.com##.productAdvertisement
 lotteon.com##div.infoWrap:nth-of-type(2)
 lotteon.com##div.infoWrap:nth-of-type(3)
+lotteon.com#@##modals-container
 ! tmon
 tmon.co.kr###_orderBanner
 tmon.co.kr###_wrapPromotionBanner
 tmon.co.kr###topline_ad
 tmon.co.kr##.banner_div
+tmon.co.kr##.event_banner
 tmon.co.kr##.footer_banner
+tmon.co.kr##.layer-tvon__wrapper
 tmon.co.kr##.link_banner
 tmon.co.kr##.slider_banners
 tmon.co.kr##.special_banner
 tmon.co.kr##.topline_ad
-tmon.co.kr##.layer-tvon__wrapper
-tmon.co.kr##.event_banner
 tmon.co.kr##.vwa_link
 ! wemakeprice
 ||wemakeplace.club/ad/*
@@ -1437,19 +1397,19 @@ front.wemakeprice.com###_prodBanner
 front.wemakeprice.com##[src^="https://view01.wemep.co.kr/wmp-main/00"]
 ! interpark
 interpark.com##.ad.couponContent
+interpark.com##[class^="event_eventWrap"]
+interpark.com##[class^="eventBanner_eventBannerWrap"]
 m.shop.interpark.com###prd_appbanner
+m.shop.interpark.com##.appBanner
+m.shop.interpark.com##.bottom.popupWrap
+m.shop.interpark.com##.cmBanner
 m.shop.interpark.com##.combineBanner
 m.shop.interpark.com##.horizonBanner
 m.shop.interpark.com##.popupBottom
 m.shop.interpark.com##.popupClose
-m.shop.interpark.com##.bottom.popupWrap
-m.shop.interpark.com##.appBanner
-m.shop.interpark.com##.cmBanner
-interpark.com##[class^="event_eventWrap"]
-interpark.com##[class^="eventBanner_eventBannerWrap"]
+mtravel.interpark.com##[class^="rollingBanner"]
 shop.interpark.com##[class^="adBanner"]
 shopping.interpark.com##.priceUpper
-mtravel.interpark.com##[class^="rollingBanner"]
 worldshop.interpark.com##[class*="ad_bnnr"]
 ! qoo10
 qoo10.com##.bnnr_area
@@ -1457,70 +1417,68 @@ qoo10.com##.m_ad_bnnr
 qoo10.com##.shr_rwrditm
 ! ssg
 ||sui.ssgcdn.com/ui/ssg/img/product/*/cdtl_universe_type_banner*$image
-www.ssg.com##.gnb_bnr_wrap
-www.ssg.com##.menu_ad
-www.ssg.com###ajaxMainMemberShipItem
-www.ssg.com##.cdtl_bn_marketing
-www.ssg.com##.cdtl_universe_type
-m.ssg.com###m_header_welcome
-m.ssg.com##.mndtl_sec_bx
-emart.ssg.com##.gnb_bnr_wrap
-emart.ssg.com##.cdtl_mmbr_wrap
-emart.ssg.com##.cdtl_bn_marketing
 emart.ssg.com###recom_product_div
+emart.ssg.com##.cdtl_bn_marketing
+emart.ssg.com##.cdtl_mmbr_wrap
+emart.ssg.com##.emall_banner_item_group
 emart.ssg.com##.gate_unit.mnemitem_unit
+emart.ssg.com##.gnb_bnr_wrap
+event.ssg.com##.ty_universe.gnb_mmbrs
 m-emart.ssg.com###item_advert_cpc_div
-m-emart.ssg.com##div[class^="wrap css-"] > div:nth-of-type(3)
-m-emart.ssg.com##div.templated-grid:nth-of-type(4)
-m-emart.ssg.com##div.templated-grid:nth-of-type(12)
 m-emart.ssg.com##.mndtl_sec_bx
 m-emart.ssg.com##.mndtl_universe_lst
-m-shinsegaemall.ssg.com##div[class^="wrap css-"] > div:nth-of-type(3)
-m-shinsegaemall.ssg.com##div:nth-of-type(7)
+m-emart.ssg.com##div.templated-grid:nth-of-type(12)
+m-emart.ssg.com##div.templated-grid:nth-of-type(4)
+m-emart.ssg.com##div[class^="wrap css-"] > div:nth-of-type(3)
 m-shinsegaemall.ssg.com##.header_appdown
-m-shinsegaemall.ssg.com##.mndtl_universe_lst
-m-shinsegaemall.ssg.com##.mndtl_tyad
-m-shinsegaemall.ssg.com##.mndtl_banner_event
-shinsegaemall.ssg.com##.cdtl_mmbr_wrap
-shinsegaemall.ssg.com##li.cunit_ad.cmitem_grid_item.cdtl_recommend_product_item
-m.shinsegaepoint.com##[class^="main_banner"]
-m.shinsegaepoint.com##.main_visual_banner
+m-shinsegaemall.ssg.com##[class$="_banner_event"]
+m-shinsegaemall.ssg.com##[class$="_tyad"]
+m-shinsegaemall.ssg.com##[class$="_universe_lst"]
+m-shinsegaemall.ssg.com##div:nth-of-type(7)
+m-shinsegaemall.ssg.com##div[class^="wrap css-"] > div:nth-of-type(3)
 m.shinsegaepoint.com##.banner_lists
-m.shinsegaepoint.com##.sub_banner
+m.shinsegaepoint.com##[class$="_banner"]
+m.ssg.com###m_header_welcome
+m.ssg.com##.mndtl_sec_bx
+member.ssg.com##.advertising.cmem_sec
+shinsegaemall.ssg.com##.cdtl_mmbr_wrap
 shinsegaemall.ssg.com##.smmain_section_mmbrsevnt
 shinsegaemall.ssg.com##.ty_universe.gnb_mmbrs
-member.ssg.com##.advertising.cmem_sec
-emart.ssg.com##.emall_banner_item_group
-event.ssg.com##.ty_universe.gnb_mmbrs
+shinsegaemall.ssg.com##li.cunit_ad.cmitem_grid_item.cdtl_recommend_product_item
+ssg.com###ajaxMainMemberShipItem
+ssg.com##.cdtl_bn_marketing
+ssg.com##.cdtl_universe_type
+ssg.com##.gnb_bnr_wrap
+ssg.com##.menu_ad
 ! 11st
-login.11st.co.kr##[data-log-actionid-label="banner"]
 11st.co.kr##.advertisement
-11st.co.kr##[class^="c_product_banner"]
-11st.co.kr##.r-coupon-down__line-banner
 11st.co.kr##.c-ad-banner
-m.11st.co.kr##.fadeIn.animated.dim
+11st.co.kr##.r-coupon-down__line-banner
+11st.co.kr##[class^="c_product_banner"]
+buy.11st.co.kr##.hope_shopping
+buy.11st.co.kr##[class*="ad_"]
+buy.11st.co.kr##[data-log-actionid-area*="_ad"]
+buy.11st.co.kr##[id="ar-hotclick"]
+login.11st.co.kr##[data-log-actionid-label="banner"]
+m.11st.co.kr###banner-gnb
+m.11st.co.kr###mwPortal
 m.11st.co.kr##.c-ad-benefit
 m.11st.co.kr##.c-banner
 m.11st.co.kr##.c-donation
 m.11st.co.kr##.c-floating__banner
 m.11st.co.kr##.c-headline__text
 m.11st.co.kr##.c-moneybag-guide
+m.11st.co.kr##.fadeIn.animated.dim
 m.11st.co.kr##.mw_bnr
-m.11st.co.kr##.viewport-ad
-m.11st.co.kr##.swiper-container-horizontal.w-swiper
-m.11st.co.kr#@#div[class$="-ad"]
-m.11st.co.kr###banner-gnb
-m.11st.co.kr###mwPortal
 m.11st.co.kr##.r-coupon-down__line-banner
+m.11st.co.kr##.swiper-container-horizontal.w-swiper
+m.11st.co.kr##.viewport-ad
 m.11st.co.kr##[data-ui-type="Banner_Image"]
-search.11st.co.kr###section_list
-search.11st.co.kr##[class*="_ad"]
-search.11st.co.kr##.section-review
+m.11st.co.kr#@#div[class$="-ad"]
 plan.11st.co.kr##.c-webtoapp--fixed.c-webtoapp
-buy.11st.co.kr##.hope_shopping
-buy.11st.co.kr##[id="ar-hotclick"]
-buy.11st.co.kr##[data-log-actionid-area*="_ad"]
-buy.11st.co.kr##[class*="ad_"]
+search.11st.co.kr###section_list
+search.11st.co.kr##.section-review
+search.11st.co.kr##[class*="_ad"]
 ! tdeal / T딜
 ||cdn.tdeal.kr/images/banners$image
 tdeal.kr##.topBanner__content
@@ -1540,10 +1498,10 @@ m.hnsmall.com###promotionPopupNew
 m.hnsmall.com##.layerDim
 ! skstoa
 ||imagecdn.skstoa.com/banner$image
-www.skstoa.com##.vodBanner
-www.skstoa.com##.js_l_wing_main
-www.skstoa.com##li.ga-event
-www.skstoa.com##.stoaLogin__etc-link
+skstoa.com##.js_l_wing_main
+skstoa.com##.stoaLogin__etc-link
+skstoa.com##.vodBanner
+skstoa.com##li.ga-event
 ! coocha
 coocha.co.kr##.group-power-link
 coocha.co.kr##.group-recommended
@@ -1552,14 +1510,14 @@ fallcent.com##.pc_app_down_button
 fallcent.com##[id*="banner"]
 fallcent.com##div:has(> [onclick^="clickApp"])
 ! etc
-lowchart.com##.btn-secondary.btn-fixed-download.btn
-hmall.com##.login-ad
+@@||ads-partners.coupang.com^$image,domain=geniealert.co.kr
 ||ad-img.ebaykorea.com^
-m.shein.com##.ccc-ad-flow-img
+geniealert.co.kr##.pcAlert
 glowpick.com##.banner
 glowpick.com##.popup
-geniealert.co.kr##.pcAlert
-@@||ads-partners.coupang.com^$image,domain=geniealert.co.kr
+hmall.com##.login-ad
+lowchart.com##.btn-secondary.btn-fixed-download.btn
+m.shein.com##.ccc-ad-flow-img
 
 ! - 여행사, trip, myrealtrip
 kr.trip.com##.list-app-download__wrapper
@@ -1569,9 +1527,9 @@ kayak.co.kr##.bIIR
 kayak.co.kr##.n_yf
 kayak.co.kr##.IIxj
 ! tripadvisor
-www.tripadvisor.co.kr##section.mowmC:nth-of-type(5)
-www.tripadvisor.co.kr##section.mowmC:nth-of-type(13)
-www.tripadvisor.co.kr##section.mowmC:nth-of-type(17)
+tripadvisor.co.kr##section.mowmC:nth-of-type(5)
+tripadvisor.co.kr##section.mowmC:nth-of-type(13)
+tripadvisor.co.kr##section.mowmC:nth-of-type(17)
 ! myrealtrip
 myrealtrip.com###AD_BANNER > div > div > div > div > div > div:has(> div span:has-text(광고))
 myrealtrip.com##[alt$="배너"]
@@ -1596,50 +1554,50 @@ bunjang.co.kr##.slick-slide
 ||contentsfeed.com/RealMedia^
 ||advimg.danawa.com^
 ||danawa.com/*/ajungdang_banner^$image
-m.danawa.com##[class^="ad_"]
-danawa.com##[id^="powerShopping"]
-danawa.com##[id^="powerLink"]
-danawa.com##[id^="powerClick"]
-danawa.com##[id^="mainAd"]
-danawa.com##[id^="ebayPowerClick"]
-danawa.com##[id^="danawa-dpg"]:has(> div > [id^="dablewidget"])
+danawa.com###danawa-gnb-banner
+danawa.com###main-rightbnr
+danawa.com##.ad.shop_link_item
+danawa.com##.auto_product_list:has([id^="auto_banner"])
+danawa.com##.font_dotum.bbs_power_link
+danawa.com##.main-event:has(> div > ul > li > span > [src^="//ad.danawa"])
+danawa.com##.main-middlebnr:has(> [src^="//ad.danawa"])
+danawa.com##.power_link[class^="ad_"]
+danawa.com##.rnb_inner > [style^="min-height"]
+danawa.com##.setpc_middle_banner
+danawa.com##.wing_contents
+danawa.com##[class$="-ad"]
+danawa.com##[class$="AdProductClick"]
+danawa.com##[class$="top_banner"]
+danawa.com##[class$="wing-banner"]
+danawa.com##[class*="ajungdang-banner"]
+danawa.com##[class^="ad-"]
+danawa.com##[class^="ad_"]
+danawa.com##[class^="aside_widget_wrap"]
+danawa.com##[class^="banner-"]
+danawa.com##[class^="powershopping"]:has-text(광고)
+danawa.com##[class^="prod_ad"]
+danawa.com##[class^="wing_banner"]
+danawa.com##[class="danawa_direct_sale"]:has-text(광고)
+danawa.com##[class="goods-list__item"]:has-text(광고)
+danawa.com##[data-ux-event^="ad_"]
 danawa.com##[id$="-ad-bottom"]
-danawa.com##[id^="dablewidget_"]
-danawa.com##[id^="coupang"]
-danawa.com##[id^="banner_"]
-danawa.com##[id^="appDownload"]
-danawa.com##[id^="adSmart"]
-danawa.com##[id*="Banner"]
+danawa.com##[id$="-ad-top"]
+danawa.com##[id$="-dable"]
+danawa.com##[id$="-powerLink-self"]
 danawa.com##[id$="_adver"]
 danawa.com##[id$="AdSmartArea"]
-danawa.com##[id$="-powerLink-self"]
-danawa.com##[id$="-dable"]
-danawa.com##[id$="-ad-top"]
-danawa.com##[data-ux-event^="ad_"]
-danawa.com##[class^="wing_banner"]
-danawa.com##[class^="prod_ad"]
-danawa.com##[class^="powershopping"]:has-text(광고)
-danawa.com##[class^="banner-"]
-danawa.com##[class^="aside_widget_wrap"]
-danawa.com##[class^="ad-"]
-danawa.com##[class="goods-list__item"]:has-text(광고)
-danawa.com##[class="danawa_direct_sale"]:has-text(광고)
-danawa.com##[class*="ajungdang-banner"]
-danawa.com##[class$="wing-banner"]
-danawa.com##[class$="top_banner"]
-danawa.com##[class$="AdProductClick"]
-danawa.com##[class$="-ad"]
-danawa.com##.wing_contents
-danawa.com##.setpc_middle_banner
-danawa.com##.rnb_inner > [style^="min-height"]
-danawa.com##.power_link[class^="ad_"]
-danawa.com##.main-middlebnr:has(> [src^="//ad.danawa"])
-danawa.com##.main-event:has(> div > ul > li > span > [src^="//ad.danawa"])
-danawa.com##.font_dotum.bbs_power_link
-danawa.com##.auto_product_list:has([id^="auto_banner"])
-danawa.com##.ad.shop_link_item
-danawa.com###main-rightbnr
-danawa.com###danawa-gnb-banner
+danawa.com##[id*="Banner"]
+danawa.com##[id^="adSmart"]
+danawa.com##[id^="appDownload"]
+danawa.com##[id^="banner_"]
+danawa.com##[id^="coupang"]
+danawa.com##[id^="dablewidget_"]
+danawa.com##[id^="danawa-dpg"]:has(> div > [id^="dablewidget"])
+danawa.com##[id^="ebayPowerClick"]
+danawa.com##[id^="mainAd"]
+danawa.com##[id^="powerClick"]
+danawa.com##[id^="powerLink"]
+danawa.com##[id^="powerShopping"]
 
 ! - Kakao, Daum
 @@||aem-collector.daumkakao.io^
@@ -1671,25 +1629,25 @@ danawa.com###danawa-gnb-banner
 ||kyson.ad.daum.net^$important
 ||mk.kakaocdn.net/$important,app=com.kakao.talk
 ||page.kakao.com/_next/*_banner_*.png$image
+||t1.kakaocdn.net/*ad^
+||t1.kakaocdn.net^$app=net.daum.android.map
 ||tr.*.daum.net/*
 ||webid.ad.daum.net^$important
-||t1.kakaocdn.net^$app=net.daum.android.map
-||t1.kakaocdn.net/*ad^
-kakao.com##app-banner
 daum.net##[data-cloud="banner"]
+kakao.com##app-banner
+m.daum.net##.bnr_appset_v2_high.bnr_popup.bnr_layer
 open.kakao.com##.link_bnr
 page.kakao.com##img[alt^="pc 앱"]
 payments.kakao.com###bannerBottomSection
 payments.kakao.com##.bnr
 v.daum.net##.box_floating
-m.daum.net##.bnr_appset_v2_high.bnr_popup.bnr_layer
 ! map
+m.map.kakao.com##.comm_layer
+m.map.kakao.com##.comm_popup
+m.map.kakao.com##.dimmed_layer
 map.kakao.com##.AdItem
 map.kakao.com##.bnr_ad
 map.kakao.com##.Howto
-m.map.kakao.com##.comm_popup
-m.map.kakao.com##.dimmed_layer
-m.map.kakao.com##.comm_layer
 place.map.kakao.com##.leverage_layer.comm_layer
 place.map.kakao.com##.section_bizboard
 ! Daum Search Ads
@@ -1705,12 +1663,12 @@ search.daum.net##.list_ad
 ! Kakao shoppinghow
 daum.net##.box_shorts.box_g
 daum.net##div.box_g:nth-of-type(4)
+shoppinghow.kakao.com##.wrap_shoppingad
+shoppinghow.kakao.com##mobile-ad-affiliate
 store.kakao.com##.area_mybnr
 store.kakao.com##.inner_slide
 store.kakao.com##cu-carousel
 store.kakao.com##fu-view-main-top-banner
-shoppinghow.kakao.com##.wrap_shoppingad
-shoppinghow.kakao.com##mobile-ad-affiliate
 ! Kakao Pay
 ! KakaoTalk-App
 ||kamp.kakao.com^$important,app=com.kakao.talk
@@ -1727,17 +1685,17 @@ tistory.com##.adfit.revenue_unit_item
 tistory.com##.container_layer_type2
 tistory.com##.donation
 tistory.com##.kakao_ad_area
+tistory.com##.page-header:has(> [href])
 tistory.com##.revenue_unit_wrap
 tistory.com##.wrap_bnr_story
+tistory.com##[class*="Ads"]
+tistory.com##[class^="banner-"]
+tistory.com##[class^="sliding-banner"]
 tistory.com##[data-og-host="www.coupang.com"]
+tistory.com##[data-tistory-react-app]:has-text(광고)
 tistory.com##div.module_plugin.module:nth-of-type(1)
 tistory.com#@#.ad-wp
 tistory.com#@#+js(abort-current-script, $, div.adsbygoogle)
-tistory.com##[data-tistory-react-app]:has-text(광고)
-tistory.com##[class^="sliding-banner"]
-tistory.com##.page-header:has(> [href])
-tistory.com##[class*="Ads"]
-tistory.com##[class^="banner-"]
 
 ! - repack
 ! pcprogs
@@ -1788,21 +1746,21 @@ utweb.rainberrytv.com###upgrade-sidebar
 mail.google.com##div[jscontroller]:has-text(시작하기)
 
 ! - Tmap app / ($app=com.skt.tmap.ku)
+! tmap main dashboard, popup-ads, main contents, etc
+&utm_medium=inapp_momentpopup_impression_cpm&
+/*banner*$app=com.skt.tmap.ku
+/banner*$app=com.skt.tmap.ku
+/tmapad/*$app=com.skt.tmap.ku
 @@||cdn.tmap.co.kr/tmapweb^$app=com.skt.tmap.ku
 @@||decide.mixpanel.com^
 @@||poi-cdn.tmap.co.kr^
-||s.mfinder.co.kr^$app=com.skt.tmap.ku
 ||api-js.mixpanel.com^$app=com.skt.tmap.ku
-! tmap main dashboard, popup-ads, main contents, etc
 ||cdn.tmobiweb.com/tmapad^$app=com.skt.tmap.ku
-/tmapad/*$app=com.skt.tmap.ku
-/banner*$app=com.skt.tmap.ku
-/*banner*$app=com.skt.tmap.ku
-||smart.link^$app=com.skt.tmap.ku
-||search.tmap.co.kr/static/*banner*$app=com.skt.tmap.ku
-||frontman.tmobiapi.com^$app=com.skt.tmap.ku
 ||db*.speedgabia.com/
-&utm_medium=inapp_momentpopup_impression_cpm&
+||frontman.tmobiapi.com^$app=com.skt.tmap.ku
+||s.mfinder.co.kr^$app=com.skt.tmap.ku
+||search.tmap.co.kr/static/*banner*$app=com.skt.tmap.ku
+||smart.link^$app=com.skt.tmap.ku
 
 ! - oilnow
 carmmunity.oilnow.co.kr##.swiper-wrapper
@@ -1856,73 +1814,73 @@ korean.dict.naver.com##dictbanner
 ||ad.*.naver.com^
 ||adcr.naver.com^
 ||adcreative.naver.com^
+||nam.veta.naver.com^$app=com.nhn.android.search
 ||searchad.naver.com^
 ||ssl.pstatic.net/melona/libs/*$document
-||nam.veta.naver.com^$app=com.nhn.android.search
+naver.com###header .header_inner:style(height: 100px !important;)
 naver.com###whale-banner
-search.naver.com/#@#div[class^="ad_"]
 search.naver.com##._ad.box
+search.naver.com##._banner_wrap
 search.naver.com##.ad_section
-search.naver.com##.type_ad
+search.naver.com##.banner_area
 search.naver.com##.banner_inner
+search.naver.com##.brand_new_ui.section.brand_search
+search.naver.com##.premium_carousel
+search.naver.com##.type_ad
 search.naver.com##[id="power_link_together_broad_section"]
 search.naver.com#@#div[class^="ad_"]
-naver.com###header .header_inner:style(height: 100px !important;)
-search.naver.com##.banner_area
-search.naver.com##.premium_carousel
-search.naver.com##.brand_new_ui.section.brand_search
-search.naver.com##._banner_wrap
+search.naver.com/#@#div[class^="ad_"]
 ! m.naver
 m.naver.com###MM_na_topbanner
-m.naver.com##._MM_VIDEO_PREVIEW_WRAP.comp_shortform_new
-m.naver.com##div.id_comp_home_feed
-m.naver.com##[data-home-feed-id="special-issue"]
 m.naver.com##._MM_SEARCH_AD
+m.naver.com##._MM_VIDEO_PREVIEW_WRAP.comp_shortform_new
 m.naver.com##.comp_banner_feed
 m.naver.com##.id_comp_shorts_banner
-m.naver.com##[data-insp-card-exp-key="search-clip-review"]
 m.naver.com##.sch_logo_container:style(margin-bottom: 0px !important;)
+m.naver.com##[data-home-feed-id="special-issue"]
+m.naver.com##[data-insp-card-exp-key="search-clip-review"]
+m.naver.com##div.id_comp_home_feed
 naver.com###ad_timeboard
 naver.com###MM_SEARCH_NOW
 naver.com###MM_SEARCH_SHOP_LIVE
+naver.com###MM_search_todaynaver
 naver.com###timesquare
 naver.com##._MM_HOME_PROMOTION_PROMOTION
 naver.com##.comp_banner
-naver.com##.id_comp_anniversary_banner
-naver.com##.id_comp_commemoration_banner.ISSUE-BANNER-AD
-naver.com##.id_cui_airsguide
-naver.com##.id_cui_banner_nextmain
-naver.com##.ly_change_newmain
-naver.com##.MM_CHANNEL_BOTTOM_BANNER
-naver.com##.MM_NEWS_CHANNEL_PROMOTION_TOP_BANNER
-naver.com##.nplus_wrap
-naver.com##.st_show._tutorial_wrap.section_tutorial
-naver.com##.link_search_banner
-naver.com###MM_search_todaynaver
 naver.com##.csm_title_wrap
 naver.com##.gnb_banner
 naver.com##.gnb_pay
+naver.com##.id_comp_anniversary_banner
+naver.com##.id_comp_commemoration_banner.ISSUE-BANNER-AD
 naver.com##.id_comp_guarantee_banner
 naver.com##.id_comp_napp_banner
+naver.com##.id_cui_airsguide
+naver.com##.id_cui_banner_nextmain
+naver.com##.link_search_banner
+naver.com##.link_service:has-text(AD)
+naver.com##.ly_change_newmain
+naver.com##.ly_promotion_popup
+naver.com##.MM_CHANNEL_BOTTOM_BANNER
 naver.com##.MM_GIFT_FLICK_BANNER
+naver.com##.MM_NEWS_CHANNEL_PROMOTION_TOP_BANNER
+naver.com##.nplus_wrap
+naver.com##.st_show._tutorial_wrap.section_tutorial
 naver.com##.type_load
 naver.com##[class="link_headline"]:has(> [alt^="[광고]"])
-naver.com##.link_service:has-text(AD)
-naver.com##.ly_promotion_popup
 ! m.place.naver.com
-pcmap.place.naver.com##.l__qc.no_margin.place_section
-m.place.naver.com###visit_tab_top_ad
-m.place.naver.com###home_tab_top_ad
-m.place.naver.com###review_tab_top_ad
-m.place.naver.com###place_tab_top_ad
 m.place.naver.com###feed_tab_top_ad
+m.place.naver.com###home_tab_top_ad
+m.place.naver.com###place_tab_top_ad
+m.place.naver.com###review_tab_top_ad
 m.place.naver.com###timeline_detail_ad
+m.place.naver.com###visit_tab_top_ad
+m.place.naver.com##.no_margin.place_section > ul > li:has( > div > div > a > .place_blind)
 m.place.naver.com##[id^="FEED_TAB"]
 m.place.naver.com##[id^="REVIEW_PLACE_END"]
 m.place.naver.com##[id^="VISIT_TAB"]
-m.place.naver.com##div[class^="ptr"] > div > div > div > div > div > button > img[src]
 m.place.naver.com##div:has( > div[class] > div[class] > button > img)
-m.place.naver.com##.no_margin.place_section > ul > li:has( > div > div > a > .place_blind)
+m.place.naver.com##div[class^="ptr"] > div > div > div > div > div > button > img[src]
+pcmap.place.naver.com##.l__qc.no_margin.place_section
 ! news.naver, news
 news.naver.com##._da_banner
 news.naver.com##._MY_CHANNEL_OFFICE_WRAP
@@ -1949,31 +1907,31 @@ section.blog.naver.com##.area_promotion
 @@||ipada.cafe.naver.com^
 @@||cafeptthumb-phinf.pstatic.net^$image,domain=cafe.naver.com
 ||cafeskthumb-phinf.pstatic.net/MjAyNjA1MDlfMjQ5/*$image,domain=cafe.naver.com
-cafe.naver.com#@#.ad_v2
-cafe.naver.com#@#.ad_v3
 cafe.naver.com##.ad_area.AsideAdvert
 cafe.naver.com##.ArticleFormBanner
 cafe.naver.com##.aside_banner
-cafe.naver.com##.cafe_banner
-cafe.naver.com##.nflea_banner
 cafe.naver.com##.banner_inner
 cafe.naver.com##.botton.banner_add
 cafe.naver.com##.box_notice
+cafe.naver.com##.cafe_banner
 cafe.naver.com##.CafeAppBanner
 cafe.naver.com##.FormNoticeContent
 cafe.naver.com##.home_editors
 cafe.naver.com##.home_theme
 cafe.naver.com##.link_area.AsideLink
 cafe.naver.com##.location.home_section
+cafe.naver.com##.nflea_banner
 cafe.naver.com##.notice_area.AsideNotice
-cafe.naver.com##.section_home_town
 cafe.naver.com##.section_home_banner
+cafe.naver.com##.section_home_town
 cafe.naver.com##.smart_bot_area.AsideSmartBot
 cafe.naver.com##[data-linkdata*="brand.naver.com"]
+cafe.naver.com#@#.ad_v2
+cafe.naver.com#@#.ad_v3
 m.cafe.naver.com###articleFeedList
-m.cafe.naver.com##.HomeFeedItem
-m.cafe.naver.com##.home_recommend
 m.cafe.naver.com##.home_popular_articles
+m.cafe.naver.com##.home_recommend
+m.cafe.naver.com##.HomeFeedItem
 ! comic.naver
 comic.naver.com###mflickAd
 comic.naver.com##.ads_sc
@@ -1988,7 +1946,9 @@ map.naver.com##around-contents-card
 map.naver.com##.promotion_wrap
 map.naver.com##[class^="StyledMapsBlogNotice"]
 ! pay.naver, 페이, com.nhnent.payapp
+||cloud.toast.com^$app=com.nhnent.payapp
 ||new-m.pay.naver.com/api/timeline/v2/aitems
+||su5.ahnlab.com^$app=com.nhnent.payapp
 new-m.pay.naver.com##[class^="FlickingBanner_article"]
 new-m.pay.naver.com##[class^="Tools_item"]:nth-of-type(1)
 pay.naver.com###pc_pay_paymenthistory
@@ -1997,6 +1957,7 @@ pay.naver.com##.commonBannerArea
 pay.naver.com##.flicking-viewport
 pay.naver.com##.membership_sc
 pay.naver.com##[class*="BigBanner"]
+pay.naver.com##[class*="pay-app-banner_article"]
 pay.naver.com##[class^="BenefitCards"]
 pay.naver.com##[class^="CreditScoreAndLoanComparison"]
 pay.naver.com##[class^="FinanceMenu_item"]:nth-of-type(1)
@@ -2010,70 +1971,66 @@ pay.naver.com##[class^="TitleMessage_desciption"]
 pay.naver.com##[data-au="total.click_total"]
 pay.naver.com##div.s_sc
 pay.naver.com##div.s_sc:nth-of-type(5)
-pay.naver.com##[class*="pay-app-banner_article"]
-||cloud.toast.com^$app=com.nhnent.payapp
-||su5.ahnlab.com^$app=com.nhnent.payapp
 ! stock.naver.com
 naver.com##[class^="BigBannerWrapper_article"]
 naver.com##[class^="NpayDownloadButton-module_article"]
 ! shopping.naver, 네이버쇼핑
 m.shopping.naver.com##[data-shp-area-id="membanner"]
-shopping.naver.com##[data-cy="card-section-card_section"] [href*="/festa/onsale/"]
-shopping.naver.com##[class^="targetBanner_link"]
-shopping.naver.com##[class^="storePick-module_inner"]:has([class^="storePick-module_ad"])
-shopping.naver.com##[class^="shoppingHomeResponsive_banner"]
-shopping.naver.com##[class^="relationProducts_relation_products"]
-shopping.naver.com##[class^="RecommendSection_recommend_section"]
-shopping.naver.com##[class^="promotionResponsive_wrap_banner"]
-shopping.naver.com##[class^="productCardResponsive_inner"]:has(> [data-shp-contents-grp="ad"])
-shopping.naver.com##[class^="productCardResponsive_inner"]:has(> [data-shp-area="sapd.pd"])
-shopping.naver.com##[class^="OrderDeliverySection_recommend"]
-shopping.naver.com##[class^="NPaySection_my_membership"]
-shopping.naver.com##[class^="membershipBanner_membership_banner"]
-shopping.naver.com##[class^="homeBannerResponsive_home_banner_responsive"]
-shopping.naver.com##[class^="homeBannerPc_home_banner"]
-shopping.naver.com##[class^="discoveryFeedItemResponsive_wide_module"]
-shopping.naver.com##[class^="crmPromotionCardResponsive_crm_promotion_card_responsive"]
-shopping.naver.com##[class^="couponResponsive_coupon"]
-shopping.naver.com##[class^="card_promotion"]
-shopping.naver.com##[class^="adProduct_item"]
-shopping.naver.com##[class^="_todayBenefit_mobile_today_benefit"]
-shopping.naver.com##[class^="_targetBanner_link"]
-shopping.naver.com##[class^="_targetBanner_content"]
-shopping.naver.com##[class^="_popupBanner_"]
-shopping.naver.com##[class^="_marketingBanner_marketing_banner"]
-shopping.naver.com##[class*="shoppingHomeResponsive_today"]:has(> div [class^="titleResponsive_name"])
-shopping.naver.com##[class*="myInformationResponsive_membership"]
-shopping.naver.com##[class*="forYouResponsive"]:has(> div [class="blind"])
-shopping.naver.com##[class*="_advertising_"]
-shopping.naver.com##.advertise
-shopping.naver.com##div[class^="card_section_card"]:has(> [class^="todayBenefit"])
-shopping.naver.com##div[class^="card_section_card"]:has(> ._nlog_click)
-shopping.naver.com##[class^="mallShortCut_brand_shortcut"]
-shopping.naver.com##[class^="basicProductCard_basic_product_card"]:has(> [href^="https://adcr.naver.com"])
-shopping.naver.com##[class^="recommendProductList_item"]:has(>div [class^="advertisement"])
 shopping.naver.com###content > div:has(> [class^="kurly"])
+shopping.naver.com##.advertise
+shopping.naver.com##[class*="_advertising_"]
+shopping.naver.com##[class*="forYouResponsive"]:has(> div [class="blind"])
+shopping.naver.com##[class*="myInformationResponsive_membership"]
+shopping.naver.com##[class*="shoppingHomeResponsive_today"]:has(> div [class^="titleResponsive_name"])
+shopping.naver.com##[class^="_marketingBanner_marketing_banner"]
+shopping.naver.com##[class^="_popupBanner_"]
+shopping.naver.com##[class^="_targetBanner_content"]
+shopping.naver.com##[class^="_targetBanner_link"]
+shopping.naver.com##[class^="_todayBenefit_mobile_today_benefit"]
+shopping.naver.com##[class^="adProduct_item"]
+shopping.naver.com##[class^="basicProductCard_basic_product_card"]:has(> [href^="https://adcr.naver.com"])
 shopping.naver.com##[class^="brandCRMBlock"]:has-text(님을 위한)
-shopping.naver.com##[class^="fullWidthCompositeCardContainer"]:has-text(님을 위한)
+shopping.naver.com##[class^="card_promotion"]
 shopping.naver.com##[class^="compositeCardContainer_composite_card_container"]:has-text(광고)
+shopping.naver.com##[class^="couponResponsive_coupon"]
+shopping.naver.com##[class^="crmPromotionCardResponsive_crm_promotion_card_responsive"]
+shopping.naver.com##[class^="discoveryFeedItemResponsive_wide_module"]
 shopping.naver.com##[class^="fullWidthCompositeCardContainer"]:has-text(aitems)
+shopping.naver.com##[class^="fullWidthCompositeCardContainer"]:has-text(님을 위한)
+shopping.naver.com##[class^="homeBannerPc_home_banner"]
+shopping.naver.com##[class^="homeBannerResponsive_home_banner_responsive"]
+shopping.naver.com##[class^="mallShortCut_brand_shortcut"]
+shopping.naver.com##[class^="membershipBanner_membership_banner"]
+shopping.naver.com##[class^="NPaySection_my_membership"]
+shopping.naver.com##[class^="OrderDeliverySection_recommend"]
+shopping.naver.com##[class^="productCardResponsive_inner"]:has(> [data-shp-area="sapd.pd"])
+shopping.naver.com##[class^="productCardResponsive_inner"]:has(> [data-shp-contents-grp="ad"])
+shopping.naver.com##[class^="promotionResponsive_wrap_banner"]
+shopping.naver.com##[class^="recommendProductList_item"]:has(>div [class^="advertisement"])
+shopping.naver.com##[class^="RecommendSection_recommend_section"]
+shopping.naver.com##[class^="relationProducts_relation_products"]
+shopping.naver.com##[class^="shoppingHomeResponsive_banner"]
+shopping.naver.com##[class^="storePick-module_inner"]:has([class^="storePick-module_ad"])
+shopping.naver.com##[class^="targetBanner_link"]
+shopping.naver.com##[data-cy="card-section-card_section"] [href*="/festa/onsale/"]
+shopping.naver.com##div[class^="card_section_card"]:has(> ._nlog_click)
+shopping.naver.com##div[class^="card_section_card"]:has(> [class^="todayBenefit"])
 ! chzzk
+||nng-phinf.pstatic.net/*.PNG/*_714x400.png$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.png$image
-||nng-phinf.pstatic.net/*.PNG/*_714x400.png$image
+chzzk.naver.com###live_end_banner
 chzzk.naver.com##[class^="live_chatting_input_discount"]
 chzzk.naver.com##[class^="loungehome_event_popup_main"]
-chzzk.naver.com##[class^="top_banner"]
 chzzk.naver.com##[class^="popup_dimmed"]
 chzzk.naver.com##[class^="skin_container__"]
-chzzk.naver.com###live_end_banner
+chzzk.naver.com##[class^="top_banner"]
 ! talks.naver.com
 talk.naver.com##._marketingMessage
 talk.naver.com##li.menu_item:nth-of-type(2)
 talks.naver.com##[class^="AdBanner"]
 talks.naver.com##[class^="banner-ad_wrap"]
 talks.naver.com##div[class^="GuideArea_wrap"]
-talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(10)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(3)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(4)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(5)
@@ -2081,6 +2038,7 @@ talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(6)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(7)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(8)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(9)
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(10)
 ! smartstore.naver
 orders.pay.naver.com##[class^="OrderDetailPointBanner_article"]
 orders.pay.naver.com##[class^="PromotionBanner"]
@@ -2088,9 +2046,9 @@ orders.pay.naver.com##[class^="ResultAccumulatePoint_area-banner"]
 shopping.naver.com##[class*="advertising_banner"]
 smartstore.naver.com##[alt^="멤버십_제너럴소재"]
 smartstore.naver.com##[class*="banner"]
-smartstore.naver.com##[data-shp-inventory="banner"]
 smartstore.naver.com##[data-shp-area-id="externalbanner"]
 smartstore.naver.com##[data-shp-area-id="memboxbnfjoin"]
+smartstore.naver.com##[data-shp-inventory="banner"]
 smartstore.naver.com##fieldset > div > div > div > ul > div
 ! mycar.naver
 mycar.naver.com##div[class^="FeedManagement_advertisement"]
@@ -2217,13 +2175,13 @@ sammyfans.com##.mvp-post-ad-wrap:style(margin: 0;)
 ytechb.com##.widget_block:has(> section > p:has-text(Ad))
 ! etc
 ||hitechcentury.com/wp-content/*/Web-Banner*$image
+adobotech.net##[class="widget HTML"]
+amazfitwatchfaces.com###cookieBanner
+guiahardware.es##.code-block
 hitechcentury.com##[src*="/Web-Banner"]
 mixvale.com.br##div:has([class="adsbygoogle"])
-guiahardware.es##.code-block
 reddit.com##.w-full.block > .w-full.block
-adobotech.net##[class="widget HTML"]
 zod.kr##[href^="https://zod.kr/go"]
-amazfitwatchfaces.com###cookieBanner
 
 ! SNS, App:instagram Ext. Connect.
 ! instagram
@@ -2241,12 +2199,12 @@ send-anywhere.com###onetrust-consent-sdk
 send-anywhere.com##[id^="div-gpt-ad"]
 ! Uploadrar, cloud.rahim-soft
 ||link*.*.shop^$popup,important
+cloud.rahim-soft.com##.txt
+cloud.rahim-soft.com##[class^="banner"]
+cloud.rahim-soft.com##div.fileoption > ul
 uploadrar.com###commonId > [href]
 uploadrar.com##.hide2
 uploadrar.com##[id$="cookie-notice"]
-cloud.rahim-soft.com##div.fileoption > ul
-cloud.rahim-soft.com##.txt
-cloud.rahim-soft.com##[class^="banner"]
 ! devuploads
 jytechs.in##.click-form
 jytechs.in##.home-heading
@@ -2282,17 +2240,17 @@ uplod.ws###aswift_0_expand
 www.mediafire.com##.CookieAcceptance
 www.mediafire.com##.MFUltra
 ! dropgalaxy
-dropgalaxy.com##div[id*="div-gpt-ad"]
-dropgalaxy.com##div[id*="apkad"]
-dropgalaxy.com##iframe[title="DropGalaxy File Download Tutorial"]
-dropgalaxy.com##div[style^="border:1px"]
-dropgalaxy.com##+js(nano-stb)
-dropgalaxy.com##.pb-5.pt-4.row
-dropgalaxy.com##div.downloadPage.container:nth-of-type(8)
+#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 /images/dgpromo.jpg$image
 @@||securepubads.g.doubleclick.net^$domain=dropgalaxy.com
-#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
-#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+dropgalaxy.com##.pb-5.pt-4.row
+dropgalaxy.com##+js(nano-stb)
+dropgalaxy.com##div.downloadPage.container:nth-of-type(8)
+dropgalaxy.com##div[id*="apkad"]
+dropgalaxy.com##div[id*="div-gpt-ad"]
+dropgalaxy.com##div[style^="border:1px"]
+dropgalaxy.com##iframe[title="DropGalaxy File Download Tutorial"]
 ! upfiles
 upfiles-urls.com##[class="ad-element"]
 upfiles.app##.faqs
@@ -2338,94 +2296,94 @@ modsfire.com##[class^="disc-tabbing"]
 modsfire.com##.download-wrp
 modsfire.com##mf-offer
 ! cloud-etc, 다운로더-기타
-@@||googleusercontent.com^$domain=foodtechnos.in
 @@||dailyuploads.net^
-douploads.net##[src="/images/StartDownload.gif"]
-intoupload.net##.banneradshome
-workupload.com##[id^="div-gpt-ad"]
+@@||googleusercontent.com^$domain=foodtechnos.in
 bestfile.io##.vr-adv-unit
+cloud.getpczone.com##.premiumTable
+douploads.net##[src="/images/StartDownload.gif"]
 file-upload.org##.blocktxt
 financemonk.net##+js(nano-stb)
 flash.getpczone.com##+js(nano-stb)
 frdl.to##+js(nano-stb)
-cloud.getpczone.com##.premiumTable
+gigafile.nu###geniee_overlay_outer
+intoupload.net##.banneradshome
 katfile.com##.notranslate
 katfile.com#@#+js(addEventListener-defuser, click, , elements, a#dlink)
-up-4ever.net##div.mb-5.col-lg-6.col-12
-up-4ever.net##[id$="cookie-notice"]
 magicly.lat###adblock-overlay
-mega4upload.net##+js(nowoif)
 mega4upload.net##[href*="aliexpress.com"]
+mega4upload.net##+js(nowoif)
+up-4ever.net##[id$="cookie-notice"]
+up-4ever.net##div.mb-5.col-lg-6.col-12
+workupload.com##[id^="div-gpt-ad"]
 zdrive.to##+js(nano-stb)
-gigafile.nu###geniee_overlay_outer
 
 ! - terabox.com, nephobox.com, 1024terabox.com, freeterabox.com, teraboxapp.com, teraboxurl.com, videyyy.com, freevidey.com, videynow.com, myvidey.com, cleandoods.com, doodssteam.com, doodspro.com, doodslink.com
-terabox.com##.seo-banner-img
-terabox.com##.bottom-tip-wrap
-terabox.com##[class*="banner"]
-nephobox.com##.seo-banner-img
-nephobox.com##.bottom-tip-wrap
-nephobox.com##[class*="banner"]
-1024terabox.com##.seo-banner-img  
 1024terabox.com##.bottom-tip-wrap 
+1024terabox.com##.seo-banner-img  
 1024terabox.com##[class*="banner"]
-freeterabox.com##.seo-banner-img  
-freeterabox.com##.bottom-tip-wrap 
-freeterabox.com##[class*="banner"]
-teraboxapp.com##.seo-banner-img  
-teraboxapp.com##.bottom-tip-wrap 
-teraboxapp.com##[class*="banner"]
-teraboxurl.com##.seo-banner-img  
-teraboxurl.com##.bottom-tip-wrap 
-teraboxurl.com##[class*="banner"]
-videyyy.com##.seo-banner-img  
-videyyy.com##.bottom-tip-wrap 
-videyyy.com##[class*="banner"]
-freevidey.com##.seo-banner-img  
-freevidey.com##.bottom-tip-wrap 
-freevidey.com##[class*="banner"]
-videynow.com##.seo-banner-img  
-videynow.com##.bottom-tip-wrap 
-videynow.com##[class*="banner"]
-myvidey.com##.seo-banner-img  
-myvidey.com##.bottom-tip-wrap 
-myvidey.com##[class*="banner"]
-cleandoods.com##.seo-banner-img  
 cleandoods.com##.bottom-tip-wrap 
+cleandoods.com##.seo-banner-img  
 cleandoods.com##[class*="banner"]
-doodssteam.com##.seo-banner-img  
-doodssteam.com##.bottom-tip-wrap 
-doodssteam.com##[class*="banner"]
-doodspro.com##.seo-banner-img  
-doodspro.com##.bottom-tip-wrap 
-doodspro.com##[class*="banner"]
-doodslink.com##.seo-banner-img  
 doodslink.com##.bottom-tip-wrap 
+doodslink.com##.seo-banner-img  
 doodslink.com##[class*="banner"]
+doodspro.com##.bottom-tip-wrap 
+doodspro.com##.seo-banner-img  
+doodspro.com##[class*="banner"]
+doodssteam.com##.bottom-tip-wrap 
+doodssteam.com##.seo-banner-img  
+doodssteam.com##[class*="banner"]
+freeterabox.com##.bottom-tip-wrap 
+freeterabox.com##.seo-banner-img  
+freeterabox.com##[class*="banner"]
+freevidey.com##.bottom-tip-wrap 
+freevidey.com##.seo-banner-img  
+freevidey.com##[class*="banner"]
+myvidey.com##.bottom-tip-wrap 
+myvidey.com##.seo-banner-img  
+myvidey.com##[class*="banner"]
+nephobox.com##.bottom-tip-wrap
+nephobox.com##.seo-banner-img
+nephobox.com##[class*="banner"]
+terabox.com##.bottom-tip-wrap
+terabox.com##.seo-banner-img
+terabox.com##[class*="banner"]
+teraboxapp.com##.bottom-tip-wrap 
+teraboxapp.com##.seo-banner-img  
+teraboxapp.com##[class*="banner"]
+teraboxurl.com##.bottom-tip-wrap 
+teraboxurl.com##.seo-banner-img  
+teraboxurl.com##[class*="banner"]
+videynow.com##.bottom-tip-wrap 
+videynow.com##.seo-banner-img  
+videynow.com##[class*="banner"]
+videyyy.com##.bottom-tip-wrap 
+videyyy.com##.seo-banner-img  
+videyyy.com##[class*="banner"]
 
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
-pedia.watcha.com##[rel^="noreferrer"]
-pedia.watcha.com##[id="root"] section:has(> div[class^="media-area"])
-pedia.watcha.com##[href*="/promotions"]
-pedia.watcha.com##[href*="/notices"]
-pedia.watcha.com##[class*="w_exposed_cell"][class="w_exposed_cell"]
-pedia.watcha.com##[alt*="배너"]
-pedia.watcha.com##.adFixed
 pedia.watcha.com###root div:nth-of-type(8)
+pedia.watcha.com##.adFixed
+pedia.watcha.com##[alt*="배너"]
+pedia.watcha.com##[class*="w_exposed_cell"][class="w_exposed_cell"]
 pedia.watcha.com##[class^="_adSection"]
-watcha.com##[class]:has(>section>header:has-text(AD))
-watcha.com##[class^="_section"] > section:has(header[class^="_header"] > span[class]:has-text(AD))
-watcha.com##[class^="_section"]:has(> [class^="_innerSection"]:has-text(AD))
-watcha.com##li > [href^="https://watcha.com/webview/notices/"]
-watcha.com##li > [href^="https://watcha.com/notices/"]
-watcha.com##div[class*="navManager"] > div
+pedia.watcha.com##[href*="/notices"]
+pedia.watcha.com##[href*="/promotions"]
+pedia.watcha.com##[id="root"] section:has(> div[class^="media-area"])
+pedia.watcha.com##[rel^="noreferrer"]
 watcha.com##.disableBodyScrolling:style(overflow:  auto!important;)
-watcha.com##[class^="_backscreen"]:style(background-color: transparent !important)
+watcha.com##[class]:has(>section>header:has-text(AD))
 watcha.com##[class^="_adCell"] > [class^="_linkSection"]
-watcha.com##[class^="_section_"]:has(> section > header > span[class^="_adBadge"])
+watcha.com##[class^="_backscreen"]:style(background-color: transparent !important)
 watcha.com##[class^="_commentsOverlayContainer"]
 watcha.com##[class^="_link_"]:has(> [alt^="["])[href]
+watcha.com##[class^="_section"] > section:has(header[class^="_header"] > span[class]:has-text(AD))
+watcha.com##[class^="_section"]:has(> [class^="_innerSection"]:has-text(AD))
+watcha.com##[class^="_section_"]:has(> section > header > span[class^="_adBadge"])
+watcha.com##div[class*="navManager"] > div
+watcha.com##li > [href^="https://watcha.com/notices/"]
+watcha.com##li > [href^="https://watcha.com/webview/notices/"]
 watcha.com##section:style(padding-bottom:50px; margin-top:unset; !important;)
 
 ! - kinolights.com
@@ -2454,35 +2412,35 @@ apkcombo.com##.ad-pss
 apkcombo.com##div.widget
 ! apkpure
 @@||a.apkpures.xyz^
-apkpure.net###policy-info
-apkpure.net##.aegon-card
+apkpure.com###credential_picker_iframe
 apkpure.com###policy-info
 apkpure.com##.aegon-down-item
 apkpure.com##.apkpure-download-card
+apkpure.com##.chrome-install-pop
 apkpure.com##.debut-game
+apkpure.com##.download-vip-subscribe-wrap
+apkpure.com##.secondary-body
 apkpure.com##.share-box
 apkpure.com##.share-fixed
-apkpure.com###credential_picker_iframe
-apkpure.com##.chrome-install-pop
-apkpure.com##.download-vip-subscribe-wrap
-apkpure.com##.vip-subscribe-pop
-apkpure.com##.secondary-body
-apkpure.com##.withdraw-entrance-fancy-wrap
 apkpure.com##.show-more .show-more-mask:style(background: unset !important;)
+apkpure.com##.vip-subscribe-pop
+apkpure.com##.withdraw-entrance-fancy-wrap
+apkpure.net###policy-info
+apkpure.net##.aegon-card
 ! apkmirror
-www.apkmirror.com###bottom-slider
-www.apkmirror.com###ez-content-blocker-container
-www.apkmirror.com###sidebar > div.listWidget:nth-of-type(1)
-www.apkmirror.com##aside[id^="appmanager_s"]
-www.apkmirror.com##div[class^="OUTBRAIN"]
-www.apkmirror.com##[class*="outbrain_ad"]
-www.apkmirror.com##[class^="ezmob-footer"]
-www.apkmirror.com##[id="ezmobfooter"]
-www.apkmirror.com##[class^="adsbygoogle"]
-www.apkmirror.com##[id^="google_ads"]
-www.apkmirror.com##[class="grippy-host"]
-www.apkmirror.com##[id^="adtester"]
-www.apkmirror.com##[id^="dsq-poll"]
+apkmirror.com###bottom-slider
+apkmirror.com###ez-content-blocker-container
+apkmirror.com###sidebar > div.listWidget:nth-of-type(1)
+apkmirror.com##[class*="outbrain_ad"]
+apkmirror.com##[class^="adsbygoogle"]
+apkmirror.com##[class^="ezmob-footer"]
+apkmirror.com##[class="grippy-host"]
+apkmirror.com##[id^="adtester"]
+apkmirror.com##[id^="dsq-poll"]
+apkmirror.com##[id^="google_ads"]
+apkmirror.com##[id="ezmobfooter"]
+apkmirror.com##aside[id^="appmanager_s"]
+apkmirror.com##div[class^="OUTBRAIN"]
 ! playmods
 playmods.net##.ad-height-2
 playmods.net##[href="http://playmods.net/online"]
@@ -2513,29 +2471,23 @@ happymodpro.com###appx
 happymodpro.com##.appx.cbox
 happymodpro.com##section.clearfix:nth-of-type(1)modplayapk.com##.describe
 ! - a2zapk
-||xxxiijmp.com/i$subdocument
-||jr.prahmnatured.com^
-/^https?:\/\/([a-z0-9-]+\.)*a2zapk\.[a-z]{2,3}\/tglink\.php\^/$regexp
 /^([a-z0-9-]+\.)*a2zapk\.[a-z]{2,3}$/###alert
 /^([a-z0-9-]+\.)*a2zapk\.[a-z]{2,3}$/###modalpop
-@@/^https?:\/\/a2z\.a2zapk\.[a-z]{2,3}\^/$regexp
+/^https?:\/\/([a-z0-9-]+\.)*a2zapk\.[a-z]{2,3}\/tglink\.php\^/$regexp
 @@/^https?:\/\/([a-z0-9-]+\.)*a2zapk\.[a-z]{2,3}\/cdn-cgi\//$regexp
+@@/^https?:\/\/a2z\.a2zapk\.[a-z]{2,3}\^/$regexp
 @@/^https?:\/\/dl\.a2zupload\.[a-z]{2,3}\^/$regexp
 @@||doubleclick.net^$domain=a2zapk.io,a2zapk.co,a2zapk.dev
 @@||google-analytics.com^$domain=a2zapk.io,a2zapk.co,a2zapk.dev
 @@||googletagmanager.com^$domain=a2zapk.io,a2zapk.co,a2zapk.dev
 @@||tpc.googlesyndication.com^$domain=a2zapk.io,a2zapk.co,a2zapk.dev,important
-a2zapk.dev,a2zapk.co,a2zapk.io#@#.RightAside
-a2zapk.dev,a2zapk.co,a2zapk.io#@#[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
-a2zapk.dev,a2zapk.co,a2zapk.io#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
-a2zapk.dev,a2zapk.co,a2zapk.io#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
-a2zapk.dev,a2zapk.co,a2zapk.io,rtxkeeda.com###alert
-a2zapk.dev,a2zapk.co,a2zapk.io,rtxkeeda.com###modalpop
+||jr.prahmnatured.com^
+||xxxiijmp.com/i$subdocument
+a2zapk.dev##.Right:has(> #price)
+a2zapk.dev##[id^="a-ads"]
+a2zapk.dev##a:has(> [title="Telegram"])
 a2zapk.dev,a2zapk.co,a2zapk.io###primary > center
 a2zapk.dev,a2zapk.co,a2zapk.io###primary > div:nth-of-type(2)
-a2zapk.dev,a2zapk.co,a2zapk.io##.Container > center:nth-of-type(1)
-a2zapk.dev,a2zapk.co,a2zapk.io##.MenuDeveloper
-a2zapk.dev,a2zapk.co,a2zapk.io##center:nth-of-type(2)
 a2zapk.dev,a2zapk.co,a2zapk.io##.ArticleLand > [src]
 a2zapk.dev,a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(4) > .ObbExplainCont
 a2zapk.dev,a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(5)
@@ -2543,9 +2495,15 @@ a2zapk.dev,a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(6)
 a2zapk.dev,a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(7)
 a2zapk.dev,a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(8)
 a2zapk.dev,a2zapk.co,a2zapk.io##.ArticleLand:nth-of-type(9)
-a2zapk.dev##.Right:has(> #price)
-a2zapk.dev##a:has(> [title="Telegram"])
-a2zapk.dev##[id^="a-ads"]
+a2zapk.dev,a2zapk.co,a2zapk.io##.Container > center:nth-of-type(1)
+a2zapk.dev,a2zapk.co,a2zapk.io##.MenuDeveloper
+a2zapk.dev,a2zapk.co,a2zapk.io##center:nth-of-type(2)
+a2zapk.dev,a2zapk.co,a2zapk.io#@#.RightAside
+a2zapk.dev,a2zapk.co,a2zapk.io#@#[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+a2zapk.dev,a2zapk.co,a2zapk.io#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
+a2zapk.dev,a2zapk.co,a2zapk.io#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
+a2zapk.dev,a2zapk.co,a2zapk.io,rtxkeeda.com###alert
+a2zapk.dev,a2zapk.co,a2zapk.io,rtxkeeda.com###modalpop
 ! liteapks.com
 liteapks.com##.warning-box
 liteapks.com##[id^="ad-unit"]
@@ -2561,11 +2519,11 @@ download.ir##[id$="download_ir_related-top-post"]
 
 ! leeapk
 @@||googlesyndication.com^$domain=leeapk.com
-leeapk.com##+js(nowoif)
-leeapk.com##+js(window.open-defuser)
 leeapk.com###stickyAd
 leeapk.com##[class^="mb"]:has(> [class^="acrp-ad"])
 leeapk.com##[id="acrp-sticky-wrap"]
+leeapk.com##+js(nowoif)
+leeapk.com##+js(window.open-defuser)
 leeapk.com##html > div
 leeapk.com#$#html { overflow: auto !important; }
 
@@ -2590,12 +2548,12 @@ infidrive.net##.grid > div:nth-of-type(1)
 infidrive.net##.grid > div:nth-of-type(2)
 
 ! - lpoint / 엘포인트
-lpoint.com##.modal-bottom-ad
+lpoint.com###TopSwiperBanner
+lpoint.com###useableBanner
 lpoint.com##.benefit-banner
+lpoint.com##.modal-bottom-ad
 lpoint.com##.partner-benefit
 lpoint.com##.sec-banner
-lpoint.com###useableBanner
-lpoint.com###TopSwiperBanner
 
 ! - taiwebs
 br0wsers.com###vi-smartbanner
@@ -2616,6 +2574,7 @@ spotify.com##[aria-label="Cookie banner"]
 spotify.com###onetrust-consent-sdk
 spotify.com##[class="ReactModalPortal"]:has([aria-label="In-App Message Modal"])
 spotify.com##[data-testid="upgrade-button"]
+spotify.com##[data-testid="home-banner"]
 
 ! - music-flo
 music-flo.com##.modal-wrap
@@ -2640,11 +2599,11 @@ krakenfiles.com###cm-ov
 krakenfiles.com##.cc_div
 
 ! - speedtest
-speedtest.net##.mobile-pretest
-speedtest.net##.result-area-ad
-speedtest.net##.prompt-modal
-speedtest.net###onetrust-consent-sdk
 speedtest.net###modal-overlay
+speedtest.net###onetrust-consent-sdk
+speedtest.net##.mobile-pretest
+speedtest.net##.prompt-modal
+speedtest.net##.result-area-ad
 speedtest.net##[aria-hidden="true"]
 speedtest.net##[title="Opens in new tab"][href^="https://play.google.com"]
 
@@ -2661,13 +2620,13 @@ wetv.vip##.modal__content
 wetv.vip##.play-sidebar__join__btn
 
 ! - skyve.io
-skyve.io#@#button[class^="buttonPress"]
-skyve.io##.program_slidshow
-skyve.io##[class="clear"]
 skyve.io##.footer-middle
-skyve.io##[class="buulseubo"]
+skyve.io##.program_slidshow
 skyve.io##[class^="okbdx"]
+skyve.io##[class="buulseubo"]
+skyve.io##[class="clear"]
 skyve.io##script[src="//ausoafab.net/tag.min.js"]
+skyve.io#@#button[class^="buttonPress"]
 
 ! - a-ha.io
 @@||media.a-ha.io/aha-qna/assets/common/$image
@@ -2694,22 +2653,22 @@ spaces.im##[id="siteContent"] > div[class^="f"]
 
 ! - bworld,SKB,lguplus,eyes,tplusmobile,freet,ajd
 ||osms.bworld.co.kr/agreement/marketing*/*$document
+aibot.bworld.co.kr###chat-banner
+aibot.bworld.co.kr##[src^="https://aibot.bworld.co.kr/msgbe"]
 bworld.co.kr###campaignFloatingPopupTypeA
+bworld.co.kr###mainApp
 bworld.co.kr###mainPop
 bworld.co.kr###opsbot
+bworld.co.kr##.active.main_topband
 bworld.co.kr##.hot-new_wrap
+bworld.co.kr##.lnb_banner
 bworld.co.kr##.main_pkg_wrap
+bworld.co.kr##.schSwipe_Plan
 bworld.co.kr##.sec_event_banner
 bworld.co.kr##[class*="_marketing"]
 bworld.co.kr##[class^="section outer main_top_slide"][style="display:block"]
 bworld.co.kr##[class^="swiper main_top_banner"]
 bworld.co.kr##[id*="_marketing"]
-bworld.co.kr##.lnb_banner
-bworld.co.kr##.schSwipe_Plan
-bworld.co.kr##.active.main_topband
-bworld.co.kr###mainApp
-aibot.bworld.co.kr###chat-banner
-aibot.bworld.co.kr##[src^="https://aibot.bworld.co.kr/msgbe"]
 ! SKB
 ||emailwebcloudprd.sktelecom.com/*/bill/*/skb/*.png^
 @@||emailwebcloudprd.sktelecom.com/*/bill/*/img/*_print.gif
@@ -2752,22 +2711,6 @@ form.ajd.co.kr##.product-recommend-box
 ||pub.kmcert.com/vestsign/styles/images/kmc_login_banner.jpg$image
 pub.kmcert.com##.CERT_contWrap16
 
-! - cnet.com
-download.cnet.com##.rv-di-step__container
-download.cnet.com##[rel="dns-prefetch"]
-download.cnet.com##.is-tablet-hidden.is-mobile-hidden
-
-! - scloud.ws
-scloud.ws##[data-link^="http://kcmhdb.click"]
-scloud.ws##[id^="no-open-"]
-
-! - softonic
-softonic.com###pdp-bundle
-softonic.kr##.sam-slot
-softonic.kr##.rv-di-modal
-softonic.kr##.sam-slot__content
-softonic.kr##.is-mobile-hide
-
 ! - software, program, repack
 ! softwareok
 softwareok.com##td:nth-of-type(2) > center
@@ -2776,6 +2719,19 @@ softwareok.com##center:nth-of-type(2)
 ||rsload.net/images5/$image
 rsload.net##.yo-content
 rsload.net##+js(nowoif)
+! softonic
+softonic.com###pdp-bundle
+softonic.kr##.sam-slot
+softonic.kr##.rv-di-modal
+softonic.kr##.sam-slot__content
+softonic.kr##.is-mobile-hide
+! cnet.com
+download.cnet.com##.rv-di-step__container
+download.cnet.com##[rel="dns-prefetch"]
+download.cnet.com##.is-tablet-hidden.is-mobile-hidden
+! scloud.ws
+scloud.ws##[data-link^="http://kcmhdb.click"]
+scloud.ws##[id^="no-open-"]
 ! sw-etc
 pirate4all.com##[href^="https://pirate4all.com/out/"]
 
@@ -2804,19 +2760,19 @@ url.kr##.warning-box
 ! - bloomberg
 ||sourcepointcmp.bloomberg.com/privacy-manager/index.html$subdocument
 bloomberg.com##[class^="unsupported-browser"]
+bloomberg.com##[style="display: none;"]
+bloomberg.com##body[style="overflow-y: auto;"]:style(display:block !important)
+bloomberg.com##head:style(display:block !important)
 bloomberg.com##html.sp-message-open:style(display:block !important)
 bloomberg.com##style[type="text/css"]:style(display:block !important)
-bloomberg.com##head:style(display:block !important)
-bloomberg.com##body[style="overflow-y: auto;"]:style(display:block !important)
-bloomberg.com##[style="display: none;"]
 
 ! - mapgenie.io / 연운 게임 지도 정보
+mapgenie.io###blobby-left
 mapgenie.io###onetrust-consent-sdk
+mapgenie.io##.free-user-locations-info
+mapgenie.io##.text-center:has-text(upgrade)
 mapgenie.io##[class$="upgrade"]
 mapgenie.io##a[href$="/upgrade"]
-mapgenie.io##.text-center:has-text(upgrade)
-mapgenie.io##.free-user-locations-info
-mapgenie.io###blobby-left
 
 ! - Proxysite Ads
 proxysite.com##.banner-area
@@ -2848,12 +2804,12 @@ cokcok.stream##+js(nowoif)
 ||cokcok.*/public/vast.php$xhr,1p
 ||cokcok.*/assets/images$image
 ||cokcok.*/assets/*$media
-cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com##.feature-grid
-cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com##[id*="banners"]
-cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com##[class*="banner"]
-cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com##.tooltipster-box
-cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com##.custom_banner_wrap
-cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com,cokcok21.com,cokcok20.com,cokcok19.com,cokcok18.com,cokcok17.com,cokcok16.com,cokcok15.com,cokcok14.com##[class*="slideAnimation"]
+cokcok50.com,cokcok49.com,cokcok48.com,cokcok47.com,cokcok46.com,cokcok45.com,cokcok44.com,cokcok43.com,cokcok42.com,cokcok41.com,cokcok40.com,cokcok39.com,cokcok38.com,cokcok37.com,cokcok36.com,cokcok35.com,cokcok34.com,cokcok33.com,cokcok32.com,cokcok31.com,cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com##.feature-grid
+cokcok50.com,cokcok49.com,cokcok48.com,cokcok47.com,cokcok46.com,cokcok45.com,cokcok44.com,cokcok43.com,cokcok42.com,cokcok41.com,cokcok40.com,cokcok39.com,cokcok38.com,cokcok37.com,cokcok36.com,cokcok35.com,cokcok34.com,cokcok33.com,cokcok32.com,cokcok31.com,cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com##[id*="banners"]
+cokcok50.com,cokcok49.com,cokcok48.com,cokcok47.com,cokcok46.com,cokcok45.com,cokcok44.com,cokcok43.com,cokcok42.com,cokcok41.com,cokcok40.com,cokcok39.com,cokcok38.com,cokcok37.com,cokcok36.com,cokcok35.com,cokcok34.com,cokcok33.com,cokcok32.com,cokcok31.com,cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com##[class*="banner"]
+cokcok50.com,cokcok49.com,cokcok48.com,cokcok47.com,cokcok46.com,cokcok45.com,cokcok44.com,cokcok43.com,cokcok42.com,cokcok41.com,cokcok40.com,cokcok39.com,cokcok38.com,cokcok37.com,cokcok36.com,cokcok35.com,cokcok34.com,cokcok33.com,cokcok32.com,cokcok31.com,cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com##.tooltipster-box
+cokcok50.com,cokcok49.com,cokcok48.com,cokcok47.com,cokcok46.com,cokcok45.com,cokcok44.com,cokcok43.com,cokcok42.com,cokcok41.com,cokcok40.com,cokcok39.com,cokcok38.com,cokcok37.com,cokcok36.com,cokcok35.com,cokcok34.com,cokcok33.com,cokcok32.com,cokcok31.com,cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com##.custom_banner_wrap
+cokcok50.com,cokcok49.com,cokcok48.com,cokcok47.com,cokcok46.com,cokcok45.com,cokcok44.com,cokcok43.com,cokcok42.com,cokcok41.com,cokcok40.com,cokcok39.com,cokcok38.com,cokcok37.com,cokcok36.com,cokcok35.com,cokcok34.com,cokcok33.com,cokcok32.com,cokcok31.com,cokcok30.com,cokcok29.com,cokcok28.com,cokcok27.com,cokcok26.com,cokcok25.com,cokcok24.com,cokcok23.com,cokcok22.com##[class*="slideAnimation"]
 ! tvchak
 tvchak230.com,tvchak229.com,tvchak228.com,tvchak227.com,tvchak226.com,tvchak225.com,tvchak224.com,tvchak223.com,tvchak222.com,tvchak221.com,tvchak220.com,tvchak219.com,tvchak218.com,tvchak217.com,tvchak216.com,tvchak215.com,tvchak214.com,tvchak213.com,tvchak212.com,tvchak211.com,tvchak210.com,tvchak209.com,tvchak208.com##.banner-box
 tvchak230.com,tvchak229.com,tvchak228.com,tvchak227.com,tvchak226.com,tvchak225.com,tvchak224.com,tvchak223.com,tvchak222.com,tvchak221.com,tvchak220.com,tvchak219.com,tvchak218.com,tvchak217.com,tvchak216.com,tvchak215.com,tvchak214.com,tvchak213.com,tvchak212.com,tvchak211.com,tvchak210.com,tvchak209.com,tvchak208.com##.popup_mdd
