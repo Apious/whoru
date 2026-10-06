@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1006.1
+! Version: 2026.1006.2
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -2393,7 +2393,7 @@ watcha.com##div[class*="navManager"] > div
 watcha.com##li > [href^="https://watcha.com/notices/"]
 watcha.com##li > [href^="https://watcha.com/webview/notices/"]
 watcha.com##section:style(padding-bottom:50px; margin-top:unset; !important;)
-watcha.com##[class^="_contentActionSection_"]:style(gap:unset !important; flex-direction:row-reverse !important;)
+watcha.com##[class^="_contentActionSection_"]:style(gap:unset !important; display:unset !important;)
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image
