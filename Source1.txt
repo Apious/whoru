@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1004.1
+! Version: 2026.1006.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -1261,6 +1261,7 @@ modoodoc.com##[id^="ad-post"]
 ||link.doctorhow.co.kr^
 doctornow.co.kr##.flex-col:has-text(AD)
 doctornow.co.kr##[role="button"] > div
+||doctornow.co.kr/*/ads^
 
 ! - 배송, 택배
 ! amazing.today
@@ -1598,6 +1599,7 @@ danawa.com##[id^="mainAd"]
 danawa.com##[id^="powerClick"]
 danawa.com##[id^="powerLink"]
 danawa.com##[id^="powerShopping"]
+danawa.com##.spon_ad
 
 ! - Kakao, Daum
 @@||aem-collector.daumkakao.io^
@@ -1611,6 +1613,8 @@ danawa.com##[id^="powerShopping"]
 @@||vscf.play.kakao.com/s-daum_tistory/vod/*$domain=play-tv.kakao.com
 @@||img1.daumcdn.net/thumb/*$image,domain=daum.net
 @@||t1.kakaocdn.net/*/tiara-*.min.js$script,domain=map.kakao.com
+@@||t1.kakaocdn.net/fiy_reboot/$app=net.daum.android.map
+@@||t1.kakaocdn.net/local/$app=net.daum.android.map
 ||*.ad.kakao.com^
 ||*.ad.kakaocorp.com^
 ||ad-content.*.kakao.com^
@@ -1744,6 +1748,8 @@ utweb.rainberrytv.com###upgrade-sidebar
 ! - Google, UnBlocked for Some Error shown
 @@||googlesyndication.com^
 mail.google.com##div[jscontroller]:has-text(시작하기)
+! 패키지 인스톨러 앱 검수 차단
+||ohttp-relay-android-dev-verification.google.fastly-edge.com^$app=com.google.android.verifier
 
 ! - Tmap app / ($app=com.skt.tmap.ku)
 ! tmap main dashboard, popup-ads, main contents, etc
@@ -1804,6 +1810,7 @@ gemini.google.com##.ng-star-inserted.lm-enabled > .container
 @@||nid.naver.com^
 @@||sp.naver.com^
 @@||s.search.naver.com^$domain=m.search.naver.com
+@@||nlog.naver.com^
 korean.dict.naver.com##dictbanner
 ||*.nbms.naver.com^
 ||lcs.naver.com^
@@ -1819,17 +1826,18 @@ korean.dict.naver.com##dictbanner
 ||ssl.pstatic.net/melona/libs/*$document
 naver.com###header .header_inner:style(height: 100px !important;)
 naver.com###whale-banner
-search.naver.com##._ad.box
-search.naver.com##._banner_wrap
-search.naver.com##.ad_section
-search.naver.com##.banner_area
-search.naver.com##.banner_inner
-search.naver.com##.brand_new_ui.section.brand_search
-search.naver.com##.premium_carousel
-search.naver.com##.type_ad
-search.naver.com##[id="power_link_together_broad_section"]
-search.naver.com#@#div[class^="ad_"]
-search.naver.com/#@#div[class^="ad_"]
+naver.com##._ad.box
+naver.com##._banner_wrap
+naver.com##.ad_section
+naver.com##.banner_area
+naver.com##.banner_inner
+naver.com##.brand_new_ui.section.brand_search
+naver.com##.premium_carousel
+naver.com##.type_ad
+naver.com##[id="power_link_together_broad_section"]
+naver.com#@#div[class^="ad_"]
+naver.com/#@#div[class^="ad_"]
+naver.com###pcDetailBannerArea
 ! m.naver
 m.naver.com###MM_na_topbanner
 m.naver.com##._MM_SEARCH_AD
@@ -2385,6 +2393,7 @@ watcha.com##div[class*="navManager"] > div
 watcha.com##li > [href^="https://watcha.com/notices/"]
 watcha.com##li > [href^="https://watcha.com/webview/notices/"]
 watcha.com##section:style(padding-bottom:50px; margin-top:unset; !important;)
+watcha.com##[class^="_contentActionSection_"]:style(gap:unset !important; flex-direction:row-reverse !important;)
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image
@@ -2400,6 +2409,9 @@ onstove.com/ko/promotion/*
 ||cloudfront.net^$app=com.merakiplace.mydoctor
 ||giftishow.com^$app=com.merakiplace.mydoctor
 ||pbid.adview.com^$app=com.handcent.app.nextsms
+||facebook.com^$app=com.handcent.app.nextsms
+||firebaselogging.googleapis.com^$app=com.handcent.app.nextsms
+||firebaseinstallations.googleapis.com^$app=com.handcent.app.nextsms
 
 ! - apks store
 ! aptoide
@@ -3229,7 +3241,8 @@ javtiful.com##.front-partner-card
 /TMS/tracking?
 
 ! - 기타 예외
-@@||pagetual.hoothin.com/rule.html^
+@@||pagetual.hoothin.com^
+@@||wedata.net/databases/AutoPagerize/
 @@/img.gif?
 @@||openweathermap.org^$important
 ! pinterest open error
