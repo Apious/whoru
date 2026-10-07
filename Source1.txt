@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1006.2
+! Version: 2026.1007.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -390,6 +390,7 @@ investing.com##[id^="sidebar-overlay-lightbox"]
 investing.com##[class*="header-notice_notice-wrapper"]
 investing.com##.md\:\!mb-\[106px\]:style(margin-bottom:50px!important;)
 investing.com##[class^="investing-pro-nav-bar-item_linksAndAd"]
+investing.com##[class]:has(>[class*="overflow-hidden"]):has-text(광고)
 
 ! - finup
 stock.finup.co.kr##[src^="https://img.finup.co.kr/stock/Banner"]
@@ -1833,12 +1834,15 @@ naver.com##.banner_area
 naver.com##.banner_inner
 naver.com##.brand_new_ui.section.brand_search
 naver.com##.premium_carousel
-naver.com##.type_ad
 naver.com##[id="power_link_together_broad_section"]
 naver.com#@#div[class^="ad_"]
 naver.com/#@#div[class^="ad_"]
 naver.com###pcDetailBannerArea
+search.naver.com##div > div > div > div > div:has-text(웨일)
+search.naver.com##.api_subject_bx:has-text(브랜드)
+search.naver.com###header_wrap:style(height:120px !important;)
 ! m.naver
+naver.com#@#.type_ad
 m.naver.com###MM_na_topbanner
 m.naver.com##._MM_SEARCH_AD
 m.naver.com##._MM_VIDEO_PREVIEW_WRAP.comp_shortform_new
@@ -1848,6 +1852,21 @@ m.naver.com##.sch_logo_container:style(margin-bottom: 0px !important;)
 m.naver.com##[data-home-feed-id="special-issue"]
 m.naver.com##[data-insp-card-exp-key="search-clip-review"]
 m.naver.com##div.id_comp_home_feed
+m.naver.com###HOME_AD
+m.naver.com##.ss_shortcut_item:has([class$="_ad"])
+m.naver.com##[data-floor-code="POPULARITY_SHORTCLIP"]
+m.naver.com##[data-shp-nlog-filter="쇼핑라이브"]
+m.naver.com##[data-floor-code="LIVE_BENEFIT"]
+m.naver.com##[data-block-type="SHOPPING-LIVE-SHORTCLIP-BLOCK"]
+m.naver.com##[data-block-type="BRAND-SHORTCLIP-BLOCK"]
+m.naver.com##[data-nlog-area$="feed.ad"]
+m.naver.com##[data-nlog-area$="feed.clip_ranking"]
+m.naver.com##[data-nlog-area$="feed.feed_card"]
+m.naver.com##[class$="id_comp_banner"]
+m.naver.com##[data-floor-code="AD"]
+m.naver.com##[data-block-type="SHOPPING-VERTICAL-BLOCK"]
+m.naver.com##.grid1:has(> [class$="comp_commerce"])
+m.naver.com##.brick-vowel > [data-block-type*="FLICKING"]
 naver.com###ad_timeboard
 naver.com###MM_SEARCH_NOW
 naver.com###MM_SEARCH_SHOP_LIVE
@@ -1940,6 +1959,8 @@ m.cafe.naver.com###articleFeedList
 m.cafe.naver.com##.home_popular_articles
 m.cafe.naver.com##.home_recommend
 m.cafe.naver.com##.HomeFeedItem
+m.cafe.naver.com##[class^="_advertSlot"]
+m.cafe.naver.com##section:has-text(피드)
 ! comic.naver
 comic.naver.com###mflickAd
 comic.naver.com##.ads_sc
@@ -1957,13 +1978,10 @@ map.naver.com##[class^="StyledMapsBlogNotice"]
 ||cloud.toast.com^$app=com.nhnent.payapp
 ||new-m.pay.naver.com/api/timeline/v2/aitems
 ||su5.ahnlab.com^$app=com.nhnent.payapp
-new-m.pay.naver.com##[class^="FlickingBanner_article"]
-new-m.pay.naver.com##[class^="Tools_item"]:nth-of-type(1)
 pay.naver.com###pc_pay_paymenthistory
 pay.naver.com##.area_recommend_ad
 pay.naver.com##.commonBannerArea
 pay.naver.com##.flicking-viewport
-pay.naver.com##.membership_sc
 pay.naver.com##[class*="BigBanner"]
 pay.naver.com##[class*="pay-app-banner_article"]
 pay.naver.com##[class^="BenefitCards"]
@@ -1977,8 +1995,7 @@ pay.naver.com##[class^="SkeletonBannerWrapper"]
 pay.naver.com##[class^="SmartChannel_article"]
 pay.naver.com##[class^="TitleMessage_desciption"]
 pay.naver.com##[data-au="total.click_total"]
-pay.naver.com##div.s_sc
-pay.naver.com##div.s_sc:nth-of-type(5)
+pay.naver.com##[data-sentry-component="FlickingArea"]
 ! stock.naver.com
 naver.com##[class^="BigBannerWrapper_article"]
 naver.com##[class^="NpayDownloadButton-module_article"]
@@ -2023,6 +2040,8 @@ shopping.naver.com##[class^="targetBanner_link"]
 shopping.naver.com##[data-cy="card-section-card_section"] [href*="/festa/onsale/"]
 shopping.naver.com##div[class^="card_section_card"]:has(> ._nlog_click)
 shopping.naver.com##div[class^="card_section_card"]:has(> [class^="todayBenefit"])
+shopping.naver.com##[class^="homePageResponsive_banner"]
+shopping.naver.com##[id="12-SHORTPICK"]
 ! chzzk
 ||nng-phinf.pstatic.net/*.PNG/*_714x400.png$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
@@ -3080,6 +3099,7 @@ streamhihi.com##+js(nowoif)
 ##.adsbygoogle
 
 ! - 기타
+play.google.com##[data-node-index="2;0"][autoupdate]:has(>[data-node-index="21;0"]> header > div)
 youtube-rank.com##.trend-area.row > div:has([href])
 neowin.net###neowin_incontent_all_devices
 muko.kr##.muko-ad-impression
