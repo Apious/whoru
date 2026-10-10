@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1011.1
+! Version: 2026.1011.2
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -3252,9 +3252,12 @@ lifewire.com##div[id^="article__broad-video"]
 puresys.net###aiviy-union-ad-2
 youngja.org##div.row:nth-of-type(4)
 123av.org##div.lg\:block.hidden > .mx-auto
+javtiful.com##.front-feature-placement-item > div
 javtiful.com##[class$="partner"]
 javtiful.com##[class$="banner"]
+javtiful.com##[class^="announcement"]
 javtiful.com##.premium-link
+
 ||bkcdn.net^
 /TMS/tracking?
 
