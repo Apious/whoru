@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1010.1
+! Version: 2026.1011.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -47,6 +47,7 @@ chatgpt.com##div:has-text(쿠키 기본)
 chatgpt.com##.bottom-full:has-text(업그레이드)
 chatgpt.com##.text-token-text-tertiary:has-text(업그레이드)
 chatgpt.com##.bottom-full.end-0.start-0.absolute:has-text(Codex)
+chatgpt.com##.flex-col.flex.group > div > div > div:has-text(광고)
 
 ! - Github
 @@||github.com^
@@ -3251,12 +3252,9 @@ lifewire.com##div[id^="article__broad-video"]
 puresys.net###aiviy-union-ad-2
 youngja.org##div.row:nth-of-type(4)
 123av.org##div.lg\:block.hidden > .mx-auto
-javtiful.com##.front-video-card:has-text(Some)
-javtiful.com##.front-home-premium-alert:has-text(Join)
-javtiful.com##.front-watch-text-feature
-javtiful.com##.front-feature-placement-item
-javtiful.com##a.front-drawer-partner-link
-javtiful.com##.front-partner-card
+javtiful.com##[class$="partner"]
+javtiful.com##[class$="banner"]
+javtiful.com##.premium-link
 ||bkcdn.net^
 /TMS/tracking?
 
