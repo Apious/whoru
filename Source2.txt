@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.0809.2
+! Version: 2026.1012.1
 ! Expires: 1 day (update frequency)
 ! Description: DNS | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
@@ -16,8 +16,8 @@
 @@||storage-fe.toss.im^
 
 ! - apti, 아파트아이
+@||v2notice.apti.co.kr^
 ||api-marketing.apti.co.kr^
-||v2notice.apti.co.kr^
 ||fingerpush.com^
 
 ! - doctornow, 닥터나우
