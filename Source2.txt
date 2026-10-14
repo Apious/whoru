@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1012.1
+! Version: 2026.1014.1
 ! Expires: 1 day (update frequency)
 ! Description: DNS | https://codeberg.org/Apious/whoru/raw/branch/main/Source2.txt
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
@@ -35,10 +35,12 @@
 ||log.snow.me^
 
 ! - Kakao, Daum
-! @@||aem-collector.daumkakao.io^
-! @@||stat.tiara.daum.net^
-! @@||stat.tiara.kakao.com^
-! @@||videostats.kakao.com^
+! KakaoTalk-App
+! ||talk-pilsner.kakao.com^
+! ||kamp.kakao.com^
+! ||vscf.play.kakao.com^
+! ||talk.kakaocdn.net^
+! kakao-all
 @@||movie.daum.net^
 ||tr.ds.kakao.com^
 ||*.ad.daum.net^
@@ -55,13 +57,13 @@
 ||ka.*.daum.net^
 ||tr.*.daum.net^
 ||vads-api.daumkakao.com^
-! KakaoTalk-App
-! ||talk-pilsner.kakao.com^
-! ||kamp.kakao.com^
 ||shortformstats.kakao.com^
 ||vsak1.play.kakao.com^
-! ||vscf.play.kakao.com^
-||talk.kakaocdn.net^
+||kakao.com/adserver^
+||kamp.kakao.com^
+||thumb.kakaocdn.net^
+||videoads.kakao.com^
+||adserver.rockwell.kakao.com^
 
 ! - AfreecaTV
 ||item.m.afreecatv.com^
