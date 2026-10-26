@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1026.1
+! Version: 2026.1026.2
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -1274,6 +1274,7 @@ cjone.com##.login_slideBanner
 aliexpress.com##[id$="float-banner"]
 aliexpress.com##[class$="poplayer-modal"]
 aliexpress.com##.signBannerContainer
+aliexpress.com##.slick-active.slick-slide:has(div:has-text(광고))
 ! 하이마트
 e-himart.co.kr###__nuxt >  .hm-wrapper >  .dropdown-menu--open.specialty-hall.dropdown-menu:nth-child(2) >  .dropdown-menu-wrapper >  .dropdown-menu-body:nth-child(2) >  .hm-inner >  .hm-inner >  .marketing-banner-box:nth-child(2)
 e-himart.co.kr###container >  .hm-content-wrap >  .main-modules-inner >  .hm-card__wrap:last-child >  .masonry-wall >  .masonry-column:last-child >  .masonry-item:first-child > section.hm-content-area.item >  .hm-main__product-ad-wrap
@@ -1607,6 +1608,8 @@ danawa.com##[id^="powerClick"]
 danawa.com##[id^="powerLink"]
 danawa.com##[id^="powerShopping"]
 danawa.com##.spon_ad
+danawa.com##ul[data-sentry-block] > li:has-text(광고)
+danawa.com##main > div > div > div:has-text(광고)
 
 ! - Kakao, Daum
 @@||aem-collector.daumkakao.io^
@@ -2002,6 +2005,7 @@ pay.naver.com##[class^="SmartChannel_article"]
 pay.naver.com##[class^="TitleMessage_desciption"]
 pay.naver.com##[data-au="total.click_total"]
 pay.naver.com##[data-sentry-component="FlickingArea"]
+pay.naver.com##[class="PanelWrapper_area-panel__0_Wn_"]:has([title="광고"])
 ! stock.naver.com
 naver.com##[class^="BigBannerWrapper_article"]
 naver.com##[class^="NpayDownloadButton-module_article"]
@@ -2048,6 +2052,7 @@ shopping.naver.com##div[class^="card_section_card"]:has(> ._nlog_click)
 shopping.naver.com##div[class^="card_section_card"]:has(> [class^="todayBenefit"])
 shopping.naver.com##[class^="homePageResponsive_banner"]
 shopping.naver.com##[id="12-SHORTPICK"]
+shopping.naver.com##.vcontainer_item:has([data-shp-inventory="banner"])
 ! chzzk
 ||nng-phinf.pstatic.net/*.PNG/*_714x400.png$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
@@ -3258,11 +3263,14 @@ lifewire.com##div[id^="article__broad-video"]
 puresys.net###aiviy-union-ad-2
 youngja.org##div.row:nth-of-type(4)
 123av.org##div.lg\:block.hidden > .mx-auto
+123av.org##.gap-2:has([href^="https://bit.ly"])
 javtiful.com##.front-feature-placement-item > div
 javtiful.com##[class$="partner"]
 javtiful.com##[class$="banner"]
+javtiful.com##[aria-label="Announcement"]
 javtiful.com##.announcement-bar
 javtiful.com##.premium-link
+javtiful.com##.home-live
 
 ||bkcdn.net^
 /TMS/tracking?
