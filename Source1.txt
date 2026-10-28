@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1026.2
+! Version: 2026.1028.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -1647,7 +1647,6 @@ danawa.com##main > div > div > div:has-text(광고)
 ||t1.kakaocdn.net^$app=net.daum.android.map
 ||tr.*.daum.net/*
 ||webid.ad.daum.net^$important
-daum.net##[data-cloud="banner"]
 kakao.com##app-banner
 m.daum.net##.bnr_appset_v2_high.bnr_popup.bnr_layer
 open.kakao.com##.link_bnr
@@ -1665,15 +1664,18 @@ map.kakao.com##.Howto
 place.map.kakao.com##.leverage_layer.comm_layer
 place.map.kakao.com##.section_bizboard
 ! Daum Search Ads
+||ads-api.daum.net^
 daum.net##.ad_sch
 daum.net##.advert_bnr
 daum.net##.advert_shoppingbox
 daum.net##.content_ad
 daum.net##.content_sponsor
 daum.net##.log_wide.adLinkColl
-search.daum.net###n0nlColl
 search.daum.net###psbColl:has([class="ico_ad"])
 search.daum.net##.list_ad
+daum.net##[data-cloud="banner"]
+daum.net##daum-ad-sa
+daum.net##[ad-unit-id]
 ! Kakao shoppinghow
 daum.net##.box_shorts.box_g
 daum.net##div.box_g:nth-of-type(4)
@@ -1847,9 +1849,9 @@ naver.com##[id="power_link_together_broad_section"]
 naver.com#@#div[class^="ad_"]
 naver.com/#@#div[class^="ad_"]
 naver.com###pcDetailBannerArea
-search.naver.com##div > div > div > div > div:has-text(웨일)
-search.naver.com##.api_subject_bx:has-text(브랜드)
-search.naver.com###header_wrap:style(height:120px !important;)
+naver.com##div > div > div > div > div:has-text(웨일)
+naver.com###whale-banner-bottom
+naver.com##.api_subject_bx:has-text(브랜드)
 ! m.naver
 naver.com#@#.type_ad
 m.naver.com###MM_na_topbanner
@@ -2053,6 +2055,7 @@ shopping.naver.com##div[class^="card_section_card"]:has(> [class^="todayBenefit"
 shopping.naver.com##[class^="homePageResponsive_banner"]
 shopping.naver.com##[id="12-SHORTPICK"]
 shopping.naver.com##.vcontainer_item:has([data-shp-inventory="banner"])
+shopping.naver.com##[class*="contentModuleWrapper_news_ad"]
 ! chzzk
 ||nng-phinf.pstatic.net/*.PNG/*_714x400.png$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
@@ -3110,6 +3113,7 @@ streamhihi.com##+js(nowoif)
 ##.adsbygoogle
 
 ! - 기타
+ophel.app##body > div:nth-of-type(4)
 play.google.com##[data-node-index="2;0"][autoupdate]:has(>[data-node-index="21;0"]> header > div)
 youtube-rank.com##.trend-area.row > div:has([href])
 neowin.net###neowin_incontent_all_devices
