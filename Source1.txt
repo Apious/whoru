@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1028.1
+! Version: 2026.1028.2
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -2170,6 +2170,7 @@ ruliweb.com##tr.list_inner
 ! meeco / 미코
 meeco.kr##.w_slide
 meeco.kr##.sidebar.sidebar2
+meeco.kr##[id^="kakao_ad"]
 ! clien / 클리안
 clien.net##.view_center_idlfksyenf
 clien.net##.ad_banner
