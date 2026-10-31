@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1028.2
+! Version: 2026.1101.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -54,12 +54,18 @@ chatgpt.com##.bottom-full.end-0.start-0.absolute:has-text(Codex)
 github.com$@$link[rel="manifest"]
 
 ! - moviebox, 123movienow
-moviebox.ng##.pc-box
-moviebox.ng##.pc-guide-mask
-moviebox.ph##.popup-mask
-moviebox.ph##.pc-detail-banner
-123movienow.cc###downloadBanner
+||*/pc-download-banner-finger$image
+movieboxhd.net##.pc-box
+movieboxhd.net##.pc-guide-mask
+movieboxhd.net##.popup-mask
+movieboxhd.net##.pc-detail-banner
+||*/pc-download-banner-finger$image
+||aoneroom.com/*banner*$image
+||aoneroom.com/image$image
 movie-box.co##[class^="third-party-ad"]
+movie-box.co##.mp-mask
+movie-box.co##[class="art-control art-control-time"]
+movie-box.co##.trial-countdown-bar
 
 ! - nicepay, niceid, 나이스
 ||nicepay.co.kr/images/email/*$image
@@ -445,6 +451,7 @@ asiae.co.kr##.sns_area
 asiae.co.kr##.youtube_wrap
 asiae.co.kr##.d-lg-block
 ! hankyung
+||magazine.hankyung.com/magazine_images/banner^$image
 hankyung.com##.aedi-link
 hankyung.com##.pop-wrap
 hankyung.com##.promotion-floating2
@@ -453,6 +460,7 @@ hankyung.com##[class*="-ad"]
 hankyung.com##[class^="ad-"]
 hankyung.com##[class^="banner-"]
 hankyung.com##[class^="banner_"]
+hankyung.com##.slick-initialized
 ! tenasia
 tenasia.co.kr###realTalkWrap
 tenasia.co.kr##.contents-wrap:style(padding:unset !important;)
@@ -2328,6 +2336,8 @@ hypershort.com##.register-banner
 hypershort.com
 ##.steps-to-earn
 ! vexfile
+vexfile.com#@#.upload-btn-wrapper:has(> button:is(.btn-download.blocked, .btn-download.btn_get_offers))
+vexfile.com#@#.upload-btn-wrapper:has(> button:is(.btn-download.blocked, .btn-download.btn_get_offers)):style(display: none !important;)
 vexfile.com##.profile-block
 vexfile.com##[id^="double_banner"]
 vexfile.com##center:has(> [id^="vexfile_com"])
@@ -2402,6 +2412,7 @@ videynow.com##[class*="banner"]
 videyyy.com##.bottom-tip-wrap 
 videyyy.com##.seo-banner-img  
 videyyy.com##[class*="banner"]
+mapbox.com###onetrust-consent-sdk
 
 ! - watcha
 @@||googletagmanager.com^$domain=pedia.watcha.com,third-party
@@ -2882,6 +2893,7 @@ bbtv110.com,bbtv109.com,bbtv108.com,bbtv107.com,bbtv106.com,bbtv105.com,bbtv104.
 ||gltv*.com/files/attach/*.jpg$image
 ||gltv*.com/files/attach/*.gif$image
 ||gltv*.com/layouts/fado/files/*.gif$image
+||gltv*.com/data/ebbanner^$image
 ! blacktv
 ||blacktv*.com/*/*.gif$image
 ||blacktv*.com/*/setting/*.jpg$image
