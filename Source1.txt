@@ -66,6 +66,8 @@ movie-box.co##[class^="third-party-ad"]
 movie-box.co##.mp-mask
 movie-box.co##[class="art-control art-control-time"]
 movie-box.co##.trial-countdown-bar
+movie-box.co##[class^="third-party-ad"]
+movie-box.co##article.comp-box:has(h2:has-text(Discover More))
 
 ! - nicepay, niceid, 나이스
 ||nicepay.co.kr/images/email/*$image
@@ -2906,6 +2908,7 @@ kotbc.com##.at-title
 conan-tv.com###hd_pop
 conan-tv.com##[id^="topbanner"]
 tv##.happy-inside-player
+sportslive.wine##div:has(> nav h2:has-text(Discover More))
 
 ! - 애니
 ! 온도, ondo
