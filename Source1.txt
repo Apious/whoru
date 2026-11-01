@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1101.1
+! Version: 2026.1101.2
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -47,6 +47,8 @@ chatgpt.com##div:has-text(쿠키 기본)
 chatgpt.com##.bottom-full:has-text(업그레이드)
 chatgpt.com##.text-token-text-tertiary:has-text(업그레이드)
 chatgpt.com##.bottom-full.end-0.start-0.absolute:has-text(Codex)
+chatgpt.com##aside[class^="surface-"]:has-text(Plus로 업그레이드)
+chatgpt.com##[class^="scope-"]:has(div[class]:has-text(광고))
 
 ! - Github
 @@||github.com^
@@ -2182,9 +2184,9 @@ meeco.kr##.w_slide
 meeco.kr##.sidebar.sidebar2
 meeco.kr##[id^="kakao_ad"]
 ! clien / 클리안
-clien.net##.view_center_idlfksyenf
 clien.net##.ad_banner
-clien.net##.side_posjduenfj
+clien.net##.list_item:has-text(AD)
+clien.net##[class^="list_"]:has(.ad_banner)
 ! ygosu / 와이고수
 ygosu.com,ppss.kr,tgd.kr##+js(no-setTimeout-if, [native code], 0)
 ygosu.com##+js(abort-on-stack-trace, XMLHttpRequest.prototype.send, /th:\d+\s+[a-zA-Z]\d\/<@[^\t]+\t\s[a-zA-Z]\d@|th:\d+\s+in[a-zA-Z\d:;]+\t\s[a-zA-Z]\d\si/)
