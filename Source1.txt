@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1101.2
+! Version: 2026.1108.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -1467,6 +1467,8 @@ ssg.com##.cdtl_bn_marketing
 ssg.com##.cdtl_universe_type
 ssg.com##.gnb_bnr_wrap
 ssg.com##.menu_ad
+ssg.com##.ssgcard_item
+ssg.com##[class$="_banner"]
 ! 11st
 ! not ads
 ||action.adoffice.11st.co.kr^
@@ -1724,6 +1726,11 @@ tistory.com##[data-tistory-react-app$="Ad"]
 tistory.com##div.module_plugin.module:nth-of-type(1)
 tistory.com#@#.ad-wp
 tistory.com#@#+js(abort-current-script, $, div.adsbygoogle)
+
+! - wordpress
+wordpress.com##.offer-card--stacked.components-card
+wordpress.com##.upsell_banner
+wordpress.com##.banner.card
 
 ! - repack
 ! pcprogs
@@ -2247,7 +2254,7 @@ zod.kr##[href^="https://zod.kr/go"]
 ||edge-mqtt.facebook.com^
 facebook.com##[data-pagelet^="FeedUnit_"]:has-text(광고)
 
-! - 다운로드, uptodown,devuploads,dailyuploads,uploadrar,uplod,dailyenter,douploads,intoupload,workupload,mediafire,upfiles-urls,djxmaza,febbox, send-anywhere, zdrive
+! - 다운로드, uptodown,devuploads,dailyuploads,uploadrar,uplod,dailyenter,douploads,intoupload,workupload,mediafire,upfiles-urls,djxmaza,febbox, send-anywhere, zdrive, filepuma
 ! send-anywhere
 send-anywhere.com###onetrust-consent-sdk
 send-anywhere.com##[id^="div-gpt-ad"]
@@ -2372,6 +2379,7 @@ up-4ever.net##[id$="cookie-notice"]
 up-4ever.net##div.mb-5.col-lg-6.col-12
 workupload.com##[id^="div-gpt-ad"]
 zdrive.to##+js(nano-stb)
+filepuma.com##[class^="ad-"]
 
 ! - terabox.com, nephobox.com, 1024terabox.com, freeterabox.com, teraboxapp.com, teraboxurl.com, videyyy.com, freevidey.com, videynow.com, myvidey.com, cleandoods.com, doodssteam.com, doodspro.com, doodslink.com
 1024terabox.com##.bottom-tip-wrap 
@@ -2445,9 +2453,10 @@ watcha.com##section:style(padding-bottom:50px; margin-top:unset; !important;)
 watcha.com##[class^="_contentActionSection_"]:style(gap:unset !important; display:unset !important;)
 
 ! - kinolights.com
-||file.kinolights.com/original/banner$image
-m.kinolights.com##[href="https://linktr.ee/showbox.movie"]
-m.kinolights.com##.featured-ranking
+kinolights.com##[aria-label="인벤토리 배너"]
+||kinolights.com/original/banner$image
+kinolights.com##[href="https://linktr.ee/showbox.movie"]
+kinolights.com##.featured-ranking
 
 ! - onstove
 onstove.com###main-floating
@@ -2473,6 +2482,8 @@ apkcombo.com##.ad-pss
 apkcombo.com##div.widget
 ! apkpure
 @@||a.apkpures.xyz^
+||cdnpure.com^
+||expapi.pureapk.com^
 apkpure.com###credential_picker_iframe
 apkpure.com###policy-info
 apkpure.com##.aegon-down-item
@@ -2486,8 +2497,12 @@ apkpure.com##.share-fixed
 apkpure.com##.show-more .show-more-mask:style(background: unset !important;)
 apkpure.com##.vip-subscribe-pop
 apkpure.com##.withdraw-entrance-fancy-wrap
+apkpure.com##.promo-popup-body
 apkpure.net###policy-info
 apkpure.net##.aegon-card
+apkpure.net##.promo-popup-body
+apkpure.net##.show.shadow-lg.cookies-policy-container
+apkpure.net##.debut-game
 ! apkmirror
 apkmirror.com###bottom-slider
 apkmirror.com###ez-content-blocker-container
