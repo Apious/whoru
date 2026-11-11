@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1108.1
+! Version: 2026.1111.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -1626,6 +1626,7 @@ danawa.com##ul[data-sentry-block] > li:has-text(광고)
 danawa.com##main > div > div > div:has-text(광고)
 
 ! - Kakao, Daum
+@@||cs-center.kakao.com^
 @@||aem-collector.daumkakao.io^
 @@||kauth.kakao.com^
 @@||mk.kakaocdn.net^$domain=map.kakao.com
@@ -1985,6 +1986,7 @@ cafe.naver.com##.smart_bot_area.AsideSmartBot
 cafe.naver.com##[data-linkdata*="brand.naver.com"]
 cafe.naver.com#@#.ad_v2
 cafe.naver.com#@#.ad_v3
+cafe.naver.com##[class$="_cafe_banner"]
 m.cafe.naver.com###articleFeedList
 m.cafe.naver.com##.home_popular_articles
 m.cafe.naver.com##.home_recommend
@@ -2412,6 +2414,7 @@ nephobox.com##[class*="banner"]
 terabox.com##.bottom-tip-wrap
 terabox.com##.seo-banner-img
 terabox.com##[class*="banner"]
+terabox.com##.coupon-Popup-box
 teraboxapp.com##.bottom-tip-wrap 
 teraboxapp.com##.seo-banner-img  
 teraboxapp.com##[class*="banner"]
@@ -3302,17 +3305,18 @@ youngja.org##div.row:nth-of-type(4)
 123av.org##div.lg\:block.hidden > .mx-auto
 123av.org##.gap-2:has([href^="https://bit.ly"])
 javtiful.com##.front-feature-placement-item > div
+javtiful.com##article[class]:has([src$=".js"])
 javtiful.com##[class$="partner"]
 javtiful.com##[class$="banner"]
 javtiful.com##[aria-label="Announcement"]
 javtiful.com##.announcement-bar
 javtiful.com##.premium-link
 javtiful.com##.home-live
-
 ||bkcdn.net^
 /TMS/tracking?
 
 ! - 기타 예외
+@@account.proton.me/api/feature/v2/frontend/client/metrics
 @@||pagetual.hoothin.com^
 @@||wedata.net/databases/AutoPagerize/
 @@/img.gif?
