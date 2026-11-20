@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1114.1
+! Version: 2026.1120.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -1781,6 +1781,7 @@ utweb.rainberrytv.com###upgrade-sidebar
 ! - Google, UnBlocked for Some Error shown
 @@||googlesyndication.com^
 mail.google.com##div[jscontroller]:has-text(시작하기)
+google.com##div:has(>[data-bpc] basic-promo-image)
 ! 패키지 인스톨러 앱 검수 차단
 ||ohttp-relay-android-dev-verification.google.fastly-edge.com^$app=com.google.android.verifier
 
@@ -2257,7 +2258,10 @@ zod.kr##[href^="https://zod.kr/go"]
 ||edge-mqtt.facebook.com^
 facebook.com##[data-pagelet^="FeedUnit_"]:has-text(광고)
 
-! - 다운로드, uptodown,devuploads,dailyuploads,uploadrar,uplod,dailyenter,douploads,intoupload,workupload,mediafire,upfiles-urls,djxmaza,febbox, send-anywhere, zdrive, filepuma
+! - 다운로드, uptodown,devuploads,dailyuploads,uploadrar,uplod,dailyenter,douploads,intoupload,workupload,mediafire,upfiles-urls,djxmaza,febbox, send-anywhere, zdrive, filepuma, nitroflare
+! nitroflare
+nitroflare.com###superbox-wrapper
+nitroflare.com###superbox-overlay
 ! send-anywhere
 send-anywhere.com###onetrust-consent-sdk
 send-anywhere.com##[id^="div-gpt-ad"]
@@ -2791,7 +2795,7 @@ form.ajd.co.kr##.product-recommend-box
 ||pub.kmcert.com/vestsign/styles/images/kmc_login_banner.jpg$image
 pub.kmcert.com##.CERT_contWrap16
 
-! - software, program, repack
+! - software, program, repack, yasdl
 ! softwareok
 softwareok.com##td:nth-of-type(2) > center
 softwareok.com##center:nth-of-type(2)
@@ -2812,6 +2816,17 @@ download.cnet.com##.is-tablet-hidden.is-mobile-hidden
 ! scloud.ws
 scloud.ws##[data-link^="http://kcmhdb.click"]
 scloud.ws##[id^="no-open-"]
+! yasdl.com
+yasdl.com##.size-full.aligncenter
+yasdl.com##.alignnone.size-full
+yasdl.com##[href*="utm_medium=banner"]
+yasdl.com##[id^="post-sabet-"]
+yasdl.com##div.post-des-box:nth-of-type(3)
+! filecr
+filecr.com##[class^="footer_wrap"] .alert
+filecr.com###modal:has(div:has-text(See the Difference))
+filecr.com##.ext-menu
+
 ! sw-etc
 pirate4all.com##[href^="https://pirate4all.com/out/"]
 
@@ -3012,8 +3027,9 @@ wfwf440.com,wfwf439.com,wfwf438.com,wfwf437.com,wfwf436.com,wfwf435.com,wfwf434.
 blacktoon450.com,blacktoon449.com,blacktoon448.com,blacktoon447.com,blacktoon446.com,blacktoon445.com,blacktoon444.com,blacktoon443.com,blacktoon442.com,blacktoon441.com,blacktoon440.com,blacktoon439.com,blacktoon438.com,blacktoon437.com,blacktoon436.com,blacktoon435.com,blacktoon434.com,blacktoon433.com,blacktoon432.com,blacktoon431.com,blacktoon430.com,blacktoon429.com,blacktoon428.com,blacktoon427.com,blacktoon426.com,blacktoon425.com,blacktoon424.com,blacktoon423.com,blacktoon422.com,blacktoon421.com,blacktoon420.com,blacktoon419.com,blacktoon418.com,blacktoon417.com,blacktoon416.com,blacktoon415.com##.banner
 ! funbe
 ||funbe*.com/images/*.$image
-! 11toon, 103.204.13.68:8901
+! 11toon, 103.204.13.68:8904
 @@||11toonimg*.spotv*.com/data/file/*/*.jpg$image
+103.204.13.68##[href^="https://"]:has([style*="other/atoona/"])
 ||kmana*.net/webtoon/images/*.gif$image
 ||pl*.com/*/pop/$image
 /other/atoona$image
@@ -3150,6 +3166,7 @@ streamhihi.com##+js(nowoif)
 ##.adsbygoogle
 
 ! - 기타
+namu.wiki##div > div > div > table:has([src$=".png"])
 ophel.app##body > div:nth-of-type(4)
 play.google.com##[data-node-index="2;0"][autoupdate]:has(>[data-node-index="21;0"]> header > div)
 youtube-rank.com##.trend-area.row > div:has([href])
