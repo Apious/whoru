@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1120.1
+! Version: 2026.1122.1
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -1086,6 +1086,9 @@ moneys.co.kr##[id^="taboola"]
 @@||ad.smartmediarep.com^
 @@||smrmembers-smr.smartmediarep.com^
 mbn.co.kr##.news8_bt_bn_area
+mbn.co.kr##[class$="_ad"]
+mbn.co.kr##[id$="_ad"]
+mbn.co.kr##[id^="taboola"]
 ! skyedaily.com
 skyedaily.com##.topleft > [href^="/ad_location.html"]
 skyedaily.com##[href^="/ad_location.html"]
@@ -1215,6 +1218,7 @@ aimatters.co.kr##.size-full.wp-block-image
 aitimes.kr##.adsbygoogle
 atstar1.com##.google-auto-placed
 bbc.com##.css-n7zdg2
+bloter.net##.ad-template
 businesstimes.com.sg##.font-poppins.text-center
 byline.network##.wp-block-image
 fkfdn.co.kr##[href^="/ad_link.php"]
@@ -1229,7 +1233,6 @@ mksports.co.kr##[id^="slot"]
 newdaily.co.kr##[class^="banner"]
 news.koreadaily.com##[id*="div-gpt-ad"]
 news.oasisfeed.com##.hideBtn
-newsen.com##[src^="//photo.newsen.com/images/2024/ASEA"]
 newspic.kr##.banner_view
 openads.co.kr##.adBanner
 sisajournal-e.com##[class*="cover-banner"]
@@ -2354,6 +2357,7 @@ hypershort.com##.register-banner
 hypershort.com
 ##.steps-to-earn
 ! vexfile
+vexfile.com##html > div
 vexfile.com#@#.upload-btn-wrapper:has(> button:is(.btn-download.blocked, .btn-download.btn_get_offers))
 vexfile.com#@#.upload-btn-wrapper:has(> button:is(.btn-download.blocked, .btn-download.btn_get_offers)):style(display: none !important;)
 vexfile.com##.profile-block
@@ -2479,7 +2483,7 @@ onstove.com/ko/promotion/*
 ||firebaselogging.googleapis.com^$app=com.handcent.app.nextsms
 ||firebaseinstallations.googleapis.com^$app=com.handcent.app.nextsms
 
-! - apks store
+! - apks store, mods
 ! aptoide
 aptoide.com##[class^="promote-game-banner"]
 aptoide.com##[class^="promotional_"]
@@ -2525,6 +2529,12 @@ apkmirror.com##[id^="google_ads"]
 apkmirror.com##[id="ezmobfooter"]
 apkmirror.com##aside[id^="appmanager_s"]
 apkmirror.com##div[class^="OUTBRAIN"]
+! apkcube
+apkcube.com##+js(nano-stb)
+apkcube.com##div[data-signed-out-only]
+apkcube.com##[doskip="1"][prclck="1"]
+apkcube.com##section:has(>[data-slot="dialog-description"]:has-text(새 버전))
+apkcube.com##[data-slot="dialog-body"] > [class$="empty:hidden"]
 ! playmods
 playmods.net##.ad-height-2
 playmods.net##[href="http://playmods.net/online"]
@@ -2554,7 +2564,7 @@ happymod.to##div[class^="modCon"]
 happymodpro.com###appx
 happymodpro.com##.appx.cbox
 happymodpro.com##section.clearfix:nth-of-type(1)modplayapk.com##.describe
-! - a2zapk
+! a2zapk
 /^([a-z0-9-]+\.)*a2zapk\.[a-z]{2,3}$/###alert
 /^([a-z0-9-]+\.)*a2zapk\.[a-z]{2,3}$/###modalpop
 /^https?:\/\/([a-z0-9-]+\.)*a2zapk\.[a-z]{2,3}\/tglink\.php\^/$regexp
@@ -2600,7 +2610,6 @@ download.ir##[id$="download_ir_related-top-post"]
 4pda.to##body > div > [class] > [class] > div:has([style])
 4pda.to##[class*="RcN2"]:has(a[href^="https://4pda.to"])
 4pda.to##[id$="_ad"]
-
 ! leeapk
 @@||googlesyndication.com^$domain=leeapk.com
 leeapk.com###stickyAd
@@ -2610,7 +2619,6 @@ leeapk.com##+js(nowoif)
 leeapk.com##+js(window.open-defuser)
 leeapk.com##html > div
 leeapk.com#$#html { overflow: auto !important; }
-
 ! gocmod
 gocmod.com###gm-float-widget
 gocmod.com###gm-big-popup
@@ -2822,6 +2830,7 @@ yasdl.com##.alignnone.size-full
 yasdl.com##[href*="utm_medium=banner"]
 yasdl.com##[id^="post-sabet-"]
 yasdl.com##div.post-des-box:nth-of-type(3)
+yasdl.com##.post-des-box:has(> div > div > span > strong)
 ! filecr
 filecr.com##[class^="footer_wrap"] .alert
 filecr.com###modal:has(div:has-text(See the Difference))
