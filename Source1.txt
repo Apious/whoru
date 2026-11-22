@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1122.1
+! Version: 2026.1122.2
 ! Expires: 1 day (update frequency)
 ! Description: 콘텐츠 필터 | https://codeberg.org/Apious/whoru/raw/branch/main/Source1.txt
 ! Note: 웹 페이지 오류에 의한 필터 차단이 부분적으로 예외 될 수 있습니다.
@@ -1706,16 +1706,18 @@ store.kakao.com##cu-carousel
 store.kakao.com##fu-view-main-top-banner
 ! Kakao Pay
 ! KakaoTalk-App
-||kamp.kakao.com^$important,app=com.kakao.talk
+@@||vsak1.play.kakao.com^
+@@||vscf.play.kakao.com^
+@@||kamp.kakao.com^
 ||shortformstats.kakao.com^$important,app=com.kakao.talk
-||vsak1.play.kakao.com^$important,app=com.kakao.talk
-||vscf.play.kakao.com^$important,app=com.kakao.talk
-
-! - tistory
+! tistory
 @@||tistory.com/manage
 @@||www.tistory.com^
 @@||www.tistory.com^$app=com.kakao.talk
+@@||stat.tiara.tistory.com^$domain=tistory.com
 ||tistory1.daumcdn.net/tistory/*/skin/images/*.jpg$image
+tistory.com#@#.ad-wp
+tistory.com#@#+js(abort-current-script, $, div.adsbygoogle)
 tistory.com##.adfit.revenue_unit_item
 tistory.com##.container_layer_type2
 tistory.com##.donation
@@ -1729,8 +1731,6 @@ tistory.com##[class^="sliding-banner"]
 tistory.com##[data-og-host="www.coupang.com"]
 tistory.com##[data-tistory-react-app$="Ad"]
 tistory.com##div.module_plugin.module:nth-of-type(1)
-tistory.com#@#.ad-wp
-tistory.com#@#+js(abort-current-script, $, div.adsbygoogle)
 
 ! - wordpress
 wordpress.com##.offer-card--stacked.components-card
