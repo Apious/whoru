@@ -1,10 +1,17 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Version: 2026.1014.1
+! Version: 2026.1127.1
 ! Expires: 1 day (update frequency)
 ! Description: DNS | https://codeberg.org/Apious/whoru/raw/branch/main/Source2.txt
 ! Note: 국내 일부 웹 페이지 오류에 의한 차단 필터 부분 예외 적용이 있음
+
+! - Payco, 페이코
+||api-logncrash.cloud.toast.com^
+||api-logncrash.nhncloudservice.com^
+||api-setting-logncrash.nhncloudservice.com^
+||gateway.payco.com^
+||welfare.payco.com^
 
 ! - Spotify Ads
 ||2mdn.net^
